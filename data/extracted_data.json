@@ -1,0 +1,4470 @@
+{
+  "coaches": {
+    "ARG": {
+      "name": "Lionel Scaloni",
+      "team": "Argentina",
+      "url": "https://en.wikipedia.org/wiki/Lionel_Scaloni"
+    },
+    "AUT": {
+      "name": "",
+      "team": "Austria",
+      "url": "https://en.wikipedia.org/wiki/Germany"
+    },
+    "BEL": {
+      "name": "",
+      "team": "Belgium",
+      "url": "https://en.wikipedia.org/wiki/France"
+    },
+    "BRA": {
+      "name": "",
+      "team": "Brazil",
+      "url": "https://en.wikipedia.org/wiki/Italy"
+    },
+    "CIV": {
+      "name": "Emerse Faé",
+      "team": "Ivory Coast",
+      "url": "https://en.wikipedia.org/wiki/Emerse_Fa%C3%A9"
+    },
+    "COL": {
+      "name": "",
+      "team": "Colombia",
+      "url": "https://en.wikipedia.org/wiki/Argentina"
+    },
+    "CPV": {
+      "name": "Bubista",
+      "team": "Cape Verde",
+      "url": "https://en.wikipedia.org/wiki/Bubista"
+    },
+    "CRO": {
+      "name": "Zlatko Dalić",
+      "team": "Croatia",
+      "url": "https://en.wikipedia.org/wiki/Zlatko_Dali%C4%87"
+    },
+    "CUW": {
+      "name": "",
+      "team": "Curaçao",
+      "url": "https://en.wikipedia.org/wiki/Netherlands"
+    },
+    "EGY": {
+      "name": "Hossam Hassan",
+      "team": "Egypt",
+      "url": "https://en.wikipedia.org/wiki/Hossam_Hassan"
+    },
+    "ENG": {
+      "name": "",
+      "team": "England",
+      "url": "https://en.wikipedia.org/wiki/Germany"
+    },
+    "FRA": {
+      "name": "Didier Deschamps",
+      "team": "France",
+      "url": "https://en.wikipedia.org/wiki/Didier_Deschamps"
+    },
+    "GER": {
+      "name": "Julian Nagelsmann",
+      "team": "Germany",
+      "url": "https://en.wikipedia.org/wiki/Julian_Nagelsmann"
+    },
+    "HAI": {
+      "name": "",
+      "team": "Haiti",
+      "url": "https://en.wikipedia.org/wiki/France"
+    },
+    "IRN": {
+      "name": "Amir Ghalenoei",
+      "team": "Iran",
+      "url": "https://en.wikipedia.org/wiki/Amir_Ghalenoei"
+    },
+    "JOR": {
+      "name": "",
+      "team": "Jordan",
+      "url": "https://en.wikipedia.org/wiki/Morocco"
+    },
+    "JPN": {
+      "name": "Hajime Moriyasu",
+      "team": "Japan",
+      "url": "https://en.wikipedia.org/wiki/Hajime_Moriyasu"
+    },
+    "KOR": {
+      "name": "Hong Myung-bo",
+      "team": "South Korea",
+      "url": "https://en.wikipedia.org/wiki/Hong_Myung-bo"
+    },
+    "KSA": {
+      "name": "",
+      "team": "Saudi Arabia",
+      "url": "https://en.wikipedia.org/wiki/Greece"
+    },
+    "MEX": {
+      "name": "Javier Aguirre",
+      "team": "Mexico",
+      "url": "https://en.wikipedia.org/wiki/Javier_Aguirre"
+    },
+    "NOR": {
+      "name": "Ståle Solbakken",
+      "team": "Norway",
+      "url": "https://en.wikipedia.org/wiki/St%C3%A5le_Solbakken"
+    },
+    "NZL": {
+      "name": "",
+      "team": "New Zealand",
+      "url": "https://en.wikipedia.org/wiki/England"
+    },
+    "PAR": {
+      "name": "",
+      "team": "Paraguay",
+      "url": "https://en.wikipedia.org/wiki/Argentina"
+    },
+    "POR": {
+      "name": "",
+      "team": "Portugal",
+      "url": "https://en.wikipedia.org/wiki/Spain"
+    },
+    "QAT": {
+      "name": "",
+      "team": "Qatar",
+      "url": "https://en.wikipedia.org/wiki/Spain"
+    },
+    "RSA": {
+      "name": "",
+      "team": "South Africa",
+      "url": "https://en.wikipedia.org/wiki/Belgium"
+    },
+    "SCO": {
+      "name": "Steve Clarke",
+      "team": "Scotland",
+      "url": "https://en.wikipedia.org/wiki/Steve_Clarke"
+    },
+    "SEN": {
+      "name": "Pape Thiaw",
+      "team": "Senegal",
+      "url": "https://en.wikipedia.org/wiki/Pape_Thiaw"
+    },
+    "SUI": {
+      "name": "Murat Yakin",
+      "team": "Switzerland",
+      "url": "https://en.wikipedia.org/wiki/Murat_Yakin"
+    },
+    "TUN": {
+      "name": "",
+      "team": "Tunisia",
+      "url": "https://en.wikipedia.org/wiki/France"
+    },
+    "UZB": {
+      "name": "",
+      "team": "Uzbekistan",
+      "url": "https://en.wikipedia.org/wiki/Italy"
+    }
+  },
+  "squads": {
+    "ARG": {
+      "key_players": [
+        {
+          "appearances": 59,
+          "club": "Aston Villa",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Emiliano Martínez",
+          "number": 0,
+          "position": "GK"
+        },
+        {
+          "appearances": 130,
+          "club": "Benfica",
+          "goals": 8,
+          "is_captain": false,
+          "name": "Nicolás Otamendi",
+          "number": 0,
+          "position": "DF"
+        },
+        {
+          "appearances": 75,
+          "club": "Lyon",
+          "goals": 1,
+          "is_captain": false,
+          "name": "Nicolás Tagliafico",
+          "number": 0,
+          "position": "DF"
+        },
+        {
+          "appearances": 62,
+          "club": "River Plate",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Marcos Acuña",
+          "number": 0,
+          "position": "DF"
+        },
+        {
+          "appearances": 58,
+          "club": "Atlético Madrid",
+          "goals": 1,
+          "is_captain": false,
+          "name": "Nahuel Molina",
+          "number": 0,
+          "position": "DF"
+        },
+        {
+          "appearances": 85,
+          "club": "Inter Miami CF",
+          "goals": 2,
+          "is_captain": false,
+          "name": "Rodrigo De Paul",
+          "number": 0,
+          "position": "MF"
+        },
+        {
+          "appearances": 77,
+          "club": "Boca Juniors",
+          "goals": 5,
+          "is_captain": false,
+          "name": "Leandro Paredes",
+          "number": 0,
+          "position": "MF"
+        },
+        {
+          "appearances": 65,
+          "club": "Real Betis",
+          "goals": 4,
+          "is_captain": false,
+          "name": "Giovani Lo Celso",
+          "number": 0,
+          "position": "MF"
+        },
+        {
+          "appearances": 44,
+          "club": "Liverpool",
+          "goals": 6,
+          "is_captain": false,
+          "name": "Alexis Mac Allister",
+          "number": 0,
+          "position": "MF"
+        },
+        {
+          "appearances": 198,
+          "club": "Inter Miami CF",
+          "goals": 116,
+          "is_captain": true,
+          "name": "Lionel Messi",
+          "number": 0,
+          "position": "FW"
+        },
+        {
+          "appearances": 75,
+          "club": "Inter Milan",
+          "goals": 36,
+          "is_captain": false,
+          "name": "Lautaro Martínez",
+          "number": 0,
+          "position": "FW"
+        },
+        {
+          "appearances": 51,
+          "club": "Atlético Madrid",
+          "goals": 14,
+          "is_captain": false,
+          "name": "Julián Alvarez",
+          "number": 0,
+          "position": "FW"
+        },
+        {
+          "appearances": 7,
+          "club": "Marseille",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Gerónimo Rulli",
+          "number": 0,
+          "position": "GK"
+        },
+        {
+          "appearances": 3,
+          "club": "Atlético Madrid",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Juan Musso",
+          "number": 0,
+          "position": "GK"
+        },
+        {
+          "appearances": 1,
+          "club": "Crystal Palace",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Walter Benítez",
+          "number": 0,
+          "position": "GK"
+        }
+      ]
+    },
+    "AUT": {
+      "key_players": [
+        {
+          "appearances": 25,
+          "club": "Red Bull Salzburg",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Alexander Schlager",
+          "number": 1,
+          "position": "GK"
+        },
+        {
+          "appearances": 1,
+          "club": "Elche",
+          "goals": 0,
+          "is_captain": false,
+          "name": "David Affengruber",
+          "number": 2,
+          "position": "DF"
+        },
+        {
+          "appearances": 31,
+          "club": "Tottenham Hotspur",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Kevin Danso",
+          "number": 3,
+          "position": "DF"
+        },
+        {
+          "appearances": 51,
+          "club": "Mainz 05",
+          "goals": 5,
+          "is_captain": false,
+          "name": "Stefan Posch",
+          "number": 5,
+          "position": "DF"
+        },
+        {
+          "appearances": 112,
+          "club": "Real Madrid",
+          "goals": 15,
+          "is_captain": true,
+          "name": "David Alaba",
+          "number": 8,
+          "position": "DF"
+        },
+        {
+          "appearances": 50,
+          "club": "RB Leipzig",
+          "goals": 4,
+          "is_captain": false,
+          "name": "Xaver Schlager",
+          "number": 4,
+          "position": "MF"
+        },
+        {
+          "appearances": 46,
+          "club": "RB Leipzig",
+          "goals": 1,
+          "is_captain": false,
+          "name": "Nicolas Seiwald",
+          "number": 6,
+          "position": "MF"
+        },
+        {
+          "appearances": 97,
+          "club": "Borussia Dortmund",
+          "goals": 25,
+          "is_captain": false,
+          "name": "Marcel Sabitzer",
+          "number": 9,
+          "position": "MF"
+        },
+        {
+          "appearances": 58,
+          "club": "Braga",
+          "goals": 1,
+          "is_captain": false,
+          "name": "Florian Grillitsch",
+          "number": 10,
+          "position": "MF"
+        },
+        {
+          "appearances": 132,
+          "club": "Red Star Belgrade",
+          "goals": 47,
+          "is_captain": false,
+          "name": "Marko Arnautović",
+          "number": 7,
+          "position": "FW"
+        },
+        {
+          "appearances": 74,
+          "club": "FC Augsburg",
+          "goals": 24,
+          "is_captain": false,
+          "name": "Michael Gregoritsch",
+          "number": 11,
+          "position": "FW"
+        },
+        {
+          "appearances": 21,
+          "club": "LASK",
+          "goals": 4,
+          "is_captain": false,
+          "name": "Saša Kalajdžić",
+          "number": 14,
+          "position": "FW"
+        },
+        {
+          "appearances": 1,
+          "club": "Viktoria Plzeň",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Florian Wiegele",
+          "number": 12,
+          "position": "GK"
+        },
+        {
+          "appearances": 18,
+          "club": "Brøndby",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Patrick Pentz",
+          "number": 13,
+          "position": "GK"
+        },
+        {
+          "appearances": 40,
+          "club": "SC Freiburg",
+          "goals": 3,
+          "is_captain": false,
+          "name": "Philipp Lienhart",
+          "number": 15,
+          "position": "DF"
+        }
+      ]
+    },
+    "BEL": {
+      "key_players": [
+        {
+          "appearances": 107,
+          "club": "Real Madrid",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Thibaut Courtois",
+          "number": 0,
+          "position": "GK"
+        },
+        {
+          "appearances": 78,
+          "club": "Lille",
+          "goals": 10,
+          "is_captain": false,
+          "name": "Thomas Meunier",
+          "number": 0,
+          "position": "DF"
+        },
+        {
+          "appearances": 62,
+          "club": "Fulham",
+          "goals": 2,
+          "is_captain": false,
+          "name": "Timothy Castagne",
+          "number": 0,
+          "position": "DF"
+        },
+        {
+          "appearances": 32,
+          "club": "Eintracht Frankfurt",
+          "goals": 1,
+          "is_captain": false,
+          "name": "Arthur Theate",
+          "number": 0,
+          "position": "DF"
+        },
+        {
+          "appearances": 26,
+          "club": "Sporting CP",
+          "goals": 1,
+          "is_captain": false,
+          "name": "Zeno Debast",
+          "number": 0,
+          "position": "DF"
+        },
+        {
+          "appearances": 136,
+          "club": "Girona",
+          "goals": 12,
+          "is_captain": false,
+          "name": "Axel Witsel",
+          "number": 0,
+          "position": "MF"
+        },
+        {
+          "appearances": 117,
+          "club": "Napoli",
+          "goals": 36,
+          "is_captain": false,
+          "name": "Kevin De Bruyne",
+          "number": 0,
+          "position": "MF"
+        },
+        {
+          "appearances": 83,
+          "club": "Aston Villa",
+          "goals": 12,
+          "is_captain": true,
+          "name": "Youri Tielemans",
+          "number": 0,
+          "position": "MF"
+        },
+        {
+          "appearances": 32,
+          "club": "Club Brugge",
+          "goals": 7,
+          "is_captain": false,
+          "name": "Hans Vanaken",
+          "number": 0,
+          "position": "MF"
+        },
+        {
+          "appearances": 124,
+          "club": "Napoli",
+          "goals": 89,
+          "is_captain": false,
+          "name": "Romelu Lukaku",
+          "number": 0,
+          "position": "FW"
+        },
+        {
+          "appearances": 50,
+          "club": "Arsenal",
+          "goals": 11,
+          "is_captain": false,
+          "name": "Leandro Trossard",
+          "number": 0,
+          "position": "FW"
+        },
+        {
+          "appearances": 41,
+          "club": "Manchester City",
+          "goals": 7,
+          "is_captain": false,
+          "name": "Jérémy Doku",
+          "number": 0,
+          "position": "FW"
+        },
+        {
+          "appearances": 2,
+          "club": "Manchester United",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Senne Lammens",
+          "number": 0,
+          "position": "GK"
+        },
+        {
+          "appearances": 0,
+          "club": "Strasbourg",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Mike Penders",
+          "number": 0,
+          "position": "GK"
+        },
+        {
+          "appearances": 17,
+          "club": "Brighton & Hove Albion",
+          "goals": 4,
+          "is_captain": false,
+          "name": "Maxim De Cuyper",
+          "number": 0,
+          "position": "DF"
+        }
+      ]
+    },
+    "BRA": {
+      "key_players": [
+        {
+          "appearances": 76,
+          "club": "Liverpool",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Alisson",
+          "number": 0,
+          "position": "GK"
+        },
+        {
+          "appearances": 104,
+          "club": "Paris Saint-Germain",
+          "goals": 7,
+          "is_captain": false,
+          "name": "Marquinhos",
+          "number": 0,
+          "position": "DF"
+        },
+        {
+          "appearances": 68,
+          "club": "Flamengo",
+          "goals": 1,
+          "is_captain": false,
+          "name": "Danilo Luiz",
+          "number": 0,
+          "position": "DF"
+        },
+        {
+          "appearances": 43,
+          "club": "Flamengo",
+          "goals": 2,
+          "is_captain": false,
+          "name": "Alex Sandro",
+          "number": 0,
+          "position": "DF"
+        },
+        {
+          "appearances": 17,
+          "club": "Arsenal",
+          "goals": 1,
+          "is_captain": false,
+          "name": "Gabriel Magalhães",
+          "number": 0,
+          "position": "DF"
+        },
+        {
+          "appearances": 84,
+          "club": "Manchester United",
+          "goals": 8,
+          "is_captain": true,
+          "name": "Casemiro",
+          "number": 0,
+          "position": "MF"
+        },
+        {
+          "appearances": 61,
+          "club": "Flamengo",
+          "goals": 12,
+          "is_captain": false,
+          "name": "Lucas Paquetá",
+          "number": 0,
+          "position": "MF"
+        },
+        {
+          "appearances": 41,
+          "club": "Newcastle United",
+          "goals": 2,
+          "is_captain": false,
+          "name": "Bruno Guimarães",
+          "number": 0,
+          "position": "MF"
+        },
+        {
+          "appearances": 31,
+          "club": "Al-Ittihad",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Fabinho",
+          "number": 0,
+          "position": "MF"
+        },
+        {
+          "appearances": 128,
+          "club": "Santos",
+          "goals": 79,
+          "is_captain": false,
+          "name": "Neymar",
+          "number": 0,
+          "position": "FW"
+        },
+        {
+          "appearances": 47,
+          "club": "Real Madrid",
+          "goals": 8,
+          "is_captain": false,
+          "name": "Vinícius Júnior",
+          "number": 0,
+          "position": "FW"
+        },
+        {
+          "appearances": 37,
+          "club": "Barcelona",
+          "goals": 11,
+          "is_captain": false,
+          "name": "Raphinha",
+          "number": 0,
+          "position": "FW"
+        },
+        {
+          "appearances": 31,
+          "club": "Fenerbahçe",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Ederson",
+          "number": 0,
+          "position": "GK"
+        },
+        {
+          "appearances": 10,
+          "club": "Grêmio",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Weverton",
+          "number": 0,
+          "position": "GK"
+        },
+        {
+          "appearances": 6,
+          "club": "Juventus",
+          "goals": 1,
+          "is_captain": false,
+          "name": "Bremer",
+          "number": 0,
+          "position": "DF"
+        }
+      ]
+    },
+    "CIV": {
+      "key_players": [
+        {
+          "appearances": 34,
+          "club": "Çaykur Rizespor",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Yahia Fofana",
+          "number": 0,
+          "position": "GK"
+        },
+        {
+          "appearances": 53,
+          "club": "Gil Vicente",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Ghislain Konan",
+          "number": 0,
+          "position": "DF"
+        },
+        {
+          "appearances": 35,
+          "club": "Atalanta",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Odilon Kossounou",
+          "number": 0,
+          "position": "DF"
+        },
+        {
+          "appearances": 33,
+          "club": "Galatasaray",
+          "goals": 1,
+          "is_captain": false,
+          "name": "Wilfried Singo",
+          "number": 0,
+          "position": "DF"
+        },
+        {
+          "appearances": 28,
+          "club": "Roma",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Evan Ndicka",
+          "number": 0,
+          "position": "DF"
+        },
+        {
+          "appearances": 102,
+          "club": "Al-Ahli",
+          "goals": 15,
+          "is_captain": true,
+          "name": "Franck Kessié",
+          "number": 0,
+          "position": "MF"
+        },
+        {
+          "appearances": 65,
+          "club": "Maribor",
+          "goals": 4,
+          "is_captain": false,
+          "name": "Jean Michaël Seri",
+          "number": 0,
+          "position": "MF"
+        },
+        {
+          "appearances": 57,
+          "club": "Nottingham Forest",
+          "goals": 12,
+          "is_captain": false,
+          "name": "Ibrahim Sangaré",
+          "number": 0,
+          "position": "MF"
+        },
+        {
+          "appearances": 31,
+          "club": "Porto",
+          "goals": 7,
+          "is_captain": false,
+          "name": "Seko Fofana",
+          "number": 0,
+          "position": "MF"
+        },
+        {
+          "appearances": 54,
+          "club": "Villarreal",
+          "goals": 12,
+          "is_captain": false,
+          "name": "Nicolas Pépé",
+          "number": 0,
+          "position": "FW"
+        },
+        {
+          "appearances": 28,
+          "club": "Cercle Brugge",
+          "goals": 6,
+          "is_captain": false,
+          "name": "Oumar Diakité",
+          "number": 0,
+          "position": "FW"
+        },
+        {
+          "appearances": 28,
+          "club": "Monaco",
+          "goals": 5,
+          "is_captain": false,
+          "name": "Simon Adingra",
+          "number": 0,
+          "position": "FW"
+        },
+        {
+          "appearances": 4,
+          "club": "Panathinaikos",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Alban Lafont",
+          "number": 0,
+          "position": "GK"
+        },
+        {
+          "appearances": 0,
+          "club": "Charleroi",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Mohamed Koné",
+          "number": 0,
+          "position": "GK"
+        },
+        {
+          "appearances": 19,
+          "club": "Beşiktaş",
+          "goals": 2,
+          "is_captain": false,
+          "name": "Emmanuel Agbadou",
+          "number": 0,
+          "position": "DF"
+        }
+      ]
+    },
+    "COL": {
+      "key_players": [
+        {
+          "appearances": 129,
+          "club": "Atlético Nacional",
+          "goals": 0,
+          "is_captain": false,
+          "name": "David Ospina",
+          "number": 0,
+          "position": "GK"
+        },
+        {
+          "appearances": 77,
+          "club": "Galatasaray",
+          "goals": 3,
+          "is_captain": false,
+          "name": "Davinson Sánchez",
+          "number": 0,
+          "position": "DF"
+        },
+        {
+          "appearances": 66,
+          "club": "Independiente",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Santiago Arias",
+          "number": 0,
+          "position": "DF"
+        },
+        {
+          "appearances": 52,
+          "club": "Cagliari",
+          "goals": 8,
+          "is_captain": false,
+          "name": "Yerry Mina",
+          "number": 0,
+          "position": "DF"
+        },
+        {
+          "appearances": 44,
+          "club": "Crystal Palace",
+          "goals": 3,
+          "is_captain": false,
+          "name": "Daniel Muñoz",
+          "number": 0,
+          "position": "DF"
+        },
+        {
+          "appearances": 124,
+          "club": "Minnesota United FC",
+          "goals": 31,
+          "is_captain": true,
+          "name": "James Rodríguez",
+          "number": 0,
+          "position": "MF"
+        },
+        {
+          "appearances": 116,
+          "club": "Pisa",
+          "goals": 11,
+          "is_captain": false,
+          "name": "Juan Cuadrado",
+          "number": 0,
+          "position": "MF"
+        },
+        {
+          "appearances": 64,
+          "club": "Crystal Palace",
+          "goals": 5,
+          "is_captain": false,
+          "name": "Jefferson Lerma",
+          "number": 0,
+          "position": "MF"
+        },
+        {
+          "appearances": 55,
+          "club": "Zenit Saint Petersburg",
+          "goals": 1,
+          "is_captain": false,
+          "name": "Wilmar Barrios",
+          "number": 0,
+          "position": "MF"
+        },
+        {
+          "appearances": 72,
+          "club": "Bayern Munich",
+          "goals": 21,
+          "is_captain": false,
+          "name": "Luis Díaz",
+          "number": 0,
+          "position": "FW"
+        },
+        {
+          "appearances": 44,
+          "club": "Internacional",
+          "goals": 6,
+          "is_captain": false,
+          "name": "Rafael Santos Borré",
+          "number": 0,
+          "position": "FW"
+        },
+        {
+          "appearances": 21,
+          "club": "Krasnodar",
+          "goals": 6,
+          "is_captain": false,
+          "name": "Jhon Córdoba",
+          "number": 0,
+          "position": "FW"
+        },
+        {
+          "appearances": 40,
+          "club": "Atlas",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Camilo Vargas",
+          "number": 0,
+          "position": "GK"
+        },
+        {
+          "appearances": 11,
+          "club": "Vélez Sarsfield",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Álvaro Montero",
+          "number": 0,
+          "position": "GK"
+        },
+        {
+          "appearances": 3,
+          "club": "Cruz Azul",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Kevin Mier",
+          "number": 0,
+          "position": "GK"
+        }
+      ]
+    },
+    "CPV": {
+      "key_players": [
+        {
+          "appearances": 85,
+          "club": "Chaves",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Vozinha",
+          "number": 0,
+          "position": "GK"
+        },
+        {
+          "appearances": 60,
+          "club": "Torreense",
+          "goals": 4,
+          "is_captain": false,
+          "name": "Stopira",
+          "number": 0,
+          "position": "DF"
+        },
+        {
+          "appearances": 44,
+          "club": "Shamrock Rovers",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Roberto Lopes",
+          "number": 0,
+          "position": "DF"
+        },
+        {
+          "appearances": 40,
+          "club": "FCSB",
+          "goals": 1,
+          "is_captain": false,
+          "name": "João Paulo",
+          "number": 0,
+          "position": "DF"
+        },
+        {
+          "appearances": 29,
+          "club": "Al Bataeh",
+          "goals": 2,
+          "is_captain": false,
+          "name": "Diney",
+          "number": 0,
+          "position": "DF"
+        },
+        {
+          "appearances": 53,
+          "club": "PEC Zwolle",
+          "goals": 5,
+          "is_captain": false,
+          "name": "Jamiro Monteiro",
+          "number": 0,
+          "position": "MF"
+        },
+        {
+          "appearances": 30,
+          "club": "Krasnodar",
+          "goals": 2,
+          "is_captain": false,
+          "name": "Kevin Pina",
+          "number": 0,
+          "position": "MF"
+        },
+        {
+          "appearances": 30,
+          "club": "Ludogorets Razgrad",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Deroy Duarte",
+          "number": 0,
+          "position": "MF"
+        },
+        {
+          "appearances": 14,
+          "club": "Vitória de Guimarães",
+          "goals": 1,
+          "is_captain": false,
+          "name": "Telmo Arcanjo",
+          "number": 0,
+          "position": "MF"
+        },
+        {
+          "appearances": 94,
+          "club": "Iğdır",
+          "goals": 22,
+          "is_captain": true,
+          "name": "Ryan Mendes",
+          "number": 0,
+          "position": "FW"
+        },
+        {
+          "appearances": 59,
+          "club": "Apollon Limassol",
+          "goals": 9,
+          "is_captain": false,
+          "name": "Garry Rodrigues",
+          "number": 0,
+          "position": "FW"
+        },
+        {
+          "appearances": 36,
+          "club": "Omonia",
+          "goals": 2,
+          "is_captain": false,
+          "name": "Willy Semedo",
+          "number": 0,
+          "position": "FW"
+        },
+        {
+          "appearances": 10,
+          "club": "Montana",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Márcio Rosa",
+          "number": 0,
+          "position": "GK"
+        },
+        {
+          "appearances": 0,
+          "club": "San Diego",
+          "goals": 0,
+          "is_captain": false,
+          "name": "CJ dos Santos",
+          "number": 0,
+          "position": "GK"
+        },
+        {
+          "appearances": 26,
+          "club": "Villarreal",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Logan Costa",
+          "number": 0,
+          "position": "DF"
+        }
+      ]
+    },
+    "CRO": {
+      "key_players": [
+        {
+          "appearances": 73,
+          "club": "Dinamo Zagreb",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Dominik Livaković",
+          "number": 0,
+          "position": "GK"
+        },
+        {
+          "appearances": 46,
+          "club": "Manchester City",
+          "goals": 4,
+          "is_captain": false,
+          "name": "Joško Gvardiol",
+          "number": 0,
+          "position": "DF"
+        },
+        {
+          "appearances": 38,
+          "club": "Real Sociedad",
+          "goals": 1,
+          "is_captain": false,
+          "name": "Duje Ćaleta-Car",
+          "number": 0,
+          "position": "DF"
+        },
+        {
+          "appearances": 31,
+          "club": "Ajax",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Josip Šutalo",
+          "number": 0,
+          "position": "DF"
+        },
+        {
+          "appearances": 29,
+          "club": "Bayern Munich",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Josip Stanišić",
+          "number": 0,
+          "position": "DF"
+        },
+        {
+          "appearances": 196,
+          "club": "Milan",
+          "goals": 28,
+          "is_captain": true,
+          "name": "Luka Modrić",
+          "number": 0,
+          "position": "MF"
+        },
+        {
+          "appearances": 111,
+          "club": "Manchester City",
+          "goals": 5,
+          "is_captain": false,
+          "name": "Mateo Kovačić",
+          "number": 0,
+          "position": "MF"
+        },
+        {
+          "appearances": 83,
+          "club": "Atalanta",
+          "goals": 11,
+          "is_captain": false,
+          "name": "Mario Pašalić",
+          "number": 0,
+          "position": "MF"
+        },
+        {
+          "appearances": 61,
+          "club": "Torino",
+          "goals": 10,
+          "is_captain": false,
+          "name": "Nikola Vlašić",
+          "number": 0,
+          "position": "MF"
+        },
+        {
+          "appearances": 152,
+          "club": "PSV Eindhoven",
+          "goals": 38,
+          "is_captain": false,
+          "name": "Ivan Perišić",
+          "number": 0,
+          "position": "FW"
+        },
+        {
+          "appearances": 114,
+          "club": "TSG Hoffenheim",
+          "goals": 36,
+          "is_captain": false,
+          "name": "Andrej Kramarić",
+          "number": 0,
+          "position": "FW"
+        },
+        {
+          "appearances": 36,
+          "club": "Osasuna",
+          "goals": 6,
+          "is_captain": false,
+          "name": "Ante Budimir",
+          "number": 0,
+          "position": "FW"
+        },
+        {
+          "appearances": 3,
+          "club": "Copenhagen",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Dominik Kotarski",
+          "number": 0,
+          "position": "GK"
+        },
+        {
+          "appearances": 0,
+          "club": "Hull City",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Ivor Pandur",
+          "number": 0,
+          "position": "GK"
+        },
+        {
+          "appearances": 18,
+          "club": "Fiorentina",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Marin Pongračić",
+          "number": 0,
+          "position": "DF"
+        }
+      ]
+    },
+    "CUW": {
+      "key_players": [
+        {
+          "appearances": 70,
+          "club": "Miami FC",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Eloy Room",
+          "number": 0,
+          "position": "GK"
+        },
+        {
+          "appearances": 58,
+          "club": "Abha",
+          "goals": 1,
+          "is_captain": false,
+          "name": "Juriën Gaari",
+          "number": 0,
+          "position": "DF"
+        },
+        {
+          "appearances": 27,
+          "club": "RKC Waalwijk",
+          "goals": 1,
+          "is_captain": false,
+          "name": "Roshon van Eijma",
+          "number": 0,
+          "position": "DF"
+        },
+        {
+          "appearances": 26,
+          "club": "PEC Zwolle",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Sherel Floranus",
+          "number": 0,
+          "position": "DF"
+        },
+        {
+          "appearances": 17,
+          "club": "Kayserispor",
+          "goals": 1,
+          "is_captain": false,
+          "name": "Joshua Brenet",
+          "number": 0,
+          "position": "DF"
+        },
+        {
+          "appearances": 70,
+          "club": "Iğdır",
+          "goals": 16,
+          "is_captain": true,
+          "name": "Leandro Bacuna",
+          "number": 0,
+          "position": "MF"
+        },
+        {
+          "appearances": 47,
+          "club": "Volendam",
+          "goals": 14,
+          "is_captain": false,
+          "name": "Juninho Bacuna",
+          "number": 0,
+          "position": "MF"
+        },
+        {
+          "appearances": 26,
+          "club": "RKC Waalwijk",
+          "goals": 1,
+          "is_captain": false,
+          "name": "Godfried Roemeratoe",
+          "number": 0,
+          "position": "MF"
+        },
+        {
+          "appearances": 19,
+          "club": "Den Bosch",
+          "goals": 1,
+          "is_captain": false,
+          "name": "Kevin Felida",
+          "number": 0,
+          "position": "MF"
+        },
+        {
+          "appearances": 37,
+          "club": "Maccabi Haifa",
+          "goals": 6,
+          "is_captain": false,
+          "name": "Kenji Gorré",
+          "number": 0,
+          "position": "FW"
+        },
+        {
+          "appearances": 34,
+          "club": "Volendam",
+          "goals": 2,
+          "is_captain": false,
+          "name": "Brandley Kuwas",
+          "number": 0,
+          "position": "FW"
+        },
+        {
+          "appearances": 27,
+          "club": "Terengganu",
+          "goals": 9,
+          "is_captain": false,
+          "name": "Gervane Kastaneer",
+          "number": 0,
+          "position": "FW"
+        },
+        {
+          "appearances": 7,
+          "club": "VVV-Venlo",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Trevor Doornbusch",
+          "number": 0,
+          "position": "GK"
+        },
+        {
+          "appearances": 4,
+          "club": "Telstar",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Tyrick Bodak",
+          "number": 0,
+          "position": "GK"
+        },
+        {
+          "appearances": 7,
+          "club": "Sparta Rotterdam",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Shurandy Sambo",
+          "number": 0,
+          "position": "DF"
+        }
+      ]
+    },
+    "EGY": {
+      "key_players": [
+        {
+          "appearances": 75,
+          "club": "Al Ahly",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Mohamed El Shenawy",
+          "number": 0,
+          "position": "GK"
+        },
+        {
+          "appearances": 62,
+          "club": "Al-Wakrah",
+          "goals": 3,
+          "is_captain": false,
+          "name": "Hamdy Fathy",
+          "number": 0,
+          "position": "DF"
+        },
+        {
+          "appearances": 43,
+          "club": "Al Ain",
+          "goals": 5,
+          "is_captain": false,
+          "name": "Ramy Rabia",
+          "number": 0,
+          "position": "DF"
+        },
+        {
+          "appearances": 40,
+          "club": "Al Ahly",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Mohamed Hany",
+          "number": 0,
+          "position": "DF"
+        },
+        {
+          "appearances": 38,
+          "club": "Zamalek",
+          "goals": 1,
+          "is_captain": false,
+          "name": "Ahmed Abou El Fotouh",
+          "number": 0,
+          "position": "DF"
+        },
+        {
+          "appearances": 32,
+          "club": "Al Ahly",
+          "goals": 1,
+          "is_captain": false,
+          "name": "Marwan Attia",
+          "number": 0,
+          "position": "MF"
+        },
+        {
+          "appearances": 27,
+          "club": "Al Ahly",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Emam Ashour",
+          "number": 0,
+          "position": "MF"
+        },
+        {
+          "appearances": 21,
+          "club": "Pyramids",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Mohanad Lasheen",
+          "number": 0,
+          "position": "MF"
+        },
+        {
+          "appearances": 14,
+          "club": "ZED",
+          "goals": 1,
+          "is_captain": false,
+          "name": "Mahmoud Saber",
+          "number": 0,
+          "position": "MF"
+        },
+        {
+          "appearances": 116,
+          "club": "Liverpool",
+          "goals": 67,
+          "is_captain": true,
+          "name": "Mohamed Salah",
+          "number": 0,
+          "position": "FW"
+        },
+        {
+          "appearances": 94,
+          "club": "Al Ahly",
+          "goals": 23,
+          "is_captain": false,
+          "name": "Trézéguet",
+          "number": 0,
+          "position": "FW"
+        },
+        {
+          "appearances": 61,
+          "club": "Al Ahly",
+          "goals": 5,
+          "is_captain": false,
+          "name": "Zizo",
+          "number": 0,
+          "position": "FW"
+        },
+        {
+          "appearances": 7,
+          "club": "Al Ahly",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Mostafa Shobeir",
+          "number": 0,
+          "position": "GK"
+        },
+        {
+          "appearances": 0,
+          "club": "El Gouna",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Mohamed Alaa",
+          "number": 0,
+          "position": "GK"
+        },
+        {
+          "appearances": 0,
+          "club": "Zamalek",
+          "goals": 0,
+          "is_captain": false,
+          "name": "El Mahdy Soliman",
+          "number": 0,
+          "position": "GK"
+        }
+      ]
+    },
+    "ENG": {
+      "key_players": [
+        {
+          "appearances": 82,
+          "club": "Everton",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Jordan Pickford",
+          "number": 0,
+          "position": "GK"
+        },
+        {
+          "appearances": 87,
+          "club": "Manchester City",
+          "goals": 3,
+          "is_captain": false,
+          "name": "John Stones",
+          "number": 0,
+          "position": "DF"
+        },
+        {
+          "appearances": 27,
+          "club": "Manchester City",
+          "goals": 1,
+          "is_captain": false,
+          "name": "Marc Guéhi",
+          "number": 0,
+          "position": "DF"
+        },
+        {
+          "appearances": 22,
+          "club": "Chelsea",
+          "goals": 1,
+          "is_captain": false,
+          "name": "Reece James",
+          "number": 0,
+          "position": "DF"
+        },
+        {
+          "appearances": 18,
+          "club": "Aston Villa",
+          "goals": 1,
+          "is_captain": false,
+          "name": "Ezri Konsa",
+          "number": 0,
+          "position": "DF"
+        },
+        {
+          "appearances": 89,
+          "club": "Brentford",
+          "goals": 3,
+          "is_captain": false,
+          "name": "Jordan Henderson",
+          "number": 0,
+          "position": "MF"
+        },
+        {
+          "appearances": 72,
+          "club": "Arsenal",
+          "goals": 6,
+          "is_captain": false,
+          "name": "Declan Rice",
+          "number": 0,
+          "position": "MF"
+        },
+        {
+          "appearances": 46,
+          "club": "Real Madrid",
+          "goals": 6,
+          "is_captain": false,
+          "name": "Jude Bellingham",
+          "number": 0,
+          "position": "MF"
+        },
+        {
+          "appearances": 13,
+          "club": "Aston Villa",
+          "goals": 1,
+          "is_captain": false,
+          "name": "Morgan Rogers",
+          "number": 0,
+          "position": "MF"
+        },
+        {
+          "appearances": 112,
+          "club": "Bayern Munich",
+          "goals": 78,
+          "is_captain": true,
+          "name": "Harry Kane",
+          "number": 0,
+          "position": "FW"
+        },
+        {
+          "appearances": 70,
+          "club": "Barcelona",
+          "goals": 18,
+          "is_captain": false,
+          "name": "Marcus Rashford",
+          "number": 0,
+          "position": "FW"
+        },
+        {
+          "appearances": 48,
+          "club": "Arsenal",
+          "goals": 14,
+          "is_captain": false,
+          "name": "Bukayo Saka",
+          "number": 0,
+          "position": "FW"
+        },
+        {
+          "appearances": 4,
+          "club": "Crystal Palace",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Dean Henderson",
+          "number": 0,
+          "position": "GK"
+        },
+        {
+          "appearances": 1,
+          "club": "Manchester City",
+          "goals": 0,
+          "is_captain": false,
+          "name": "James Trafford",
+          "number": 0,
+          "position": "GK"
+        },
+        {
+          "appearances": 6,
+          "club": "Newcastle United",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Dan Burn",
+          "number": 0,
+          "position": "DF"
+        }
+      ]
+    },
+    "FRA": {
+      "key_players": [
+        {
+          "appearances": 4,
+          "club": "Rennes",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Brice Samba",
+          "number": 1,
+          "position": "GK"
+        },
+        {
+          "appearances": 9,
+          "club": "Chelsea",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Malo Gusto",
+          "number": 2,
+          "position": "DF"
+        },
+        {
+          "appearances": 56,
+          "club": "Aston Villa",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Lucas Digne",
+          "number": 3,
+          "position": "DF"
+        },
+        {
+          "appearances": 36,
+          "club": "Bayern Munich",
+          "goals": 2,
+          "is_captain": false,
+          "name": "Dayot Upamecano",
+          "number": 4,
+          "position": "DF"
+        },
+        {
+          "appearances": 46,
+          "club": "Barcelona",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Jules Koundé",
+          "number": 5,
+          "position": "DF"
+        },
+        {
+          "appearances": 12,
+          "club": "Roma",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Manu Koné",
+          "number": 6,
+          "position": "MF"
+        },
+        {
+          "appearances": 44,
+          "club": "Real Madrid",
+          "goals": 3,
+          "is_captain": false,
+          "name": "Aurélien Tchouaméni",
+          "number": 8,
+          "position": "MF"
+        },
+        {
+          "appearances": 67,
+          "club": "Fenerbahçe",
+          "goals": 2,
+          "is_captain": false,
+          "name": "N'Golo Kanté",
+          "number": 13,
+          "position": "MF"
+        },
+        {
+          "appearances": 57,
+          "club": "Milan",
+          "goals": 7,
+          "is_captain": false,
+          "name": "Adrien Rabiot",
+          "number": 14,
+          "position": "MF"
+        },
+        {
+          "appearances": 58,
+          "club": "Paris Saint-Germain",
+          "goals": 7,
+          "is_captain": false,
+          "name": "Ousmane Dembélé",
+          "number": 7,
+          "position": "FW"
+        },
+        {
+          "appearances": 33,
+          "club": "Inter Milan",
+          "goals": 3,
+          "is_captain": false,
+          "name": "Marcus Thuram",
+          "number": 9,
+          "position": "FW"
+        },
+        {
+          "appearances": 96,
+          "club": "Real Madrid",
+          "goals": 56,
+          "is_captain": true,
+          "name": "Kylian Mbappé",
+          "number": 10,
+          "position": "FW"
+        },
+        {
+          "appearances": 15,
+          "club": "Bayern Munich",
+          "goals": 4,
+          "is_captain": false,
+          "name": "Michael Olise",
+          "number": 11,
+          "position": "FW"
+        },
+        {
+          "appearances": 18,
+          "club": "Paris Saint-Germain",
+          "goals": 3,
+          "is_captain": false,
+          "name": "Bradley Barcola",
+          "number": 12,
+          "position": "FW"
+        },
+        {
+          "appearances": 27,
+          "club": "Liverpool",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Ibrahima Konaté",
+          "number": 15,
+          "position": "DF"
+        }
+      ]
+    },
+    "GER": {
+      "key_players": [
+        {
+          "appearances": 124,
+          "club": "Bayern Munich",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Manuel Neuer",
+          "number": 0,
+          "position": "GK"
+        },
+        {
+          "appearances": 82,
+          "club": "Real Madrid",
+          "goals": 3,
+          "is_captain": false,
+          "name": "Antonio Rüdiger",
+          "number": 0,
+          "position": "DF"
+        },
+        {
+          "appearances": 45,
+          "club": "Bayern Munich",
+          "goals": 1,
+          "is_captain": false,
+          "name": "Jonathan Tah",
+          "number": 0,
+          "position": "DF"
+        },
+        {
+          "appearances": 36,
+          "club": "RB Leipzig",
+          "goals": 1,
+          "is_captain": false,
+          "name": "David Raum",
+          "number": 0,
+          "position": "DF"
+        },
+        {
+          "appearances": 25,
+          "club": "Borussia Dortmund",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Nico Schlotterbeck",
+          "number": 0,
+          "position": "DF"
+        },
+        {
+          "appearances": 108,
+          "club": "Bayern Munich",
+          "goals": 10,
+          "is_captain": true,
+          "name": "Joshua Kimmich",
+          "number": 0,
+          "position": "MF"
+        },
+        {
+          "appearances": 74,
+          "club": "Galatasaray",
+          "goals": 16,
+          "is_captain": false,
+          "name": "Leroy Sané",
+          "number": 0,
+          "position": "MF"
+        },
+        {
+          "appearances": 69,
+          "club": "Bayern Munich",
+          "goals": 15,
+          "is_captain": false,
+          "name": "Leon Goretzka",
+          "number": 0,
+          "position": "MF"
+        },
+        {
+          "appearances": 40,
+          "club": "Bayern Munich",
+          "goals": 8,
+          "is_captain": false,
+          "name": "Jamal Musiala",
+          "number": 0,
+          "position": "MF"
+        },
+        {
+          "appearances": 57,
+          "club": "Arsenal",
+          "goals": 21,
+          "is_captain": false,
+          "name": "Kai Havertz",
+          "number": 0,
+          "position": "FW"
+        },
+        {
+          "appearances": 10,
+          "club": "Newcastle United",
+          "goals": 4,
+          "is_captain": false,
+          "name": "Nick Woltemade",
+          "number": 0,
+          "position": "FW"
+        },
+        {
+          "appearances": 7,
+          "club": "VfB Stuttgart",
+          "goals": 4,
+          "is_captain": false,
+          "name": "Deniz Undav",
+          "number": 0,
+          "position": "FW"
+        },
+        {
+          "appearances": 11,
+          "club": "TSG Hoffenheim",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Oliver Baumann",
+          "number": 0,
+          "position": "GK"
+        },
+        {
+          "appearances": 3,
+          "club": "VfB Stuttgart",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Alexander Nübel",
+          "number": 0,
+          "position": "GK"
+        },
+        {
+          "appearances": 12,
+          "club": "Borussia Dortmund",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Waldemar Anton",
+          "number": 0,
+          "position": "DF"
+        }
+      ]
+    },
+    "HAI": {
+      "key_players": [
+        {
+          "appearances": 79,
+          "club": "Bastia",
+          "goals": 0,
+          "is_captain": true,
+          "name": "Johny Placide",
+          "number": 0,
+          "position": "GK"
+        },
+        {
+          "appearances": 57,
+          "club": "LDU Quito",
+          "goals": 2,
+          "is_captain": false,
+          "name": "Ricardo Adé",
+          "number": 0,
+          "position": "DF"
+        },
+        {
+          "appearances": 51,
+          "club": "Angers",
+          "goals": 1,
+          "is_captain": false,
+          "name": "Carlens Arcus",
+          "number": 0,
+          "position": "DF"
+        },
+        {
+          "appearances": 19,
+          "club": "Nancy",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Martin Expérience",
+          "number": 0,
+          "position": "DF"
+        },
+        {
+          "appearances": 15,
+          "club": "Gent",
+          "goals": 1,
+          "is_captain": false,
+          "name": "Jean-Kévin Duverne",
+          "number": 0,
+          "position": "DF"
+        },
+        {
+          "appearances": 33,
+          "club": "Vizela",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Leverton Pierre",
+          "number": 0,
+          "position": "MF"
+        },
+        {
+          "appearances": 28,
+          "club": "Philadelphia Union",
+          "goals": 6,
+          "is_captain": false,
+          "name": "Danley Jean Jacques",
+          "number": 0,
+          "position": "MF"
+        },
+        {
+          "appearances": 25,
+          "club": "El Paso Locomotive FC",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Carl Sainté",
+          "number": 0,
+          "position": "MF"
+        },
+        {
+          "appearances": 8,
+          "club": "Wolverhampton Wanderers",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Jean-Ricner Bellegarde",
+          "number": 0,
+          "position": "MF"
+        },
+        {
+          "appearances": 76,
+          "club": "Esteghlal",
+          "goals": 44,
+          "is_captain": false,
+          "name": "Duckens Nazon",
+          "number": 0,
+          "position": "FW"
+        },
+        {
+          "appearances": 49,
+          "club": "Çaykur Rizespor",
+          "goals": 33,
+          "is_captain": false,
+          "name": "Frantzdy Pierrot",
+          "number": 0,
+          "position": "FW"
+        },
+        {
+          "appearances": 46,
+          "club": "Toronto FC",
+          "goals": 8,
+          "is_captain": false,
+          "name": "Derrick Etienne Jr.",
+          "number": 0,
+          "position": "FW"
+        },
+        {
+          "appearances": 14,
+          "club": "Sochaux",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Alexandre Pierre",
+          "number": 0,
+          "position": "GK"
+        },
+        {
+          "appearances": 6,
+          "club": "Cosmos Koblenz",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Josué Duverger",
+          "number": 0,
+          "position": "GK"
+        },
+        {
+          "appearances": 14,
+          "club": "Colorado Springs Switchbacks",
+          "goals": 2,
+          "is_captain": false,
+          "name": "Duke Lacroix",
+          "number": 0,
+          "position": "DF"
+        }
+      ]
+    },
+    "IRN": {
+      "key_players": [
+        {
+          "appearances": 84,
+          "club": "Tractor",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Alireza Beiranvand",
+          "number": 0,
+          "position": "GK"
+        },
+        {
+          "appearances": 144,
+          "club": "Sepahan",
+          "goals": 7,
+          "is_captain": false,
+          "name": "Ehsan Hajsafi",
+          "number": 0,
+          "position": "DF"
+        },
+        {
+          "appearances": 75,
+          "club": "Persepolis",
+          "goals": 1,
+          "is_captain": false,
+          "name": "Milad Mohammadi",
+          "number": 0,
+          "position": "DF"
+        },
+        {
+          "appearances": 72,
+          "club": "Foolad",
+          "goals": 6,
+          "is_captain": false,
+          "name": "Ramin Rezaeian",
+          "number": 0,
+          "position": "DF"
+        },
+        {
+          "appearances": 63,
+          "club": "Persepolis",
+          "goals": 6,
+          "is_captain": false,
+          "name": "Hossein Kanaanizadegan",
+          "number": 0,
+          "position": "DF"
+        },
+        {
+          "appearances": 98,
+          "club": "Dender",
+          "goals": 17,
+          "is_captain": false,
+          "name": "Alireza Jahanbakhsh",
+          "number": 0,
+          "position": "MF"
+        },
+        {
+          "appearances": 81,
+          "club": "Shabab Al-Ahli",
+          "goals": 1,
+          "is_captain": false,
+          "name": "Saeid Ezatolahi",
+          "number": 0,
+          "position": "MF"
+        },
+        {
+          "appearances": 67,
+          "club": "Kalba",
+          "goals": 3,
+          "is_captain": false,
+          "name": "Saman Ghoddos",
+          "number": 0,
+          "position": "MF"
+        },
+        {
+          "appearances": 51,
+          "club": "Tractor",
+          "goals": 7,
+          "is_captain": false,
+          "name": "Mehdi Torabi",
+          "number": 0,
+          "position": "MF"
+        },
+        {
+          "appearances": 103,
+          "club": "Olympiacos",
+          "goals": 59,
+          "is_captain": false,
+          "name": "Mehdi Taremi",
+          "number": 0,
+          "position": "FW"
+        },
+        {
+          "appearances": 29,
+          "club": "Al-Nasr",
+          "goals": 10,
+          "is_captain": false,
+          "name": "Mehdi Ghayedi",
+          "number": 0,
+          "position": "FW"
+        },
+        {
+          "appearances": 16,
+          "club": "Tractor",
+          "goals": 5,
+          "is_captain": false,
+          "name": "Amirhossein Hosseinzadeh",
+          "number": 0,
+          "position": "FW"
+        },
+        {
+          "appearances": 15,
+          "club": "Persepolis",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Payam Niazmand",
+          "number": 0,
+          "position": "GK"
+        },
+        {
+          "appearances": 13,
+          "club": "Sepahan",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Hossein Hosseini",
+          "number": 0,
+          "position": "GK"
+        },
+        {
+          "appearances": 0,
+          "club": "Aluminium Arak",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Mohammad Khalife",
+          "number": 0,
+          "position": "GK"
+        }
+      ]
+    },
+    "JOR": {
+      "key_players": [
+        {
+          "appearances": 74,
+          "club": "Al-Hussein",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Yazeed Abulaila",
+          "number": 0,
+          "position": "GK"
+        },
+        {
+          "appearances": 90,
+          "club": "Al-Hussein",
+          "goals": 2,
+          "is_captain": true,
+          "name": "Ihsan Haddad",
+          "number": 0,
+          "position": "DF"
+        },
+        {
+          "appearances": 78,
+          "club": "FC Seoul",
+          "goals": 3,
+          "is_captain": false,
+          "name": "Yazan Al-Arab",
+          "number": 0,
+          "position": "DF"
+        },
+        {
+          "appearances": 64,
+          "club": "Al-Zawraa",
+          "goals": 3,
+          "is_captain": false,
+          "name": "Abdallah Nasib",
+          "number": 0,
+          "position": "DF"
+        },
+        {
+          "appearances": 19,
+          "club": "Al-Hussein",
+          "goals": 2,
+          "is_captain": false,
+          "name": "Saed Al-Rosan",
+          "number": 0,
+          "position": "DF"
+        },
+        {
+          "appearances": 72,
+          "club": "Al-Hussein",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Rajaei Ayed",
+          "number": 0,
+          "position": "MF"
+        },
+        {
+          "appearances": 66,
+          "club": "Selangor",
+          "goals": 3,
+          "is_captain": false,
+          "name": "Noor Al-Rawabdeh",
+          "number": 0,
+          "position": "MF"
+        },
+        {
+          "appearances": 55,
+          "club": "Al-Karma",
+          "goals": 3,
+          "is_captain": false,
+          "name": "Ibrahim Sadeh",
+          "number": 0,
+          "position": "MF"
+        },
+        {
+          "appearances": 54,
+          "club": "Al-Karma",
+          "goals": 1,
+          "is_captain": false,
+          "name": "Mohammad Abu Hashish",
+          "number": 0,
+          "position": "MF"
+        },
+        {
+          "appearances": 90,
+          "club": "Rennes",
+          "goals": 24,
+          "is_captain": false,
+          "name": "Musa Al-Taamari",
+          "number": 0,
+          "position": "FW"
+        },
+        {
+          "appearances": 87,
+          "club": "Al-Hussein",
+          "goals": 9,
+          "is_captain": false,
+          "name": "Mahmoud Al-Mardi",
+          "number": 0,
+          "position": "FW"
+        },
+        {
+          "appearances": 64,
+          "club": "Al-Sailiya",
+          "goals": 29,
+          "is_captain": false,
+          "name": "Ali Olwan",
+          "number": 0,
+          "position": "FW"
+        },
+        {
+          "appearances": 11,
+          "club": "Al-Wehdat",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Abdallah Al-Fakhouri",
+          "number": 0,
+          "position": "GK"
+        },
+        {
+          "appearances": 4,
+          "club": "Al-Faisaly",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Nour Bani Attiah",
+          "number": 0,
+          "position": "GK"
+        },
+        {
+          "appearances": 0,
+          "club": "Shabab Al-Ordon",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Ahmad Al-Juaidi",
+          "number": 0,
+          "position": "GK"
+        }
+      ]
+    },
+    "JPN": {
+      "key_players": [
+        {
+          "appearances": 23,
+          "club": "Parma",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Zion Suzuki",
+          "number": 0,
+          "position": "GK"
+        },
+        {
+          "appearances": 144,
+          "club": "FC Tokyo",
+          "goals": 4,
+          "is_captain": false,
+          "name": "Yūto Nagatomo",
+          "number": 0,
+          "position": "DF"
+        },
+        {
+          "appearances": 42,
+          "club": "Ajax",
+          "goals": 1,
+          "is_captain": false,
+          "name": "Takehiro Tomiyasu",
+          "number": 0,
+          "position": "DF"
+        },
+        {
+          "appearances": 39,
+          "club": "Ajax",
+          "goals": 2,
+          "is_captain": false,
+          "name": "Kō Itakura",
+          "number": 0,
+          "position": "DF"
+        },
+        {
+          "appearances": 37,
+          "club": "Sint-Truiden",
+          "goals": 1,
+          "is_captain": false,
+          "name": "Shōgo Taniguchi",
+          "number": 0,
+          "position": "DF"
+        },
+        {
+          "appearances": 72,
+          "club": "Liverpool",
+          "goals": 4,
+          "is_captain": true,
+          "name": "Wataru Endo",
+          "number": 0,
+          "position": "MF"
+        },
+        {
+          "appearances": 68,
+          "club": "Genk",
+          "goals": 15,
+          "is_captain": false,
+          "name": "Junya Itō",
+          "number": 0,
+          "position": "MF"
+        },
+        {
+          "appearances": 64,
+          "club": "Eintracht Frankfurt",
+          "goals": 11,
+          "is_captain": false,
+          "name": "Ritsu Dōan",
+          "number": 0,
+          "position": "MF"
+        },
+        {
+          "appearances": 49,
+          "club": "Crystal Palace",
+          "goals": 12,
+          "is_captain": false,
+          "name": "Daichi Kamada",
+          "number": 0,
+          "position": "MF"
+        },
+        {
+          "appearances": 38,
+          "club": "Feyenoord",
+          "goals": 16,
+          "is_captain": false,
+          "name": "Ayase Ueda",
+          "number": 0,
+          "position": "FW"
+        },
+        {
+          "appearances": 27,
+          "club": "Celtic",
+          "goals": 4,
+          "is_captain": false,
+          "name": "Daizen Maeda",
+          "number": 0,
+          "position": "FW"
+        },
+        {
+          "appearances": 14,
+          "club": "NEC",
+          "goals": 10,
+          "is_captain": false,
+          "name": "Kōki Ogawa",
+          "number": 0,
+          "position": "FW"
+        },
+        {
+          "appearances": 11,
+          "club": "Sanfrecce Hiroshima",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Keisuke Ōsako",
+          "number": 0,
+          "position": "GK"
+        },
+        {
+          "appearances": 3,
+          "club": "Kashima Antlers",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Tomoki Hayakawa",
+          "number": 0,
+          "position": "GK"
+        },
+        {
+          "appearances": 23,
+          "club": "Bayern Munich",
+          "goals": 1,
+          "is_captain": false,
+          "name": "Hiroki Itō",
+          "number": 0,
+          "position": "DF"
+        }
+      ]
+    },
+    "KOR": {
+      "key_players": [
+        {
+          "appearances": 85,
+          "club": "FC Tokyo",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Kim Seung-gyu",
+          "number": 0,
+          "position": "GK"
+        },
+        {
+          "appearances": 77,
+          "club": "Bayern Munich",
+          "goals": 4,
+          "is_captain": false,
+          "name": "Kim Min-jae",
+          "number": 0,
+          "position": "DF"
+        },
+        {
+          "appearances": 34,
+          "club": "Daejeon Hana Citizen",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Kim Moon-hwan",
+          "number": 0,
+          "position": "DF"
+        },
+        {
+          "appearances": 32,
+          "club": "Red Star Belgrade",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Seol Young-woo",
+          "number": 0,
+          "position": "DF"
+        },
+        {
+          "appearances": 18,
+          "club": "Sharjah",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Cho Yu-min",
+          "number": 0,
+          "position": "DF"
+        },
+        {
+          "appearances": 103,
+          "club": "Mainz 05",
+          "goals": 15,
+          "is_captain": false,
+          "name": "Lee Jae-sung",
+          "number": 0,
+          "position": "MF"
+        },
+        {
+          "appearances": 77,
+          "club": "Wolverhampton Wanderers",
+          "goals": 16,
+          "is_captain": false,
+          "name": "Hwang Hee-chan",
+          "number": 0,
+          "position": "MF"
+        },
+        {
+          "appearances": 71,
+          "club": "Feyenoord",
+          "goals": 6,
+          "is_captain": false,
+          "name": "Hwang In-beom",
+          "number": 0,
+          "position": "MF"
+        },
+        {
+          "appearances": 46,
+          "club": "Paris Saint-Germain",
+          "goals": 11,
+          "is_captain": false,
+          "name": "Lee Kang-in",
+          "number": 0,
+          "position": "MF"
+        },
+        {
+          "appearances": 142,
+          "club": "Los Angeles FC",
+          "goals": 54,
+          "is_captain": true,
+          "name": "Son Heung-min",
+          "number": 0,
+          "position": "FW"
+        },
+        {
+          "appearances": 42,
+          "club": "Midtjylland",
+          "goals": 10,
+          "is_captain": false,
+          "name": "Cho Gue-sung",
+          "number": 0,
+          "position": "FW"
+        },
+        {
+          "appearances": 26,
+          "club": "Beşiktaş",
+          "goals": 6,
+          "is_captain": false,
+          "name": "Oh Hyeon-gyu",
+          "number": 0,
+          "position": "FW"
+        },
+        {
+          "appearances": 47,
+          "club": "Ulsan HD",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Jo Hyeon-woo",
+          "number": 0,
+          "position": "GK"
+        },
+        {
+          "appearances": 2,
+          "club": "Jeonbuk Hyundai Motors",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Song Bum-keun",
+          "number": 0,
+          "position": "GK"
+        },
+        {
+          "appearances": 14,
+          "club": "Austria Wien",
+          "goals": 1,
+          "is_captain": false,
+          "name": "Lee Tae-seok",
+          "number": 0,
+          "position": "DF"
+        }
+      ]
+    },
+    "KSA": {
+      "key_players": [
+        {
+          "appearances": 62,
+          "club": "Al-Ula",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Mohammed Al-Owais",
+          "number": 0,
+          "position": "GK"
+        },
+        {
+          "appearances": 53,
+          "club": "Lens",
+          "goals": 1,
+          "is_captain": false,
+          "name": "Saud Abdulhamid",
+          "number": 0,
+          "position": "DF"
+        },
+        {
+          "appearances": 50,
+          "club": "Al-Hilal",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Hassan Al-Tambakti",
+          "number": 0,
+          "position": "DF"
+        },
+        {
+          "appearances": 40,
+          "club": "Al-Nassr",
+          "goals": 1,
+          "is_captain": false,
+          "name": "Abdulelah Al-Amri",
+          "number": 0,
+          "position": "DF"
+        },
+        {
+          "appearances": 23,
+          "club": "Al-Nassr",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Nawaf Boushal",
+          "number": 0,
+          "position": "DF"
+        },
+        {
+          "appearances": 107,
+          "club": "Al-Hilal",
+          "goals": 26,
+          "is_captain": true,
+          "name": "Salem Al-Dawsari",
+          "number": 0,
+          "position": "MF"
+        },
+        {
+          "appearances": 74,
+          "club": "Al-Hilal",
+          "goals": 8,
+          "is_captain": false,
+          "name": "Mohamed Kanno",
+          "number": 0,
+          "position": "MF"
+        },
+        {
+          "appearances": 41,
+          "club": "Al-Hilal",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Nasser Al-Dawsari",
+          "number": 0,
+          "position": "MF"
+        },
+        {
+          "appearances": 37,
+          "club": "Al-Nassr",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Abdullah Al-Khaibari",
+          "number": 0,
+          "position": "MF"
+        },
+        {
+          "appearances": 68,
+          "club": "Al-Ahli",
+          "goals": 15,
+          "is_captain": false,
+          "name": "Firas Al-Buraikan",
+          "number": 0,
+          "position": "FW"
+        },
+        {
+          "appearances": 55,
+          "club": "Al-Ittihad",
+          "goals": 18,
+          "is_captain": false,
+          "name": "Saleh Al-Shehri",
+          "number": 0,
+          "position": "FW"
+        },
+        {
+          "appearances": 47,
+          "club": "Al-Nassr",
+          "goals": 11,
+          "is_captain": false,
+          "name": "Abdullah Al-Hamdan",
+          "number": 0,
+          "position": "FW"
+        },
+        {
+          "appearances": 22,
+          "club": "Al-Nassr",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Nawaf Al-Aqidi",
+          "number": 0,
+          "position": "GK"
+        },
+        {
+          "appearances": 8,
+          "club": "Al-Qadsiah",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Ahmed Al-Kassar",
+          "number": 0,
+          "position": "GK"
+        },
+        {
+          "appearances": 1,
+          "club": "Al-Taawoun",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Abdulquddus Atiah",
+          "number": 0,
+          "position": "GK"
+        }
+      ]
+    },
+    "MEX": {
+      "key_players": [
+        {
+          "appearances": 151,
+          "club": "AEL Limassol",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Guillermo Ochoa",
+          "number": 0,
+          "position": "GK"
+        },
+        {
+          "appearances": 119,
+          "club": "Toluca",
+          "goals": 3,
+          "is_captain": false,
+          "name": "Jesús Gallardo",
+          "number": 0,
+          "position": "DF"
+        },
+        {
+          "appearances": 65,
+          "club": "Lokomotiv Moscow",
+          "goals": 4,
+          "is_captain": false,
+          "name": "César Montes",
+          "number": 0,
+          "position": "DF"
+        },
+        {
+          "appearances": 57,
+          "club": "PAOK",
+          "goals": 3,
+          "is_captain": false,
+          "name": "Jorge Sánchez",
+          "number": 0,
+          "position": "DF"
+        },
+        {
+          "appearances": 44,
+          "club": "Genoa",
+          "goals": 1,
+          "is_captain": false,
+          "name": "Johan Vásquez",
+          "number": 0,
+          "position": "DF"
+        },
+        {
+          "appearances": 96,
+          "club": "Fenerbahçe",
+          "goals": 7,
+          "is_captain": true,
+          "name": "Edson Álvarez",
+          "number": 0,
+          "position": "MF"
+        },
+        {
+          "appearances": 90,
+          "club": "AEK Athens",
+          "goals": 12,
+          "is_captain": false,
+          "name": "Orbelín Pineda",
+          "number": 0,
+          "position": "MF"
+        },
+        {
+          "appearances": 67,
+          "club": "Cruz Azul",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Carlos Rodríguez",
+          "number": 0,
+          "position": "MF"
+        },
+        {
+          "appearances": 66,
+          "club": "Guadalajara",
+          "goals": 5,
+          "is_captain": false,
+          "name": "Roberto Alvarado",
+          "number": 0,
+          "position": "MF"
+        },
+        {
+          "appearances": 123,
+          "club": "Fulham",
+          "goals": 44,
+          "is_captain": false,
+          "name": "Raúl Jiménez",
+          "number": 0,
+          "position": "FW"
+        },
+        {
+          "appearances": 50,
+          "club": "Toluca",
+          "goals": 7,
+          "is_captain": false,
+          "name": "Alexis Vega",
+          "number": 0,
+          "position": "FW"
+        },
+        {
+          "appearances": 46,
+          "club": "Milan",
+          "goals": 6,
+          "is_captain": false,
+          "name": "Santiago Giménez",
+          "number": 0,
+          "position": "FW"
+        },
+        {
+          "appearances": 12,
+          "club": "Guadalajara",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Raúl Rangel",
+          "number": 0,
+          "position": "GK"
+        },
+        {
+          "appearances": 7,
+          "club": "Santos Laguna",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Carlos Acevedo",
+          "number": 0,
+          "position": "GK"
+        },
+        {
+          "appearances": 2,
+          "club": "Tijuana",
+          "goals": 0,
+          "is_captain": false,
+          "name": "José Antonio Rodríguez",
+          "number": 0,
+          "position": "GK"
+        }
+      ]
+    },
+    "NOR": {
+      "key_players": [
+        {
+          "appearances": 69,
+          "club": "Sevilla",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Ørjan Nyland",
+          "number": 1,
+          "position": "GK"
+        },
+        {
+          "appearances": 50,
+          "club": "Brentford",
+          "goals": 2,
+          "is_captain": false,
+          "name": "Kristoffer Ajer",
+          "number": 3,
+          "position": "DF"
+        },
+        {
+          "appearances": 36,
+          "club": "Genoa",
+          "goals": 1,
+          "is_captain": false,
+          "name": "Leo Østigård",
+          "number": 4,
+          "position": "DF"
+        },
+        {
+          "appearances": 20,
+          "club": "Wolverhampton Wanderers",
+          "goals": 1,
+          "is_captain": false,
+          "name": "David Møller Wolfe",
+          "number": 5,
+          "position": "DF"
+        },
+        {
+          "appearances": 19,
+          "club": "Bodø/Glimt",
+          "goals": 1,
+          "is_captain": false,
+          "name": "Fredrik André Bjørkan",
+          "number": 15,
+          "position": "DF"
+        },
+        {
+          "appearances": 30,
+          "club": "Cremonese",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Morten Thorsby",
+          "number": 2,
+          "position": "MF"
+        },
+        {
+          "appearances": 41,
+          "club": "Bodø/Glimt",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Patrick Berg",
+          "number": 6,
+          "position": "MF"
+        },
+        {
+          "appearances": 64,
+          "club": "Fulham",
+          "goals": 1,
+          "is_captain": false,
+          "name": "Sander Berge",
+          "number": 8,
+          "position": "MF"
+        },
+        {
+          "appearances": 67,
+          "club": "Arsenal",
+          "goals": 4,
+          "is_captain": true,
+          "name": "Martin Ødegaard",
+          "number": 10,
+          "position": "MF"
+        },
+        {
+          "appearances": 70,
+          "club": "Atlético Madrid",
+          "goals": 26,
+          "is_captain": false,
+          "name": "Alexander Sørloth",
+          "number": 7,
+          "position": "FW"
+        },
+        {
+          "appearances": 49,
+          "club": "Manchester City",
+          "goals": 55,
+          "is_captain": false,
+          "name": "Erling Haaland",
+          "number": 9,
+          "position": "FW"
+        },
+        {
+          "appearances": 26,
+          "club": "Crystal Palace",
+          "goals": 4,
+          "is_captain": false,
+          "name": "Jørgen Strand Larsen",
+          "number": 11,
+          "position": "FW"
+        },
+        {
+          "appearances": 0,
+          "club": "Hamburger SV",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Sander Tangvik",
+          "number": 12,
+          "position": "GK"
+        },
+        {
+          "appearances": 6,
+          "club": "Watford",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Egil Selvik",
+          "number": 13,
+          "position": "GK"
+        },
+        {
+          "appearances": 20,
+          "club": "Benfica",
+          "goals": 1,
+          "is_captain": false,
+          "name": "Fredrik Aursnes",
+          "number": 14,
+          "position": "MF"
+        }
+      ]
+    },
+    "NZL": {
+      "key_players": [
+        {
+          "appearances": 22,
+          "club": "Millwall",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Max Crocombe",
+          "number": 1,
+          "position": "GK"
+        },
+        {
+          "appearances": 49,
+          "club": "Wellington Phoenix",
+          "goals": 3,
+          "is_captain": false,
+          "name": "Tim Payne",
+          "number": 2,
+          "position": "DF"
+        },
+        {
+          "appearances": 18,
+          "club": "Auckland FC",
+          "goals": 1,
+          "is_captain": false,
+          "name": "Francis de Vries",
+          "number": 3,
+          "position": "DF"
+        },
+        {
+          "appearances": 23,
+          "club": "Sheffield United",
+          "goals": 3,
+          "is_captain": false,
+          "name": "Tyler Bindon",
+          "number": 4,
+          "position": "DF"
+        },
+        {
+          "appearances": 61,
+          "club": "Minnesota United FC",
+          "goals": 1,
+          "is_captain": false,
+          "name": "Michael Boxall",
+          "number": 5,
+          "position": "DF"
+        },
+        {
+          "appearances": 31,
+          "club": "Viking",
+          "goals": 1,
+          "is_captain": false,
+          "name": "Joe Bell",
+          "number": 6,
+          "position": "MF"
+        },
+        {
+          "appearances": 35,
+          "club": "Peterborough United",
+          "goals": 5,
+          "is_captain": false,
+          "name": "Matthew Garbett",
+          "number": 7,
+          "position": "MF"
+        },
+        {
+          "appearances": 37,
+          "club": "Swansea City",
+          "goals": 3,
+          "is_captain": false,
+          "name": "Marko Stamenić",
+          "number": 8,
+          "position": "MF"
+        },
+        {
+          "appearances": 26,
+          "club": "Wellington Phoenix",
+          "goals": 3,
+          "is_captain": false,
+          "name": "Sarpreet Singh",
+          "number": 10,
+          "position": "MF"
+        },
+        {
+          "appearances": 88,
+          "club": "Nottingham Forest",
+          "goals": 45,
+          "is_captain": true,
+          "name": "Chris Wood",
+          "number": 9,
+          "position": "FW"
+        },
+        {
+          "appearances": 74,
+          "club": "Western Sydney Wanderers",
+          "goals": 10,
+          "is_captain": false,
+          "name": "Kosta Barbarouses",
+          "number": 17,
+          "position": "FW"
+        },
+        {
+          "appearances": 30,
+          "club": "Port Vale",
+          "goals": 9,
+          "is_captain": false,
+          "name": "Ben Waine",
+          "number": 18,
+          "position": "FW"
+        },
+        {
+          "appearances": 42,
+          "club": "Motherwell",
+          "goals": 9,
+          "is_captain": false,
+          "name": "Elijah Just",
+          "number": 11,
+          "position": "MF"
+        },
+        {
+          "appearances": 6,
+          "club": "Lechia Gdańsk",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Alex Paulsen",
+          "number": 12,
+          "position": "GK"
+        },
+        {
+          "appearances": 35,
+          "club": "Wrexham",
+          "goals": 1,
+          "is_captain": false,
+          "name": "Liberato Cacace",
+          "number": 13,
+          "position": "DF"
+        }
+      ]
+    },
+    "PAR": {
+      "key_players": [
+        {
+          "appearances": 30,
+          "club": "Cerro Porteño",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Gatito Fernández",
+          "number": 0,
+          "position": "GK"
+        },
+        {
+          "appearances": 88,
+          "club": "Palmeiras",
+          "goals": 4,
+          "is_captain": true,
+          "name": "Gustavo Gómez",
+          "number": 0,
+          "position": "DF"
+        },
+        {
+          "appearances": 70,
+          "club": "Atlético Mineiro",
+          "goals": 3,
+          "is_captain": false,
+          "name": "Júnior Alonso",
+          "number": 0,
+          "position": "DF"
+        },
+        {
+          "appearances": 47,
+          "club": "Grêmio",
+          "goals": 2,
+          "is_captain": false,
+          "name": "Fabián Balbuena",
+          "number": 0,
+          "position": "DF"
+        },
+        {
+          "appearances": 35,
+          "club": "Sunderland",
+          "goals": 3,
+          "is_captain": false,
+          "name": "Omar Alderete",
+          "number": 0,
+          "position": "DF"
+        },
+        {
+          "appearances": 75,
+          "club": "Atlanta United FC",
+          "goals": 9,
+          "is_captain": false,
+          "name": "Miguel Almirón",
+          "number": 0,
+          "position": "MF"
+        },
+        {
+          "appearances": 51,
+          "club": "Grêmio",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Mathías Villasanti",
+          "number": 0,
+          "position": "MF"
+        },
+        {
+          "appearances": 32,
+          "club": "Al Ain",
+          "goals": 5,
+          "is_captain": false,
+          "name": "Kaku",
+          "number": 0,
+          "position": "MF"
+        },
+        {
+          "appearances": 32,
+          "club": "Vancouver Whitecaps FC",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Andrés Cubas",
+          "number": 0,
+          "position": "MF"
+        },
+        {
+          "appearances": 55,
+          "club": "Huracán",
+          "goals": 4,
+          "is_captain": false,
+          "name": "Óscar Romero",
+          "number": 0,
+          "position": "FW"
+        },
+        {
+          "appearances": 51,
+          "club": "Boca Juniors",
+          "goals": 8,
+          "is_captain": false,
+          "name": "Ángel Romero",
+          "number": 0,
+          "position": "FW"
+        },
+        {
+          "appearances": 47,
+          "club": "Cremonese",
+          "goals": 7,
+          "is_captain": false,
+          "name": "Antonio Sanabria",
+          "number": 0,
+          "position": "FW"
+        },
+        {
+          "appearances": 9,
+          "club": "São Paulo",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Carlos Coronel",
+          "number": 0,
+          "position": "GK"
+        },
+        {
+          "appearances": 5,
+          "club": "San Lorenzo",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Orlando Gill",
+          "number": 0,
+          "position": "GK"
+        },
+        {
+          "appearances": 2,
+          "club": "Nacional",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Santiago Rojas",
+          "number": 0,
+          "position": "GK"
+        }
+      ]
+    },
+    "POR": {
+      "key_players": [
+        {
+          "appearances": 42,
+          "club": "Porto",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Diogo Costa",
+          "number": 0,
+          "position": "GK"
+        },
+        {
+          "appearances": 74,
+          "club": "Manchester City",
+          "goals": 3,
+          "is_captain": false,
+          "name": "Rúben Dias",
+          "number": 0,
+          "position": "DF"
+        },
+        {
+          "appearances": 66,
+          "club": "Barcelona",
+          "goals": 12,
+          "is_captain": false,
+          "name": "João Cancelo",
+          "number": 0,
+          "position": "DF"
+        },
+        {
+          "appearances": 48,
+          "club": "Fenerbahçe",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Nélson Semedo",
+          "number": 0,
+          "position": "DF"
+        },
+        {
+          "appearances": 43,
+          "club": "Paris Saint-Germain",
+          "goals": 1,
+          "is_captain": false,
+          "name": "Nuno Mendes",
+          "number": 0,
+          "position": "DF"
+        },
+        {
+          "appearances": 107,
+          "club": "Manchester City",
+          "goals": 14,
+          "is_captain": false,
+          "name": "Bernardo Silva",
+          "number": 0,
+          "position": "MF"
+        },
+        {
+          "appearances": 87,
+          "club": "Manchester United",
+          "goals": 28,
+          "is_captain": false,
+          "name": "Bruno Fernandes",
+          "number": 0,
+          "position": "MF"
+        },
+        {
+          "appearances": 65,
+          "club": "Al-Hilal",
+          "goals": 1,
+          "is_captain": false,
+          "name": "Rúben Neves",
+          "number": 0,
+          "position": "MF"
+        },
+        {
+          "appearances": 37,
+          "club": "Paris Saint-Germain",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Vitinha",
+          "number": 0,
+          "position": "MF"
+        },
+        {
+          "appearances": 226,
+          "club": "Al-Nassr",
+          "goals": 143,
+          "is_captain": true,
+          "name": "Cristiano Ronaldo",
+          "number": 0,
+          "position": "FW"
+        },
+        {
+          "appearances": 52,
+          "club": "Al-Nassr",
+          "goals": 12,
+          "is_captain": false,
+          "name": "João Félix",
+          "number": 0,
+          "position": "FW"
+        },
+        {
+          "appearances": 43,
+          "club": "Milan",
+          "goals": 5,
+          "is_captain": false,
+          "name": "Rafael Leão",
+          "number": 0,
+          "position": "FW"
+        },
+        {
+          "appearances": 4,
+          "club": "Wolverhampton Wanderers",
+          "goals": 0,
+          "is_captain": false,
+          "name": "José Sá",
+          "number": 0,
+          "position": "GK"
+        },
+        {
+          "appearances": 2,
+          "club": "Sporting CP",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Rui Silva",
+          "number": 0,
+          "position": "GK"
+        },
+        {
+          "appearances": 33,
+          "club": "Manchester United",
+          "goals": 3,
+          "is_captain": false,
+          "name": "Diogo Dalot",
+          "number": 0,
+          "position": "DF"
+        }
+      ]
+    },
+    "QAT": {
+      "key_players": [
+        {
+          "appearances": 52,
+          "club": "Al-Sadd",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Meshaal Barsham",
+          "number": 0,
+          "position": "GK"
+        },
+        {
+          "appearances": 114,
+          "club": "Al-Sadd",
+          "goals": 20,
+          "is_captain": false,
+          "name": "Boualem Khoukhi",
+          "number": 0,
+          "position": "DF"
+        },
+        {
+          "appearances": 97,
+          "club": "Al-Sadd",
+          "goals": 3,
+          "is_captain": false,
+          "name": "Pedro Miguel",
+          "number": 0,
+          "position": "DF"
+        },
+        {
+          "appearances": 90,
+          "club": "Al-Sadd",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Tarek Salman",
+          "number": 0,
+          "position": "DF"
+        },
+        {
+          "appearances": 70,
+          "club": "Al-Duhail",
+          "goals": 2,
+          "is_captain": false,
+          "name": "Bassam Al-Rawi",
+          "number": 0,
+          "position": "DF"
+        },
+        {
+          "appearances": 116,
+          "club": "Al-Rayyan",
+          "goals": 11,
+          "is_captain": false,
+          "name": "Abdulaziz Hatem",
+          "number": 0,
+          "position": "MF"
+        },
+        {
+          "appearances": 116,
+          "club": "Al-Duhail",
+          "goals": 5,
+          "is_captain": false,
+          "name": "Karim Boudiaf",
+          "number": 0,
+          "position": "MF"
+        },
+        {
+          "appearances": 49,
+          "club": "Al-Wakrah",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Assim Madibo",
+          "number": 0,
+          "position": "MF"
+        },
+        {
+          "appearances": 49,
+          "club": "Al-Shamal",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Mohammed Waad",
+          "number": 0,
+          "position": "MF"
+        },
+        {
+          "appearances": 184,
+          "club": "Al-Sadd",
+          "goals": 41,
+          "is_captain": true,
+          "name": "Hassan Al-Haydos",
+          "number": 0,
+          "position": "FW"
+        },
+        {
+          "appearances": 124,
+          "club": "Qatar SC",
+          "goals": 39,
+          "is_captain": false,
+          "name": "Sebastián Soria",
+          "number": 0,
+          "position": "FW"
+        },
+        {
+          "appearances": 123,
+          "club": "Al-Sadd",
+          "goals": 39,
+          "is_captain": false,
+          "name": "Akram Afif",
+          "number": 0,
+          "position": "FW"
+        },
+        {
+          "appearances": 8,
+          "club": "Al-Duhail",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Salah Zakaria",
+          "number": 0,
+          "position": "GK"
+        },
+        {
+          "appearances": 3,
+          "club": "Al-Rayyan",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Mahmud Abunada",
+          "number": 0,
+          "position": "GK"
+        },
+        {
+          "appearances": 1,
+          "club": "Al-Shahaniya",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Shehab Ellethy",
+          "number": 0,
+          "position": "GK"
+        }
+      ]
+    },
+    "RSA": {
+      "key_players": [
+        {
+          "appearances": 62,
+          "club": "Mamelodi Sundowns",
+          "goals": 0,
+          "is_captain": true,
+          "name": "Ronwen Williams",
+          "number": 0,
+          "position": "GK"
+        },
+        {
+          "appearances": 44,
+          "club": "Mamelodi Sundowns",
+          "goals": 3,
+          "is_captain": false,
+          "name": "Aubrey Modiba",
+          "number": 0,
+          "position": "DF"
+        },
+        {
+          "appearances": 32,
+          "club": "Mamelodi Sundowns",
+          "goals": 1,
+          "is_captain": false,
+          "name": "Khuliso Mudau",
+          "number": 0,
+          "position": "DF"
+        },
+        {
+          "appearances": 19,
+          "club": "Orlando Pirates",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Nkosinathi Sibisi",
+          "number": 0,
+          "position": "DF"
+        },
+        {
+          "appearances": 10,
+          "club": "Chicago Fire",
+          "goals": 1,
+          "is_captain": false,
+          "name": "Mbekezeli Mbokazi",
+          "number": 0,
+          "position": "DF"
+        },
+        {
+          "appearances": 53,
+          "club": "Mamelodi Sundowns",
+          "goals": 12,
+          "is_captain": false,
+          "name": "Themba Zwane",
+          "number": 0,
+          "position": "MF"
+        },
+        {
+          "appearances": 51,
+          "club": "Mamelodi Sundowns",
+          "goals": 9,
+          "is_captain": false,
+          "name": "Teboho Mokoena",
+          "number": 0,
+          "position": "MF"
+        },
+        {
+          "appearances": 27,
+          "club": "Tondela",
+          "goals": 1,
+          "is_captain": false,
+          "name": "Sphephelo Sithole",
+          "number": 0,
+          "position": "MF"
+        },
+        {
+          "appearances": 17,
+          "club": "Kaizer Chiefs",
+          "goals": 3,
+          "is_captain": false,
+          "name": "Lebohang Maboe",
+          "number": 0,
+          "position": "MF"
+        },
+        {
+          "appearances": 33,
+          "club": "Mamelodi Sundowns",
+          "goals": 3,
+          "is_captain": false,
+          "name": "Thapelo Morena",
+          "number": 0,
+          "position": "FW"
+        },
+        {
+          "appearances": 26,
+          "club": "Burnley",
+          "goals": 10,
+          "is_captain": false,
+          "name": "Lyle Foster",
+          "number": 0,
+          "position": "FW"
+        },
+        {
+          "appearances": 26,
+          "club": "Orlando Pirates",
+          "goals": 6,
+          "is_captain": false,
+          "name": "Evidence Makgopa",
+          "number": 0,
+          "position": "FW"
+        },
+        {
+          "appearances": 4,
+          "club": "Siwelele",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Ricardo Goss",
+          "number": 0,
+          "position": "GK"
+        },
+        {
+          "appearances": 3,
+          "club": "Orlando Pirates",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Sipho Chaine",
+          "number": 0,
+          "position": "GK"
+        },
+        {
+          "appearances": 0,
+          "club": "Kaizer Chiefs",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Brandon Petersen",
+          "number": 0,
+          "position": "GK"
+        }
+      ]
+    },
+    "SCO": {
+      "key_players": [
+        {
+          "appearances": 83,
+          "club": "Heart of Midlothian",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Craig Gordon",
+          "number": 0,
+          "position": "GK"
+        },
+        {
+          "appearances": 92,
+          "club": "Liverpool",
+          "goals": 4,
+          "is_captain": true,
+          "name": "Andy Robertson",
+          "number": 0,
+          "position": "DF"
+        },
+        {
+          "appearances": 66,
+          "club": "Hibernian",
+          "goals": 2,
+          "is_captain": false,
+          "name": "Grant Hanley",
+          "number": 0,
+          "position": "DF"
+        },
+        {
+          "appearances": 55,
+          "club": "Celtic",
+          "goals": 2,
+          "is_captain": false,
+          "name": "Kieran Tierney",
+          "number": 0,
+          "position": "DF"
+        },
+        {
+          "appearances": 49,
+          "club": "Dinamo Zagreb",
+          "goals": 1,
+          "is_captain": false,
+          "name": "Scott McKenna",
+          "number": 0,
+          "position": "DF"
+        },
+        {
+          "appearances": 85,
+          "club": "Aston Villa",
+          "goals": 20,
+          "is_captain": false,
+          "name": "John McGinn",
+          "number": 0,
+          "position": "MF"
+        },
+        {
+          "appearances": 69,
+          "club": "Napoli",
+          "goals": 14,
+          "is_captain": false,
+          "name": "Scott McTominay",
+          "number": 0,
+          "position": "MF"
+        },
+        {
+          "appearances": 66,
+          "club": "Bournemouth",
+          "goals": 9,
+          "is_captain": false,
+          "name": "Ryan Christie",
+          "number": 0,
+          "position": "MF"
+        },
+        {
+          "appearances": 56,
+          "club": "Norwich City",
+          "goals": 3,
+          "is_captain": false,
+          "name": "Kenny McLean",
+          "number": 0,
+          "position": "MF"
+        },
+        {
+          "appearances": 50,
+          "club": "Charlton Athletic",
+          "goals": 10,
+          "is_captain": false,
+          "name": "Lyndon Dykes",
+          "number": 0,
+          "position": "FW"
+        },
+        {
+          "appearances": 46,
+          "club": "Torino",
+          "goals": 11,
+          "is_captain": false,
+          "name": "Ché Adams",
+          "number": 0,
+          "position": "FW"
+        },
+        {
+          "appearances": 18,
+          "club": "Heart of Midlothian",
+          "goals": 4,
+          "is_captain": false,
+          "name": "Lawrence Shankland",
+          "number": 0,
+          "position": "FW"
+        },
+        {
+          "appearances": 21,
+          "club": "Nottingham Forest",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Angus Gunn",
+          "number": 0,
+          "position": "GK"
+        },
+        {
+          "appearances": 2,
+          "club": "Rangers",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Liam Kelly",
+          "number": 0,
+          "position": "GK"
+        },
+        {
+          "appearances": 37,
+          "club": "Al-Ettifaq",
+          "goals": 3,
+          "is_captain": false,
+          "name": "Jack Hendry",
+          "number": 0,
+          "position": "DF"
+        }
+      ]
+    },
+    "SEN": {
+      "key_players": [
+        {
+          "appearances": 56,
+          "club": "Al-Ahli",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Édouard Mendy",
+          "number": 0,
+          "position": "GK"
+        },
+        {
+          "appearances": 103,
+          "club": "Al-Hilal",
+          "goals": 2,
+          "is_captain": true,
+          "name": "Kalidou Koulibaly",
+          "number": 0,
+          "position": "DF"
+        },
+        {
+          "appearances": 59,
+          "club": "Monaco",
+          "goals": 2,
+          "is_captain": false,
+          "name": "Krépin Diatta",
+          "number": 0,
+          "position": "DF"
+        },
+        {
+          "appearances": 29,
+          "club": "Lyon",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Moussa Niakhaté",
+          "number": 0,
+          "position": "DF"
+        },
+        {
+          "appearances": 28,
+          "club": "Galatasaray",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Ismail Jakobs",
+          "number": 0,
+          "position": "DF"
+        },
+        {
+          "appearances": 131,
+          "club": "Everton",
+          "goals": 7,
+          "is_captain": false,
+          "name": "Idrissa Gueye",
+          "number": 0,
+          "position": "MF"
+        },
+        {
+          "appearances": 40,
+          "club": "Villarreal",
+          "goals": 5,
+          "is_captain": false,
+          "name": "Pape Gueye",
+          "number": 0,
+          "position": "MF"
+        },
+        {
+          "appearances": 38,
+          "club": "Tottenham Hotspur",
+          "goals": 4,
+          "is_captain": false,
+          "name": "Pape Matar Sarr",
+          "number": 0,
+          "position": "MF"
+        },
+        {
+          "appearances": 29,
+          "club": "Rayo Vallecano",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Pathé Ciss",
+          "number": 0,
+          "position": "MF"
+        },
+        {
+          "appearances": 126,
+          "club": "Al-Nassr",
+          "goals": 53,
+          "is_captain": false,
+          "name": "Sadio Mané",
+          "number": 0,
+          "position": "FW"
+        },
+        {
+          "appearances": 83,
+          "club": "Crystal Palace",
+          "goals": 19,
+          "is_captain": false,
+          "name": "Ismaïla Sarr",
+          "number": 0,
+          "position": "FW"
+        },
+        {
+          "appearances": 38,
+          "club": "Everton",
+          "goals": 4,
+          "is_captain": false,
+          "name": "Iliman Ndiaye",
+          "number": 0,
+          "position": "FW"
+        },
+        {
+          "appearances": 4,
+          "club": "Le Havre",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Mory Diaw",
+          "number": 0,
+          "position": "GK"
+        },
+        {
+          "appearances": 2,
+          "club": "Nice",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Yehvann Diouf",
+          "number": 0,
+          "position": "GK"
+        },
+        {
+          "appearances": 21,
+          "club": "Maccabi Haifa",
+          "goals": 4,
+          "is_captain": false,
+          "name": "Abdoulaye Seck",
+          "number": 0,
+          "position": "DF"
+        }
+      ]
+    },
+    "SUI": {
+      "key_players": [
+        {
+          "appearances": 20,
+          "club": "Borussia Dortmund",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Gregor Kobel",
+          "number": 1,
+          "position": "GK"
+        },
+        {
+          "appearances": 8,
+          "club": "Hamburger SV",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Miro Muheim",
+          "number": 2,
+          "position": "DF"
+        },
+        {
+          "appearances": 58,
+          "club": "Mainz 05",
+          "goals": 5,
+          "is_captain": false,
+          "name": "Silvan Widmer",
+          "number": 3,
+          "position": "DF"
+        },
+        {
+          "appearances": 65,
+          "club": "Borussia Mönchengladbach",
+          "goals": 3,
+          "is_captain": false,
+          "name": "Nico Elvedi",
+          "number": 4,
+          "position": "DF"
+        },
+        {
+          "appearances": 79,
+          "club": "Inter Milan",
+          "goals": 4,
+          "is_captain": false,
+          "name": "Manuel Akanji",
+          "number": 5,
+          "position": "DF"
+        },
+        {
+          "appearances": 63,
+          "club": "Monaco",
+          "goals": 3,
+          "is_captain": false,
+          "name": "Denis Zakaria",
+          "number": 6,
+          "position": "MF"
+        },
+        {
+          "appearances": 86,
+          "club": "Bologna",
+          "goals": 11,
+          "is_captain": false,
+          "name": "Remo Freuler",
+          "number": 8,
+          "position": "MF"
+        },
+        {
+          "appearances": 10,
+          "club": "SC Freiburg",
+          "goals": 3,
+          "is_captain": false,
+          "name": "Johan Manzambi",
+          "number": 9,
+          "position": "MF"
+        },
+        {
+          "appearances": 144,
+          "club": "Sunderland",
+          "goals": 16,
+          "is_captain": true,
+          "name": "Granit Xhaka",
+          "number": 10,
+          "position": "MF"
+        },
+        {
+          "appearances": 85,
+          "club": "Rennes",
+          "goals": 23,
+          "is_captain": false,
+          "name": "Breel Embolo",
+          "number": 7,
+          "position": "FW"
+        },
+        {
+          "appearances": 29,
+          "club": "Nottingham Forest",
+          "goals": 6,
+          "is_captain": false,
+          "name": "Dan Ndoye",
+          "number": 11,
+          "position": "FW"
+        },
+        {
+          "appearances": 60,
+          "club": "Sevilla",
+          "goals": 11,
+          "is_captain": false,
+          "name": "Rubén Vargas",
+          "number": 17,
+          "position": "FW"
+        },
+        {
+          "appearances": 12,
+          "club": "Lorient",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Yvon Mvogo",
+          "number": 12,
+          "position": "GK"
+        },
+        {
+          "appearances": 136,
+          "club": "Real Betis",
+          "goals": 9,
+          "is_captain": false,
+          "name": "Ricardo Rodriguez",
+          "number": 13,
+          "position": "DF"
+        },
+        {
+          "appearances": 6,
+          "club": "Milan",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Ardon Jashari",
+          "number": 14,
+          "position": "MF"
+        }
+      ]
+    },
+    "TUN": {
+      "key_players": [
+        {
+          "appearances": 37,
+          "club": "CS Sfaxien",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Aymen Dahmen",
+          "number": 0,
+          "position": "GK"
+        },
+        {
+          "appearances": 62,
+          "club": "Lorient",
+          "goals": 4,
+          "is_captain": false,
+          "name": "Montassar Talbi",
+          "number": 0,
+          "position": "DF"
+        },
+        {
+          "appearances": 52,
+          "club": "Servette",
+          "goals": 2,
+          "is_captain": false,
+          "name": "Dylan Bronn",
+          "number": 0,
+          "position": "DF"
+        },
+        {
+          "appearances": 45,
+          "club": "Nice",
+          "goals": 7,
+          "is_captain": false,
+          "name": "Ali Abdi",
+          "number": 0,
+          "position": "DF"
+        },
+        {
+          "appearances": 21,
+          "club": "Young Boys",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Yan Valery",
+          "number": 0,
+          "position": "DF"
+        },
+        {
+          "appearances": 81,
+          "club": "Eintracht Frankfurt",
+          "goals": 4,
+          "is_captain": true,
+          "name": "Ellyes Skhiri",
+          "number": 0,
+          "position": "MF"
+        },
+        {
+          "appearances": 44,
+          "club": "Burnley",
+          "goals": 1,
+          "is_captain": false,
+          "name": "Hannibal Mejbri",
+          "number": 0,
+          "position": "MF"
+        },
+        {
+          "appearances": 39,
+          "club": "Norwich City",
+          "goals": 4,
+          "is_captain": false,
+          "name": "Anis Ben Slimane",
+          "number": 0,
+          "position": "MF"
+        },
+        {
+          "appearances": 17,
+          "club": "Kasımpaşa",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Mortadha Ben Ouanes",
+          "number": 0,
+          "position": "MF"
+        },
+        {
+          "appearances": 29,
+          "club": "Copenhagen",
+          "goals": 4,
+          "is_captain": false,
+          "name": "Elias Achouri",
+          "number": 0,
+          "position": "FW"
+        },
+        {
+          "appearances": 28,
+          "club": "Club Africain",
+          "goals": 6,
+          "is_captain": false,
+          "name": "Firas Chaouat",
+          "number": 0,
+          "position": "FW"
+        },
+        {
+          "appearances": 18,
+          "club": "Dynamo Makhachkala",
+          "goals": 4,
+          "is_captain": false,
+          "name": "Hazem Mastouri",
+          "number": 0,
+          "position": "FW"
+        },
+        {
+          "appearances": 2,
+          "club": "Étoile du Sahel",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Sabri Ben Hessen",
+          "number": 0,
+          "position": "GK"
+        },
+        {
+          "appearances": 1,
+          "club": "Club Africain",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Mouhib Chamakh",
+          "number": 0,
+          "position": "GK"
+        },
+        {
+          "appearances": 12,
+          "club": "Espérance de Tunis",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Mohamed Amine Ben Hamida",
+          "number": 0,
+          "position": "DF"
+        }
+      ]
+    },
+    "UZB": {
+      "key_players": [
+        {
+          "appearances": 39,
+          "club": "Navbahor",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Utkir Yusupov",
+          "number": 0,
+          "position": "GK"
+        },
+        {
+          "appearances": 47,
+          "club": "Esteghlal",
+          "goals": 1,
+          "is_captain": false,
+          "name": "Rustam Ashurmatov",
+          "number": 0,
+          "position": "DF"
+        },
+        {
+          "appearances": 44,
+          "club": "Neftchi",
+          "goals": 1,
+          "is_captain": false,
+          "name": "Farrukh Sayfiev",
+          "number": 0,
+          "position": "DF"
+        },
+        {
+          "appearances": 40,
+          "club": "Pakhtakor",
+          "goals": 2,
+          "is_captain": false,
+          "name": "Khojiakbar Alijonov",
+          "number": 0,
+          "position": "DF"
+        },
+        {
+          "appearances": 29,
+          "club": "Nasaf",
+          "goals": 2,
+          "is_captain": false,
+          "name": "Sherzod Nasrullaev",
+          "number": 0,
+          "position": "DF"
+        },
+        {
+          "appearances": 82,
+          "club": "Baniyas",
+          "goals": 9,
+          "is_captain": false,
+          "name": "Otabek Shukurov",
+          "number": 0,
+          "position": "MF"
+        },
+        {
+          "appearances": 71,
+          "club": "Tractor",
+          "goals": 1,
+          "is_captain": false,
+          "name": "Odiljon Hamrobekov",
+          "number": 0,
+          "position": "MF"
+        },
+        {
+          "appearances": 37,
+          "club": "Neftchi",
+          "goals": 4,
+          "is_captain": false,
+          "name": "Jamshid Iskanderov",
+          "number": 0,
+          "position": "MF"
+        },
+        {
+          "appearances": 23,
+          "club": "Pakhtakor",
+          "goals": 1,
+          "is_captain": false,
+          "name": "Akmal Mozgovoy",
+          "number": 0,
+          "position": "MF"
+        },
+        {
+          "appearances": 90,
+          "club": "İstanbul Başakşehir",
+          "goals": 44,
+          "is_captain": true,
+          "name": "Eldor Shomurodov",
+          "number": 0,
+          "position": "FW"
+        },
+        {
+          "appearances": 81,
+          "club": "Persepolis",
+          "goals": 24,
+          "is_captain": false,
+          "name": "Igor Sergeev",
+          "number": 0,
+          "position": "FW"
+        },
+        {
+          "appearances": 74,
+          "club": "Esteghlal",
+          "goals": 12,
+          "is_captain": false,
+          "name": "Jaloliddin Masharipov",
+          "number": 0,
+          "position": "FW"
+        },
+        {
+          "appearances": 7,
+          "club": "Nasaf",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Abduvohid Nematov",
+          "number": 0,
+          "position": "GK"
+        },
+        {
+          "appearances": 2,
+          "club": "Neftchi",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Botirali Ergashev",
+          "number": 0,
+          "position": "GK"
+        },
+        {
+          "appearances": 29,
+          "club": "Nasaf",
+          "goals": 0,
+          "is_captain": false,
+          "name": "Umar Eshmurodov",
+          "number": 0,
+          "position": "DF"
+        }
+      ]
+    }
+  }
+}

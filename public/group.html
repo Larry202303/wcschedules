@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title id="page-title">Group — World Cup 2026</title>
+  <meta name="description" id="page-desc" content="Group details, teams and full match schedule — World Cup 2026.">
+  <link rel="canonical" id="page-canonical" href="https://wcschedules.com/">
+
+  <meta property="og:type" content="article">
+  <meta property="og:title" id="og-title" content="Group — World Cup 2026">
+  <meta property="og:description" id="og-desc" content="Group details, teams and full match schedule.">
+
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚽</text></svg>">
+
+  <link rel="stylesheet" href="/css/style.css?v=20260525j">
+  <link rel="stylesheet" href="/css/match.css?v=20260525j">
+</head>
+
+<body>
+  <nav class="top-nav" id="top-nav" role="navigation" aria-label="Main navigation">
+    <div class="top-nav-inner container">
+      <!-- Logo -->
+      <a class="top-nav-logo" href="/">⚽ WC2026</a>
+
+      <!-- Nav links (desktop) -->
+      <ul class="top-nav-links" id="top-nav-links">
+        <li><a href="/#section-recent"        data-i18n="nav_recent">Recent</a></li>
+        <li class="top-nav-has-sub">
+          <a href="/#section-groups"           data-i18n="nav_progress">Match Progress</a>
+          <ul class="top-nav-sub">
+            <li><a href="/#section-groups"    data-i18n="nav_groups">Group Stage</a></li>
+            <li><a href="/#section-schedule"  data-i18n="nav_knockout">Knockout Stage</a></li>
+          </ul>
+        </li>
+        <li><a href="/#scorers-section"        data-i18n="nav_scorers">Top Scorers</a></li>
+        <li><a href="/#section-champion-odds"  data-i18n="nav_champion_odds">Champion Odds</a></li>
+        <li><a href="/#section-schedule"       data-i18n="nav_schedule">Full Schedule</a></li>
+      </ul>
+
+      <!-- Right controls (lang + team) — injected by app.js -->
+      <div class="top-nav-controls" id="app-header"></div>
+
+      <!-- Hamburger (mobile) -->
+      <button class="top-nav-burger" id="top-nav-burger" aria-label="Menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <main class="md-main container">
+    <a href="/" class="md-back" id="md-back">← <span data-i18n="md_back">Back to schedule</span></a>
+
+    <!-- Loading skeleton -->
+    <div id="gp-loading" class="md-loading">
+      <p data-i18n="md_loading">Loading…</p>
+    </div>
+
+    <!-- Error state -->
+    <div id="gp-error" class="md-error" style="display:none">
+      <h2 data-i18n="md_not_found">Group not found</h2>
+      <p>We couldn't find that group.</p>
+      <a href="/" class="md-cta" data-i18n="md_back">Back to schedule</a>
+    </div>
+
+    <!-- Main content -->
+    <article id="gp-content" class="md-content" style="display:none">
+      <!-- HERO -->
+      <section class="md-hero gp-hero">
+        <div class="gp-title" id="gp-title"></div>
+        <div class="gp-subtitle" id="gp-subtitle"></div>
+      </section>
+
+      <!-- STANDINGS table (FIFA style) -->
+      <section class="md-section">
+        <h2 data-i18n="gp_standings_title">Standings</h2>
+        <div id="gp-standings-note" class="gp-standings-note"></div>
+        <div id="gp-standings" class="gp-standings-wrap"></div>
+      </section>
+
+      <!-- TEAMS in this group -->
+      <section class="md-section">
+        <h2 data-i18n="gp_teams_title">Teams</h2>
+        <div id="gp-teams" class="gp-teams"></div>
+      </section>
+
+      <!-- MATCHES in this group -->
+      <section class="md-section">
+        <h2 data-i18n="gp_matches_title">Group Matches</h2>
+        <div id="gp-matches" class="gp-matches"></div>
+      </section>
+    </article>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p data-i18n="footer_text">© 2026 wcschedules.com · Not affiliated with FIFA</p>
+    </div>
+  </footer>
+
+  <script src="/js/i18n.js?v=20260525j"></script>
+  <script src="/js/timezone.js?v=20260525j"></script>
+  <script src="/js/scroll-top.js?v=20260525j"></script>
+  <script src="/js/standings.js?v=20260525j"></script>
+  <script src="/js/group.js?v=20260525j"></script>
+</body>
+</html>

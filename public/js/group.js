@@ -1,0 +1,326 @@
+/* ============================================
+   Group Detail Page
+   URL: /group.html?g=A&lang=xx
+   ============================================ */
+
+const STORAGE_TEAM = "wc_my_team";
+
+let DATA = {
+  teams: [],
+  matches: [],
+  i18n: { teams: {}, cities: {}, stadiums: {} },
+};
+let STATE = {
+  lang: "en",
+  myTeam: null,
+  group: null,
+  tz: "auto",
+};
+
+const t = (key) => (window.t ? window.t(key, STATE.lang) : key);
+
+function parseGroupKey() {
+  const params = new URLSearchParams(window.location.search);
+  const g = params.get("g");
+  if (!g) return null;
+  const k = g.trim().toUpperCase();
+  return /^[A-L]$/.test(k) ? k : null;
+}
+
+async function boot() {
+  STATE.lang = window.detectLang();
+  STATE.myTeam = localStorage.getItem(STORAGE_TEAM);
+  STATE.tz = window.getStoredTz ? window.getStoredTz() : "auto";
+  document.documentElement.lang = STATE.lang;
+  document.documentElement.dir = window.RTL_LANGS.includes(STATE.lang) ? "rtl" : "ltr";
+
+  STATE.group = parseGroupKey();
+  if (!STATE.group) return showError();
+
+  try {
+    const [teams, matches, i18nData] = await Promise.all([
+      fetch("/data/teams.json").then((r) => r.json()),
+      fetch("/data/matches.json").then((r) => r.json()),
+      fetch("/data/i18n_data.json").then((r) => r.json()).catch(() => ({ teams: {}, cities: {}, stadiums: {} })),
+    ]);
+    DATA.teams = teams;
+    DATA.matches = matches;
+    DATA.i18n = i18nData;
+  } catch (e) {
+    console.error("Data load fail:", e);
+    return showError();
+  }
+
+  applyTranslationsWrapper();
+  renderHeader();
+  if (window.initTopNav) initTopNav();
+  renderHero();
+  renderStandings();
+  renderTeams();
+  renderMatches();
+  renderSeoMeta();
+
+  document.getElementById("gp-loading").style.display = "none";
+  document.getElementById("gp-content").style.display = "block";
+}
+
+function applyTranslationsWrapper() {
+  if (window.applyTranslations) window.applyTranslations(STATE.lang);
+}
+
+function showError() {
+  document.getElementById("gp-loading").style.display = "none";
+  document.getElementById("gp-error").style.display = "block";
+}
+
+document.addEventListener("DOMContentLoaded", boot);
+
+/* ============================================
+   HELPERS
+   ============================================ */
+function teamByCode(code) {
+  return DATA.teams.find((tm) => tm.code === code) || { code, name_en: code, flag: "⚽", group: "?" };
+}
+function teamName(code) {
+  const entry = DATA.i18n.teams && DATA.i18n.teams[code];
+  if (entry && entry[STATE.lang]) return entry[STATE.lang];
+  if (entry && entry.en) return entry.en;
+  return teamByCode(code).name_en;
+}
+function cityName(en) {
+  const entry = DATA.i18n.cities && DATA.i18n.cities[en];
+  return entry && entry[STATE.lang] ? entry[STATE.lang] : en;
+}
+
+function formatMatchTime(match) {
+  const [y, m, d] = match.date_local.split("-").map(Number);
+  const [hh, mm] = match.time_local.split(":").map(Number);
+  const naive = Date.UTC(y, m - 1, d, hh, mm);
+  const dtf = new Intl.DateTimeFormat("en-US", {
+    timeZone: match.timezone,
+    year: "numeric", month: "2-digit", day: "2-digit",
+    hour: "2-digit", minute: "2-digit", second: "2-digit", hour12: false,
+  });
+  const parts = dtf.formatToParts(new Date(naive));
+  const get = (type) => parseInt(parts.find((p) => p.type === type).value, 10);
+  const tzY = get("year"), tzM = get("month"), tzD = get("day");
+  const tzH = get("hour") === 24 ? 0 : get("hour");
+  const tzAsUTC = Date.UTC(tzY, tzM - 1, tzD, tzH, get("minute"), get("second"));
+  return new Date(naive - (tzAsUTC - naive));
+}
+
+function formatUserLocal(date) {
+  const tz = window.resolveTz ? window.resolveTz(STATE.tz) : "UTC";
+  return window.formatInTz(date, tz, STATE.lang, { withWeekday: true, withDate: true });
+}
+
+function matchDetailHref(m) {
+  const slug = `${m.home_code.toLowerCase()}-${m.away_code.toLowerCase()}-${m.date_local}`;
+  const params = new URLSearchParams({ id: slug });
+  if (STATE.lang && STATE.lang !== "en") params.set("lang", STATE.lang);
+  return `match.html?${params.toString()}`;
+}
+
+function escapeHtml(s) {
+  if (s == null) return "";
+  return String(s)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#39;");
+}
+
+/* ============================================
+   HEADER (mirror match.js)
+   ============================================ */
+function renderHeader() {
+  const header = document.getElementById("app-header");
+  if (!header) return;
+  const myTeam = STATE.myTeam ? teamByCode(STATE.myTeam) : null;
+  const langOpts = window.LANG_LIST.map(
+    (l) => `<option value="${l.code}" ${l.code === STATE.lang ? "selected" : ""}>${l.flag} ${l.name}</option>`
+  ).join("");
+  const tzOpts = (window.TIMEZONE_LIST || []).map((tz) => {
+    const isAuto = tz.id === "auto";
+    const label = isAuto ? `${tz.label} (${window.getSystemTz ? window.getSystemTz() : "?"})` : tz.label;
+    return `<option value="${tz.id}" ${tz.id === STATE.tz ? "selected" : ""}>${escapeHtml(label)}</option>`;
+  }).join("");
+  // #app-header is inside .top-nav-controls — render controls only
+  header.innerHTML = `
+    ${myTeam ? `<span class="header-team-btn"><span class="team-flag">${myTeam.flag}</span><span class="team-name">${escapeHtml(teamName(myTeam.code))}</span></span>` : ""}
+    <select class="lang-select tz-select" id="tz-select" aria-label="Timezone" title="Timezone">${tzOpts}</select>
+    <select class="lang-select" id="lang-select" aria-label="Language">${langOpts}</select>
+  `;
+  document.getElementById("lang-select").addEventListener("change", (e) => {
+    const newLang = e.target.value;
+    localStorage.setItem("wc_lang", newLang);
+    const url = new URL(window.location.href);
+    url.searchParams.set("lang", newLang);
+    window.location.href = url.toString();
+  });
+  const tzSel = document.getElementById("tz-select");
+  if (tzSel) tzSel.addEventListener("change", (e) => {
+    STATE.tz = e.target.value;
+    if (window.setStoredTz) window.setStoredTz(e.target.value);
+    renderMatches();
+  });
+}
+
+/* ============================================
+   HERO
+   ============================================ */
+function renderHero() {
+  const titleEl = document.getElementById("gp-title");
+  const subEl = document.getElementById("gp-subtitle");
+  if (titleEl) titleEl.innerHTML = `${t("md_group")} ${STATE.group}`;
+  if (subEl) {
+    const teams = DATA.teams.filter((tm) => (tm.group || "").toUpperCase() === STATE.group);
+    subEl.innerHTML = teams.map((tm) => `${tm.flag} ${escapeHtml(teamName(tm.code))}`).join(" · ");
+  }
+}
+
+/* ============================================
+   STANDINGS table (FIFA style)
+   ============================================ */
+function renderStandings() {
+  const c = document.getElementById("gp-standings");
+  const noteEl = document.getElementById("gp-standings-note");
+  if (!c) return;
+  const rows = window.computeGroupStandings
+    ? window.computeGroupStandings(DATA.teams, DATA.matches, STATE.group)
+    : [];
+  if (rows.length === 0) {
+    c.innerHTML = "";
+    return;
+  }
+  const isPreview = rows[0].preview;
+
+  if (noteEl) {
+    noteEl.innerHTML = isPreview
+      ? `<span class="gp-st-preview-tag">${t("st_preview") || "Preview"}</span> ${t("st_preview_desc") || "Tournament hasn't started yet — table shown is a placeholder."}`
+      : "";
+  }
+
+  const head = `
+    <thead>
+      <tr>
+        <th class="gp-st-rank">#</th>
+        <th class="gp-st-team">${t("st_team") || "Team"}</th>
+        <th>${t("st_p") || "P"}</th>
+        <th>${t("st_w") || "W"}</th>
+        <th>${t("st_d") || "D"}</th>
+        <th>${t("st_l") || "L"}</th>
+        <th>${t("st_gf") || "GF"}</th>
+        <th>${t("st_ga") || "GA"}</th>
+        <th>${t("st_gd") || "GD"}</th>
+        <th class="gp-st-pts">${t("st_pts") || "Pts"}</th>
+      </tr>
+    </thead>
+  `;
+
+  const body = rows.map((row, idx) => {
+    const team = teamByCode(row.code);
+    const rank = idx + 1;
+    const isMine = row.code === STATE.myTeam;
+    // Don't show advancement indicators before tournament starts
+    const advance = isPreview ? "" : (rank <= 2 ? "gp-st-advance" : (rank === 3 ? "gp-st-playoff" : ""));
+    const gdStr = row.gd > 0 ? `+${row.gd}` : `${row.gd}`;
+    return `
+      <tr class="${isMine ? "gp-st-mine " : ""}${advance}">
+        <td class="gp-st-rank">${rank}</td>
+        <td class="gp-st-team">
+          <span class="gp-st-flag">${team.flag}</span>
+          <span class="gp-st-name">${escapeHtml(teamName(row.code))}</span>
+        </td>
+        <td>${row.played}</td>
+        <td>${row.win}</td>
+        <td>${row.draw}</td>
+        <td>${row.loss}</td>
+        <td>${row.gf}</td>
+        <td>${row.ga}</td>
+        <td class="gp-st-gd">${gdStr}</td>
+        <td class="gp-st-pts">${row.points}</td>
+      </tr>
+    `;
+  }).join("");
+
+  c.innerHTML = `<table class="gp-st-table">${head}<tbody>${body}</tbody></table>`;
+}
+
+/* ============================================
+   TEAMS (4 cards, click → schedule.html anchor or just info)
+   ============================================ */
+function renderTeams() {
+  const c = document.getElementById("gp-teams");
+  if (!c) return;
+  const teams = DATA.teams
+    .filter((tm) => (tm.group || "").toUpperCase() === STATE.group)
+    .sort((a, b) => (a.name_en || "").localeCompare(b.name_en || ""));
+
+  c.innerHTML = teams.map((tm) => `
+    <div class="gp-team-card">
+      <div class="gp-team-flag">${tm.flag}</div>
+      <div class="gp-team-name">${escapeHtml(teamName(tm.code))}</div>
+      <div class="gp-team-code">${escapeHtml(tm.code)}</div>
+    </div>
+  `).join("");
+}
+
+/* ============================================
+   MATCHES (6 cards, click → match detail)
+   ============================================ */
+function renderMatches() {
+  const c = document.getElementById("gp-matches");
+  if (!c) return;
+  const matches = DATA.matches
+    .filter((m) => (m.group || "").toUpperCase() === STATE.group)
+    .sort((a, b) => formatMatchTime(a) - formatMatchTime(b));
+
+  if (matches.length === 0) {
+    c.innerHTML = `<p style="text-align:center;color:var(--text-muted);padding:32px">${t("md_no_data") || "No matches."}</p>`;
+    return;
+  }
+
+  c.innerHTML = matches.map((m) => {
+    const home = teamByCode(m.home_code);
+    const away = teamByCode(m.away_code);
+    const dt = formatMatchTime(m);
+    const dateStr = formatUserLocal(dt);
+    const venue = `${escapeHtml(cityName(m.city))}`;
+    return `
+      <a class="gp-match-row" href="${matchDetailHref(m)}">
+        <div class="gp-match-time">${escapeHtml(dateStr)}</div>
+        <div class="gp-match-teams">
+          <span class="gp-match-team gp-match-home">
+            <span class="gp-match-flag">${home.flag}</span>
+            <span class="gp-match-name">${escapeHtml(teamName(home.code))}</span>
+          </span>
+          <span class="gp-match-vs">${t("match_vs") || "vs"}</span>
+          <span class="gp-match-team gp-match-away">
+            <span class="gp-match-flag">${away.flag}</span>
+            <span class="gp-match-name">${escapeHtml(teamName(away.code))}</span>
+          </span>
+        </div>
+        <div class="gp-match-venue">${venue}</div>
+        <div class="gp-match-arrow" aria-hidden="true">→</div>
+      </a>
+    `;
+  }).join("");
+}
+
+/* ============================================
+   SEO META
+   ============================================ */
+function renderSeoMeta() {
+  const title = `${t("md_group")} ${STATE.group} — World Cup 2026`;
+  document.title = title;
+  const teams = DATA.teams.filter((tm) => (tm.group || "").toUpperCase() === STATE.group);
+  const teamNames = teams.map((tm) => teamName(tm.code)).join(", ");
+  const desc = `${title}: ${teamNames}. Full match schedule, kickoff times and live odds.`;
+  const setMeta = (id, attr, val) => { const el = document.getElementById(id); if (el) el.setAttribute(attr, val); };
+  setMeta("page-desc", "content", desc);
+  setMeta("og-title", "content", title);
+  setMeta("og-desc", "content", desc);
+  setMeta("page-canonical", "href", `https://wcschedules.com/group.html?g=${STATE.group}`);
+}

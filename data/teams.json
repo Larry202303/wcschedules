@@ -1,0 +1,338 @@
+[
+  {
+    "code": "MEX",
+    "name_en": "Mexico",
+    "flag": "🇲🇽",
+    "group": "A",
+    "confederation": "CONCACAF"
+  },
+  {
+    "code": "RSA",
+    "name_en": "South Africa",
+    "flag": "🇿🇦",
+    "group": "A",
+    "confederation": "CAF"
+  },
+  {
+    "code": "KOR",
+    "name_en": "South Korea",
+    "flag": "🇰🇷",
+    "group": "A",
+    "confederation": "AFC"
+  },
+  {
+    "code": "CZE",
+    "name_en": "Czech Republic",
+    "flag": "🇨🇿",
+    "group": "A",
+    "confederation": "UEFA"
+  },
+  {
+    "code": "CAN",
+    "name_en": "Canada",
+    "flag": "🇨🇦",
+    "group": "B",
+    "confederation": "CONCACAF"
+  },
+  {
+    "code": "BIH",
+    "name_en": "Bosnia and Herzegovina",
+    "flag": "🇧🇦",
+    "group": "B",
+    "confederation": "UEFA"
+  },
+  {
+    "code": "QAT",
+    "name_en": "Qatar",
+    "flag": "🇶🇦",
+    "group": "B",
+    "confederation": "AFC"
+  },
+  {
+    "code": "SUI",
+    "name_en": "Switzerland",
+    "flag": "🇨🇭",
+    "group": "B",
+    "confederation": "UEFA"
+  },
+  {
+    "code": "BRA",
+    "name_en": "Brazil",
+    "flag": "🇧🇷",
+    "group": "C",
+    "confederation": "CONMEBOL"
+  },
+  {
+    "code": "MAR",
+    "name_en": "Morocco",
+    "flag": "🇲🇦",
+    "group": "C",
+    "confederation": "CAF"
+  },
+  {
+    "code": "HAI",
+    "name_en": "Haiti",
+    "flag": "🇭🇹",
+    "group": "C",
+    "confederation": "CONCACAF"
+  },
+  {
+    "code": "SCO",
+    "name_en": "Scotland",
+    "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+    "group": "C",
+    "confederation": "UEFA"
+  },
+  {
+    "code": "USA",
+    "name_en": "United States",
+    "flag": "🇺🇸",
+    "group": "D",
+    "confederation": "CONCACAF"
+  },
+  {
+    "code": "PAR",
+    "name_en": "Paraguay",
+    "flag": "🇵🇾",
+    "group": "D",
+    "confederation": "CONMEBOL"
+  },
+  {
+    "code": "AUS",
+    "name_en": "Australia",
+    "flag": "🇦🇺",
+    "group": "D",
+    "confederation": "AFC"
+  },
+  {
+    "code": "TUR",
+    "name_en": "Turkey",
+    "flag": "🇹🇷",
+    "group": "D",
+    "confederation": "UEFA"
+  },
+  {
+    "code": "GER",
+    "name_en": "Germany",
+    "flag": "🇩🇪",
+    "group": "E",
+    "confederation": "UEFA"
+  },
+  {
+    "code": "CUW",
+    "name_en": "Curaçao",
+    "flag": "🇨🇼",
+    "group": "E",
+    "confederation": "CONCACAF"
+  },
+  {
+    "code": "CIV",
+    "name_en": "Ivory Coast",
+    "flag": "🇨🇮",
+    "group": "E",
+    "confederation": "CAF"
+  },
+  {
+    "code": "ECU",
+    "name_en": "Ecuador",
+    "flag": "🇪🇨",
+    "group": "E",
+    "confederation": "CONMEBOL"
+  },
+  {
+    "code": "NED",
+    "name_en": "Netherlands",
+    "flag": "🇳🇱",
+    "group": "F",
+    "confederation": "UEFA"
+  },
+  {
+    "code": "JPN",
+    "name_en": "Japan",
+    "flag": "🇯🇵",
+    "group": "F",
+    "confederation": "AFC"
+  },
+  {
+    "code": "SWE",
+    "name_en": "Sweden",
+    "flag": "🇸🇪",
+    "group": "F",
+    "confederation": "UEFA"
+  },
+  {
+    "code": "TUN",
+    "name_en": "Tunisia",
+    "flag": "🇹🇳",
+    "group": "F",
+    "confederation": "CAF"
+  },
+  {
+    "code": "BEL",
+    "name_en": "Belgium",
+    "flag": "🇧🇪",
+    "group": "G",
+    "confederation": "UEFA"
+  },
+  {
+    "code": "EGY",
+    "name_en": "Egypt",
+    "flag": "🇪🇬",
+    "group": "G",
+    "confederation": "CAF"
+  },
+  {
+    "code": "IRN",
+    "name_en": "Iran",
+    "flag": "🇮🇷",
+    "group": "G",
+    "confederation": "AFC"
+  },
+  {
+    "code": "NZL",
+    "name_en": "New Zealand",
+    "flag": "🇳🇿",
+    "group": "G",
+    "confederation": "OFC"
+  },
+  {
+    "code": "ESP",
+    "name_en": "Spain",
+    "flag": "🇪🇸",
+    "group": "H",
+    "confederation": "UEFA"
+  },
+  {
+    "code": "CPV",
+    "name_en": "Cape Verde",
+    "flag": "🇨🇻",
+    "group": "H",
+    "confederation": "CAF"
+  },
+  {
+    "code": "KSA",
+    "name_en": "Saudi Arabia",
+    "flag": "🇸🇦",
+    "group": "H",
+    "confederation": "AFC"
+  },
+  {
+    "code": "URU",
+    "name_en": "Uruguay",
+    "flag": "🇺🇾",
+    "group": "H",
+    "confederation": "CONMEBOL"
+  },
+  {
+    "code": "FRA",
+    "name_en": "France",
+    "flag": "🇫🇷",
+    "group": "I",
+    "confederation": "UEFA"
+  },
+  {
+    "code": "SEN",
+    "name_en": "Senegal",
+    "flag": "🇸🇳",
+    "group": "I",
+    "confederation": "CAF"
+  },
+  {
+    "code": "IRQ",
+    "name_en": "Iraq",
+    "flag": "🇮🇶",
+    "group": "I",
+    "confederation": "AFC"
+  },
+  {
+    "code": "NOR",
+    "name_en": "Norway",
+    "flag": "🇳🇴",
+    "group": "I",
+    "confederation": "UEFA"
+  },
+  {
+    "code": "ARG",
+    "name_en": "Argentina",
+    "flag": "🇦🇷",
+    "group": "J",
+    "confederation": "CONMEBOL"
+  },
+  {
+    "code": "ALG",
+    "name_en": "Algeria",
+    "flag": "🇩🇿",
+    "group": "J",
+    "confederation": "CAF"
+  },
+  {
+    "code": "AUT",
+    "name_en": "Austria",
+    "flag": "🇦🇹",
+    "group": "J",
+    "confederation": "UEFA"
+  },
+  {
+    "code": "JOR",
+    "name_en": "Jordan",
+    "flag": "🇯🇴",
+    "group": "J",
+    "confederation": "AFC"
+  },
+  {
+    "code": "POR",
+    "name_en": "Portugal",
+    "flag": "🇵🇹",
+    "group": "K",
+    "confederation": "UEFA"
+  },
+  {
+    "code": "COD",
+    "name_en": "DR Congo",
+    "flag": "🇨🇩",
+    "group": "K",
+    "confederation": "CAF"
+  },
+  {
+    "code": "UZB",
+    "name_en": "Uzbekistan",
+    "flag": "🇺🇿",
+    "group": "K",
+    "confederation": "AFC"
+  },
+  {
+    "code": "COL",
+    "name_en": "Colombia",
+    "flag": "🇨🇴",
+    "group": "K",
+    "confederation": "CONMEBOL"
+  },
+  {
+    "code": "ENG",
+    "name_en": "England",
+    "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+    "group": "L",
+    "confederation": "UEFA"
+  },
+  {
+    "code": "CRO",
+    "name_en": "Croatia",
+    "flag": "🇭🇷",
+    "group": "L",
+    "confederation": "UEFA"
+  },
+  {
+    "code": "GHA",
+    "name_en": "Ghana",
+    "flag": "🇬🇭",
+    "group": "L",
+    "confederation": "CAF"
+  },
+  {
+    "code": "PAN",
+    "name_en": "Panama",
+    "flag": "🇵🇦",
+    "group": "L",
+    "confederation": "CONCACAF"
+  }
+]

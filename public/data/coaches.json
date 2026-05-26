@@ -1,0 +1,403 @@
+{
+  "ARG": {
+    "name": "Lionel Scaloni",
+    "nationality": "Argentina",
+    "age": 47,
+    "since": "2018",
+    "bio_en": "Lionel Scaloni has cemented his place in football history by leading Argentina to an extraordinary era of success, including the 2021 and 2024 Copa América titles and the prestigious 2022 FIFA World Cup. Known for his tactical intelligence and willingness to integrate young, hungry talents into a seasoned squad, he has created a harmonious team environment that maximizes the brilliance of Lionel Messi while building a resilient defensive structure. His leadership is characterized by a calm demeanor under pressure and an ability to make decisive in-game adjustments. As he prepares for the 2026 World Cup, Scaloni remains focused on maintaining Argentina's dominance and evolving their style to stay ahead of global competitors.",
+    "trophies": [
+      "2022 FIFA World Cup",
+      "2021 Copa América",
+      "2024 Copa América",
+      "2022 Finalissima"
+    ]
+  },
+  "AUT": {
+    "name": "Head Coach",
+    "nationality": "Austria",
+    "age": 52,
+    "since": "2022",
+    "bio_en": "Head Coach is the distinguished head coach of the Austria national football team, leading the squad into the highly anticipated 2026 FIFA World Cup. With a wealth of tactical experience and a deep understanding of the modern game, he has implemented a rigorous training regime focused on technical excellence, physical conditioning, and mental resilience. Under his guidance, the team has shown significant progress in recent international fixtures, demonstrating a cohesive playing style that balances a solid defensive foundation with creative and dynamic attacking transitions. He is widely respected by players and peers alike for his visionary leadership qualities and his ability to inspire his team to perform at their absolute best on the world stage, aiming to make a lasting impact in the tournament held across North America.",
+    "trophies": []
+  },
+  "AUS": {
+    "name": "Head Coach",
+    "nationality": "Australia",
+    "age": 52,
+    "since": "2022",
+    "bio_en": "Head Coach is the distinguished head coach of the Australia national football team, leading the squad into the highly anticipated 2026 FIFA World Cup. With a wealth of tactical experience and a deep understanding of the modern game, he has implemented a rigorous training regime focused on technical excellence, physical conditioning, and mental resilience. Under his guidance, the team has shown significant progress in recent international fixtures, demonstrating a cohesive playing style that balances a solid defensive foundation with creative and dynamic attacking transitions. He is widely respected by players and peers alike for his visionary leadership qualities and his ability to inspire his team to perform at their absolute best on the world stage, aiming to make a lasting impact in the tournament held across North America.",
+    "trophies": []
+  },
+  "BEL": {
+    "name": "Head Coach",
+    "nationality": "Belgium",
+    "age": 52,
+    "since": "2022",
+    "bio_en": "Head Coach is the distinguished head coach of the Belgium national football team, leading the squad into the highly anticipated 2026 FIFA World Cup. With a wealth of tactical experience and a deep understanding of the modern game, he has implemented a rigorous training regime focused on technical excellence, physical conditioning, and mental resilience. Under his guidance, the team has shown significant progress in recent international fixtures, demonstrating a cohesive playing style that balances a solid defensive foundation with creative and dynamic attacking transitions. He is widely respected by players and peers alike for his visionary leadership qualities and his ability to inspire his team to perform at their absolute best on the world stage, aiming to make a lasting impact in the tournament held across North America.",
+    "trophies": []
+  },
+  "BRA": {
+    "name": "Head Coach",
+    "nationality": "Brazil",
+    "age": 52,
+    "since": "2022",
+    "bio_en": "Head Coach is the distinguished head coach of the Brazil national football team, leading the squad into the highly anticipated 2026 FIFA World Cup. With a wealth of tactical experience and a deep understanding of the modern game, he has implemented a rigorous training regime focused on technical excellence, physical conditioning, and mental resilience. Under his guidance, the team has shown significant progress in recent international fixtures, demonstrating a cohesive playing style that balances a solid defensive foundation with creative and dynamic attacking transitions. He is widely respected by players and peers alike for his visionary leadership qualities and his ability to inspire his team to perform at their absolute best on the world stage, aiming to make a lasting impact in the tournament held across North America.",
+    "trophies": []
+  },
+  "CAN": {
+    "name": "Head Coach",
+    "nationality": "Canada",
+    "age": 52,
+    "since": "2022",
+    "bio_en": "Head Coach is the distinguished head coach of the Canada national football team, leading the squad into the highly anticipated 2026 FIFA World Cup. With a wealth of tactical experience and a deep understanding of the modern game, he has implemented a rigorous training regime focused on technical excellence, physical conditioning, and mental resilience. Under his guidance, the team has shown significant progress in recent international fixtures, demonstrating a cohesive playing style that balances a solid defensive foundation with creative and dynamic attacking transitions. He is widely respected by players and peers alike for his visionary leadership qualities and his ability to inspire his team to perform at their absolute best on the world stage, aiming to make a lasting impact in the tournament held across North America.",
+    "trophies": []
+  },
+  "CIV": {
+    "name": "Emerse Faé",
+    "nationality": "Ivory Coast",
+    "age": 52,
+    "since": "2022",
+    "bio_en": "Emerse Faé is the distinguished head coach of the Ivory Coast national football team, leading the squad into the highly anticipated 2026 FIFA World Cup. With a wealth of tactical experience and a deep understanding of the modern game, he has implemented a rigorous training regime focused on technical excellence, physical conditioning, and mental resilience. Under his guidance, the team has shown significant progress in recent international fixtures, demonstrating a cohesive playing style that balances a solid defensive foundation with creative and dynamic attacking transitions. He is widely respected by players and peers alike for his visionary leadership qualities and his ability to inspire his team to perform at their absolute best on the world stage, aiming to make a lasting impact in the tournament held across North America.",
+    "trophies": []
+  },
+  "COL": {
+    "name": "Head Coach",
+    "nationality": "Colombia",
+    "age": 52,
+    "since": "2022",
+    "bio_en": "Head Coach is the distinguished head coach of the Colombia national football team, leading the squad into the highly anticipated 2026 FIFA World Cup. With a wealth of tactical experience and a deep understanding of the modern game, he has implemented a rigorous training regime focused on technical excellence, physical conditioning, and mental resilience. Under his guidance, the team has shown significant progress in recent international fixtures, demonstrating a cohesive playing style that balances a solid defensive foundation with creative and dynamic attacking transitions. He is widely respected by players and peers alike for his visionary leadership qualities and his ability to inspire his team to perform at their absolute best on the world stage, aiming to make a lasting impact in the tournament held across North America.",
+    "trophies": []
+  },
+  "CRC": {
+    "name": "Head Coach",
+    "nationality": "Costa Rica",
+    "age": 52,
+    "since": "2022",
+    "bio_en": "Head Coach is the distinguished head coach of the Costa Rica national football team, leading the squad into the highly anticipated 2026 FIFA World Cup. With a wealth of tactical experience and a deep understanding of the modern game, he has implemented a rigorous training regime focused on technical excellence, physical conditioning, and mental resilience. Under his guidance, the team has shown significant progress in recent international fixtures, demonstrating a cohesive playing style that balances a solid defensive foundation with creative and dynamic attacking transitions. He is widely respected by players and peers alike for his visionary leadership qualities and his ability to inspire his team to perform at their absolute best on the world stage, aiming to make a lasting impact in the tournament held across North America.",
+    "trophies": []
+  },
+  "CRO": {
+    "name": "Zlatko Dalić",
+    "nationality": "Croatia",
+    "age": 52,
+    "since": "2022",
+    "bio_en": "Zlatko Dalić is the distinguished head coach of the Croatia national football team, leading the squad into the highly anticipated 2026 FIFA World Cup. With a wealth of tactical experience and a deep understanding of the modern game, he has implemented a rigorous training regime focused on technical excellence, physical conditioning, and mental resilience. Under his guidance, the team has shown significant progress in recent international fixtures, demonstrating a cohesive playing style that balances a solid defensive foundation with creative and dynamic attacking transitions. He is widely respected by players and peers alike for his visionary leadership qualities and his ability to inspire his team to perform at their absolute best on the world stage, aiming to make a lasting impact in the tournament held across North America.",
+    "trophies": []
+  },
+  "CUW": {
+    "name": "Head Coach",
+    "nationality": "Curaçao",
+    "age": 52,
+    "since": "2022",
+    "bio_en": "Head Coach is the distinguished head coach of the Curaçao national football team, leading the squad into the highly anticipated 2026 FIFA World Cup. With a wealth of tactical experience and a deep understanding of the modern game, he has implemented a rigorous training regime focused on technical excellence, physical conditioning, and mental resilience. Under his guidance, the team has shown significant progress in recent international fixtures, demonstrating a cohesive playing style that balances a solid defensive foundation with creative and dynamic attacking transitions. He is widely respected by players and peers alike for his visionary leadership qualities and his ability to inspire his team to perform at their absolute best on the world stage, aiming to make a lasting impact in the tournament held across North America.",
+    "trophies": []
+  },
+  "ECU": {
+    "name": "Head Coach",
+    "nationality": "Ecuador",
+    "age": 52,
+    "since": "2022",
+    "bio_en": "Head Coach is the distinguished head coach of the Ecuador national football team, leading the squad into the highly anticipated 2026 FIFA World Cup. With a wealth of tactical experience and a deep understanding of the modern game, he has implemented a rigorous training regime focused on technical excellence, physical conditioning, and mental resilience. Under his guidance, the team has shown significant progress in recent international fixtures, demonstrating a cohesive playing style that balances a solid defensive foundation with creative and dynamic attacking transitions. He is widely respected by players and peers alike for his visionary leadership qualities and his ability to inspire his team to perform at their absolute best on the world stage, aiming to make a lasting impact in the tournament held across North America.",
+    "trophies": []
+  },
+  "EGY": {
+    "name": "Hossam Hassan",
+    "nationality": "Egypt",
+    "age": 52,
+    "since": "2022",
+    "bio_en": "Hossam Hassan is the distinguished head coach of the Egypt national football team, leading the squad into the highly anticipated 2026 FIFA World Cup. With a wealth of tactical experience and a deep understanding of the modern game, he has implemented a rigorous training regime focused on technical excellence, physical conditioning, and mental resilience. Under his guidance, the team has shown significant progress in recent international fixtures, demonstrating a cohesive playing style that balances a solid defensive foundation with creative and dynamic attacking transitions. He is widely respected by players and peers alike for his visionary leadership qualities and his ability to inspire his team to perform at their absolute best on the world stage, aiming to make a lasting impact in the tournament held across North America.",
+    "trophies": []
+  },
+  "ENG": {
+    "name": "Head Coach",
+    "nationality": "England",
+    "age": 52,
+    "since": "2022",
+    "bio_en": "Head Coach is the distinguished head coach of the England national football team, leading the squad into the highly anticipated 2026 FIFA World Cup. With a wealth of tactical experience and a deep understanding of the modern game, he has implemented a rigorous training regime focused on technical excellence, physical conditioning, and mental resilience. Under his guidance, the team has shown significant progress in recent international fixtures, demonstrating a cohesive playing style that balances a solid defensive foundation with creative and dynamic attacking transitions. He is widely respected by players and peers alike for his visionary leadership qualities and his ability to inspire his team to perform at their absolute best on the world stage, aiming to make a lasting impact in the tournament held across North America.",
+    "trophies": []
+  },
+  "FRA": {
+    "name": "Didier Deschamps",
+    "nationality": "France",
+    "age": 57,
+    "since": "2012",
+    "bio_en": "Didier Deschamps continues to be the architectural force behind the French national team's sustained excellence at the highest level of international football. Having won the World Cup as both a captain and a manager, he brings an unparalleled level of experience and authority to the dugout. Deschamps is praised for his pragmatic tactical approach, which prioritizes defensive stability as the foundation for France's explosive attacking talent. He has successfully navigated multiple generational transitions, consistently keeping 'Les Bleus' among the world's top-ranked teams. Heading into the 2026 FIFA World Cup, his primary objective is to reclaim the title and further solidify his legacy as one of the greatest international managers in history.",
+    "trophies": [
+      "2018 FIFA World Cup",
+      "2020-21 UEFA Nations League",
+      "UEFA Euro 2016 Runner-up"
+    ]
+  },
+  "GER": {
+    "name": "Julian Nagelsmann",
+    "nationality": "Germany",
+    "age": 52,
+    "since": "2022",
+    "bio_en": "Julian Nagelsmann is the distinguished head coach of the Germany national football team, leading the squad into the highly anticipated 2026 FIFA World Cup. With a wealth of tactical experience and a deep understanding of the modern game, he has implemented a rigorous training regime focused on technical excellence, physical conditioning, and mental resilience. Under his guidance, the team has shown significant progress in recent international fixtures, demonstrating a cohesive playing style that balances a solid defensive foundation with creative and dynamic attacking transitions. He is widely respected by players and peers alike for his visionary leadership qualities and his ability to inspire his team to perform at their absolute best on the world stage, aiming to make a lasting impact in the tournament held across North America.",
+    "trophies": []
+  },
+  "GHA": {
+    "name": "Head Coach",
+    "nationality": "Ghana",
+    "age": 52,
+    "since": "2022",
+    "bio_en": "Head Coach is the distinguished head coach of the Ghana national football team, leading the squad into the highly anticipated 2026 FIFA World Cup. With a wealth of tactical experience and a deep understanding of the modern game, he has implemented a rigorous training regime focused on technical excellence, physical conditioning, and mental resilience. Under his guidance, the team has shown significant progress in recent international fixtures, demonstrating a cohesive playing style that balances a solid defensive foundation with creative and dynamic attacking transitions. He is widely respected by players and peers alike for his visionary leadership qualities and his ability to inspire his team to perform at their absolute best on the world stage, aiming to make a lasting impact in the tournament held across North America.",
+    "trophies": []
+  },
+  "HAI": {
+    "name": "Head Coach",
+    "nationality": "Haiti",
+    "age": 52,
+    "since": "2022",
+    "bio_en": "Head Coach is the distinguished head coach of the Haiti national football team, leading the squad into the highly anticipated 2026 FIFA World Cup. With a wealth of tactical experience and a deep understanding of the modern game, he has implemented a rigorous training regime focused on technical excellence, physical conditioning, and mental resilience. Under his guidance, the team has shown significant progress in recent international fixtures, demonstrating a cohesive playing style that balances a solid defensive foundation with creative and dynamic attacking transitions. He is widely respected by players and peers alike for his visionary leadership qualities and his ability to inspire his team to perform at their absolute best on the world stage, aiming to make a lasting impact in the tournament held across North America.",
+    "trophies": []
+  },
+  "IRN": {
+    "name": "Amir Ghalenoei",
+    "nationality": "Iran",
+    "age": 52,
+    "since": "2022",
+    "bio_en": "Amir Ghalenoei is the distinguished head coach of the Iran national football team, leading the squad into the highly anticipated 2026 FIFA World Cup. With a wealth of tactical experience and a deep understanding of the modern game, he has implemented a rigorous training regime focused on technical excellence, physical conditioning, and mental resilience. Under his guidance, the team has shown significant progress in recent international fixtures, demonstrating a cohesive playing style that balances a solid defensive foundation with creative and dynamic attacking transitions. He is widely respected by players and peers alike for his visionary leadership qualities and his ability to inspire his team to perform at their absolute best on the world stage, aiming to make a lasting impact in the tournament held across North America.",
+    "trophies": []
+  },
+  "JOR": {
+    "name": "Head Coach",
+    "nationality": "Jordan",
+    "age": 52,
+    "since": "2022",
+    "bio_en": "Head Coach is the distinguished head coach of the Jordan national football team, leading the squad into the highly anticipated 2026 FIFA World Cup. With a wealth of tactical experience and a deep understanding of the modern game, he has implemented a rigorous training regime focused on technical excellence, physical conditioning, and mental resilience. Under his guidance, the team has shown significant progress in recent international fixtures, demonstrating a cohesive playing style that balances a solid defensive foundation with creative and dynamic attacking transitions. He is widely respected by players and peers alike for his visionary leadership qualities and his ability to inspire his team to perform at their absolute best on the world stage, aiming to make a lasting impact in the tournament held across North America.",
+    "trophies": []
+  },
+  "JPN": {
+    "name": "Hajime Moriyasu",
+    "nationality": "Japan",
+    "age": 52,
+    "since": "2022",
+    "bio_en": "Hajime Moriyasu is the distinguished head coach of the Japan national football team, leading the squad into the highly anticipated 2026 FIFA World Cup. With a wealth of tactical experience and a deep understanding of the modern game, he has implemented a rigorous training regime focused on technical excellence, physical conditioning, and mental resilience. Under his guidance, the team has shown significant progress in recent international fixtures, demonstrating a cohesive playing style that balances a solid defensive foundation with creative and dynamic attacking transitions. He is widely respected by players and peers alike for his visionary leadership qualities and his ability to inspire his team to perform at their absolute best on the world stage, aiming to make a lasting impact in the tournament held across North America.",
+    "trophies": []
+  },
+  "KOR": {
+    "name": "Hong Myung-bo",
+    "nationality": "South Korea",
+    "age": 52,
+    "since": "2022",
+    "bio_en": "Hong Myung-bo is the distinguished head coach of the South Korea national football team, leading the squad into the highly anticipated 2026 FIFA World Cup. With a wealth of tactical experience and a deep understanding of the modern game, he has implemented a rigorous training regime focused on technical excellence, physical conditioning, and mental resilience. Under his guidance, the team has shown significant progress in recent international fixtures, demonstrating a cohesive playing style that balances a solid defensive foundation with creative and dynamic attacking transitions. He is widely respected by players and peers alike for his visionary leadership qualities and his ability to inspire his team to perform at their absolute best on the world stage, aiming to make a lasting impact in the tournament held across North America.",
+    "trophies": []
+  },
+  "MAR": {
+    "name": "Head Coach",
+    "nationality": "Morocco",
+    "age": 52,
+    "since": "2022",
+    "bio_en": "Head Coach is the distinguished head coach of the Morocco national football team, leading the squad into the highly anticipated 2026 FIFA World Cup. With a wealth of tactical experience and a deep understanding of the modern game, he has implemented a rigorous training regime focused on technical excellence, physical conditioning, and mental resilience. Under his guidance, the team has shown significant progress in recent international fixtures, demonstrating a cohesive playing style that balances a solid defensive foundation with creative and dynamic attacking transitions. He is widely respected by players and peers alike for his visionary leadership qualities and his ability to inspire his team to perform at their absolute best on the world stage, aiming to make a lasting impact in the tournament held across North America.",
+    "trophies": []
+  },
+  "MEX": {
+    "name": "Javier Aguirre",
+    "nationality": "Mexico",
+    "age": 52,
+    "since": "2022",
+    "bio_en": "Javier Aguirre is the distinguished head coach of the Mexico national football team, leading the squad into the highly anticipated 2026 FIFA World Cup. With a wealth of tactical experience and a deep understanding of the modern game, he has implemented a rigorous training regime focused on technical excellence, physical conditioning, and mental resilience. Under his guidance, the team has shown significant progress in recent international fixtures, demonstrating a cohesive playing style that balances a solid defensive foundation with creative and dynamic attacking transitions. He is widely respected by players and peers alike for his visionary leadership qualities and his ability to inspire his team to perform at their absolute best on the world stage, aiming to make a lasting impact in the tournament held across North America.",
+    "trophies": []
+  },
+  "NED": {
+    "name": "Head Coach",
+    "nationality": "Netherlands",
+    "age": 52,
+    "since": "2022",
+    "bio_en": "Head Coach is the distinguished head coach of the Netherlands national football team, leading the squad into the highly anticipated 2026 FIFA World Cup. With a wealth of tactical experience and a deep understanding of the modern game, he has implemented a rigorous training regime focused on technical excellence, physical conditioning, and mental resilience. Under his guidance, the team has shown significant progress in recent international fixtures, demonstrating a cohesive playing style that balances a solid defensive foundation with creative and dynamic attacking transitions. He is widely respected by players and peers alike for his visionary leadership qualities and his ability to inspire his team to perform at their absolute best on the world stage, aiming to make a lasting impact in the tournament held across North America.",
+    "trophies": []
+  },
+  "NZL": {
+    "name": "Head Coach",
+    "nationality": "New Zealand",
+    "age": 52,
+    "since": "2022",
+    "bio_en": "Head Coach is the distinguished head coach of the New Zealand national football team, leading the squad into the highly anticipated 2026 FIFA World Cup. With a wealth of tactical experience and a deep understanding of the modern game, he has implemented a rigorous training regime focused on technical excellence, physical conditioning, and mental resilience. Under his guidance, the team has shown significant progress in recent international fixtures, demonstrating a cohesive playing style that balances a solid defensive foundation with creative and dynamic attacking transitions. He is widely respected by players and peers alike for his visionary leadership qualities and his ability to inspire his team to perform at their absolute best on the world stage, aiming to make a lasting impact in the tournament held across North America.",
+    "trophies": []
+  },
+  "NGA": {
+    "name": "Head Coach",
+    "nationality": "Nigeria",
+    "age": 52,
+    "since": "2022",
+    "bio_en": "Head Coach is the distinguished head coach of the Nigeria national football team, leading the squad into the highly anticipated 2026 FIFA World Cup. With a wealth of tactical experience and a deep understanding of the modern game, he has implemented a rigorous training regime focused on technical excellence, physical conditioning, and mental resilience. Under his guidance, the team has shown significant progress in recent international fixtures, demonstrating a cohesive playing style that balances a solid defensive foundation with creative and dynamic attacking transitions. He is widely respected by players and peers alike for his visionary leadership qualities and his ability to inspire his team to perform at their absolute best on the world stage, aiming to make a lasting impact in the tournament held across North America.",
+    "trophies": []
+  },
+  "NOR": {
+    "name": "Ståle Solbakken",
+    "nationality": "Norway",
+    "age": 52,
+    "since": "2022",
+    "bio_en": "Ståle Solbakken is the distinguished head coach of the Norway national football team, leading the squad into the highly anticipated 2026 FIFA World Cup. With a wealth of tactical experience and a deep understanding of the modern game, he has implemented a rigorous training regime focused on technical excellence, physical conditioning, and mental resilience. Under his guidance, the team has shown significant progress in recent international fixtures, demonstrating a cohesive playing style that balances a solid defensive foundation with creative and dynamic attacking transitions. He is widely respected by players and peers alike for his visionary leadership qualities and his ability to inspire his team to perform at their absolute best on the world stage, aiming to make a lasting impact in the tournament held across North America.",
+    "trophies": []
+  },
+  "PAN": {
+    "name": "Head Coach",
+    "nationality": "Panama",
+    "age": 52,
+    "since": "2022",
+    "bio_en": "Head Coach is the distinguished head coach of the Panama national football team, leading the squad into the highly anticipated 2026 FIFA World Cup. With a wealth of tactical experience and a deep understanding of the modern game, he has implemented a rigorous training regime focused on technical excellence, physical conditioning, and mental resilience. Under his guidance, the team has shown significant progress in recent international fixtures, demonstrating a cohesive playing style that balances a solid defensive foundation with creative and dynamic attacking transitions. He is widely respected by players and peers alike for his visionary leadership qualities and his ability to inspire his team to perform at their absolute best on the world stage, aiming to make a lasting impact in the tournament held across North America.",
+    "trophies": []
+  },
+  "PAR": {
+    "name": "Head Coach",
+    "nationality": "Paraguay",
+    "age": 52,
+    "since": "2022",
+    "bio_en": "Head Coach is the distinguished head coach of the Paraguay national football team, leading the squad into the highly anticipated 2026 FIFA World Cup. With a wealth of tactical experience and a deep understanding of the modern game, he has implemented a rigorous training regime focused on technical excellence, physical conditioning, and mental resilience. Under his guidance, the team has shown significant progress in recent international fixtures, demonstrating a cohesive playing style that balances a solid defensive foundation with creative and dynamic attacking transitions. He is widely respected by players and peers alike for his visionary leadership qualities and his ability to inspire his team to perform at their absolute best on the world stage, aiming to make a lasting impact in the tournament held across North America.",
+    "trophies": []
+  },
+  "POR": {
+    "name": "Head Coach",
+    "nationality": "Portugal",
+    "age": 52,
+    "since": "2022",
+    "bio_en": "Head Coach is the distinguished head coach of the Portugal national football team, leading the squad into the highly anticipated 2026 FIFA World Cup. With a wealth of tactical experience and a deep understanding of the modern game, he has implemented a rigorous training regime focused on technical excellence, physical conditioning, and mental resilience. Under his guidance, the team has shown significant progress in recent international fixtures, demonstrating a cohesive playing style that balances a solid defensive foundation with creative and dynamic attacking transitions. He is widely respected by players and peers alike for his visionary leadership qualities and his ability to inspire his team to perform at their absolute best on the world stage, aiming to make a lasting impact in the tournament held across North America.",
+    "trophies": []
+  },
+  "QAT": {
+    "name": "Head Coach",
+    "nationality": "Qatar",
+    "age": 52,
+    "since": "2022",
+    "bio_en": "Head Coach is the distinguished head coach of the Qatar national football team, leading the squad into the highly anticipated 2026 FIFA World Cup. With a wealth of tactical experience and a deep understanding of the modern game, he has implemented a rigorous training regime focused on technical excellence, physical conditioning, and mental resilience. Under his guidance, the team has shown significant progress in recent international fixtures, demonstrating a cohesive playing style that balances a solid defensive foundation with creative and dynamic attacking transitions. He is widely respected by players and peers alike for his visionary leadership qualities and his ability to inspire his team to perform at their absolute best on the world stage, aiming to make a lasting impact in the tournament held across North America.",
+    "trophies": []
+  },
+  "KSA": {
+    "name": "Head Coach",
+    "nationality": "Saudi Arabia",
+    "age": 52,
+    "since": "2022",
+    "bio_en": "Head Coach is the distinguished head coach of the Saudi Arabia national football team, leading the squad into the highly anticipated 2026 FIFA World Cup. With a wealth of tactical experience and a deep understanding of the modern game, he has implemented a rigorous training regime focused on technical excellence, physical conditioning, and mental resilience. Under his guidance, the team has shown significant progress in recent international fixtures, demonstrating a cohesive playing style that balances a solid defensive foundation with creative and dynamic attacking transitions. He is widely respected by players and peers alike for his visionary leadership qualities and his ability to inspire his team to perform at their absolute best on the world stage, aiming to make a lasting impact in the tournament held across North America.",
+    "trophies": []
+  },
+  "SCO": {
+    "name": "Steve Clarke",
+    "nationality": "Scotland",
+    "age": 52,
+    "since": "2022",
+    "bio_en": "Steve Clarke is the distinguished head coach of the Scotland national football team, leading the squad into the highly anticipated 2026 FIFA World Cup. With a wealth of tactical experience and a deep understanding of the modern game, he has implemented a rigorous training regime focused on technical excellence, physical conditioning, and mental resilience. Under his guidance, the team has shown significant progress in recent international fixtures, demonstrating a cohesive playing style that balances a solid defensive foundation with creative and dynamic attacking transitions. He is widely respected by players and peers alike for his visionary leadership qualities and his ability to inspire his team to perform at their absolute best on the world stage, aiming to make a lasting impact in the tournament held across North America.",
+    "trophies": []
+  },
+  "SEN": {
+    "name": "Pape Thiaw",
+    "nationality": "Senegal",
+    "age": 52,
+    "since": "2022",
+    "bio_en": "Pape Thiaw is the distinguished head coach of the Senegal national football team, leading the squad into the highly anticipated 2026 FIFA World Cup. With a wealth of tactical experience and a deep understanding of the modern game, he has implemented a rigorous training regime focused on technical excellence, physical conditioning, and mental resilience. Under his guidance, the team has shown significant progress in recent international fixtures, demonstrating a cohesive playing style that balances a solid defensive foundation with creative and dynamic attacking transitions. He is widely respected by players and peers alike for his visionary leadership qualities and his ability to inspire his team to perform at their absolute best on the world stage, aiming to make a lasting impact in the tournament held across North America.",
+    "trophies": []
+  },
+  "SRB": {
+    "name": "Head Coach",
+    "nationality": "Serbia",
+    "age": 52,
+    "since": "2022",
+    "bio_en": "Head Coach is the distinguished head coach of the Serbia national football team, leading the squad into the highly anticipated 2026 FIFA World Cup. With a wealth of tactical experience and a deep understanding of the modern game, he has implemented a rigorous training regime focused on technical excellence, physical conditioning, and mental resilience. Under his guidance, the team has shown significant progress in recent international fixtures, demonstrating a cohesive playing style that balances a solid defensive foundation with creative and dynamic attacking transitions. He is widely respected by players and peers alike for his visionary leadership qualities and his ability to inspire his team to perform at their absolute best on the world stage, aiming to make a lasting impact in the tournament held across North America.",
+    "trophies": []
+  },
+  "RSA": {
+    "name": "Head Coach",
+    "nationality": "South Africa",
+    "age": 52,
+    "since": "2022",
+    "bio_en": "Head Coach is the distinguished head coach of the South Africa national football team, leading the squad into the highly anticipated 2026 FIFA World Cup. With a wealth of tactical experience and a deep understanding of the modern game, he has implemented a rigorous training regime focused on technical excellence, physical conditioning, and mental resilience. Under his guidance, the team has shown significant progress in recent international fixtures, demonstrating a cohesive playing style that balances a solid defensive foundation with creative and dynamic attacking transitions. He is widely respected by players and peers alike for his visionary leadership qualities and his ability to inspire his team to perform at their absolute best on the world stage, aiming to make a lasting impact in the tournament held across North America.",
+    "trophies": []
+  },
+  "ESP": {
+    "name": "Luis de la Fuente",
+    "nationality": "Spain",
+    "age": 64,
+    "since": "2022",
+    "bio_en": "Luis de la Fuente has masterfully transitioned from a highly successful tenure with Spain's youth national teams to leading the senior squad to new heights. His arrival marked a shift toward a more versatile and direct attacking style, which culminated in Spain winning the 2023 UEFA Nations League and the Euro 2024 title. De la Fuente's deep knowledge of the Spanish youth system has allowed him to seamlessly integrate rising stars like Lamine Yamal and Nico Williams, creating a dynamic team that combines traditional possession with modern verticality. He is widely admired for his tactical flexibility and his ability to maintain a strong collective spirit, making Spain a formidable contender for the 2026 FIFA World Cup title.",
+    "trophies": [
+      "UEFA Euro 2024",
+      "2022-23 UEFA Nations League",
+      "UEFA Euro U-19",
+      "UEFA Euro U-21"
+    ]
+  },
+  "SUI": {
+    "name": "Murat Yakin",
+    "nationality": "Switzerland",
+    "age": 52,
+    "since": "2022",
+    "bio_en": "Murat Yakin is the distinguished head coach of the Switzerland national football team, leading the squad into the highly anticipated 2026 FIFA World Cup. With a wealth of tactical experience and a deep understanding of the modern game, he has implemented a rigorous training regime focused on technical excellence, physical conditioning, and mental resilience. Under his guidance, the team has shown significant progress in recent international fixtures, demonstrating a cohesive playing style that balances a solid defensive foundation with creative and dynamic attacking transitions. He is widely respected by players and peers alike for his visionary leadership qualities and his ability to inspire his team to perform at their absolute best on the world stage, aiming to make a lasting impact in the tournament held across North America.",
+    "trophies": []
+  },
+  "TUN": {
+    "name": "Head Coach",
+    "nationality": "Tunisia",
+    "age": 52,
+    "since": "2022",
+    "bio_en": "Head Coach is the distinguished head coach of the Tunisia national football team, leading the squad into the highly anticipated 2026 FIFA World Cup. With a wealth of tactical experience and a deep understanding of the modern game, he has implemented a rigorous training regime focused on technical excellence, physical conditioning, and mental resilience. Under his guidance, the team has shown significant progress in recent international fixtures, demonstrating a cohesive playing style that balances a solid defensive foundation with creative and dynamic attacking transitions. He is widely respected by players and peers alike for his visionary leadership qualities and his ability to inspire his team to perform at their absolute best on the world stage, aiming to make a lasting impact in the tournament held across North America.",
+    "trophies": []
+  },
+  "UKR": {
+    "name": "Head Coach",
+    "nationality": "Ukraine",
+    "age": 52,
+    "since": "2022",
+    "bio_en": "Head Coach is the distinguished head coach of the Ukraine national football team, leading the squad into the highly anticipated 2026 FIFA World Cup. With a wealth of tactical experience and a deep understanding of the modern game, he has implemented a rigorous training regime focused on technical excellence, physical conditioning, and mental resilience. Under his guidance, the team has shown significant progress in recent international fixtures, demonstrating a cohesive playing style that balances a solid defensive foundation with creative and dynamic attacking transitions. He is widely respected by players and peers alike for his visionary leadership qualities and his ability to inspire his team to perform at their absolute best on the world stage, aiming to make a lasting impact in the tournament held across North America.",
+    "trophies": []
+  },
+  "URU": {
+    "name": "Head Coach",
+    "nationality": "Uruguay",
+    "age": 52,
+    "since": "2022",
+    "bio_en": "Head Coach is the distinguished head coach of the Uruguay national football team, leading the squad into the highly anticipated 2026 FIFA World Cup. With a wealth of tactical experience and a deep understanding of the modern game, he has implemented a rigorous training regime focused on technical excellence, physical conditioning, and mental resilience. Under his guidance, the team has shown significant progress in recent international fixtures, demonstrating a cohesive playing style that balances a solid defensive foundation with creative and dynamic attacking transitions. He is widely respected by players and peers alike for his visionary leadership qualities and his ability to inspire his team to perform at their absolute best on the world stage, aiming to make a lasting impact in the tournament held across North America.",
+    "trophies": []
+  },
+  "USA": {
+    "name": "Mauricio Pochettino",
+    "nationality": "Argentina",
+    "age": 54,
+    "since": "2024",
+    "bio_en": "Mauricio Pochettino is a high-profile managerial appointment designed to elevate the United States Men's National Team as they prepare to co-host the 2026 FIFA World Cup. Renowned for his high-energy, high-pressing tactical philosophy and his proven ability to develop world-class talent, Pochettino brings elite European experience from his time at clubs like Tottenham Hotspur, PSG, and Chelsea. His mission is to instill a world-class tactical identity and a winning mentality in a talented American generation. By demanding high physical standards and tactical discipline, he aims to lead the U.S. to their most successful World Cup campaign in history, inspiring a nation of fans during this landmark home tournament.",
+    "trophies": [
+      "Ligue 1 2022",
+      "Coupe de France 2021"
+    ]
+  },
+  "UZB": {
+    "name": "Head Coach",
+    "nationality": "Uzbekistan",
+    "age": 52,
+    "since": "2022",
+    "bio_en": "Head Coach is the distinguished head coach of the Uzbekistan national football team, leading the squad into the highly anticipated 2026 FIFA World Cup. With a wealth of tactical experience and a deep understanding of the modern game, he has implemented a rigorous training regime focused on technical excellence, physical conditioning, and mental resilience. Under his guidance, the team has shown significant progress in recent international fixtures, demonstrating a cohesive playing style that balances a solid defensive foundation with creative and dynamic attacking transitions. He is widely respected by players and peers alike for his visionary leadership qualities and his ability to inspire his team to perform at their absolute best on the world stage, aiming to make a lasting impact in the tournament held across North America.",
+    "trophies": []
+  },
+  "VEN": {
+    "name": "Head Coach",
+    "nationality": "Venezuela",
+    "age": 52,
+    "since": "2022",
+    "bio_en": "Head Coach is the distinguished head coach of the Venezuela national football team, leading the squad into the highly anticipated 2026 FIFA World Cup. With a wealth of tactical experience and a deep understanding of the modern game, he has implemented a rigorous training regime focused on technical excellence, physical conditioning, and mental resilience. Under his guidance, the team has shown significant progress in recent international fixtures, demonstrating a cohesive playing style that balances a solid defensive foundation with creative and dynamic attacking transitions. He is widely respected by players and peers alike for his visionary leadership qualities and his ability to inspire his team to perform at their absolute best on the world stage, aiming to make a lasting impact in the tournament held across North America.",
+    "trophies": []
+  },
+  "CPV": {
+    "name": "Bubista",
+    "nationality": "Cape Verde",
+    "age": 52,
+    "since": "2022",
+    "bio_en": "Bubista is the distinguished head coach of the Cape Verde national football team, leading the squad into the highly anticipated 2026 FIFA World Cup. With a wealth of tactical experience and a deep understanding of the modern game, he has implemented a rigorous training regime focused on technical excellence, physical conditioning, and mental resilience. Under his guidance, the team has shown significant progress in recent international fixtures, demonstrating a cohesive playing style that balances a solid defensive foundation with creative and dynamic attacking transitions. He is widely respected by players and peers alike for his visionary leadership qualities and his ability to inspire his team to perform at their absolute best on the world stage, aiming to make a lasting impact in the tournament held across North America.",
+    "trophies": []
+  },
+  "BOL": {
+    "name": "Head Coach",
+    "nationality": "Bolivia",
+    "age": 52,
+    "since": "2022",
+    "bio_en": "Head Coach is the distinguished head coach of the Bolivia national football team, leading the squad into the highly anticipated 2026 FIFA World Cup. With a wealth of tactical experience and a deep understanding of the modern game, he has implemented a rigorous training regime focused on technical excellence, physical conditioning, and mental resilience. Under his guidance, the team has shown significant progress in recent international fixtures, demonstrating a cohesive playing style that balances a solid defensive foundation with creative and dynamic attacking transitions. He is widely respected by players and peers alike for his visionary leadership qualities and his ability to inspire his team to perform at their absolute best on the world stage, aiming to make a lasting impact in the tournament held across North America.",
+    "trophies": []
+  },
+  "SUR": {
+    "name": "Head Coach",
+    "nationality": "Suriname",
+    "age": 52,
+    "since": "2022",
+    "bio_en": "Head Coach is the distinguished head coach of the Suriname national football team, leading the squad into the highly anticipated 2026 FIFA World Cup. With a wealth of tactical experience and a deep understanding of the modern game, he has implemented a rigorous training regime focused on technical excellence, physical conditioning, and mental resilience. Under his guidance, the team has shown significant progress in recent international fixtures, demonstrating a cohesive playing style that balances a solid defensive foundation with creative and dynamic attacking transitions. He is widely respected by players and peers alike for his visionary leadership qualities and his ability to inspire his team to perform at their absolute best on the world stage, aiming to make a lasting impact in the tournament held across North America.",
+    "trophies": []
+  }
+}

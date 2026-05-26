@@ -1,0 +1,37 @@
+{
+  "_meta": {
+    "mode": "preview",
+    "generated_at": "2026-05-25",
+    "description": "Pre-tournament placeholder rankings. Replaced by real goalscorer data once the tournament begins.",
+    "sources": [
+      "ESPN 2026 World Cup Power Rankings (30 days out)",
+      "FOX Sports Alexi Lalas Power Rankings",
+      "Rotowire 2026 Golden Boot Odds",
+      "FIFA official tournament hub"
+    ]
+  },
+  "top_players": [
+    { "rank": 1, "name": "Kylian Mbappé", "country_code": "FRA", "country_name": "France", "club": "Real Madrid", "position": "FW", "tag": "golden_boot_favourite" },
+    { "rank": 2, "name": "Erling Haaland", "country_code": "NOR", "country_name": "Norway", "club": "Manchester City", "position": "FW", "tag": "wc_debut" },
+    { "rank": 3, "name": "Harry Kane", "country_code": "ENG", "country_name": "England", "club": "Bayern Munich", "position": "FW", "tag": "former_golden_boot" },
+    { "rank": 4, "name": "Lionel Messi", "country_code": "ARG", "country_name": "Argentina", "club": "Inter Miami", "position": "FW", "tag": "defending_champion" },
+    { "rank": 5, "name": "Lamine Yamal", "country_code": "ESP", "country_name": "Spain", "club": "FC Barcelona", "position": "FW", "tag": "rising_star" },
+    { "rank": 6, "name": "Vinícius Júnior", "country_code": "BRA", "country_name": "Brazil", "club": "Real Madrid", "position": "FW", "tag": "ballon_dor_contender" },
+    { "rank": 7, "name": "Jude Bellingham", "country_code": "ENG", "country_name": "England", "club": "Real Madrid", "position": "MF", "tag": "complete_midfielder" },
+    { "rank": 8, "name": "Cristiano Ronaldo", "country_code": "POR", "country_name": "Portugal", "club": "Al Nassr", "position": "FW", "tag": "sixth_world_cup" },
+    { "rank": 9, "name": "Julián Álvarez", "country_code": "ARG", "country_name": "Argentina", "club": "Atlético Madrid", "position": "FW", "tag": "clinical_finisher" },
+    { "rank": 10, "name": "Christian Pulisic", "country_code": "USA", "country_name": "United States", "club": "AC Milan", "position": "FW", "tag": "host_nation_star" }
+  ],
+  "top_teams": [
+    { "rank": 1, "country_code": "ESP", "country_name": "Spain", "tag": "euro_2024_champion" },
+    { "rank": 2, "country_code": "FRA", "country_name": "France", "tag": "world_no1" },
+    { "rank": 3, "country_code": "ARG", "country_name": "Argentina", "tag": "defending_champion" },
+    { "rank": 4, "country_code": "ENG", "country_name": "England", "tag": "golden_generation" },
+    { "rank": 5, "country_code": "BRA", "country_name": "Brazil", "tag": "title_contender" },
+    { "rank": 6, "country_code": "POR", "country_name": "Portugal", "tag": "perfect_qualifying" },
+    { "rank": 7, "country_code": "GER", "country_name": "Germany", "tag": "tournament_dna" },
+    { "rank": 8, "country_code": "NOR", "country_name": "Norway", "tag": "dark_horse" },
+    { "rank": 9, "country_code": "SEN", "country_name": "Senegal", "tag": "africa_leader" },
+    { "rank": 10, "country_code": "USA", "country_name": "United States", "tag": "host_nation" }
+  ]
+}

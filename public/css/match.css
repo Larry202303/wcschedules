@@ -1,0 +1,294 @@
+/* ============================================
+   MATCH DETAIL PAGE STYLES
+   ============================================ */
+/* Overrides the global main { padding: 32px 0 60px } – keeps just enough
+   breathing room from the header without leaving a giant empty band. */
+.md-main { padding: 12px 0 60px; }
+
+/* Detail page sections — override the global section { margin: 32px 0 }
+   so the very first section (hero) sits right under the back-link. */
+.md-main > .md-back + .md-section,
+.md-main > .md-back + .md-hero { margin-top: 4px; }
+.md-main > .md-section + .md-section { margin-top: 32px; }
+.md-main > .md-hero + .md-section { margin-top: 32px; }
+
+.md-back {
+  display: inline-block;
+  margin: 0 0 12px;
+  color: var(--text-secondary, #94a3b8);
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+}
+.md-back:hover { color: var(--accent-1, #818cf8); }
+
+.md-loading, .md-error { padding: 80px 0; text-align: center; color: var(--text-secondary); }
+.md-error h2 { color: var(--text-primary); margin-bottom: 12px; }
+
+/* ============================================
+   HERO
+   ============================================ */
+.md-hero {
+  background: var(--bg-card, #1e293b);
+  border-radius: var(--radius-lg, 16px);
+  padding: 32px 24px;
+  margin-bottom: 28px;
+  border: 1px solid var(--border, #334155);
+}
+
+.md-stage {
+  text-align: center;
+  font-size: 13px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--accent-1, #818cf8);
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+
+.md-vs-row {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  gap: 16px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.md-team { text-align: center; }
+.md-flag { font-size: 64px; line-height: 1; margin-bottom: 8px; }
+.md-team-name { font-size: 22px; font-weight: 700; color: var(--text-primary); }
+.md-team-code { font-size: 12px; color: var(--text-secondary); letter-spacing: 0.1em; margin-top: 4px; }
+
+.md-score { text-align: center; min-width: 140px; }
+.md-score-display .md-vs {
+  font-size: 32px;
+  font-weight: 800;
+  background: linear-gradient(135deg, #818cf8 0%, #c084fc 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.md-kickoff {
+  margin-top: 8px;
+  font-size: 17px;
+  font-weight: 600;
+  color: var(--text-secondary);
+  line-height: 1.5;
+}
+.md-kick-label { font-size: 11px; text-transform: uppercase; letter-spacing: 0.08em; font-weight: 500; }
+.md-kickoff strong { font-size: 19px; color: var(--text-primary); display: inline-block; margin-top: 4px; }
+
+.md-venue {
+  text-align: center;
+  padding-top: 16px;
+  border-top: 1px solid var(--border);
+  color: var(--text-secondary);
+  font-size: 16px;
+}
+.md-venue strong { font-size: 17px; color: var(--text-primary); }
+
+/* ============================================
+   SECTION
+   ============================================ */
+.md-section {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 24px;
+  margin-bottom: 20px;
+}
+.md-section h2 {
+  font-size: 18px;
+  margin: 0 0 16px;
+  color: var(--text-primary);
+}
+
+/* ============================================
+   LIVE ODDS
+   ============================================ */
+.md-odds-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 12px;
+  margin-bottom: 16px;
+}
+.md-odds-card {
+  background: rgba(129, 140, 248, 0.08);
+  border: 1px solid rgba(129, 140, 248, 0.2);
+  border-radius: 12px;
+  padding: 16px 12px;
+  text-align: center;
+}
+.md-odds-name { font-size: 13px; color: var(--text-secondary); margin-bottom: 8px; }
+.md-odds-pct {
+  font-size: 28px;
+  font-weight: 800;
+  color: var(--accent-1, #818cf8);
+  line-height: 1.1;
+}
+.md-odds-price { font-size: 12px; color: var(--text-secondary); margin-top: 4px; }
+.md-odds-foot { font-size: 11px; color: var(--text-secondary); text-align: right; margin: 8px 0 12px; }
+.md-odds-loading, .md-odds-na { color: var(--text-secondary); font-size: 14px; text-align: center; padding: 16px 0; }
+
+.md-cta {
+  display: inline-block;
+  background: linear-gradient(135deg, #818cf8 0%, #c084fc 100%);
+  color: white !important;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+/* ============================================
+   ODDS SPARKLINE CHART
+   ============================================ */
+.md-odds-chart { margin: 16px 0 8px; }
+.md-odds-chart-title {
+  font-size: 12px;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.md-odds-chart svg {
+  width: 100%;
+  height: 200px;
+  display: block;
+  background: rgba(0,0,0,0.2);
+  border-radius: 12px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.md-odds-chart-legend {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 10px;
+  flex-wrap: wrap;
+  font-size: 12px;
+  color: var(--text-secondary);
+}
+.md-odds-chart-legend-item { display: inline-flex; align-items: center; gap: 6px; }
+.md-odds-chart-legend-dot { width: 12px; height: 3px; border-radius: 2px; }
+.md-odds-chart-empty {
+  text-align: center;
+  font-size: 12px;
+  color: var(--text-muted);
+  padding: 20px 0;
+}
+
+/* ============================================
+   PREVIEW
+   ============================================ */
+.md-preview-grid {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  gap: 16px;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.md-preview-card {
+  text-align: center;
+  padding: 16px;
+  background: rgba(255,255,255,0.03);
+  border-radius: 12px;
+}
+.md-prev-flag { font-size: 40px; margin-bottom: 8px; }
+.md-prev-name { font-weight: 700; color: var(--text-primary); margin-bottom: 6px; }
+.md-prev-meta { font-size: 12px; color: var(--text-secondary); margin: 2px 0; }
+.md-preview-vs { font-size: 18px; color: var(--text-secondary); font-weight: 700; }
+.md-preview-text { color: var(--text-secondary); line-height: 1.6; font-size: 14px; }
+
+/* Rich preview blocks (head-to-head / form / what-to-expect) */
+.md-preview-blocks { margin-top: 8px; }
+.md-preview-block { margin-top: 18px; }
+.md-preview-block h4 {
+  font-family: var(--font-display);
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--accent-3, #22d3ee);
+  margin-bottom: 8px;
+}
+.md-preview-block p { color: var(--text-secondary); line-height: 1.7; font-size: 14.5px; }
+.md-preview-sources {
+  margin-top: 16px;
+  font-size: 11px;
+  color: var(--text-muted);
+}
+.md-preview-sources a { color: var(--text-muted); text-decoration: underline; margin-right: 8px; }
+
+/* ============================================
+   COACHES
+   ============================================ */
+.md-coaches {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+.md-coach-card {
+  display: flex;
+  gap: 14px;
+  padding: 16px;
+  background: rgba(255,255,255,0.03);
+  border-radius: 12px;
+}
+.md-coach-flag { font-size: 36px; flex-shrink: 0; }
+.md-coach-info h3 { margin: 0 0 6px; font-size: 16px; color: var(--text-primary); }
+.md-coach-meta {
+  display: flex; gap: 12px;
+  font-size: 12px; color: var(--text-secondary);
+  margin-bottom: 8px;
+}
+.md-coach-bio { font-size: 13px; color: var(--text-secondary); line-height: 1.55; margin: 6px 0; }
+.md-trophies { font-size: 12px; color: #fbbf24; margin-top: 6px; }
+.md-empty { color: var(--text-secondary); font-style: italic; font-size: 13px; }
+
+/* ============================================
+   SQUADS
+   ============================================ */
+.md-squads {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.md-squad-col h3 { font-size: 15px; margin: 0 0 12px; color: var(--text-primary); }
+.md-pos-group { margin-bottom: 16px; }
+.md-pos-group h4 {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--accent-1, #818cf8);
+  margin: 0 0 8px;
+}
+.md-pos-group ul { list-style: none; padding: 0; margin: 0; }
+.md-pos-group li {
+  font-size: 13px;
+  padding: 6px 0;
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+  color: var(--text-primary);
+  display: flex; flex-wrap: wrap; gap: 6px; align-items: baseline;
+}
+.md-num { display: inline-block; min-width: 28px; color: var(--text-secondary); font-weight: 600; font-size: 12px; }
+.md-club { color: var(--text-secondary); font-size: 12px; }
+.md-stats { color: var(--text-secondary); font-size: 11px; margin-left: auto; }
+.md-captain { color: #fbbf24; font-size: 11px; font-weight: 700; }
+
+/* ============================================
+   MOBILE
+   ============================================ */
+@media (max-width: 700px) {
+  .md-vs-row { grid-template-columns: 1fr; gap: 12px; }
+  .md-coaches, .md-squads, .md-preview-grid { grid-template-columns: 1fr; }
+  .md-preview-vs { display: none; }
+  .md-flag { font-size: 48px; }
+  .md-team-name { font-size: 18px; }
+}
+
+/* RTL */
+html[dir="rtl"] .md-stats { margin-left: 0; margin-right: auto; }
+html[dir="rtl"] .md-back { direction: rtl; }
