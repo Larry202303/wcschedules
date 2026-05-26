@@ -1,10 +1,11 @@
 {
   "outputDirectory": "public",
-  "cleanUrls": true,
+  "cleanUrls": false,
   "trailingSlash": false,
   "rewrites": [
-    { "source": "/match/:slug", "destination": "/match.html" },
-    { "source": "/group/:slug", "destination": "/group.html" },
+    { "source": "/match/:slug", "destination": "/match.html?id=:slug" },
+    { "source": "/group/:slug", "destination": "/group.html?group=:slug" },
+    { "source": "/schedule/:lang/", "destination": "/schedule/:lang/index.html" },
     { "source": "/schedule/:lang", "destination": "/schedule/:lang/index.html" }
   ],
   "headers": [
