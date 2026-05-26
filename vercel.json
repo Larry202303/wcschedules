@@ -1,12 +1,20 @@
 {
+  "outputDirectory": "public",
   "cleanUrls": true,
   "trailingSlash": false,
   "rewrites": [
-    { "source": "/match/:slug", "destination": "/match.html?id=:slug" },
-    { "source": "/team/:slug", "destination": "/team.html?id=:slug" },
-    { "source": "/stadium/:slug", "destination": "/stadium.html?id=:slug" }
+    { "source": "/match/:slug", "destination": "/match.html" },
+    { "source": "/group/:slug", "destination": "/group.html" },
+    { "source": "/schedule/:lang", "destination": "/schedule/:lang/index.html" }
   ],
   "headers": [
+    {
+      "source": "/api/(.*)",
+      "headers": [
+        { "key": "Access-Control-Allow-Origin", "value": "*" },
+        { "key": "Cache-Control", "value": "s-maxage=120, stale-while-revalidate" }
+      ]
+    },
     {
       "source": "/(.*)",
       "headers": [
