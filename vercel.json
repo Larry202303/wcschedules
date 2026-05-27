@@ -3,25 +3,56 @@
   "cleanUrls": false,
   "trailingSlash": false,
   "rewrites": [
-    { "source": "/match/:slug", "destination": "/match/:slug/index.html" },
-    { "source": "/group/:slug", "destination": "/group.html?group=:slug" },
-    { "source": "/schedule/:lang/", "destination": "/schedule/:lang/index.html" },
-    { "source": "/schedule/:lang", "destination": "/schedule/:lang/index.html" }
+    {
+      "source": "/teams/:slug",
+      "destination": "/teams/:slug/index.html"
+    },
+    {
+      "source": "/match/:slug",
+      "destination": "/match/:slug/index.html"
+    },
+    {
+      "source": "/group/:slug",
+      "destination": "/group.html?group=:slug"
+    },
+    {
+      "source": "/schedule/:lang/",
+      "destination": "/schedule/:lang/index.html"
+    },
+    {
+      "source": "/schedule/:lang",
+      "destination": "/schedule/:lang/index.html"
+    }
   ],
   "headers": [
     {
       "source": "/api/(.*)",
       "headers": [
-        { "key": "Access-Control-Allow-Origin", "value": "*" },
-        { "key": "Cache-Control", "value": "s-maxage=120, stale-while-revalidate" }
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "s-maxage=120, stale-while-revalidate"
+        }
       ]
     },
     {
       "source": "/(.*)",
       "headers": [
-        { "key": "X-Content-Type-Options", "value": "nosniff" },
-        { "key": "X-Frame-Options", "value": "DENY" },
-        { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" }
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "DENY"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        }
       ]
     }
   ]
