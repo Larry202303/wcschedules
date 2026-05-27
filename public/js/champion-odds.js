@@ -53,11 +53,14 @@
         const flag = flagFor(m.team);
         const medal = MEDAL[i] || `<span class="co-rank">${i + 1}</span>`;
         const pct = typeof m.prob_pct === "number" ? m.prob_pct : Math.round(m.prob * 1000) / 10;
+        // Find team code from name to build slug
+        const teamObj = teamsData && teamsData.find(t => t.name_en && t.name_en.toLowerCase() === m.team.toLowerCase());
+        const slug = teamObj ? teamObj.name_en.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/, '') : m.team.toLowerCase().replace(/[^a-z0-9]+/g, '-');
         return `
           <li class="co-row">
             <span class="co-medal">${medal}</span>
             <span class="co-flag">${flag}</span>
-            <span class="co-name">${escapeHtml(m.team)}</span>
+            <a href="/teams/${slug}" class="co-name" style="color:inherit;text-decoration:none">${escapeHtml(m.team)}</a>
             <span class="co-right">
               ${probBar(pct)}
               <span class="co-pct">${pct}%</span>
