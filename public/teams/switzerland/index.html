@@ -42,6 +42,8 @@
     .back-link{display:inline-block;margin-bottom:1rem;color:#4ade80;text-decoration:none;font-size:.9rem}
     .back-link:hover{text-decoration:underline}
   </style>
+
+    <style>.header-team-btn,.header-cta{display:none!important}</style>
 </head>
 <body>
   <nav class="top-nav" id="top-nav" role="navigation" aria-label="Main navigation">
@@ -131,7 +133,7 @@
     // i18n team name
     const TEAM_NAMES = {"en": "Switzerland", "zh-CN": "瑞士", "zh-TW": "瑞士", "es": "Suiza", "pt": "Suíça", "ja": "スイス", "ko": "스위스", "ru": "Швейцария", "ar": "سويسرا", "id": "Swiss", "fr": "Switzerland", "th": "Switzerland", "vi": "Switzerland", "tr": "Switzerland", "fa": "Switzerland"};
     function applyTeamLang() {
-      const lang = (window.STATE && window.STATE.lang) || 'en';
+      const lang = document.documentElement.lang || (window.STATE && window.STATE.lang) || 'en';
       const name = TEAM_NAMES[lang] || TEAM_NAMES['en'];
       const el = document.getElementById('team-name-el');
       if (el) el.textContent = name;

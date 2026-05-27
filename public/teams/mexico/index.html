@@ -42,6 +42,8 @@
     .back-link{display:inline-block;margin-bottom:1rem;color:#4ade80;text-decoration:none;font-size:.9rem}
     .back-link:hover{text-decoration:underline}
   </style>
+
+    <style>.header-team-btn,.header-cta{display:none!important}</style>
 </head>
 <body>
   <nav class="top-nav" id="top-nav" role="navigation" aria-label="Main navigation">
@@ -131,7 +133,7 @@
     // i18n team name
     const TEAM_NAMES = {"en": "Mexico", "zh-CN": "墨西哥", "zh-TW": "墨西哥", "es": "México", "pt": "México", "ja": "メキシコ", "ko": "멕시코", "ru": "Мексика", "ar": "المكسيك", "id": "Meksiko", "fr": "Mexico", "th": "Mexico", "vi": "Mexico", "tr": "Mexico", "fa": "Mexico"};
     function applyTeamLang() {
-      const lang = (window.STATE && window.STATE.lang) || 'en';
+      const lang = document.documentElement.lang || (window.STATE && window.STATE.lang) || 'en';
       const name = TEAM_NAMES[lang] || TEAM_NAMES['en'];
       const el = document.getElementById('team-name-el');
       if (el) el.textContent = name;

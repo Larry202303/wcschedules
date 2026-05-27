@@ -665,7 +665,7 @@ function bindEvents() {
 
     // Group card click → navigate to group detail page
     const groupCard = e.target.closest(".group-card-clickable");
-    if (groupCard && !e.target.closest("a")) {
+    if (groupCard && !e.target.closest("a[href^='/teams/']")) {
       navigateToGroup(groupCard.dataset.group);
     }
   });

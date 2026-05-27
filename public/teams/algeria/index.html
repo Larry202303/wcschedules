@@ -42,6 +42,8 @@
     .back-link{display:inline-block;margin-bottom:1rem;color:#4ade80;text-decoration:none;font-size:.9rem}
     .back-link:hover{text-decoration:underline}
   </style>
+
+    <style>.header-team-btn,.header-cta{display:none!important}</style>
 </head>
 <body>
   <nav class="top-nav" id="top-nav" role="navigation" aria-label="Main navigation">
@@ -110,7 +112,7 @@
     // i18n team name
     const TEAM_NAMES = {"en": "Algeria", "zh-CN": "Algeria", "zh-TW": "Algeria", "es": "Algeria", "pt": "Algeria", "ja": "Algeria", "ko": "Algeria", "ru": "Algeria", "ar": "Algeria", "id": "Algeria", "fr": "Algeria", "th": "Algeria", "vi": "Algeria", "tr": "Algeria", "fa": "Algeria"};
     function applyTeamLang() {
-      const lang = (window.STATE && window.STATE.lang) || 'en';
+      const lang = document.documentElement.lang || (window.STATE && window.STATE.lang) || 'en';
       const name = TEAM_NAMES[lang] || TEAM_NAMES['en'];
       const el = document.getElementById('team-name-el');
       if (el) el.textContent = name;

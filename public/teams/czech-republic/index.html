@@ -42,6 +42,8 @@
     .back-link{display:inline-block;margin-bottom:1rem;color:#4ade80;text-decoration:none;font-size:.9rem}
     .back-link:hover{text-decoration:underline}
   </style>
+
+    <style>.header-team-btn,.header-cta{display:none!important}</style>
 </head>
 <body>
   <nav class="top-nav" id="top-nav" role="navigation" aria-label="Main navigation">
@@ -110,7 +112,7 @@
     // i18n team name
     const TEAM_NAMES = {"en": "Czech Republic", "zh-CN": "Czech Republic", "zh-TW": "Czech Republic", "es": "Czech Republic", "pt": "Czech Republic", "ja": "Czech Republic", "ko": "Czech Republic", "ru": "Czech Republic", "ar": "Czech Republic", "id": "Czech Republic", "fr": "Czech Republic", "th": "Czech Republic", "vi": "Czech Republic", "tr": "Czech Republic", "fa": "Czech Republic"};
     function applyTeamLang() {
-      const lang = (window.STATE && window.STATE.lang) || 'en';
+      const lang = document.documentElement.lang || (window.STATE && window.STATE.lang) || 'en';
       const name = TEAM_NAMES[lang] || TEAM_NAMES['en'];
       const el = document.getElementById('team-name-el');
       if (el) el.textContent = name;

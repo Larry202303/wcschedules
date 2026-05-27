@@ -42,6 +42,8 @@
     .back-link{display:inline-block;margin-bottom:1rem;color:#4ade80;text-decoration:none;font-size:.9rem}
     .back-link:hover{text-decoration:underline}
   </style>
+
+    <style>.header-team-btn,.header-cta{display:none!important}</style>
 </head>
 <body>
   <nav class="top-nav" id="top-nav" role="navigation" aria-label="Main navigation">
@@ -119,7 +121,7 @@
     // i18n team name
     const TEAM_NAMES = {"en": "Australia", "zh-CN": "澳大利亚", "zh-TW": "澳洲", "es": "Australia", "pt": "Austrália", "ja": "オーストラリア", "ko": "호주", "ru": "Австралия", "ar": "أستراليا", "id": "Australia", "fr": "Australia", "th": "Australia", "vi": "Australia", "tr": "Australia", "fa": "Australia"};
     function applyTeamLang() {
-      const lang = (window.STATE && window.STATE.lang) || 'en';
+      const lang = document.documentElement.lang || (window.STATE && window.STATE.lang) || 'en';
       const name = TEAM_NAMES[lang] || TEAM_NAMES['en'];
       const el = document.getElementById('team-name-el');
       if (el) el.textContent = name;

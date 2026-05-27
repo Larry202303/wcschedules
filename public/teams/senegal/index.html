@@ -42,6 +42,8 @@
     .back-link{display:inline-block;margin-bottom:1rem;color:#4ade80;text-decoration:none;font-size:.9rem}
     .back-link:hover{text-decoration:underline}
   </style>
+
+    <style>.header-team-btn,.header-cta{display:none!important}</style>
 </head>
 <body>
   <nav class="top-nav" id="top-nav" role="navigation" aria-label="Main navigation">
@@ -131,7 +133,7 @@
     // i18n team name
     const TEAM_NAMES = {"en": "Senegal", "zh-CN": "塞内加尔", "zh-TW": "塞內加爾", "es": "Senegal", "pt": "Senegal", "ja": "セネガル", "ko": "세네갈", "ru": "Сенегал", "ar": "السنغال", "id": "Senegal", "fr": "Senegal", "th": "Senegal", "vi": "Senegal", "tr": "Senegal", "fa": "Senegal"};
     function applyTeamLang() {
-      const lang = (window.STATE && window.STATE.lang) || 'en';
+      const lang = document.documentElement.lang || (window.STATE && window.STATE.lang) || 'en';
       const name = TEAM_NAMES[lang] || TEAM_NAMES['en'];
       const el = document.getElementById('team-name-el');
       if (el) el.textContent = name;
