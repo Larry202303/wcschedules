@@ -2,14 +2,17 @@
   "coaches": {
     "ARG": {
       "name": {
+        "en": "Lionel Scaloni",
         "zh-CN": "利昂内尔·斯卡洛尼",
-        "zh-TW": "里奧內爾·史卡洛尼",
+        "zh-TW": "萊昂內爾·斯卡洛尼",
         "es": "Lionel Scaloni",
         "pt": "Lionel Scaloni",
         "ja": "リオネル・スカローニ",
         "ko": "리오넬 스칼로니",
         "ru": "Лионель Скалони",
         "ar": "ليونيل سكالوني",
+        "fr": "Lionel Scaloni",
+        "de": "Lionel Scaloni",
         "id": "Lionel Scaloni"
       },
       "bio": {
@@ -82,15 +85,18 @@
     },
     "AUT": {
       "name": {
-        "zh-CN": "主教练",
-        "zh-TW": "主教練",
-        "es": "Entrenador Principal",
-        "pt": "Treinador Principal",
-        "ja": "ヘッドコーチ",
-        "ko": "헤드 코치",
-        "ru": "Главный тренер",
-        "ar": "المدير الفني",
-        "id": "Pelatih Kepala"
+        "en": "Ralf Rangnick",
+        "zh-CN": "拉尔夫·朗尼克",
+        "zh-TW": "拉爾夫·朗尼克",
+        "es": "Ralf Rangnick",
+        "pt": "Ralf Rangnick",
+        "ja": "ラルフ・ラングニック",
+        "ko": "랄프 랑니크",
+        "ru": "Ральф Рангник",
+        "ar": "رالف رانيك",
+        "fr": "Ralf Rangnick",
+        "de": "Ralf Rangnick",
+        "id": "Ralf Rangnick"
       },
       "bio": {
         "zh-CN": "作为奥地利国家男子足球队的主教练，他正带领球队全力备战备受期待的2026年FIFA世界杯。凭借丰富的战术经验和对现代足球的深刻理解，他实施了严格的训练计划，专注于技术卓越、体能强化和心理韧性。在他的指导下，球队在近期国际比赛中取得了显著进步，展现出稳固防守与创意反击并重的凝聚力打法。他的远见卓识和激励球员发挥最佳水平的能力深受敬佩，目标是在北美的赛场上留下深远影响。",
@@ -117,15 +123,18 @@
     },
     "AUS": {
       "name": {
-        "zh-CN": "主教练",
-        "zh-TW": "主教練",
-        "es": "Entrenador Principal",
-        "pt": "Treinador Principal",
-        "ja": "ヘッドコーチ",
-        "ko": "헤드 코치",
-        "ru": "Главный тренер",
-        "ar": "المدير الفني",
-        "id": "Pelatih Kepala"
+        "en": "Tony Popovic",
+        "zh-CN": "托尼·波波维奇",
+        "zh-TW": "托尼·波波維奇",
+        "es": "Tony Popovic",
+        "pt": "Tony Popovic",
+        "ja": "トニー・ポポビッチ",
+        "ko": "토니 포포비치",
+        "ru": "Тони Попович",
+        "ar": "توني بوبوفيتش",
+        "fr": "Tony Popovic",
+        "de": "Tony Popovic",
+        "id": "Tony Popovic"
       },
       "bio": {
         "zh-CN": "作为澳大利亚国家男子足球队的主教练，他正带领球队全力备战2026年FIFA世界杯。凭借丰富的战术经验和对现代足球的深刻理解，他实施了严格的训练计划，专注于技术卓越、体能强化和心理韧性。在他的指导下，球队在近期国际比赛中取得了显著进步，展现出稳固防守与创意反击并重的凝聚力打法。他的远见卓识和激励球员发挥最佳水平的能力深受敬佩，目标是在北美举行的世界杯赛场上留下深远影响。",
@@ -152,15 +161,18 @@
     },
     "BEL": {
       "name": {
-        "zh-CN": "主教练",
-        "zh-TW": "主教練",
-        "es": "Entrenador Principal",
-        "pt": "Treinador Principal",
-        "ja": "ヘッドコーチ",
-        "ko": "헤드 코치",
-        "ru": "Главный тренер",
-        "ar": "المدير الفني",
-        "id": "Pelatih Kepala"
+        "en": "Rudi Garcia",
+        "zh-CN": "鲁迪·加西亚",
+        "zh-TW": "魯迪·加西亞",
+        "es": "Rudi García",
+        "pt": "Rudi Garcia",
+        "ja": "ルディ・ガルシア",
+        "ko": "루디 가르시아",
+        "ru": "Руди Гарсия",
+        "ar": "رودي غارسيا",
+        "fr": "Rudi Garcia",
+        "de": "Rudi Garcia",
+        "id": "Rudi Garcia"
       },
       "bio": {
         "zh-CN": "作为比利时国家男子足球队的主教练，他正带领球队全力备战2026年FIFA世界杯。凭借丰富的战术经验和对现代足球的深刻理解，他实施了严格的训练计划，专注于技术卓越、体能强化和心理韧性。在他的指导下，球队在近期国际比赛中取得了显著进步，展现出稳固防守与创意反击并重的凝聚力打法。他的远见卓识和激励球员发挥最佳水平的能力深受敬佩，目标是在北美举行的世界杯赛场上留下深远影响。",
@@ -187,15 +199,18 @@
     },
     "BRA": {
       "name": {
-        "zh-CN": "主教练",
-        "zh-TW": "主教練",
-        "es": "Entrenador Principal",
-        "pt": "Treinador Principal",
-        "ja": "ヘッドコーチ",
-        "ko": "헤드 코치",
-        "ru": "Главный тренер",
-        "ar": "المدير الفني",
-        "id": "Pelatih Kepala"
+        "en": "Carlo Ancelotti",
+        "zh-CN": "卡洛·安切洛蒂",
+        "zh-TW": "卡洛·安切洛蒂",
+        "es": "Carlo Ancelotti",
+        "pt": "Carlo Ancelotti",
+        "ja": "カルロ・アンチェロッティ",
+        "ko": "카를로 안첼로티",
+        "ru": "Карло Анчелотти",
+        "ar": "كارلو أنشيلوتي",
+        "fr": "Carlo Ancelotti",
+        "de": "Carlo Ancelotti",
+        "id": "Carlo Ancelotti"
       },
       "bio": {
         "zh-CN": "作为巴西国家男子足球队的主教练，他正带领球队全力备战2026年FIFA世界杯。凭借丰富的战术经验和对现代足球的深刻理解，他实施了严格的训练计划，专注于技术卓越、体能强化和心理韧性。在他的指导下，球队在近期国际比赛中取得了显著进步，展现出稳固防守与创意反击并重的凝聚力打法。他的远见卓识和激励球员发挥最佳水平的能力深受敬佩，目标是在北美举行的世界杯赛场上留下深远影响。",
@@ -222,15 +237,18 @@
     },
     "CAN": {
       "name": {
-        "zh-CN": "主教练",
-        "zh-TW": "主教練",
-        "es": "Entrenador Principal",
-        "pt": "Treinador Principal",
-        "ja": "ヘッドコーチ",
-        "ko": "헤드 코치",
-        "ru": "Главный тренер",
-        "ar": "المدير الفني",
-        "id": "Pelatih Kepala"
+        "en": "Jesse Marsch",
+        "zh-CN": "杰西·马尔施",
+        "zh-TW": "傑西·馬爾施",
+        "es": "Jesse Marsch",
+        "pt": "Jesse Marsch",
+        "ja": "ジェシー・マーシュ",
+        "ko": "제시 마르쉬",
+        "ru": "Джесси Марш",
+        "ar": "جيسي مارش",
+        "fr": "Jesse Marsch",
+        "de": "Jesse Marsch",
+        "id": "Jesse Marsch"
       },
       "bio": {
         "zh-CN": "作为加拿大国家男子足球队的主教练，他正带领球队全力备战2026年FIFA世界杯向。凭借丰富的战术经验和对现代足球的深刻理解，他实施了严格的训练计划，专注于技术卓越、体能强化和心理韧性。在他的指导下，球队在近期国际比赛中取得了显著进步，展现出稳固防守与创意反击并重的凝聚力打法。他的远见卓识和激励球员发挥最佳水平的能力深受敬佩，目标是在北美举行的世界杯赛场上留下深远影响。",
@@ -257,6 +275,7 @@
     },
     "CIV": {
       "name": {
+        "en": "Emerse Faé",
         "zh-CN": "埃默斯·法埃",
         "zh-TW": "埃默斯·法埃",
         "es": "Emerse Faé",
@@ -264,7 +283,9 @@
         "ja": "エメルス・ファエ",
         "ko": "에메르스 파에",
         "ru": "Эмерс Фаэ",
-        "ar": "إيميرس فاييه",
+        "ar": "إيمرس فاي",
+        "fr": "Emerse Faé",
+        "de": "Emerse Faé",
         "id": "Emerse Faé"
       },
       "bio": {
@@ -292,15 +313,18 @@
     },
     "COL": {
       "name": {
-        "zh-CN": "主教练",
-        "zh-TW": "主教練",
-        "es": "Entrenador Principal",
-        "pt": "Treinador Principal",
-        "ja": "ヘッドコーチ",
-        "ko": "헤드 코치",
-        "ru": "Главный тренер",
-        "ar": "المدير الفني",
-        "id": "Pelatih Kepala"
+        "en": "Néstor Lorenzo",
+        "zh-CN": "内斯托尔·洛伦索",
+        "zh-TW": "内斯托爾·洛倫索",
+        "es": "Néstor Lorenzo",
+        "pt": "Néstor Lorenzo",
+        "ja": "ネストル・ロレンソ",
+        "ko": "네스토르 로렌소",
+        "ru": "Нестор Лоренсо",
+        "ar": "نيستور لورينزو",
+        "fr": "Néstor Lorenzo",
+        "de": "Néstor Lorenzo",
+        "id": "Néstor Lorenzo"
       },
       "bio": {
         "zh-CN": "作为哥伦比亚国家男子足球队的主教练，他正带领球队全力备战2026年FIFA世界杯。凭借丰富的战术经验和对现代足球的深刻理解，他实施了严格的训练计划，专注于技术卓越、体能强化和心理韧性。在他的指导下，球队在近期国际比赛中取得了显著进步，展现出稳固防守与创意反击并重的凝聚力打法。他的远见卓识和激励球员发挥最佳水平的能力深受敬佩，目标是在北美赛场上留下深远影响。",
@@ -327,15 +351,18 @@
     },
     "CRC": {
       "name": {
-        "zh-CN": "主教练",
-        "zh-TW": "主教練",
-        "es": "Entrenador Principal",
-        "pt": "Treinador Principal",
-        "ja": "ヘッドコーチ",
-        "ko": "헤드 코치",
-        "ru": "Главный тренер",
-        "ar": "المدير الفني",
-        "id": "Pelatih Kepala"
+        "en": "Claudio Vivas",
+        "zh-CN": "克劳迪奥·维瓦斯",
+        "zh-TW": "克勞迪奧·維瓦斯",
+        "es": "Claudio Vivas",
+        "pt": "Claudio Vivas",
+        "ja": "クラウディオ・ビバス",
+        "ko": "클라우디오 비바스",
+        "ru": "Клаудио Вивас",
+        "ar": "كلاوديو فيفاس",
+        "fr": "Claudio Vivas",
+        "de": "Claudio Vivas",
+        "id": "Claudio Vivas"
       },
       "bio": {
         "zh-CN": "作为哥斯达黎加国家男子足球队的主教练，他正带领球队全力备战2026年FIFA世界杯。凭借丰富的战术经验和对现代足球的深刻理解，他实施了严格的训练计划，专注于技术卓越、体能强化和心理韧性。在他的指导下，球队在近期国际比赛中取得了显著进步，展现出稳固防守与创意反击并重的凝聚力打法。他的远见卓识和激励球员发挥最佳水平的能力深受敬佩，目标是在北美赛场上留下深远影响。",
@@ -362,6 +389,7 @@
     },
     "CRO": {
       "name": {
+        "en": "Zlatko Dalić",
         "zh-CN": "兹拉特科·达利奇",
         "zh-TW": "茲拉特科·達利奇",
         "es": "Zlatko Dalić",
@@ -370,6 +398,8 @@
         "ko": "즐라트코 달리치",
         "ru": "Златко Далич",
         "ar": "زلاتكو داليتش",
+        "fr": "Zlatko Dalić",
+        "de": "Zlatko Dalić",
         "id": "Zlatko Dalić"
       },
       "bio": {
@@ -397,15 +427,18 @@
     },
     "CUW": {
       "name": {
-        "zh-CN": "主教练",
-        "zh-TW": "主教練",
-        "es": "Entrenador Principal",
-        "pt": "Treinador Principal",
-        "ja": "ヘッドコーチ",
-        "ko": "헤드 코치",
-        "ru": "Главный тренер",
-        "ar": "المدير الفني",
-        "id": "Pelatih Kepala"
+        "en": "Dick Advocaat",
+        "zh-CN": "迪克·阿德沃卡特",
+        "zh-TW": "迪克·阿德沃卡特",
+        "es": "Dick Advocaat",
+        "pt": "Dick Advocaat",
+        "ja": "ディック・アドフォカート",
+        "ko": "딕 아드보카트",
+        "ru": "Дик Адвокат",
+        "ar": "ديك أدفوكات",
+        "fr": "Dick Advocaat",
+        "de": "Dick Advocaat",
+        "id": "Dick Advocaat"
       },
       "bio": {
         "zh-CN": "作为库拉索国家男子足球队的主教练，他正带领球队全力备战2026年FIFA世界杯。凭借丰富的战术经验和对现代足球的深刻理解，他实施了严格的训练计划，专注于技术卓越、体能强化和心理韧性。在他的指导下，球队在近期国际比赛中取得了显著进步，展现出稳固防守与创意反击并重的凝聚力打法。他的远见卓识和激励球员发挥最佳水平的能力深受敬佩，目标是在北美赛场上留下深远影响。",
@@ -432,15 +465,18 @@
     },
     "ECU": {
       "name": {
-        "zh-CN": "主教练",
-        "zh-TW": "主教練",
-        "es": "Entrenador Principal",
-        "pt": "Treinador Principal",
-        "ja": "ヘッドコーチ",
-        "ko": "헤드 코치",
-        "ru": "Главный тренер",
-        "ar": "المدير الفني",
-        "id": "Pelatih Kepala"
+        "en": "Sebastián Beccacece",
+        "zh-CN": "塞巴斯蒂安·贝卡塞斯",
+        "zh-TW": "塞巴斯蒂安·貝卡塞斯",
+        "es": "Sebastián Beccacece",
+        "pt": "Sebastián Beccacece",
+        "ja": "セバスティアン・ベカセセ",
+        "ko": "세바스티안 베카세세",
+        "ru": "Себастьян Бекасесе",
+        "ar": "سيباستيان بيكاسيسي",
+        "fr": "Sebastián Beccacece",
+        "de": "Sebastián Beccacece",
+        "id": "Sebastián Beccacece"
       },
       "bio": {
         "zh-CN": "作为厄瓜多尔国家男子足球队的主教练，他正带领球队全力备战2026年FIFA世界杯。凭借丰富的战术经验和对现代足球的深刻理解，他实施了严格的训练计划，专注于技术卓越、体能强化和心理韧性。在他的指导下，球队在近期国际比赛中取得了显著进步，展现出稳固防守与创意反击并重的凝聚力打法。他的远见卓识和激励球员发挥最佳水平的能力深受敬佩，目标是在北美赛场上留下深远影响。",
@@ -467,14 +503,17 @@
     },
     "EGY": {
       "name": {
+        "en": "Hossam Hassan",
         "zh-CN": "霍萨姆·哈桑",
         "zh-TW": "霍薩姆·哈桑",
         "es": "Hossam Hassan",
         "pt": "Hossam Hassan",
-        "ja": "ホッサム・ハッサン",
+        "ja": "フサム・ハッサン",
         "ko": "호삼 하산",
-        "ru": "Хоссам Хассан",
+        "ru": "Хоссам Хасан",
         "ar": "حسام حسن",
+        "fr": "Hossam Hassan",
+        "de": "Hossam Hassan",
         "id": "Hossam Hassan"
       },
       "bio": {
@@ -502,15 +541,18 @@
     },
     "ENG": {
       "name": {
-        "zh-CN": "主教练",
-        "zh-TW": "主教練",
-        "es": "Entrenador Principal",
-        "pt": "Treinador Principal",
-        "ja": "ヘッドコーチ",
-        "ko": "헤드 코치",
-        "ru": "Главный тренер",
-        "ar": "المدير الفني",
-        "id": "Pelatih Kepala"
+        "en": "Thomas Tuchel",
+        "zh-CN": "托马斯·图赫尔",
+        "zh-TW": "托馬斯·圖赫爾",
+        "es": "Thomas Tuchel",
+        "pt": "Thomas Tuchel",
+        "ja": "トーマス・トゥヘル",
+        "ko": "토마스 투헬",
+        "ru": "Томас Тухель",
+        "ar": "توماس توخيل",
+        "fr": "Thomas Tuchel",
+        "de": "Thomas Tuchel",
+        "id": "Thomas Tuchel"
       },
       "bio": {
         "zh-CN": "作为英格兰国家男子足球队的主教练，他正带领球队全力备战2026年FIFA世界杯。凭借丰富的战术经验和对现代足球的深刻理解，他实施了严格的训练计划，专注于技术卓越、体能强化和心理韧性。在他的指导下，球队在近期国际比赛中取得了显著进步，展现出稳固防守与创意反击并重的凝聚力打法。他的远见卓识和激励球员发挥最佳水平的能力深受敬佩，目标是在北美赛场上为足球回家而奋斗。",
@@ -537,6 +579,7 @@
     },
     "FRA": {
       "name": {
+        "en": "Didier Deschamps",
         "zh-CN": "迪迪埃·德尚",
         "zh-TW": "迪迪埃·德尚",
         "es": "Didier Deschamps",
@@ -545,6 +588,8 @@
         "ko": "디디에 데샹",
         "ru": "Дидье Дешам",
         "ar": "ديدييه ديشان",
+        "fr": "Didier Deschamps",
+        "de": "Didier Deschamps",
         "id": "Didier Deschamps"
       },
       "bio": {
@@ -608,6 +653,7 @@
     },
     "GER": {
       "name": {
+        "en": "Julian Nagelsmann",
         "zh-CN": "朱利安·纳格尔斯曼",
         "zh-TW": "朱利安·納格爾斯曼",
         "es": "Julian Nagelsmann",
@@ -615,7 +661,9 @@
         "ja": "ユリアン・ナーゲルスマン",
         "ko": "율리안 나겔스만",
         "ru": "Юлиан Нагельсманн",
-        "ar": "يوليان ناغلسمان",
+        "ar": "يوليان ناغيلسمان",
+        "fr": "Julian Nagelsmann",
+        "de": "Julian Nagelsmann",
         "id": "Julian Nagelsmann"
       },
       "bio": {
@@ -643,15 +691,18 @@
     },
     "GHA": {
       "name": {
-        "zh-CN": "主教练",
-        "zh-TW": "主教練",
-        "es": "Entrenador Principal",
-        "pt": "Treinador Principal",
-        "ja": "ヘッドコーチ",
-        "ko": "헤드 코치",
-        "ru": "Главный тренер",
-        "ar": "المدير الفني",
-        "id": "Pelatih Kepala"
+        "en": "Otto Addo",
+        "zh-CN": "奥托·阿多",
+        "zh-TW": "奧托·阿多",
+        "es": "Otto Addo",
+        "pt": "Otto Addo",
+        "ja": "オット・アド",
+        "ko": "오토 아도",
+        "ru": "Отто Аддо",
+        "ar": "أوتو أدو",
+        "fr": "Otto Addo",
+        "de": "Otto Addo",
+        "id": "Otto Addo"
       },
       "bio": {
         "zh-CN": "作为加纳国家男子足球队的主教练，他正带领球队全力备战2026年FIFA世界杯。凭借丰富的战术经验和对现代足球的深刻理解，他实施了严格的训练计划，专注于技术卓越、体能强化和心理韧性。在他的指导下，球队在近期国际比赛中取得了显著进步，展现出稳固防守与创意反击并重的凝聚力打法。他的远见卓识和激励球员发挥最佳水平的能力深受敬佩，目标是在北美赛场上展现非洲雄星的风采。",
@@ -678,15 +729,18 @@
     },
     "HAI": {
       "name": {
-        "zh-CN": "主教练",
-        "zh-TW": "主教練",
-        "es": "Entrenador Principal",
-        "pt": "Treinador Principal",
-        "ja": "ヘッドコーチ",
-        "ko": "헤드 코치",
-        "ru": "Главный тренер",
-        "ar": "المدير الفني",
-        "id": "Pelatih Kepala"
+        "en": "Sébastien Migné",
+        "zh-CN": "塞巴斯蒂安·米涅",
+        "zh-TW": "塞巴斯蒂安·米涅",
+        "es": "Sébastien Migné",
+        "pt": "Sébastien Migné",
+        "ja": "セバスティアン・ミニェ",
+        "ko": "세바스티앙 미녜",
+        "ru": "Себастьен Миньи",
+        "ar": "سيباستيان مينيه",
+        "fr": "Sébastien Migné",
+        "de": "Sébastien Migné",
+        "id": "Sébastien Migné"
       },
       "bio": {
         "zh-CN": "作为海地国家男子足球队的主教练，他正带领球队全力备战2026年FIFA世界杯。凭借丰富的战术经验和对现代足球的深刻理解，他实施了严格的训练计划，专注于技术卓越、体能强化和心理韧性。在他的指导下，球队在近期国际比赛中取得了显著进步，展现出稳固防守与创意反击并重的凝聚力打法。他的远见卓识和激励球员发挥最佳水平的能力深受敬佩，目标是在北美赛场上留下海地足球的足迹。",
@@ -713,14 +767,17 @@
     },
     "IRN": {
       "name": {
+        "en": "Amir Ghalenoei",
         "zh-CN": "阿米尔·加莱诺伊",
         "zh-TW": "阿米爾·加萊諾伊",
         "es": "Amir Ghalenoei",
         "pt": "Amir Ghalenoei",
-        "ja": "アミール・ガレノイー",
-        "ko": "아미르 갈레노이",
-        "ru": "Амир Галенои",
-        "ar": "أمير قلعة نويي",
+        "ja": "アミール・ガレノーイ",
+        "ko": "아미르 갈레노에이",
+        "ru": "Амир Галеноэй",
+        "ar": "أمير غالينوي",
+        "fr": "Amir Ghalenoei",
+        "de": "Amir Ghalenoei",
         "id": "Amir Ghalenoei"
       },
       "bio": {
@@ -748,15 +805,18 @@
     },
     "JOR": {
       "name": {
-        "zh-CN": "主教练",
-        "zh-TW": "主教練",
-        "es": "Entrenador Principal",
-        "pt": "Treinador Principal",
-        "ja": "ヘッドコーチ",
-        "ko": "헤드 코치",
-        "ru": "Главный тренер",
-        "ar": "المدير الفني",
-        "id": "Pelatih Kepala"
+        "en": "Jamal Sellami",
+        "zh-CN": "贾马尔·塞拉米",
+        "zh-TW": "賈馬爾·塞拉米",
+        "es": "Jamal Sellami",
+        "pt": "Jamal Sellami",
+        "ja": "ジャマル・セラミ",
+        "ko": "자말 셀라미",
+        "ru": "Джамаль Силлами",
+        "ar": "جمال سلامي",
+        "fr": "Jamal Sellami",
+        "de": "Jamal Sellami",
+        "id": "Jamal Sellami"
       },
       "bio": {
         "zh-CN": "作为约旦国家男子足球队的主教练，他正带领球队全力备战2026年FIFA世界杯。凭借丰富的战术经验和对现代足球的深刻理解，他实施了严格的训练计划，专注于技术卓越、体能强化和心理韧性。在他的指导下，球队在近期国际比赛中取得了显著进步，展现出稳固防守与创意反击并重的凝聚力打法。他的远见卓识和激励球员发挥最佳水平的能力深受敬佩，目标是在北美赛场上书写约旦足球的新篇章。",
@@ -783,14 +843,17 @@
     },
     "JPN": {
       "name": {
+        "en": "Hajime Moriyasu",
         "zh-CN": "森保一",
         "zh-TW": "森保一",
         "es": "Hajime Moriyasu",
         "pt": "Hajime Moriyasu",
-        "ja": "森保 一",
+        "ja": "森保一",
         "ko": "모리야스 하지메",
-        "ru": "Хадзимэ Мориясу",
-        "ar": "هاجيمي مورياسو",
+        "ru": "Хадзимэ Морияс",
+        "ar": "هاجيمي موريياسو",
+        "fr": "Hajime Moriyasu",
+        "de": "Hajime Moriyasu",
         "id": "Hajime Moriyasu"
       },
       "bio": {
@@ -818,14 +881,17 @@
     },
     "KOR": {
       "name": {
+        "en": "Hong Myung-bo",
         "zh-CN": "洪明甫",
         "zh-TW": "洪明甫",
         "es": "Hong Myung-bo",
         "pt": "Hong Myung-bo",
-        "ja": "洪 明甫",
+        "ja": "洪明甫",
         "ko": "홍명보",
         "ru": "Хон Мён Бо",
         "ar": "هونغ ميونغ بو",
+        "fr": "Hong Myung-bo",
+        "de": "Hong Myung-bo",
         "id": "Hong Myung-bo"
       },
       "bio": {
@@ -853,15 +919,18 @@
     },
     "MAR": {
       "name": {
-        "zh-CN": "主教练",
-        "zh-TW": "主教練",
-        "es": "Entrenador Principal",
-        "pt": "Treinador Principal",
-        "ja": "ヘッドコーチ",
-        "ko": "헤드 코치",
-        "ru": "Главный тренер",
-        "ar": "المدير الفني",
-        "id": "Pelatih Kepala"
+        "en": "Walid Regragui",
+        "zh-CN": "瓦利德·雷格拉吉",
+        "zh-TW": "瓦利德·雷格拉吉",
+        "es": "Walid Regragui",
+        "pt": "Walid Regragui",
+        "ja": "ワリード・レグラギ",
+        "ko": "왈리드 레그라기",
+        "ru": "Валид Регради",
+        "ar": "وليد الركراكي",
+        "fr": "Walid Regragui",
+        "de": "Walid Regragui",
+        "id": "Walid Regragui"
       },
       "bio": {
         "zh-CN": "作为摩洛哥国家男子足球队的主教练，他正带领球队全力备战2026年FIFA世界杯。凭借丰富的战术经验和对现代足球的深刻理解，他实施了严格的训练计划，专注于技术卓越、体能强化和心理韧性。在他的指导下，球队在近期国际比赛中取得了显著进步，展现出稳固防守与创意反击并重的凝聚力打法。他的远见卓识和激励球员发挥最佳水平的能力深受敬佩，目标是在北美赛场上再次书写亚特拉斯雄狮的传奇。",
@@ -888,6 +957,7 @@
     },
     "MEX": {
       "name": {
+        "en": "Javier Aguirre",
         "zh-CN": "哈维尔·阿吉雷",
         "zh-TW": "哈維爾·阿吉雷",
         "es": "Javier Aguirre",
@@ -896,6 +966,8 @@
         "ko": "하비에르 아기레",
         "ru": "Хавьер Агирре",
         "ar": "خافيير أغيري",
+        "fr": "Javier Aguirre",
+        "de": "Javier Aguirre",
         "id": "Javier Aguirre"
       },
       "bio": {
@@ -923,15 +995,18 @@
     },
     "NED": {
       "name": {
-        "zh-CN": "主教练",
-        "zh-TW": "主教練",
-        "es": "Entrenador Principal",
-        "pt": "Treinador Principal",
-        "ja": "ヘッドコーチ",
-        "ko": "헤드 코치",
-        "ru": "Главный тренер",
-        "ar": "المدير الفني",
-        "id": "Pelatih Kepala"
+        "en": "Ronald Koeman",
+        "zh-CN": "罗纳德·科曼",
+        "zh-TW": "羅納德·科曼",
+        "es": "Ronald Koeman",
+        "pt": "Ronald Koeman",
+        "ja": "ロナルド・クーマン",
+        "ko": "로날트 쿠만",
+        "ru": "Рональд Куман",
+        "ar": "رونالد كومان",
+        "fr": "Ronald Koeman",
+        "de": "Ronald Koeman",
+        "id": "Ronald Koeman"
       },
       "bio": {
         "zh-CN": "作为荷兰国家男子足球队的主教练，他正带领球队全力备战2026年FIFA世界杯。凭借丰富的战术经验和对现代足球的深刻理解，他实施了严格的训练计划，专注于技术卓越、体能强化和心理韧性。在他的指导下，球队在近期国际比赛中取得了显著进步，展现出稳固防守与创意反击并重的凝聚力打法。他的远见卓识和激励球员发挥最佳水平的能力深受敬佩，目标是在北美赛场上展现橙衣军团的全攻全守风采。",
@@ -958,15 +1033,18 @@
     },
     "NZL": {
       "name": {
-        "zh-CN": "主教练",
-        "zh-TW": "主教練",
-        "es": "Entrenador Principal",
-        "pt": "Treinador Principal",
-        "ja": "ヘッドコーチ",
-        "ko": "헤드 코치",
-        "ru": "Главный тренер",
-        "ar": "المدير الفني",
-        "id": "Pelatih Kepala"
+        "en": "Darren Bazeley",
+        "zh-CN": "达伦·贝兹利",
+        "zh-TW": "達倫·貝茲利",
+        "es": "Darren Bazeley",
+        "pt": "Darren Bazeley",
+        "ja": "ダレン・ベイズリー",
+        "ko": "다렌 베이즐리",
+        "ru": "Даррен Бейзли",
+        "ar": "دارن بيزلي",
+        "fr": "Darren Bazeley",
+        "de": "Darren Bazeley",
+        "id": "Darren Bazeley"
       },
       "bio": {
         "zh-CN": "作为新西兰国家男子足球队的主教练，他正带领球队全力备战2026年FIFA世界杯。凭借丰富的战术经验和对现代足球的深刻理解，他实施了严格的训练计划，专注于技术卓越、体能强化和心理韧性。在他的指导下，球队在近期国际比赛中取得了显著进步，展现出稳固防守与创意反击并重的凝聚力打法。他的远见卓识和激励球员发挥最佳水平的能力深受敬佩，目标是在北美赛场上展现全白队的实力。",
@@ -993,15 +1071,18 @@
     },
     "NGA": {
       "name": {
-        "zh-CN": "主教练",
-        "zh-TW": "主教練",
-        "es": "Entrenador Principal",
-        "pt": "Treinador Principal",
-        "ja": "ヘッドコーチ",
-        "ko": "헤드 코치",
-        "ru": "Главный тренер",
-        "ar": "المدير الفني",
-        "id": "Pelatih Kepala"
+        "en": "Eric Chelle",
+        "zh-CN": "埃里克·谢勒",
+        "zh-TW": "埃里克·謝勒",
+        "es": "Eric Chelle",
+        "pt": "Eric Chelle",
+        "ja": "エリック・シェレ",
+        "ko": "에릭 셸",
+        "ru": "Эрик Шель",
+        "ar": "إريك شيل",
+        "fr": "Eric Chelle",
+        "de": "Eric Chelle",
+        "id": "Eric Chelle"
       },
       "bio": {
         "zh-CN": "作为尼日利亚国家男子足球队的主教练，他正带领球队全力备战2026年FIFA世界杯。凭借丰富的战术经验和对现代足球的深刻理解，他实施了严格的训练计划，专注于技术卓越、体能强化和心理韧性。在他的指导下，球队在近期国际比赛中取得了显著进步，展现出稳固防守与创意反击并重的凝聚力打法。他的远见卓识和激励球员发挥最佳水平的能力深受敬佩，目标是在北美赛场上展现非洲雄鹰的威力。",
@@ -1028,14 +1109,17 @@
     },
     "NOR": {
       "name": {
+        "en": "Ståle Solbakken",
         "zh-CN": "斯塔尔·索尔巴肯",
         "zh-TW": "斯塔爾·索爾巴肯",
         "es": "Ståle Solbakken",
         "pt": "Ståle Solbakken",
         "ja": "ストーレ・ソルバッケン",
         "ko": "스톨레 솔바켄",
-        "ru": "Столе Сольбаккен",
-        "ar": "ستوله سولباكن",
+        "ru": "Стале Солбаккен",
+        "ar": "ستولي سولباكن",
+        "fr": "Ståle Solbakken",
+        "de": "Ståle Solbakken",
         "id": "Ståle Solbakken"
       },
       "bio": {
@@ -1063,15 +1147,18 @@
     },
     "PAN": {
       "name": {
-        "zh-CN": "主教练",
-        "zh-TW": "主教練",
-        "es": "Entrenador Principal",
-        "pt": "Treinador Principal",
-        "ja": "ヘッドコーチ",
-        "ko": "헤드 코치",
-        "ru": "Главный тренер",
-        "ar": "المدير الفني",
-        "id": "Pelatih Kepala"
+        "en": "Thomas Christiansen",
+        "zh-CN": "托马斯·克里斯蒂安森",
+        "zh-TW": "托馬斯·克里斯蒂安森",
+        "es": "Thomas Christiansen",
+        "pt": "Thomas Christiansen",
+        "ja": "トーマス・クリスティアンセン",
+        "ko": "토마스 크리스티안센",
+        "ru": "Томас Кристиансен",
+        "ar": "توماس كريستيانسن",
+        "fr": "Thomas Christiansen",
+        "de": "Thomas Christiansen",
+        "id": "Thomas Christiansen"
       },
       "bio": {
         "zh-CN": "作为巴拿马国家男子足球队的主教练，他正带领球队全力备战2026年FIFA世界杯。凭借丰富的战术经验和对现代足球的深刻理解，他实施了严格的训练计划，专注于技术卓越、体能强化和心理韧性。在他的指导下，球队在近期国际比赛中取得了显著进步，展现出稳固防守与创意反击并重的凝聚力打法。他的远见卓识和激励球员发挥最佳水平的能力深受敬佩，目标是在北美赛场上展现巴拿马足球的新风貌。",
@@ -1098,15 +1185,18 @@
     },
     "PAR": {
       "name": {
-        "zh-CN": "主教练",
-        "zh-TW": "主教練",
-        "es": "Entrenador Principal",
-        "pt": "Treinador Principal",
-        "ja": "ヘッドコーチ",
-        "ko": "헤드 코치",
-        "ru": "Главный тренер",
-        "ar": "المدير الفني",
-        "id": "Pelatih Kepala"
+        "en": "Gustavo Alfaro",
+        "zh-CN": "古斯塔沃·阿尔法罗",
+        "zh-TW": "古斯塔沃·阿爾法羅",
+        "es": "Gustavo Alfaro",
+        "pt": "Gustavo Alfaro",
+        "ja": "グスタボ・アルファロ",
+        "ko": "구스타보 알파로",
+        "ru": "Густаво Альфаро",
+        "ar": "غوستافو ألفارو",
+        "fr": "Gustavo Alfaro",
+        "de": "Gustavo Alfaro",
+        "id": "Gustavo Alfaro"
       },
       "bio": {
         "zh-CN": "作为巴拉圭国家男子足球队的主教练，他正带领球队全力备战2026年FIFA世界杯。凭借丰富的战术经验和对现代足球的深刻理解，他实施了严格的训练计划，专注于技术卓越、体能强化和心理韧性。在他的指导下，球队在近期国际比赛中取得了显著进步，展现出稳固防守与创意反击并重的凝聚力打法。他的远见卓识和激励球员发挥最佳水平的能力深受敬佩，目标是在北美赛场上展现巴拉圭足球的坚韧。",
@@ -1133,15 +1223,18 @@
     },
     "POR": {
       "name": {
-        "zh-CN": "主教练",
-        "zh-TW": "主教練",
-        "es": "Entrenador Principal",
-        "pt": "Treinador Principal",
-        "ja": "ヘッドコーチ",
-        "ko": "헤드 코치",
-        "ru": "Главный тренер",
-        "ar": "المدير الفني",
-        "id": "Pelatih Kepala"
+        "en": "Roberto Martínez",
+        "zh-CN": "罗伯托·马丁内斯",
+        "zh-TW": "羅伯托·馬丁內斯",
+        "es": "Roberto Martínez",
+        "pt": "Roberto Martínez",
+        "ja": "ロベルト・マルティネス",
+        "ko": "로베르토 마르티네스",
+        "ru": "Роберто Мартинес",
+        "ar": "روبرتو مارتينيز",
+        "fr": "Roberto Martínez",
+        "de": "Roberto Martínez",
+        "id": "Roberto Martínez"
       },
       "bio": {
         "zh-CN": "作为葡萄牙国家男子足球队的主教练，他正带领球队全力备战2026年FIFA世界杯。凭借丰富的战术经验和对现代足球的深刻理解，他实施了严格的训练计划，专注于技术卓越、体能强化和心理韧性。在他的指导下，球队在近期国际比赛中取得了显著进步，展现出稳固防守与创意进攻并重的凝聚力打法。他的远见卓识和激励球员发挥最佳水平的能力深受敬佩，目标是在北美赛场上展现葡萄牙足球的华丽与实力。",
@@ -1168,15 +1261,18 @@
     },
     "QAT": {
       "name": {
-        "zh-CN": "主教练",
-        "zh-TW": "主教練",
-        "es": "Entrenador Principal",
-        "pt": "Treinador Principal",
-        "ja": "ヘッドコーチ",
-        "ko": "헤드 코치",
-        "ru": "Главный тренер",
-        "ar": "المدير الفني",
-        "id": "Pelatih Kepala"
+        "en": "Julen Lopetegui",
+        "zh-CN": "胡伦·洛佩特吉",
+        "zh-TW": "胡倫·洛佩特吉",
+        "es": "Julen Lopetegui",
+        "pt": "Julen Lopetegui",
+        "ja": "フレン・ロペテギ",
+        "ko": "훌렌 로페테기",
+        "ru": "Хулен Лопетеги",
+        "ar": "خولين لوبيتيغي",
+        "fr": "Julen Lopetegui",
+        "de": "Julen Lopetegui",
+        "id": "Julen Lopetegui"
       },
       "bio": {
         "zh-CN": "作为卡塔尔国家男子足球队的主教练，他正带领球队全力备战2026年FIFA世界杯。凭借丰富的战术经验和对现代足球的深刻理解，他实施了严格的训练计划，专注于技术卓越、体能强化和心理韧性。在他的指导下，球队在近期国际比赛中取得了显著进步，展现出稳固防守与创意反击并重的凝聚力打法。他的远见卓识和激励球员发挥最佳水平的能力深受敬佩，目标是在北美赛场上展现亚洲杯冠军的实力。",
@@ -1203,15 +1299,18 @@
     },
     "KSA": {
       "name": {
-        "zh-CN": "主教练",
-        "zh-TW": "主教練",
-        "es": "Entrenador Principal",
-        "pt": "Treinador Principal",
-        "ja": "ヘッドコーチ",
-        "ko": "헤드 코치",
-        "ru": "Главный тренер",
-        "ar": "المدير الفني",
-        "id": "Pelatih Kepala"
+        "en": "Hervé Renard",
+        "zh-CN": "埃尔韦·勒纳尔",
+        "zh-TW": "埃爾韋·勒納爾",
+        "es": "Hervé Renard",
+        "pt": "Hervé Renard",
+        "ja": "エルヴェ・ルナール",
+        "ko": "에르베 르나르",
+        "ru": "Эрве Ренар",
+        "ar": "هيرفي رينار",
+        "fr": "Hervé Renard",
+        "de": "Hervé Renard",
+        "id": "Hervé Renard"
       },
       "bio": {
         "zh-CN": "作为沙特阿拉伯国家男子足球队的主教练，他正带领球队全力备战2026年FIFA世界杯。凭借丰富的战术经验和对现代足球的深刻理解，他实施了严格的训练计划，专注于技术卓越、体能强化和心理韧性。在他的指导下，球队在近期国际比赛中取得了显著进步，展现出稳固防守与创意反击并重的凝聚力打法。他的远见卓识和激励球员发挥最佳水平的能力深受敬佩，目标是在北美赛场上展现沙特足球的新气象。",
@@ -1238,6 +1337,7 @@
     },
     "SCO": {
       "name": {
+        "en": "Steve Clarke",
         "zh-CN": "史蒂夫·克拉克",
         "zh-TW": "史蒂夫·克拉克",
         "es": "Steve Clarke",
@@ -1246,6 +1346,8 @@
         "ko": "스티브 클라크",
         "ru": "Стив Кларк",
         "ar": "ستيف كلارك",
+        "fr": "Steve Clarke",
+        "de": "Steve Clarke",
         "id": "Steve Clarke"
       },
       "bio": {
@@ -1273,14 +1375,17 @@
     },
     "SEN": {
       "name": {
+        "en": "Pape Thiaw",
         "zh-CN": "帕普·蒂亚夫",
         "zh-TW": "帕普·蒂亞夫",
         "es": "Pape Thiaw",
         "pt": "Pape Thiaw",
-        "ja": "パプ・チャウ",
-        "ko": "파페 티아우",
+        "ja": "パップ・ティアウ",
+        "ko": "파프 티아우",
         "ru": "Пап Тиав",
         "ar": "باب ثياو",
+        "fr": "Pape Thiaw",
+        "de": "Pape Thiaw",
         "id": "Pape Thiaw"
       },
       "bio": {
@@ -1308,15 +1413,18 @@
     },
     "SRB": {
       "name": {
-        "zh-CN": "主教练",
-        "zh-TW": "主教練",
-        "es": "Entrenador Principal",
-        "pt": "Treinador Principal",
-        "ja": "ヘッドコーチ",
-        "ko": "헤드 코치",
-        "ru": "Главный тренер",
-        "ar": "المدير الفني",
-        "id": "Pelatih Kepala"
+        "en": "Dragan Stojković",
+        "zh-CN": "德拉甘·斯托伊科维奇",
+        "zh-TW": "德拉甘·斯托伊科維奇",
+        "es": "Dragan Stojković",
+        "pt": "Dragan Stojković",
+        "ja": "ドラガン・ストイコビッチ",
+        "ko": "드라간 스토이코비치",
+        "ru": "Драган Стойкович",
+        "ar": "دراغان ستويكوفيتش",
+        "fr": "Dragan Stojković",
+        "de": "Dragan Stojković",
+        "id": "Dragan Stojković"
       },
       "bio": {
         "zh-CN": "作为塞尔维亚国家男子足球队的主教练，他正带领球队全力备战2026年FIFA世界杯。凭借丰富的战术经验和对现代足球的深刻理解，他实施了严格的训练计划，专注于技术卓越、体能强化和心理韧性。在他的指导下，球队在近期国际比赛中取得了显著进步，展现出稳固防守与创意进攻并重的凝聚力打法。他的远见卓识和激励球员发挥最佳水平的能力深受敬佩，目标是在北美赛场上展现塞尔维亚足球的实力。",
@@ -1343,15 +1451,18 @@
     },
     "RSA": {
       "name": {
-        "zh-CN": "主教练",
-        "zh-TW": "主教練",
-        "es": "Entrenador Principal",
-        "pt": "Treinador Principal",
-        "ja": "ヘッドコーチ",
-        "ko": "헤드 코치",
-        "ru": "Главный тренер",
-        "ar": "المدير الفني",
-        "id": "Pelatih Kepala"
+        "en": "Hugo Broos",
+        "zh-CN": "雨果·布鲁斯",
+        "zh-TW": "雨果·布魯斯",
+        "es": "Hugo Broos",
+        "pt": "Hugo Broos",
+        "ja": "フーゴ・ブロース",
+        "ko": "휘고 브로스",
+        "ru": "Хьюго Бруус",
+        "ar": "هوغو بروس",
+        "fr": "Hugo Broos",
+        "de": "Hugo Broos",
+        "id": "Hugo Broos"
       },
       "bio": {
         "zh-CN": "作为南非国家男子足球队的主教练，他正带领球队全力备战2026年FIFA世界杯。凭借丰富的战术经验和对现代足球的深刻理解，他实施了严格的训练计划，专注于技术卓越、体能强化和心理韧性。在他的指导下，球队在近期国际比赛中取得了显著进步，展现出稳固防守与创意反击并重的凝聚力打法。他的远见卓识和激励球员发挥最佳水平的能力深受敬佩，目标是在北美赛场上展现巴法纳巴法纳的风采。",
@@ -1378,6 +1489,7 @@
     },
     "ESP": {
       "name": {
+        "en": "Luis de la Fuente",
         "zh-CN": "路易斯·德拉富恩特",
         "zh-TW": "路易斯·德拉富恩特",
         "es": "Luis de la Fuente",
@@ -1386,6 +1498,8 @@
         "ko": "루이스 데 라 푸엔테",
         "ru": "Луис де ла Фуэнте",
         "ar": "لويس دي لا فوينتي",
+        "fr": "Luis de la Fuente",
+        "de": "Luis de la Fuente",
         "id": "Luis de la Fuente"
       },
       "bio": {
@@ -1449,15 +1563,18 @@
     },
     "SUI": {
       "name": {
-        "zh-CN": "主教练",
-        "zh-TW": "主教練",
-        "es": "Entrenador Principal",
-        "pt": "Treinador Principal",
-        "ja": "ヘッドコーチ",
-        "ko": "헤드 코치",
-        "ru": "Главный тренер",
-        "ar": "المدير الفني",
-        "id": "Pelatih Kepala"
+        "en": "Murat Yakin",
+        "zh-CN": "穆拉特·亚金",
+        "zh-TW": "穆拉特·亞金",
+        "es": "Murat Yakin",
+        "pt": "Murat Yakin",
+        "ja": "ムラト・ヤキン",
+        "ko": "무라트 야킨",
+        "ru": "Мурат Якин",
+        "ar": "مورات ياكين",
+        "fr": "Murat Yakin",
+        "de": "Murat Yakin",
+        "id": "Murat Yakin"
       },
       "bio": {
         "zh-CN": "作为瑞士国家男子足球队的主教练，他正带领球队全力备战2026年FIFA世界杯。凭借丰富的战术经验和对现代足球的深刻理解，他实施了严格的训练计划，专注于技术卓越、体能强化和心理韧性。在他的指导下，球队在近期国际比赛中取得了显著进步，展现出稳固防守与创意反击并重的凝聚力打法。他的远见卓识和激励球员发挥最佳水平的能力深受敬佩，目标是在北美赛场上展现瑞士足球的精密与实力。",
@@ -1484,15 +1601,18 @@
     },
     "TUN": {
       "name": {
-        "zh-CN": "主教练",
-        "zh-TW": "主教練",
-        "es": "Entrenador Principal",
-        "pt": "Treinador Principal",
-        "ja": "ヘッドコーチ",
-        "ko": "헤드 코치",
-        "ru": "Главный тренер",
-        "ar": "المدير الفني",
-        "id": "Pelatih Kepala"
+        "en": "Sami Trabelsi",
+        "zh-CN": "萨米·特拉贝尔西",
+        "zh-TW": "薩米·特拉貝爾西",
+        "es": "Sami Trabelsi",
+        "pt": "Sami Trabelsi",
+        "ja": "サミ・トラベルシ",
+        "ko": "사미 트라벨시",
+        "ru": "Сами Трабельси",
+        "ar": "سامي الطرابلسي",
+        "fr": "Sami Trabelsi",
+        "de": "Sami Trabelsi",
+        "id": "Sami Trabelsi"
       },
       "bio": {
         "zh-CN": "作为突尼斯国家男子足球队的主教练，他正带领球队全力备战2026年FIFA世界杯。凭借丰富的战术经验和对现代足球的深刻理解，他实施了严格的训练计划，专注于技术卓越、体能强化和心理韧性。在他的指导下，球队在近期国际比赛中取得了显著进步，展现出稳固防守与创意反击并重的凝聚力打法。他的远见卓识和激励球员发挥最佳水平的能力深受敬佩，目标是在北美赛场上展现迦太基雄鹰的斗志。",
@@ -1519,14 +1639,17 @@
     },
     "UKR": {
       "name": {
+        "en": "Serhiy Rebrov",
         "zh-CN": "谢尔盖·雷布罗夫",
         "zh-TW": "謝爾蓋·雷布羅夫",
         "es": "Serhiy Rebrov",
         "pt": "Serhiy Rebrov",
-        "ja": "セルヒー・レブロフ",
-        "ko": "세르히 레브로프",
+        "ja": "セルヒー・レブロウ",
+        "ko": "세르히 레브로우",
         "ru": "Сергей Ребров",
         "ar": "سيرهي ريبروف",
+        "fr": "Serhiy Rebrov",
+        "de": "Serhiy Rebrov",
         "id": "Serhiy Rebrov"
       },
       "bio": {
@@ -1554,6 +1677,7 @@
     },
     "URU": {
       "name": {
+        "en": "Marcelo Bielsa",
         "zh-CN": "马塞洛·贝尔萨",
         "zh-TW": "馬塞洛·貝爾薩",
         "es": "Marcelo Bielsa",
@@ -1562,6 +1686,8 @@
         "ko": "마르셀로 비엘사",
         "ru": "Марсело Бьелса",
         "ar": "مارسيلو بيلسا",
+        "fr": "Marcelo Bielsa",
+        "de": "Marcelo Bielsa",
         "id": "Marcelo Bielsa"
       },
       "bio": {
@@ -1589,6 +1715,7 @@
     },
     "USA": {
       "name": {
+        "en": "Mauricio Pochettino",
         "zh-CN": "毛里西奥·波切蒂诺",
         "zh-TW": "毛里西奧·波切蒂諾",
         "es": "Mauricio Pochettino",
@@ -1596,7 +1723,9 @@
         "ja": "マウリシオ・ポチェッティーノ",
         "ko": "마우리시오 포체티노",
         "ru": "Маурисио Почеттино",
-        "ar": "ماوريسيو بوتشيتينو",
+        "ar": "موريسيو بوكيتينو",
+        "fr": "Mauricio Pochettino",
+        "de": "Mauricio Pochettino",
         "id": "Mauricio Pochettino"
       },
       "bio": {
@@ -1624,15 +1753,18 @@
     },
     "UZB": {
       "name": {
+        "en": "Srecko Katanec",
         "zh-CN": "斯雷奇科·卡塔内茨",
         "zh-TW": "斯雷奇科·卡塔內茨",
-        "es": "Srečko Katanec",
-        "pt": "Srečko Katanec",
-        "ja": "スレチコ・カタネッツ",
+        "es": "Srecko Katanec",
+        "pt": "Srecko Katanec",
+        "ja": "スレチュコ・カタネツ",
         "ko": "스레치코 카타네츠",
-        "ru": "Сречко Катанец",
+        "ru": "Срецко Катанец",
         "ar": "سريتشكو كاتانيتش",
-        "id": "Srečko Katanec"
+        "fr": "Srecko Katanec",
+        "de": "Srecko Katanec",
+        "id": "Srecko Katanec"
       },
       "bio": {
         "zh-CN": "斯雷奇科·卡塔内茨是乌兹别克斯坦国家男子足球队的著名主教练，他正带领球队全力备战2026年FIFA世界杯。凭借丰富的战术经验和对现代足球的深刻理解，他实施了严格的训练计划，专注于技术卓越、体能强化和心理韧性。在他的指导下，乌兹别克斯坦队在近期国际比赛中取得了显著进步，展现出稳固防守与严谨战术执行并重的凝聚力打法。作为国际足坛经验丰富的教练，他的领导力深受认可，目标是带领球队实现首次晋级世界杯的历史突破。",
@@ -1659,15 +1791,18 @@
     },
     "VEN": {
       "name": {
-        "zh-CN": "主教练",
-        "zh-TW": "主教練",
-        "es": "Entrenador Principal",
-        "pt": "Treinador Principal",
-        "ja": "ヘッドコーチ",
-        "ko": "헤드 코치",
-        "ru": "Главный тренер",
-        "ar": "المدير الفني",
-        "id": "Pelatih Kepala"
+        "en": "Fernando Batista",
+        "zh-CN": "费尔南多·巴蒂斯塔",
+        "zh-TW": "費爾南多·巴蒂斯塔",
+        "es": "Fernando Batista",
+        "pt": "Fernando Batista",
+        "ja": "フェルナンド・バティスタ",
+        "ko": "페르난도 바티스타",
+        "ru": "Фернандо Батиста",
+        "ar": "فيرناندو باتيستا",
+        "fr": "Fernando Batista",
+        "de": "Fernando Batista",
+        "id": "Fernando Batista"
       },
       "bio": {
         "zh-CN": "作为委内瑞拉国家男子足球队的主教练，他正带领球队全力备战2026年FIFA世界杯。凭借丰富的战术经验和对现代足球的深刻理解，他实施了严格s的训练计划，专注于技术卓越、体能强化和心理韧性。在他的指导下，球队在近期国际比赛中取得了显著进步，展现出稳固防守与创意反击并重的凝聚力打法。他的远见卓识和激励球员发挥最佳水平的能力深受敬佩，目标是在北美赛场上展现红酒军团的新风采。",
@@ -1694,15 +1829,18 @@
     },
     "SUR": {
       "name": {
-        "zh-CN": "主教练",
-        "zh-TW": "主教練",
-        "es": "Entrenador Principal",
-        "pt": "Treinador Principal",
-        "ja": "ヘッドコーチ",
-        "ko": "헤드 코치",
-        "ru": "Главный тренер",
-        "ar": "المدير الفني",
-        "id": "Pelatih Kepala"
+        "en": "Stanley Menzo",
+        "zh-CN": "斯坦利·门佐",
+        "zh-TW": "斯坦利·門佐",
+        "es": "Stanley Menzo",
+        "pt": "Stanley Menzo",
+        "ja": "スタンリー・メンゾ",
+        "ko": "스탠리 멘조",
+        "ru": "Стэнли Мензо",
+        "ar": "ستانلي منزو",
+        "fr": "Stanley Menzo",
+        "de": "Stanley Menzo",
+        "id": "Stanley Menzo"
       },
       "bio": {
         "zh-CN": "作为苏里南国家男子足球队的主教练，他正带领球队全力备战2026年FIFA世界杯。凭借丰富的战术经验和对现代足球的深刻理解，他实施了严格的训练计划，专注于技术卓越、体能强化和心理韧性。在他的指导下，球队在近期国际比赛中取得了显著进步，展现出稳固防守与创意反击并重的凝聚力打法。他的远见卓识和激励球员发挥最佳水平的能力深受敬佩，目标是在北美赛场上留下苏里南足球的印记。",
@@ -1729,14 +1867,17 @@
     },
     "CPV": {
       "name": {
+        "en": "Bubista",
         "zh-CN": "布比斯塔",
         "zh-TW": "布比斯塔",
         "es": "Bubista",
         "pt": "Bubista",
         "ja": "ブビスタ",
         "ko": "부비스타",
-        "ru": "Бубишта",
+        "ru": "Бубиста",
         "ar": "بوبيستا",
+        "fr": "Bubista",
+        "de": "Bubista",
         "id": "Bubista"
       },
       "bio": {
@@ -1764,15 +1905,18 @@
     },
     "BOL": {
       "name": {
-        "zh-CN": "主教练",
-        "zh-TW": "主教練",
-        "es": "Entrenador Principal",
-        "pt": "Treinador Principal",
-        "ja": "ヘッドコーチ",
-        "ko": "헤드 코치",
-        "ru": "Главный тренер",
-        "ar": "المدير الفني",
-        "id": "Pelatih Kepala"
+        "en": "Óscar Villegas",
+        "zh-CN": "奥斯卡·比列加斯",
+        "zh-TW": "奧斯卡·比列加斯",
+        "es": "Óscar Villegas",
+        "pt": "Óscar Villegas",
+        "ja": "オスカル・ビジェガス",
+        "ko": "오스카르 비예가스",
+        "ru": "Оскар Вильегас",
+        "ar": "أوسكار فيلياغاس",
+        "fr": "Óscar Villegas",
+        "de": "Óscar Villegas",
+        "id": "Óscar Villegas"
       },
       "bio": {
         "zh-CN": "作为玻利维亚国家男子足球队的主教练，他正带领球队全力备战2026年FIFA世界杯。凭借丰富的战术经验和对现代足球的深刻理解，他实施了严格的训练计划，专注于技术卓越、体能强化和心理韧性。在他的指导下，球队在近期国际比赛中取得了显著进步，展现出稳固防守与创意反击并重的凝聚力打法。他的远见卓识和激励球员发挥最佳水平的能力深受敬佩，目标是在北美赛场上展现高原之师的顽强。",

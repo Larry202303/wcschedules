@@ -19,7 +19,7 @@
   <meta property="og:description" content="Ecuador full match schedule, squad, coach and live Polymarket odds for the 2026 FIFA World Cup.">
   <meta property="og:url" content="https://www.wcschedules.com/teams/ecuador">
   <meta property="og:type" content="website">
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "SportsTeam", "name": "Ecuador", "sport": "Football", "url": "https://www.wcschedules.com/teams/ecuador", "memberOf": {"@type": "SportsEvent", "name": "2026 FIFA World Cup"}}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"SportsTeam","name":"Ecuador","sport":"Football","url":"https://www.wcschedules.com/teams/ecuador","memberOf":{"@type":"SportsEvent","name":"2026 FIFA World Cup"}}</script>
   <link rel="stylesheet" href="/css/style.css?v=20260525j">
   <style>
     .team-hero{text-align:center;padding:2rem 1rem 1.5rem;background:linear-gradient(135deg,#1a1a2e,#16213e);border-radius:12px;margin-bottom:1.5rem}
@@ -41,9 +41,8 @@
     .coach-name{font-size:1.1rem;font-weight:600;color:#4ade80}
     .back-link{display:inline-block;margin-bottom:1rem;color:#4ade80;text-decoration:none;font-size:.9rem}
     .back-link:hover{text-decoration:underline}
+    .header-team-btn,.header-cta{display:none!important}
   </style>
-
-    <style>.header-team-btn,.header-cta{display:none!important}</style>
 </head>
 <body>
   <nav class="top-nav" id="top-nav" role="navigation" aria-label="Main navigation">
@@ -69,32 +68,55 @@
     </div>
   </nav>
   <main class="container" style="padding-top:1rem">
-    <a href="/" class="back-link">← Back to Schedule</a>
+    <a href="/" class="back-link" id="back-link-el">← Back to Schedule</a>
     <div class="team-hero">
       <div class="team-flag">🇪🇨</div>
       <div class="team-name" id="team-name-el">Ecuador</div>
-      <div class="team-meta">Group E · CONMEBOL · 2026 FIFA World Cup</div>
+      <div class="team-meta" id="team-meta-el">Group E · CONMEBOL · 2026 FIFA World Cup</div>
     </div>
 
-    <section class="team-section"><h2>Head Coach</h2><div class="coach-box"><div class="coach-name">Entrenador Principal</div></div></section>
+    <section class="team-section">
+      <h2 id="coach-title-el">Head Coach</h2>
+      <div class="coach-box"><div class="coach-name" id="coach-name-el">Sebastián Beccacece</div></div>
+    </section>
 
     <section class="team-section">
-      <h2 data-i18n-team="schedule">Match Schedule &amp; Odds</h2>
+      <h2 id="schedule-title-el">Match Schedule &amp; Odds</h2>
       <div style="overflow-x:auto">
         <table class="team-table">
-          <thead><tr><th>Date &amp; Time</th><th>Stage</th><th>Home</th><th></th><th>Away</th><th>City</th><th>Details</th><th>Odds</th></tr></thead>
-          <tbody><tr><td><time>2026-06-14 19:00</time></td><td>Group E</td><td>🇨🇮 <a href="/teams/ivory-coast">Ivory Coast</a></td><td>vs</td><td>🇪🇨 <a href="/teams/ecuador">Ecuador</a></td><td>Philadelphia</td><td><a href="/match/civ-ecu-2026-06-14" data-i18n-team="details">Details</a></td><td><div class="match-odds" data-pm-slug="fifwc-civ-ecu-2026-06-14"><a href="https://polymarket.com/sports/fifa-world-cup/fifwc-civ-ecu-2026-06-14?via=wcschedules" target="_blank" rel="noopener" class="pm-btn">Polymarket</a><span class="odds-display"></span></div></td></tr>
-<tr><td><time>2026-06-20 19:00</time></td><td>Group E</td><td>🇪🇨 <a href="/teams/ecuador">Ecuador</a></td><td>vs</td><td>🇨🇼 <a href="/teams/cura-ao">Curaçao</a></td><td>Kansas City</td><td><a href="/match/ecu-cuw-2026-06-20" data-i18n-team="details">Details</a></td><td></td></tr>
-<tr><td><time>2026-06-25 16:00</time></td><td>Group E</td><td>🇪🇨 <a href="/teams/ecuador">Ecuador</a></td><td>vs</td><td>🇩🇪 <a href="/teams/germany">Germany</a></td><td>New York/New Jersey</td><td><a href="/match/ecu-ger-2026-06-25" data-i18n-team="details">Details</a></td><td><div class="match-odds" data-pm-slug="fifwc-ecu-ger-2026-06-25"><a href="https://polymarket.com/sports/fifa-world-cup/fifwc-ecu-ger-2026-06-25?via=wcschedules" target="_blank" rel="noopener" class="pm-btn">Polymarket</a><span class="odds-display"></span></div></td></tr>
-</tbody>
+          <thead><tr>
+            <th id="th-date">Date &amp; Time</th>
+            <th id="th-stage">Stage</th>
+            <th id="th-home">Home</th>
+            <th></th>
+            <th id="th-away">Away</th>
+            <th id="th-city">City</th>
+            <th id="th-details">Details</th>
+            <th id="th-odds">Odds</th>
+          </tr></thead>
+          <tbody><tr><td><time>2026-06-14 19:00</time></td><td>Group E</td><td>🇨🇮 <a href="/teams/ivory-coast">Ivory Coast</a></td><td>vs</td><td>🇪🇨 <a href="/teams/ecuador">Ecuador</a></td><td>Philadelphia</td><td><a href="/match/civ-ecu-2026-06-14" class="i18n-details">Details</a></td><td></td></tr>
+<tr><td><time>2026-06-20 19:00</time></td><td>Group E</td><td>🇪🇨 <a href="/teams/ecuador">Ecuador</a></td><td>vs</td><td>🇨🇼 <a href="/teams/cura-ao">Curaçao</a></td><td>Kansas City</td><td><a href="/match/ecu-cuw-2026-06-20" class="i18n-details">Details</a></td><td></td></tr>
+<tr><td><time>2026-06-25 16:00</time></td><td>Group E</td><td>🇪🇨 <a href="/teams/ecuador">Ecuador</a></td><td>vs</td><td>🇩🇪 <a href="/teams/germany">Germany</a></td><td>New York/New Jersey</td><td><a href="/match/ecu-ger-2026-06-25" class="i18n-details">Details</a></td><td></td></tr></tbody>
         </table>
       </div>
     </section>
 
-    
+    <section class="team-section">
+      <h2 id="players-title-el">Key Players</h2>
+      <div style="overflow-x:auto"><table class="team-table">
+        <thead><tr>
+          <th id="th-pos">Pos</th>
+          <th id="th-player">Player</th>
+          <th id="th-club">Club</th>
+          <th id="th-apps">Caps</th>
+          <th id="th-age">Age</th>
+        </tr></thead>
+        <tbody></tbody>
+      </table></div>
+    </section>
 
     <section class="team-section">
-      <p style="font-size:.8rem;color:#64748b">Odds data from <a href="https://polymarket.com?via=wcschedules" target="_blank" rel="noopener" style="color:#4ade80">Polymarket</a>. Updated in real-time.</p>
+      <p style="font-size:.8rem;color:#64748b"><span id="odds-note-el">Odds from</span> <a href="https://polymarket.com?via=wcschedules" target="_blank" rel="noopener" style="color:#4ade80">Polymarket</a>. <span id="real-time-el">Updated in real-time.</span></p>
     </section>
   </main>
 
@@ -109,15 +131,58 @@
   <script>
     if (window.initTopNav) initTopNav();
 
-    // i18n team name
-    const TEAM_NAMES = {"en": "Ecuador", "zh-CN": "厄瓜多尔", "zh-TW": "厄瓜多", "es": "Ecuador", "pt": "Equador", "ja": "エクアドル", "ko": "에콰도르", "ru": "Эквадор", "ar": "الإكوادور", "id": "Ekuador", "fr": "Ecuador", "th": "Ecuador", "vi": "Ecuador", "tr": "Ecuador", "fa": "Ecuador"};
+    const TEAM_NAMES = {"en": "Ecuador", "zh-CN": "厄瓜多尔", "zh-TW": "厄瓜多", "es": "Ecuador", "pt": "Equador", "ja": "エクアドル", "ko": "에콰도르", "ru": "Эквадор", "ar": "الإكوادور", "id": "Ekuador"};
+    const COACH_NAMES = {"en": "Sebastián Beccacece", "zh-CN": "塞巴斯蒂安·贝卡塞斯", "zh-TW": "塞巴斯蒂安·貝卡塞斯", "es": "Sebastián Beccacece", "pt": "Sebastián Beccacece", "ja": "セバスティアン・ベカセセ", "ko": "세바스티안 베카세세", "ru": "Себастьян Бекасесе", "ar": "سيباستيان بيكاسيسي", "fr": "Sebastián Beccacece", "de": "Sebastián Beccacece", "id": "Sebastián Beccacece", "th": "Sebastián Beccacece", "vi": "Sebastián Beccacece", "tr": "Sebastián Beccacece", "fa": "Sebastián Beccacece"};
+    const META_BASE = "Group E · CONMEBOL";
+    const TEAM_I18N = {"back_schedule": {"en": "← Back to Schedule", "zh-CN": "← 返回赛程", "zh-TW": "← 返回賽程", "es": "← Volver al Calendario", "pt": "← Voltar ao Calendário", "ja": "← スケジュールに戻る", "ko": "← 일정으로 돌아가기", "ru": "← К расписанию", "ar": "← العودة إلى الجدول", "fr": "← Retour au calendrier", "de": "← Zurück zum Spielplan", "id": "← Kembali ke Jadwal", "th": "← กลับสู่ตารางเวลา", "vi": "← Quay lại lịch thi đấu", "tr": "← Programa Dön", "fa": "← بازگشت به برنامه"}, "head_coach": {"en": "Head Coach", "zh-CN": "主教练", "zh-TW": "主教練", "es": "Entrenador Principal", "pt": "Treinador Principal", "ja": "ヘッドコーチ", "ko": "감독", "ru": "Главный тренер", "ar": "المدير الفني", "fr": "Entraîneur Principal", "de": "Cheftrainer", "id": "Pelatih Kepala", "th": "หัวหน้าผู้ฝึกสอน", "vi": "Huấn luyện viên trưởng", "tr": "Teknik Direktör", "fa": "سرمربی"}, "match_schedule": {"en": "Match Schedule & Odds", "zh-CN": "比赛赛程 & 赔率", "zh-TW": "比賽賽程 & 賠率", "es": "Calendario & Cuotas", "pt": "Calendário & Odds", "ja": "試合スケジュール & オッズ", "ko": "경기 일정 & 배당률", "ru": "Расписание & коэффициенты", "ar": "جدول المباريات والأسعار", "fr": "Calendrier & Cotes", "de": "Spielplan & Quoten", "id": "Jadwal & Odds", "th": "ตารางแข่ง & อัตราต่อรอง", "vi": "Lịch thi đấu & Tỷ lệ", "tr": "Takvim & Oranlar", "fa": "برنامه & ضرایب"}, "key_players": {"en": "Key Players", "zh-CN": "核心球员", "zh-TW": "核心球員", "es": "Jugadores Clave", "pt": "Jogadores-Chave", "ja": "主要選手", "ko": "주요 선수", "ru": "Ключевые игроки", "ar": "اللاعبون الأساسيون", "fr": "Joueurs Clés", "de": "Schlüsselspieler", "id": "Pemain Kunci", "th": "ผู้เล่นหลัก", "vi": "Cầu thủ chủ chốt", "tr": "Anahtar Oyuncular", "fa": "بازیکنان کلیدی"}, "pos": {"en": "Pos", "zh-CN": "位置", "zh-TW": "位置", "es": "Pos", "pt": "Pos", "ja": "POS", "ko": "포지션", "ru": "Поз", "ar": "المركز", "fr": "Pos", "de": "Pos", "id": "Pos", "th": "ตำแหน่ง", "vi": "Vị trí", "tr": "Mevki", "fa": "موقعیت"}, "player": {"en": "Player", "zh-CN": "球员", "zh-TW": "球員", "es": "Jugador", "pt": "Jogador", "ja": "選手", "ko": "선수", "ru": "Игрок", "ar": "اللاعب", "fr": "Joueur", "de": "Spieler", "id": "Pemain", "th": "ผู้เล่น", "vi": "Cầu thủ", "tr": "Oyuncu", "fa": "بازیکن"}, "club": {"en": "Club", "zh-CN": "俱乐部", "zh-TW": "俱樂部", "es": "Club", "pt": "Clube", "ja": "クラブ", "ko": "클럽", "ru": "Клуб", "ar": "النادي", "fr": "Club", "de": "Verein", "id": "Klub", "th": "สโมสร", "vi": "Câu lạc bộ", "tr": "Kulüp", "fa": "باشگاه"}, "apps": {"en": "Caps", "zh-CN": "出场数", "zh-TW": "出場數", "es": "Partidos", "pt": "Jogos", "ja": "出場数", "ko": "출전수", "ru": "Матчи", "ar": "المباريات", "fr": "Sélections", "de": "Einsätze", "id": "Penampilan", "th": "นัด", "vi": "Ra sân", "tr": "Maç", "fa": "بازی‌ها"}, "age": {"en": "Age", "zh-CN": "年龄", "zh-TW": "年齡", "es": "Edad", "pt": "Idade", "ja": "年齢", "ko": "나이", "ru": "Возраст", "ar": "العمر", "fr": "Âge", "de": "Alter", "id": "Usia", "th": "อายุ", "vi": "Tuổi", "tr": "Yaş", "fa": "سن"}, "details": {"en": "Details", "zh-CN": "详情", "zh-TW": "詳情", "es": "Detalles", "pt": "Detalhes", "ja": "詳細", "ko": "상세", "ru": "Подробнее", "ar": "التفاصيل", "fr": "Détails", "de": "Details", "id": "Detail", "th": "รายละเอียด", "vi": "Chi tiết", "tr": "Detaylar", "fa": "جزئیات"}, "odds": {"en": "Odds", "zh-CN": "赔率", "zh-TW": "賠率", "es": "Cuotas", "pt": "Odds", "ja": "オッズ", "ko": "배당률", "ru": "Коэфф.", "ar": "الأسعار", "fr": "Cotes", "de": "Quoten", "id": "Odds", "th": "อัตราต่อรอง", "vi": "Tỷ lệ", "tr": "Oranlar", "fa": "ضرایب"}, "date_time": {"en": "Date & Time", "zh-CN": "日期 & 时间", "zh-TW": "日期 & 時間", "es": "Fecha & Hora", "pt": "Data & Hora", "ja": "日時", "ko": "일시", "ru": "Дата и время", "ar": "التاريخ والوقت", "fr": "Date & Heure", "de": "Datum & Zeit", "id": "Tanggal & Waktu", "th": "วันที่ & เวลา", "vi": "Ngày & Giờ", "tr": "Tarih & Saat", "fa": "تاریخ و زمان"}, "stage": {"en": "Stage", "zh-CN": "阶段", "zh-TW": "階段", "es": "Fase", "pt": "Fase", "ja": "ステージ", "ko": "단계", "ru": "Стадия", "ar": "المرحلة", "fr": "Phase", "de": "Runde", "id": "Babak", "th": "รอบ", "vi": "Vòng", "tr": "Aşama", "fa": "مرحله"}, "home": {"en": "Home", "zh-CN": "主队", "zh-TW": "主隊", "es": "Local", "pt": "Casa", "ja": "ホーム", "ko": "홈", "ru": "Дома", "ar": "أمام الجمهور", "fr": "Domicile", "de": "Heim", "id": "Tuan Rumah", "th": "เจ้าบ้าน", "vi": "Chủ nhà", "tr": "Ev Sahibi", "fa": "میزبان"}, "away": {"en": "Away", "zh-CN": "客队", "zh-TW": "客隊", "es": "Visitante", "pt": "Visitante", "ja": "アウェイ", "ko": "원정", "ru": "В гостях", "ar": "بعيداً", "fr": "Extérieur", "de": "Gast", "id": "Tamu", "th": "ทีมเยือน", "vi": "Đội khách", "tr": "Deplasman", "fa": "مهمان"}, "city": {"en": "City", "zh-CN": "城市", "zh-TW": "城市", "es": "Ciudad", "pt": "Cidade", "ja": "都市", "ko": "도시", "ru": "Город", "ar": "المدينة", "fr": "Ville", "de": "Stadt", "id": "Kota", "th": "เมือง", "vi": "Thành phố", "tr": "Şehir", "fa": "شهر"}, "odds_note": {"en": "Odds from", "zh-CN": "赔率来自", "zh-TW": "賠率來自", "es": "Cuotas de", "pt": "Odds de", "ja": "オッズ：", "ko": "배당률:", "ru": "Коэффициенты от", "ar": "الأسعار من", "fr": "Cotes de", "de": "Quoten von", "id": "Odds dari", "th": "อัตราต่อรองจาก", "vi": "Tỷ lệ từ", "tr": "Oranlar:", "fa": "ضرایب از"}, "real_time": {"en": "Updated in real-time.", "zh-CN": "实时更新。", "zh-TW": "即時更新。", "es": "Actualizado en tiempo real.", "pt": "Atualizado em tempo real.", "ja": "リアルタイム更新。", "ko": "실시간 업데이트.", "ru": "Обновляется в реальном времени.", "ar": "يتم التحديث في الوقت الفعلي.", "fr": "Mis à jour en temps réel.", "de": "Echtzeit-Updates.", "id": "Diperbarui real-time.", "th": "อัปเดตแบบเรียลไทม์", "vi": "Cập nhật thời gian thực.", "tr": "Gerçek zamanlı güncelleniyor.", "fa": "به‌روزرسانی در لحظه."}, "wc2026_meta": {"en": "2026 FIFA World Cup", "zh-CN": "2026年FIFA世界杯", "zh-TW": "2026年FIFA世界盃", "es": "Copa Mundial FIFA 2026", "pt": "Copa do Mundo FIFA 2026", "ja": "2026 FIFAワールドカップ", "ko": "2026 FIFA 월드컵", "ru": "ЧМ-2026 ФИФА", "ar": "كأس العالم فيفا 2026", "fr": "Coupe du Monde 2026", "de": "FIFA WM 2026", "id": "Piala Dunia FIFA 2026", "th": "ฟีฟ่าเวิลด์คัพ 2026", "vi": "FIFA World Cup 2026", "tr": "2026 FIFA Dünya Kupası", "fa": "جام جهانی فیفا ۲۰۲۶"}};
+
     function applyTeamLang() {
       const lang = document.documentElement.lang || (window.STATE && window.STATE.lang) || 'en';
+      const T = function(key) {
+        const d = TEAM_I18N[key];
+        if (!d) return '';
+        return d[lang] || d['en'] || '';
+      };
+      const setText = function(id, text) { const e = document.getElementById(id); if(e) e.textContent = text; };
+
+      // Team name + title
       const name = TEAM_NAMES[lang] || TEAM_NAMES['en'];
-      const el = document.getElementById('team-name-el');
-      if (el) el.textContent = name;
-      // Update page title
+      setText('team-name-el', name);
       document.title = name + ' 2026 FIFA World Cup Schedule, Squad & Odds';
+
+      // Coach name
+      setText('coach-name-el', COACH_NAMES[lang] || COACH_NAMES['en']);
+
+      // Meta line
+      const wc = T('wc2026_meta');
+      setText('team-meta-el', META_BASE + ' · ' + wc);
+
+      // Section headings
+      setText('coach-title-el', T('head_coach'));
+      setText('schedule-title-el', T('match_schedule'));
+      setText('players-title-el', T('key_players'));
+      setText('back-link-el', T('back_schedule'));
+
+      // Table headers
+      setText('th-date', T('date_time'));
+      setText('th-stage', T('stage'));
+      setText('th-home', T('home'));
+      setText('th-away', T('away'));
+      setText('th-city', T('city'));
+      setText('th-details', T('details'));
+      setText('th-odds', T('odds'));
+      setText('th-pos', T('pos'));
+      setText('th-player', T('player'));
+      setText('th-club', T('club'));
+      setText('th-apps', T('apps'));
+      setText('th-age', T('age'));
+
+      // Details links in table
+      document.querySelectorAll('.i18n-details').forEach(function(a) { a.textContent = T('details'); });
+
+      // Footer note
+      setText('odds-note-el', T('odds_note'));
+      setText('real-time-el', T('real_time'));
     }
     applyTeamLang();
     document.addEventListener('langchange', applyTeamLang);

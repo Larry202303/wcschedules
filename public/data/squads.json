@@ -8,7 +8,8 @@
         "is_captain": false,
         "name": "Emiliano Martínez",
         "number": 0,
-        "position": "GK"
+        "position": "GK",
+        "birth_year": 1992
       },
       {
         "appearances": 130,
@@ -17,7 +18,8 @@
         "is_captain": false,
         "name": "Nicolás Otamendi",
         "number": 0,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 1988
       },
       {
         "appearances": 75,
@@ -26,7 +28,8 @@
         "is_captain": false,
         "name": "Nicolás Tagliafico",
         "number": 0,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 1992
       },
       {
         "appearances": 62,
@@ -35,7 +38,8 @@
         "is_captain": false,
         "name": "Marcos Acuña",
         "number": 0,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 1991
       },
       {
         "appearances": 58,
@@ -44,7 +48,8 @@
         "is_captain": false,
         "name": "Nahuel Molina",
         "number": 0,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 1998
       },
       {
         "appearances": 85,
@@ -53,7 +58,8 @@
         "is_captain": false,
         "name": "Rodrigo De Paul",
         "number": 0,
-        "position": "MF"
+        "position": "MF",
+        "birth_year": 1994
       },
       {
         "appearances": 77,
@@ -62,7 +68,8 @@
         "is_captain": false,
         "name": "Leandro Paredes",
         "number": 0,
-        "position": "MF"
+        "position": "MF",
+        "birth_year": 1994
       },
       {
         "appearances": 65,
@@ -71,7 +78,8 @@
         "is_captain": false,
         "name": "Giovani Lo Celso",
         "number": 0,
-        "position": "MF"
+        "position": "MF",
+        "birth_year": 1996
       },
       {
         "appearances": 44,
@@ -80,7 +88,8 @@
         "is_captain": false,
         "name": "Alexis Mac Allister",
         "number": 0,
-        "position": "MF"
+        "position": "MF",
+        "birth_year": 1998
       },
       {
         "appearances": 198,
@@ -89,7 +98,8 @@
         "is_captain": true,
         "name": "Lionel Messi",
         "number": 0,
-        "position": "FW"
+        "position": "FW",
+        "birth_year": 1987
       },
       {
         "appearances": 75,
@@ -98,7 +108,8 @@
         "is_captain": false,
         "name": "Lautaro Martínez",
         "number": 0,
-        "position": "FW"
+        "position": "FW",
+        "birth_year": 1997
       },
       {
         "appearances": 51,
@@ -107,7 +118,8 @@
         "is_captain": false,
         "name": "Julián Alvarez",
         "number": 0,
-        "position": "FW"
+        "position": "FW",
+        "birth_year": 2000
       },
       {
         "appearances": 7,
@@ -116,7 +128,8 @@
         "is_captain": false,
         "name": "Gerónimo Rulli",
         "number": 0,
-        "position": "GK"
+        "position": "GK",
+        "birth_year": 1992
       },
       {
         "appearances": 3,
@@ -125,7 +138,8 @@
         "is_captain": false,
         "name": "Juan Musso",
         "number": 0,
-        "position": "GK"
+        "position": "GK",
+        "birth_year": 1994
       },
       {
         "appearances": 1,
@@ -134,7 +148,8 @@
         "is_captain": false,
         "name": "Walter Benítez",
         "number": 0,
-        "position": "GK"
+        "position": "GK",
+        "birth_year": 1993
       }
     ]
   },
@@ -147,7 +162,8 @@
         "is_captain": false,
         "name": "Alexander Schlager",
         "number": 1,
-        "position": "GK"
+        "position": "GK",
+        "birth_year": 1992
       },
       {
         "appearances": 1,
@@ -156,7 +172,8 @@
         "is_captain": false,
         "name": "David Affengruber",
         "number": 2,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 1999
       },
       {
         "appearances": 31,
@@ -165,7 +182,8 @@
         "is_captain": false,
         "name": "Kevin Danso",
         "number": 3,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 1998
       },
       {
         "appearances": 51,
@@ -174,7 +192,8 @@
         "is_captain": false,
         "name": "Stefan Posch",
         "number": 5,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 1997
       },
       {
         "appearances": 112,
@@ -183,7 +202,8 @@
         "is_captain": true,
         "name": "David Alaba",
         "number": 8,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 1992
       },
       {
         "appearances": 50,
@@ -192,7 +212,8 @@
         "is_captain": false,
         "name": "Xaver Schlager",
         "number": 4,
-        "position": "MF"
+        "position": "MF",
+        "birth_year": 1997
       },
       {
         "appearances": 46,
@@ -201,7 +222,8 @@
         "is_captain": false,
         "name": "Nicolas Seiwald",
         "number": 6,
-        "position": "MF"
+        "position": "MF",
+        "birth_year": 2001
       },
       {
         "appearances": 97,
@@ -210,7 +232,8 @@
         "is_captain": false,
         "name": "Marcel Sabitzer",
         "number": 9,
-        "position": "MF"
+        "position": "MF",
+        "birth_year": 1994
       },
       {
         "appearances": 58,
@@ -219,7 +242,8 @@
         "is_captain": false,
         "name": "Florian Grillitsch",
         "number": 10,
-        "position": "MF"
+        "position": "MF",
+        "birth_year": 1995
       },
       {
         "appearances": 132,
@@ -228,7 +252,8 @@
         "is_captain": false,
         "name": "Marko Arnautović",
         "number": 7,
-        "position": "FW"
+        "position": "FW",
+        "birth_year": 1989
       },
       {
         "appearances": 74,
@@ -237,7 +262,8 @@
         "is_captain": false,
         "name": "Michael Gregoritsch",
         "number": 11,
-        "position": "FW"
+        "position": "FW",
+        "birth_year": 1994
       },
       {
         "appearances": 21,
@@ -246,7 +272,8 @@
         "is_captain": false,
         "name": "Saša Kalajdžić",
         "number": 14,
-        "position": "FW"
+        "position": "FW",
+        "birth_year": 1997
       },
       {
         "appearances": 1,
@@ -255,7 +282,8 @@
         "is_captain": false,
         "name": "Florian Wiegele",
         "number": 12,
-        "position": "GK"
+        "position": "GK",
+        "birth_year": 2003
       },
       {
         "appearances": 18,
@@ -264,7 +292,8 @@
         "is_captain": false,
         "name": "Patrick Pentz",
         "number": 13,
-        "position": "GK"
+        "position": "GK",
+        "birth_year": 1997
       },
       {
         "appearances": 40,
@@ -273,7 +302,8 @@
         "is_captain": false,
         "name": "Philipp Lienhart",
         "number": 15,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 1996
       }
     ]
   },
@@ -286,7 +316,8 @@
         "number": 1,
         "is_captain": true,
         "appearances": 95,
-        "goals": 0
+        "goals": 0,
+        "birth_year": 1992
       },
       {
         "name": "Harry Souttar",
@@ -294,7 +325,8 @@
         "club": "Sheffield United",
         "number": 19,
         "appearances": 30,
-        "goals": 11
+        "goals": 11,
+        "birth_year": 1998
       },
       {
         "name": "Jackson Irvine",
@@ -302,7 +334,8 @@
         "club": "St. Pauli",
         "number": 22,
         "appearances": 70,
-        "goals": 11
+        "goals": 11,
+        "birth_year": 1993
       },
       {
         "name": "Player 4",
@@ -379,7 +412,8 @@
         "is_captain": false,
         "name": "Thibaut Courtois",
         "number": 0,
-        "position": "GK"
+        "position": "GK",
+        "birth_year": 1992
       },
       {
         "appearances": 78,
@@ -388,7 +422,8 @@
         "is_captain": false,
         "name": "Thomas Meunier",
         "number": 0,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 1991
       },
       {
         "appearances": 62,
@@ -397,7 +432,8 @@
         "is_captain": false,
         "name": "Timothy Castagne",
         "number": 0,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 1995
       },
       {
         "appearances": 32,
@@ -406,7 +442,8 @@
         "is_captain": false,
         "name": "Arthur Theate",
         "number": 0,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 2000
       },
       {
         "appearances": 26,
@@ -415,7 +452,8 @@
         "is_captain": false,
         "name": "Zeno Debast",
         "number": 0,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 2003
       },
       {
         "appearances": 136,
@@ -424,7 +462,8 @@
         "is_captain": false,
         "name": "Axel Witsel",
         "number": 0,
-        "position": "MF"
+        "position": "MF",
+        "birth_year": 1989
       },
       {
         "appearances": 117,
@@ -433,7 +472,8 @@
         "is_captain": false,
         "name": "Kevin De Bruyne",
         "number": 0,
-        "position": "MF"
+        "position": "MF",
+        "birth_year": 1991
       },
       {
         "appearances": 83,
@@ -442,7 +482,8 @@
         "is_captain": true,
         "name": "Youri Tielemans",
         "number": 0,
-        "position": "MF"
+        "position": "MF",
+        "birth_year": 1997
       },
       {
         "appearances": 32,
@@ -451,7 +492,8 @@
         "is_captain": false,
         "name": "Hans Vanaken",
         "number": 0,
-        "position": "MF"
+        "position": "MF",
+        "birth_year": 1992
       },
       {
         "appearances": 124,
@@ -460,7 +502,8 @@
         "is_captain": false,
         "name": "Romelu Lukaku",
         "number": 0,
-        "position": "FW"
+        "position": "FW",
+        "birth_year": 1993
       },
       {
         "appearances": 50,
@@ -469,7 +512,8 @@
         "is_captain": false,
         "name": "Leandro Trossard",
         "number": 0,
-        "position": "FW"
+        "position": "FW",
+        "birth_year": 1994
       },
       {
         "appearances": 41,
@@ -478,7 +522,8 @@
         "is_captain": false,
         "name": "Jérémy Doku",
         "number": 0,
-        "position": "FW"
+        "position": "FW",
+        "birth_year": 2002
       },
       {
         "appearances": 2,
@@ -487,7 +532,8 @@
         "is_captain": false,
         "name": "Senne Lammens",
         "number": 0,
-        "position": "GK"
+        "position": "GK",
+        "birth_year": 2000
       },
       {
         "appearances": 0,
@@ -496,7 +542,8 @@
         "is_captain": false,
         "name": "Mike Penders",
         "number": 0,
-        "position": "GK"
+        "position": "GK",
+        "birth_year": 2003
       },
       {
         "appearances": 17,
@@ -505,7 +552,8 @@
         "is_captain": false,
         "name": "Maxim De Cuyper",
         "number": 0,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 2001
       }
     ]
   },
@@ -518,7 +566,8 @@
         "is_captain": false,
         "name": "Alisson",
         "number": 0,
-        "position": "GK"
+        "position": "GK",
+        "birth_year": 1992
       },
       {
         "appearances": 104,
@@ -527,7 +576,8 @@
         "is_captain": false,
         "name": "Marquinhos",
         "number": 0,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 1994
       },
       {
         "appearances": 68,
@@ -536,7 +586,8 @@
         "is_captain": false,
         "name": "Danilo Luiz",
         "number": 0,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 1991
       },
       {
         "appearances": 43,
@@ -545,7 +596,8 @@
         "is_captain": false,
         "name": "Alex Sandro",
         "number": 0,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 1991
       },
       {
         "appearances": 17,
@@ -554,7 +606,8 @@
         "is_captain": false,
         "name": "Gabriel Magalhães",
         "number": 0,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 1997
       },
       {
         "appearances": 84,
@@ -563,7 +616,8 @@
         "is_captain": true,
         "name": "Casemiro",
         "number": 0,
-        "position": "MF"
+        "position": "MF",
+        "birth_year": 1992
       },
       {
         "appearances": 61,
@@ -572,7 +626,8 @@
         "is_captain": false,
         "name": "Lucas Paquetá",
         "number": 0,
-        "position": "MF"
+        "position": "MF",
+        "birth_year": 1997
       },
       {
         "appearances": 41,
@@ -581,7 +636,8 @@
         "is_captain": false,
         "name": "Bruno Guimarães",
         "number": 0,
-        "position": "MF"
+        "position": "MF",
+        "birth_year": 1997
       },
       {
         "appearances": 31,
@@ -590,7 +646,8 @@
         "is_captain": false,
         "name": "Fabinho",
         "number": 0,
-        "position": "MF"
+        "position": "MF",
+        "birth_year": 1993
       },
       {
         "appearances": 128,
@@ -599,7 +656,8 @@
         "is_captain": false,
         "name": "Neymar",
         "number": 0,
-        "position": "FW"
+        "position": "FW",
+        "birth_year": 1992
       },
       {
         "appearances": 47,
@@ -608,7 +666,8 @@
         "is_captain": false,
         "name": "Vinícius Júnior",
         "number": 0,
-        "position": "FW"
+        "position": "FW",
+        "birth_year": 2000
       },
       {
         "appearances": 37,
@@ -617,7 +676,8 @@
         "is_captain": false,
         "name": "Raphinha",
         "number": 0,
-        "position": "FW"
+        "position": "FW",
+        "birth_year": 1996
       },
       {
         "appearances": 31,
@@ -626,7 +686,8 @@
         "is_captain": false,
         "name": "Ederson",
         "number": 0,
-        "position": "GK"
+        "position": "GK",
+        "birth_year": 1993
       },
       {
         "appearances": 10,
@@ -635,7 +696,8 @@
         "is_captain": false,
         "name": "Weverton",
         "number": 0,
-        "position": "GK"
+        "position": "GK",
+        "birth_year": 1988
       },
       {
         "appearances": 6,
@@ -644,7 +706,8 @@
         "is_captain": false,
         "name": "Bremer",
         "number": 0,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 1997
       }
     ]
   },
@@ -657,7 +720,8 @@
         "number": 19,
         "is_captain": true,
         "appearances": 55,
-        "goals": 15
+        "goals": 15,
+        "birth_year": 2000
       },
       {
         "name": "Jonathan David",
@@ -665,7 +729,8 @@
         "club": "Lille",
         "number": 20,
         "appearances": 54,
-        "goals": 28
+        "goals": 28,
+        "birth_year": 2000
       },
       {
         "name": "Stephen Eustáquio",
@@ -673,7 +738,8 @@
         "club": "Porto",
         "number": 7,
         "appearances": 44,
-        "goals": 4
+        "goals": 4,
+        "birth_year": 1996
       },
       {
         "name": "Player 4",
@@ -750,7 +816,8 @@
         "is_captain": false,
         "name": "Yahia Fofana",
         "number": 0,
-        "position": "GK"
+        "position": "GK",
+        "birth_year": 1994
       },
       {
         "appearances": 53,
@@ -759,7 +826,8 @@
         "is_captain": false,
         "name": "Ghislain Konan",
         "number": 0,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 1996
       },
       {
         "appearances": 35,
@@ -768,7 +836,8 @@
         "is_captain": false,
         "name": "Odilon Kossounou",
         "number": 0,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 2001
       },
       {
         "appearances": 33,
@@ -777,7 +846,8 @@
         "is_captain": false,
         "name": "Wilfried Singo",
         "number": 0,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 2000
       },
       {
         "appearances": 28,
@@ -786,7 +856,8 @@
         "is_captain": false,
         "name": "Evan Ndicka",
         "number": 0,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 1999
       },
       {
         "appearances": 102,
@@ -795,7 +866,8 @@
         "is_captain": true,
         "name": "Franck Kessié",
         "number": 0,
-        "position": "MF"
+        "position": "MF",
+        "birth_year": 1996
       },
       {
         "appearances": 65,
@@ -804,7 +876,8 @@
         "is_captain": false,
         "name": "Jean Michaël Seri",
         "number": 0,
-        "position": "MF"
+        "position": "MF",
+        "birth_year": 1992
       },
       {
         "appearances": 57,
@@ -813,7 +886,8 @@
         "is_captain": false,
         "name": "Ibrahim Sangaré",
         "number": 0,
-        "position": "MF"
+        "position": "MF",
+        "birth_year": 1998
       },
       {
         "appearances": 31,
@@ -822,7 +896,8 @@
         "is_captain": false,
         "name": "Seko Fofana",
         "number": 0,
-        "position": "MF"
+        "position": "MF",
+        "birth_year": 1995
       },
       {
         "appearances": 54,
@@ -831,7 +906,8 @@
         "is_captain": false,
         "name": "Nicolas Pépé",
         "number": 0,
-        "position": "FW"
+        "position": "FW",
+        "birth_year": 1995
       },
       {
         "appearances": 28,
@@ -840,7 +916,8 @@
         "is_captain": false,
         "name": "Oumar Diakité",
         "number": 0,
-        "position": "FW"
+        "position": "FW",
+        "birth_year": 2003
       },
       {
         "appearances": 28,
@@ -849,7 +926,8 @@
         "is_captain": false,
         "name": "Simon Adingra",
         "number": 0,
-        "position": "FW"
+        "position": "FW",
+        "birth_year": 2002
       },
       {
         "appearances": 4,
@@ -858,7 +936,8 @@
         "is_captain": false,
         "name": "Alban Lafont",
         "number": 0,
-        "position": "GK"
+        "position": "GK",
+        "birth_year": 1999
       },
       {
         "appearances": 0,
@@ -867,7 +946,8 @@
         "is_captain": false,
         "name": "Mohamed Koné",
         "number": 0,
-        "position": "GK"
+        "position": "GK",
+        "birth_year": 2001
       },
       {
         "appearances": 19,
@@ -876,7 +956,8 @@
         "is_captain": false,
         "name": "Emmanuel Agbadou",
         "number": 0,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 1997
       }
     ]
   },
@@ -889,7 +970,8 @@
         "is_captain": false,
         "name": "David Ospina",
         "number": 0,
-        "position": "GK"
+        "position": "GK",
+        "birth_year": 1988
       },
       {
         "appearances": 77,
@@ -898,7 +980,8 @@
         "is_captain": false,
         "name": "Davinson Sánchez",
         "number": 0,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 1996
       },
       {
         "appearances": 66,
@@ -907,7 +990,8 @@
         "is_captain": false,
         "name": "Santiago Arias",
         "number": 0,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 1992
       },
       {
         "appearances": 52,
@@ -916,7 +1000,8 @@
         "is_captain": false,
         "name": "Yerry Mina",
         "number": 0,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 1994
       },
       {
         "appearances": 44,
@@ -925,7 +1010,8 @@
         "is_captain": false,
         "name": "Daniel Muñoz",
         "number": 0,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 1996
       },
       {
         "appearances": 124,
@@ -934,7 +1020,8 @@
         "is_captain": true,
         "name": "James Rodríguez",
         "number": 0,
-        "position": "MF"
+        "position": "MF",
+        "birth_year": 1991
       },
       {
         "appearances": 116,
@@ -943,7 +1030,8 @@
         "is_captain": false,
         "name": "Juan Cuadrado",
         "number": 0,
-        "position": "MF"
+        "position": "MF",
+        "birth_year": 1988
       },
       {
         "appearances": 64,
@@ -952,7 +1040,8 @@
         "is_captain": false,
         "name": "Jefferson Lerma",
         "number": 0,
-        "position": "MF"
+        "position": "MF",
+        "birth_year": 1994
       },
       {
         "appearances": 55,
@@ -961,7 +1050,8 @@
         "is_captain": false,
         "name": "Wilmar Barrios",
         "number": 0,
-        "position": "MF"
+        "position": "MF",
+        "birth_year": 1993
       },
       {
         "appearances": 72,
@@ -970,7 +1060,8 @@
         "is_captain": false,
         "name": "Luis Díaz",
         "number": 0,
-        "position": "FW"
+        "position": "FW",
+        "birth_year": 1997
       },
       {
         "appearances": 44,
@@ -979,7 +1070,8 @@
         "is_captain": false,
         "name": "Rafael Santos Borré",
         "number": 0,
-        "position": "FW"
+        "position": "FW",
+        "birth_year": 1995
       },
       {
         "appearances": 21,
@@ -988,7 +1080,8 @@
         "is_captain": false,
         "name": "Jhon Córdoba",
         "number": 0,
-        "position": "FW"
+        "position": "FW",
+        "birth_year": 1993
       },
       {
         "appearances": 40,
@@ -997,7 +1090,8 @@
         "is_captain": false,
         "name": "Camilo Vargas",
         "number": 0,
-        "position": "GK"
+        "position": "GK",
+        "birth_year": 1992
       },
       {
         "appearances": 11,
@@ -1006,7 +1100,8 @@
         "is_captain": false,
         "name": "Álvaro Montero",
         "number": 0,
-        "position": "GK"
+        "position": "GK",
+        "birth_year": 1996
       },
       {
         "appearances": 3,
@@ -1015,7 +1110,8 @@
         "is_captain": false,
         "name": "Kevin Mier",
         "number": 0,
-        "position": "GK"
+        "position": "GK",
+        "birth_year": 1997
       }
     ]
   },
@@ -1120,7 +1216,8 @@
         "is_captain": false,
         "name": "Dominik Livaković",
         "number": 0,
-        "position": "GK"
+        "position": "GK",
+        "birth_year": 1995
       },
       {
         "appearances": 46,
@@ -1129,7 +1226,8 @@
         "is_captain": false,
         "name": "Joško Gvardiol",
         "number": 0,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 2002
       },
       {
         "appearances": 38,
@@ -1138,7 +1236,8 @@
         "is_captain": false,
         "name": "Duje Ćaleta-Car",
         "number": 0,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 1996
       },
       {
         "appearances": 31,
@@ -1147,7 +1246,8 @@
         "is_captain": false,
         "name": "Josip Šutalo",
         "number": 0,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 2000
       },
       {
         "appearances": 29,
@@ -1156,7 +1256,8 @@
         "is_captain": false,
         "name": "Josip Stanišić",
         "number": 0,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 2000
       },
       {
         "appearances": 196,
@@ -1165,7 +1266,8 @@
         "is_captain": true,
         "name": "Luka Modrić",
         "number": 0,
-        "position": "MF"
+        "position": "MF",
+        "birth_year": 1985
       },
       {
         "appearances": 111,
@@ -1174,7 +1276,8 @@
         "is_captain": false,
         "name": "Mateo Kovačić",
         "number": 0,
-        "position": "MF"
+        "position": "MF",
+        "birth_year": 1994
       },
       {
         "appearances": 83,
@@ -1183,7 +1286,8 @@
         "is_captain": false,
         "name": "Mario Pašalić",
         "number": 0,
-        "position": "MF"
+        "position": "MF",
+        "birth_year": 1995
       },
       {
         "appearances": 61,
@@ -1192,7 +1296,8 @@
         "is_captain": false,
         "name": "Nikola Vlašić",
         "number": 0,
-        "position": "MF"
+        "position": "MF",
+        "birth_year": 1997
       },
       {
         "appearances": 152,
@@ -1201,7 +1306,8 @@
         "is_captain": false,
         "name": "Ivan Perišić",
         "number": 0,
-        "position": "FW"
+        "position": "FW",
+        "birth_year": 1989
       },
       {
         "appearances": 114,
@@ -1210,7 +1316,8 @@
         "is_captain": false,
         "name": "Andrej Kramarić",
         "number": 0,
-        "position": "FW"
+        "position": "FW",
+        "birth_year": 1991
       },
       {
         "appearances": 36,
@@ -1219,7 +1326,8 @@
         "is_captain": false,
         "name": "Ante Budimir",
         "number": 0,
-        "position": "FW"
+        "position": "FW",
+        "birth_year": 1991
       },
       {
         "appearances": 3,
@@ -1228,7 +1336,8 @@
         "is_captain": false,
         "name": "Dominik Kotarski",
         "number": 0,
-        "position": "GK"
+        "position": "GK",
+        "birth_year": 1999
       },
       {
         "appearances": 0,
@@ -1237,7 +1346,8 @@
         "is_captain": false,
         "name": "Ivor Pandur",
         "number": 0,
-        "position": "GK"
+        "position": "GK",
+        "birth_year": 2000
       },
       {
         "appearances": 18,
@@ -1246,7 +1356,8 @@
         "is_captain": false,
         "name": "Marin Pongračić",
         "number": 0,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 1997
       }
     ]
   },
@@ -1259,7 +1370,8 @@
         "is_captain": false,
         "name": "Eloy Room",
         "number": 0,
-        "position": "GK"
+        "position": "GK",
+        "birth_year": 1989
       },
       {
         "appearances": 58,
@@ -1268,7 +1380,8 @@
         "is_captain": false,
         "name": "Juriën Gaari",
         "number": 0,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 1994
       },
       {
         "appearances": 27,
@@ -1277,7 +1390,8 @@
         "is_captain": false,
         "name": "Roshon van Eijma",
         "number": 0,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 1996
       },
       {
         "appearances": 26,
@@ -1286,7 +1400,8 @@
         "is_captain": false,
         "name": "Sherel Floranus",
         "number": 0,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 1994
       },
       {
         "appearances": 17,
@@ -1295,7 +1410,8 @@
         "is_captain": false,
         "name": "Joshua Brenet",
         "number": 0,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 1994
       },
       {
         "appearances": 70,
@@ -1304,7 +1420,8 @@
         "is_captain": true,
         "name": "Leandro Bacuna",
         "number": 0,
-        "position": "MF"
+        "position": "MF",
+        "birth_year": 1991
       },
       {
         "appearances": 47,
@@ -1313,7 +1430,8 @@
         "is_captain": false,
         "name": "Juninho Bacuna",
         "number": 0,
-        "position": "MF"
+        "position": "MF",
+        "birth_year": 1997
       },
       {
         "appearances": 26,
@@ -1322,7 +1440,8 @@
         "is_captain": false,
         "name": "Godfried Roemeratoe",
         "number": 0,
-        "position": "MF"
+        "position": "MF",
+        "birth_year": 1994
       },
       {
         "appearances": 19,
@@ -1331,7 +1450,8 @@
         "is_captain": false,
         "name": "Kevin Felida",
         "number": 0,
-        "position": "MF"
+        "position": "MF",
+        "birth_year": 1993
       },
       {
         "appearances": 37,
@@ -1340,7 +1460,8 @@
         "is_captain": false,
         "name": "Kenji Gorré",
         "number": 0,
-        "position": "FW"
+        "position": "FW",
+        "birth_year": 1994
       },
       {
         "appearances": 34,
@@ -1349,7 +1470,8 @@
         "is_captain": false,
         "name": "Brandley Kuwas",
         "number": 0,
-        "position": "FW"
+        "position": "FW",
+        "birth_year": 1994
       },
       {
         "appearances": 27,
@@ -1358,7 +1480,8 @@
         "is_captain": false,
         "name": "Gervane Kastaneer",
         "number": 0,
-        "position": "FW"
+        "position": "FW",
+        "birth_year": 1996
       },
       {
         "appearances": 7,
@@ -1367,7 +1490,8 @@
         "is_captain": false,
         "name": "Trevor Doornbusch",
         "number": 0,
-        "position": "GK"
+        "position": "GK",
+        "birth_year": 1999
       },
       {
         "appearances": 4,
@@ -1376,7 +1500,8 @@
         "is_captain": false,
         "name": "Tyrick Bodak",
         "number": 0,
-        "position": "GK"
+        "position": "GK",
+        "birth_year": 2001
       },
       {
         "appearances": 7,
@@ -1385,7 +1510,8 @@
         "is_captain": false,
         "name": "Shurandy Sambo",
         "number": 0,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 2000
       }
     ]
   },
@@ -1490,7 +1616,8 @@
         "is_captain": false,
         "name": "Mohamed El Shenawy",
         "number": 0,
-        "position": "GK"
+        "position": "GK",
+        "birth_year": 1988
       },
       {
         "appearances": 62,
@@ -1499,7 +1626,8 @@
         "is_captain": false,
         "name": "Hamdy Fathy",
         "number": 0,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 1990
       },
       {
         "appearances": 43,
@@ -1508,7 +1636,8 @@
         "is_captain": false,
         "name": "Ramy Rabia",
         "number": 0,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 1993
       },
       {
         "appearances": 40,
@@ -1517,7 +1646,8 @@
         "is_captain": false,
         "name": "Mohamed Hany",
         "number": 0,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 1997
       },
       {
         "appearances": 38,
@@ -1526,7 +1656,8 @@
         "is_captain": false,
         "name": "Ahmed Abou El Fotouh",
         "number": 0,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 1997
       },
       {
         "appearances": 32,
@@ -1535,7 +1666,8 @@
         "is_captain": false,
         "name": "Marwan Attia",
         "number": 0,
-        "position": "MF"
+        "position": "MF",
+        "birth_year": 1994
       },
       {
         "appearances": 27,
@@ -1544,7 +1676,8 @@
         "is_captain": false,
         "name": "Emam Ashour",
         "number": 0,
-        "position": "MF"
+        "position": "MF",
+        "birth_year": 1996
       },
       {
         "appearances": 21,
@@ -1553,7 +1686,8 @@
         "is_captain": false,
         "name": "Mohanad Lasheen",
         "number": 0,
-        "position": "MF"
+        "position": "MF",
+        "birth_year": 1996
       },
       {
         "appearances": 14,
@@ -1562,7 +1696,8 @@
         "is_captain": false,
         "name": "Mahmoud Saber",
         "number": 0,
-        "position": "MF"
+        "position": "MF",
+        "birth_year": 1995
       },
       {
         "appearances": 116,
@@ -1571,7 +1706,8 @@
         "is_captain": true,
         "name": "Mohamed Salah",
         "number": 0,
-        "position": "FW"
+        "position": "FW",
+        "birth_year": 1992
       },
       {
         "appearances": 94,
@@ -1580,7 +1716,8 @@
         "is_captain": false,
         "name": "Trézéguet",
         "number": 0,
-        "position": "FW"
+        "position": "FW",
+        "birth_year": 1994
       },
       {
         "appearances": 61,
@@ -1589,7 +1726,8 @@
         "is_captain": false,
         "name": "Zizo",
         "number": 0,
-        "position": "FW"
+        "position": "FW",
+        "birth_year": 1994
       },
       {
         "appearances": 7,
@@ -1598,7 +1736,8 @@
         "is_captain": false,
         "name": "Mostafa Shobeir",
         "number": 0,
-        "position": "GK"
+        "position": "GK",
+        "birth_year": 1997
       },
       {
         "appearances": 0,
@@ -1607,7 +1746,8 @@
         "is_captain": false,
         "name": "Mohamed Alaa",
         "number": 0,
-        "position": "GK"
+        "position": "GK",
+        "birth_year": 1999
       },
       {
         "appearances": 0,
@@ -1616,7 +1756,8 @@
         "is_captain": false,
         "name": "El Mahdy Soliman",
         "number": 0,
-        "position": "GK"
+        "position": "GK",
+        "birth_year": 1998
       }
     ]
   },
@@ -1629,7 +1770,8 @@
         "is_captain": false,
         "name": "Jordan Pickford",
         "number": 0,
-        "position": "GK"
+        "position": "GK",
+        "birth_year": 1994
       },
       {
         "appearances": 87,
@@ -1638,7 +1780,8 @@
         "is_captain": false,
         "name": "John Stones",
         "number": 0,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 1994
       },
       {
         "appearances": 27,
@@ -1647,7 +1790,8 @@
         "is_captain": false,
         "name": "Marc Guéhi",
         "number": 0,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 2000
       },
       {
         "appearances": 22,
@@ -1656,7 +1800,8 @@
         "is_captain": false,
         "name": "Reece James",
         "number": 0,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 1999
       },
       {
         "appearances": 18,
@@ -1665,7 +1810,8 @@
         "is_captain": false,
         "name": "Ezri Konsa",
         "number": 0,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 1997
       },
       {
         "appearances": 89,
@@ -1674,7 +1820,8 @@
         "is_captain": false,
         "name": "Jordan Henderson",
         "number": 0,
-        "position": "MF"
+        "position": "MF",
+        "birth_year": 1990
       },
       {
         "appearances": 72,
@@ -1683,7 +1830,8 @@
         "is_captain": false,
         "name": "Declan Rice",
         "number": 0,
-        "position": "MF"
+        "position": "MF",
+        "birth_year": 1999
       },
       {
         "appearances": 46,
@@ -1692,7 +1840,8 @@
         "is_captain": false,
         "name": "Jude Bellingham",
         "number": 0,
-        "position": "MF"
+        "position": "MF",
+        "birth_year": 2003
       },
       {
         "appearances": 13,
@@ -1701,7 +1850,8 @@
         "is_captain": false,
         "name": "Morgan Rogers",
         "number": 0,
-        "position": "MF"
+        "position": "MF",
+        "birth_year": 2003
       },
       {
         "appearances": 112,
@@ -1710,7 +1860,8 @@
         "is_captain": true,
         "name": "Harry Kane",
         "number": 0,
-        "position": "FW"
+        "position": "FW",
+        "birth_year": 1993
       },
       {
         "appearances": 70,
@@ -1719,7 +1870,8 @@
         "is_captain": false,
         "name": "Marcus Rashford",
         "number": 0,
-        "position": "FW"
+        "position": "FW",
+        "birth_year": 1997
       },
       {
         "appearances": 48,
@@ -1728,7 +1880,8 @@
         "is_captain": false,
         "name": "Bukayo Saka",
         "number": 0,
-        "position": "FW"
+        "position": "FW",
+        "birth_year": 2001
       },
       {
         "appearances": 4,
@@ -1737,7 +1890,8 @@
         "is_captain": false,
         "name": "Dean Henderson",
         "number": 0,
-        "position": "GK"
+        "position": "GK",
+        "birth_year": 1997
       },
       {
         "appearances": 1,
@@ -1746,7 +1900,8 @@
         "is_captain": false,
         "name": "James Trafford",
         "number": 0,
-        "position": "GK"
+        "position": "GK",
+        "birth_year": 2002
       },
       {
         "appearances": 6,
@@ -1755,7 +1910,8 @@
         "is_captain": false,
         "name": "Dan Burn",
         "number": 0,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 1992
       }
     ]
   },
@@ -1795,7 +1951,8 @@
         "is_captain": false,
         "name": "Dayot Upamecano",
         "number": 4,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 1998
       },
       {
         "appearances": 46,
@@ -1804,7 +1961,8 @@
         "is_captain": false,
         "name": "Jules Koundé",
         "number": 5,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 1998
       },
       {
         "appearances": 12,
@@ -1822,7 +1980,8 @@
         "is_captain": false,
         "name": "Aurélien Tchouaméni",
         "number": 8,
-        "position": "MF"
+        "position": "MF",
+        "birth_year": 2000
       },
       {
         "appearances": 67,
@@ -1840,7 +1999,8 @@
         "is_captain": false,
         "name": "Adrien Rabiot",
         "number": 14,
-        "position": "MF"
+        "position": "MF",
+        "birth_year": 1995
       },
       {
         "appearances": 58,
@@ -1849,7 +2009,8 @@
         "is_captain": false,
         "name": "Ousmane Dembélé",
         "number": 7,
-        "position": "FW"
+        "position": "FW",
+        "birth_year": 1997
       },
       {
         "appearances": 33,
@@ -1867,7 +2028,8 @@
         "is_captain": true,
         "name": "Kylian Mbappé",
         "number": 10,
-        "position": "FW"
+        "position": "FW",
+        "birth_year": 1998
       },
       {
         "appearances": 15,
@@ -1894,7 +2056,8 @@
         "is_captain": false,
         "name": "Ibrahima Konaté",
         "number": 15,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 1999
       }
     ]
   },
@@ -1907,7 +2070,8 @@
         "is_captain": false,
         "name": "Manuel Neuer",
         "number": 0,
-        "position": "GK"
+        "position": "GK",
+        "birth_year": 1986
       },
       {
         "appearances": 82,
@@ -1916,7 +2080,8 @@
         "is_captain": false,
         "name": "Antonio Rüdiger",
         "number": 0,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 1993
       },
       {
         "appearances": 45,
@@ -1934,7 +2099,8 @@
         "is_captain": false,
         "name": "David Raum",
         "number": 0,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 1998
       },
       {
         "appearances": 25,
@@ -1952,7 +2118,8 @@
         "is_captain": true,
         "name": "Joshua Kimmich",
         "number": 0,
-        "position": "MF"
+        "position": "MF",
+        "birth_year": 1995
       },
       {
         "appearances": 74,
@@ -1961,7 +2128,8 @@
         "is_captain": false,
         "name": "Leroy Sané",
         "number": 0,
-        "position": "MF"
+        "position": "MF",
+        "birth_year": 1996
       },
       {
         "appearances": 69,
@@ -1970,7 +2138,8 @@
         "is_captain": false,
         "name": "Leon Goretzka",
         "number": 0,
-        "position": "MF"
+        "position": "MF",
+        "birth_year": 1995
       },
       {
         "appearances": 40,
@@ -1979,7 +2148,8 @@
         "is_captain": false,
         "name": "Jamal Musiala",
         "number": 0,
-        "position": "MF"
+        "position": "MF",
+        "birth_year": 2003
       },
       {
         "appearances": 57,
@@ -1988,7 +2158,8 @@
         "is_captain": false,
         "name": "Kai Havertz",
         "number": 0,
-        "position": "FW"
+        "position": "FW",
+        "birth_year": 1999
       },
       {
         "appearances": 10,
@@ -2046,7 +2217,8 @@
         "number": 5,
         "is_captain": true,
         "appearances": 50,
-        "goals": 13
+        "goals": 13,
+        "birth_year": 1993
       },
       {
         "name": "Mohammed Kudus",
@@ -2054,7 +2226,8 @@
         "club": "West Ham",
         "number": 20,
         "appearances": 34,
-        "goals": 11
+        "goals": 11,
+        "birth_year": 2000
       },
       {
         "name": "Iñaki Williams",
@@ -2278,7 +2451,8 @@
         "is_captain": false,
         "name": "Alireza Beiranvand",
         "number": 0,
-        "position": "GK"
+        "position": "GK",
+        "birth_year": 1992
       },
       {
         "appearances": 144,
@@ -2287,7 +2461,8 @@
         "is_captain": false,
         "name": "Ehsan Hajsafi",
         "number": 0,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 1990
       },
       {
         "appearances": 75,
@@ -2305,7 +2480,8 @@
         "is_captain": false,
         "name": "Ramin Rezaeian",
         "number": 0,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 1990
       },
       {
         "appearances": 63,
@@ -2323,7 +2499,8 @@
         "is_captain": false,
         "name": "Alireza Jahanbakhsh",
         "number": 0,
-        "position": "MF"
+        "position": "MF",
+        "birth_year": 1993
       },
       {
         "appearances": 81,
@@ -2332,7 +2509,8 @@
         "is_captain": false,
         "name": "Saeid Ezatolahi",
         "number": 0,
-        "position": "MF"
+        "position": "MF",
+        "birth_year": 1996
       },
       {
         "appearances": 67,
@@ -2350,7 +2528,8 @@
         "is_captain": false,
         "name": "Mehdi Torabi",
         "number": 0,
-        "position": "MF"
+        "position": "MF",
+        "birth_year": 1994
       },
       {
         "appearances": 103,
@@ -2359,7 +2538,8 @@
         "is_captain": false,
         "name": "Mehdi Taremi",
         "number": 0,
-        "position": "FW"
+        "position": "FW",
+        "birth_year": 1992
       },
       {
         "appearances": 29,
@@ -2574,7 +2754,8 @@
         "is_captain": false,
         "name": "Takehiro Tomiyasu",
         "number": 0,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 1998
       },
       {
         "appearances": 39,
@@ -2601,7 +2782,8 @@
         "is_captain": true,
         "name": "Wataru Endo",
         "number": 0,
-        "position": "MF"
+        "position": "MF",
+        "birth_year": 1993
       },
       {
         "appearances": 68,
@@ -2628,7 +2810,8 @@
         "is_captain": false,
         "name": "Daichi Kamada",
         "number": 0,
-        "position": "MF"
+        "position": "MF",
+        "birth_year": 1996
       },
       {
         "appearances": 38,
@@ -2637,7 +2820,8 @@
         "is_captain": false,
         "name": "Ayase Ueda",
         "number": 0,
-        "position": "FW"
+        "position": "FW",
+        "birth_year": 1998
       },
       {
         "appearances": 27,
@@ -2695,7 +2879,8 @@
         "is_captain": false,
         "name": "Kim Seung-gyu",
         "number": 0,
-        "position": "GK"
+        "position": "GK",
+        "birth_year": 1990
       },
       {
         "appearances": 77,
@@ -2704,7 +2889,8 @@
         "is_captain": false,
         "name": "Kim Min-jae",
         "number": 0,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 1996
       },
       {
         "appearances": 34,
@@ -2740,7 +2926,8 @@
         "is_captain": false,
         "name": "Lee Jae-sung",
         "number": 0,
-        "position": "MF"
+        "position": "MF",
+        "birth_year": 1992
       },
       {
         "appearances": 77,
@@ -2749,7 +2936,8 @@
         "is_captain": false,
         "name": "Hwang Hee-chan",
         "number": 0,
-        "position": "MF"
+        "position": "MF",
+        "birth_year": 1996
       },
       {
         "appearances": 71,
@@ -2758,7 +2946,8 @@
         "is_captain": false,
         "name": "Hwang In-beom",
         "number": 0,
-        "position": "MF"
+        "position": "MF",
+        "birth_year": 1996
       },
       {
         "appearances": 46,
@@ -2776,7 +2965,8 @@
         "is_captain": true,
         "name": "Son Heung-min",
         "number": 0,
-        "position": "FW"
+        "position": "FW",
+        "birth_year": 1992
       },
       {
         "appearances": 42,
@@ -2785,7 +2975,8 @@
         "is_captain": false,
         "name": "Cho Gue-sung",
         "number": 0,
-        "position": "FW"
+        "position": "FW",
+        "birth_year": 1998
       },
       {
         "appearances": 26,
@@ -2834,7 +3025,8 @@
         "number": 2,
         "is_captain": true,
         "appearances": 77,
-        "goals": 9
+        "goals": 9,
+        "birth_year": 1998
       },
       {
         "name": "Hakim Ziyech",
@@ -2842,7 +3034,8 @@
         "club": "Galatasaray",
         "number": 7,
         "appearances": 62,
-        "goals": 23
+        "goals": 23,
+        "birth_year": 1993
       },
       {
         "name": "Sofyan Amrabat",
@@ -2850,7 +3043,8 @@
         "club": "Fenerbahçe",
         "number": 4,
         "appearances": 58,
-        "goals": 0
+        "goals": 0,
+        "birth_year": 1996
       },
       {
         "name": "Player 4",
@@ -2927,7 +3121,8 @@
         "is_captain": false,
         "name": "Guillermo Ochoa",
         "number": 0,
-        "position": "GK"
+        "position": "GK",
+        "birth_year": 1985
       },
       {
         "appearances": 119,
@@ -2936,7 +3131,8 @@
         "is_captain": false,
         "name": "Jesús Gallardo",
         "number": 0,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 1994
       },
       {
         "appearances": 65,
@@ -2945,7 +3141,8 @@
         "is_captain": false,
         "name": "César Montes",
         "number": 0,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 1997
       },
       {
         "appearances": 57,
@@ -2954,7 +3151,8 @@
         "is_captain": false,
         "name": "Jorge Sánchez",
         "number": 0,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 1998
       },
       {
         "appearances": 44,
@@ -2972,7 +3170,8 @@
         "is_captain": true,
         "name": "Edson Álvarez",
         "number": 0,
-        "position": "MF"
+        "position": "MF",
+        "birth_year": 1997
       },
       {
         "appearances": 90,
@@ -2999,7 +3198,8 @@
         "is_captain": false,
         "name": "Roberto Alvarado",
         "number": 0,
-        "position": "MF"
+        "position": "MF",
+        "birth_year": 1999
       },
       {
         "appearances": 123,
@@ -3008,7 +3208,8 @@
         "is_captain": false,
         "name": "Raúl Jiménez",
         "number": 0,
-        "position": "FW"
+        "position": "FW",
+        "birth_year": 1991
       },
       {
         "appearances": 50,
@@ -3066,7 +3267,8 @@
         "number": 4,
         "is_captain": true,
         "appearances": 74,
-        "goals": 9
+        "goals": 9,
+        "birth_year": 1991
       },
       {
         "name": "Frenkie de Jong",
@@ -3074,7 +3276,8 @@
         "club": "Barcelona",
         "number": 21,
         "appearances": 54,
-        "goals": 2
+        "goals": 2,
+        "birth_year": 1997
       },
       {
         "name": "Cody Gakpo",
@@ -3082,7 +3285,8 @@
         "club": "Liverpool",
         "number": 11,
         "appearances": 30,
-        "goals": 12
+        "goals": 12,
+        "birth_year": 2000
       },
       {
         "name": "Player 4",
@@ -3159,7 +3363,8 @@
         "is_captain": false,
         "name": "Max Crocombe",
         "number": 1,
-        "position": "GK"
+        "position": "GK",
+        "birth_year": 1993
       },
       {
         "appearances": 49,
@@ -3168,7 +3373,8 @@
         "is_captain": false,
         "name": "Tim Payne",
         "number": 2,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 1994
       },
       {
         "appearances": 18,
@@ -3177,7 +3383,8 @@
         "is_captain": false,
         "name": "Francis de Vries",
         "number": 3,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 2000
       },
       {
         "appearances": 23,
@@ -3186,7 +3393,8 @@
         "is_captain": false,
         "name": "Tyler Bindon",
         "number": 4,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 2003
       },
       {
         "appearances": 61,
@@ -3195,7 +3403,8 @@
         "is_captain": false,
         "name": "Michael Boxall",
         "number": 5,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 1988
       },
       {
         "appearances": 31,
@@ -3204,7 +3413,8 @@
         "is_captain": false,
         "name": "Joe Bell",
         "number": 6,
-        "position": "MF"
+        "position": "MF",
+        "birth_year": 1998
       },
       {
         "appearances": 35,
@@ -3213,7 +3423,8 @@
         "is_captain": false,
         "name": "Matthew Garbett",
         "number": 7,
-        "position": "MF"
+        "position": "MF",
+        "birth_year": 1999
       },
       {
         "appearances": 37,
@@ -3222,7 +3433,8 @@
         "is_captain": false,
         "name": "Marko Stamenić",
         "number": 8,
-        "position": "MF"
+        "position": "MF",
+        "birth_year": 2001
       },
       {
         "appearances": 26,
@@ -3231,7 +3443,8 @@
         "is_captain": false,
         "name": "Sarpreet Singh",
         "number": 10,
-        "position": "MF"
+        "position": "MF",
+        "birth_year": 1999
       },
       {
         "appearances": 88,
@@ -3240,7 +3453,8 @@
         "is_captain": true,
         "name": "Chris Wood",
         "number": 9,
-        "position": "FW"
+        "position": "FW",
+        "birth_year": 1991
       },
       {
         "appearances": 74,
@@ -3249,7 +3463,8 @@
         "is_captain": false,
         "name": "Kosta Barbarouses",
         "number": 17,
-        "position": "FW"
+        "position": "FW",
+        "birth_year": 1990
       },
       {
         "appearances": 30,
@@ -3258,7 +3473,8 @@
         "is_captain": false,
         "name": "Ben Waine",
         "number": 18,
-        "position": "FW"
+        "position": "FW",
+        "birth_year": 2000
       },
       {
         "appearances": 42,
@@ -3267,7 +3483,8 @@
         "is_captain": false,
         "name": "Elijah Just",
         "number": 11,
-        "position": "MF"
+        "position": "MF",
+        "birth_year": 2000
       },
       {
         "appearances": 6,
@@ -3276,7 +3493,8 @@
         "is_captain": false,
         "name": "Alex Paulsen",
         "number": 12,
-        "position": "GK"
+        "position": "GK",
+        "birth_year": 2002
       },
       {
         "appearances": 35,
@@ -3285,7 +3503,8 @@
         "is_captain": false,
         "name": "Liberato Cacace",
         "number": 13,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 2000
       }
     ]
   },
@@ -3298,7 +3517,8 @@
         "number": 9,
         "is_captain": false,
         "appearances": 35,
-        "goals": 21
+        "goals": 21,
+        "birth_year": 2001
       },
       {
         "name": "Ademola Lookman",
@@ -3306,7 +3526,8 @@
         "club": "Atalanta",
         "number": 18,
         "appearances": 23,
-        "goals": 6
+        "goals": 6,
+        "birth_year": 1997
       },
       {
         "name": "Wilfred Ndidi",
@@ -3314,7 +3535,8 @@
         "club": "Leicester City",
         "number": 4,
         "appearances": 57,
-        "goals": 0
+        "goals": 0,
+        "birth_year": 1996
       },
       {
         "name": "Player 4",
@@ -3391,7 +3613,8 @@
         "is_captain": false,
         "name": "Ørjan Nyland",
         "number": 1,
-        "position": "GK"
+        "position": "GK",
+        "birth_year": 1990
       },
       {
         "appearances": 50,
@@ -3400,7 +3623,8 @@
         "is_captain": false,
         "name": "Kristoffer Ajer",
         "number": 3,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 1998
       },
       {
         "appearances": 36,
@@ -3409,7 +3633,8 @@
         "is_captain": false,
         "name": "Leo Østigård",
         "number": 4,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 1999
       },
       {
         "appearances": 20,
@@ -3418,7 +3643,8 @@
         "is_captain": false,
         "name": "David Møller Wolfe",
         "number": 5,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 2001
       },
       {
         "appearances": 19,
@@ -3427,7 +3653,8 @@
         "is_captain": false,
         "name": "Fredrik André Bjørkan",
         "number": 15,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 1998
       },
       {
         "appearances": 30,
@@ -3436,7 +3663,8 @@
         "is_captain": false,
         "name": "Morten Thorsby",
         "number": 2,
-        "position": "MF"
+        "position": "MF",
+        "birth_year": 1996
       },
       {
         "appearances": 41,
@@ -3445,7 +3673,8 @@
         "is_captain": false,
         "name": "Patrick Berg",
         "number": 6,
-        "position": "MF"
+        "position": "MF",
+        "birth_year": 1997
       },
       {
         "appearances": 64,
@@ -3454,7 +3683,8 @@
         "is_captain": false,
         "name": "Sander Berge",
         "number": 8,
-        "position": "MF"
+        "position": "MF",
+        "birth_year": 1998
       },
       {
         "appearances": 67,
@@ -3463,7 +3693,8 @@
         "is_captain": true,
         "name": "Martin Ødegaard",
         "number": 10,
-        "position": "MF"
+        "position": "MF",
+        "birth_year": 1998
       },
       {
         "appearances": 70,
@@ -3472,7 +3703,8 @@
         "is_captain": false,
         "name": "Alexander Sørloth",
         "number": 7,
-        "position": "FW"
+        "position": "FW",
+        "birth_year": 1995
       },
       {
         "appearances": 49,
@@ -3481,7 +3713,8 @@
         "is_captain": false,
         "name": "Erling Haaland",
         "number": 9,
-        "position": "FW"
+        "position": "FW",
+        "birth_year": 2000
       },
       {
         "appearances": 26,
@@ -3490,7 +3723,8 @@
         "is_captain": false,
         "name": "Jørgen Strand Larsen",
         "number": 11,
-        "position": "FW"
+        "position": "FW",
+        "birth_year": 2000
       },
       {
         "appearances": 0,
@@ -3499,7 +3733,8 @@
         "is_captain": false,
         "name": "Sander Tangvik",
         "number": 12,
-        "position": "GK"
+        "position": "GK",
+        "birth_year": 1999
       },
       {
         "appearances": 6,
@@ -3508,7 +3743,8 @@
         "is_captain": false,
         "name": "Egil Selvik",
         "number": 13,
-        "position": "GK"
+        "position": "GK",
+        "birth_year": 1994
       },
       {
         "appearances": 20,
@@ -3517,7 +3753,8 @@
         "is_captain": false,
         "name": "Fredrik Aursnes",
         "number": 14,
-        "position": "MF"
+        "position": "MF",
+        "birth_year": 1995
       }
     ]
   },
@@ -3622,7 +3859,8 @@
         "is_captain": false,
         "name": "Gatito Fernández",
         "number": 0,
-        "position": "GK"
+        "position": "GK",
+        "birth_year": 1985
       },
       {
         "appearances": 88,
@@ -3631,7 +3869,8 @@
         "is_captain": true,
         "name": "Gustavo Gómez",
         "number": 0,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 1993
       },
       {
         "appearances": 70,
@@ -3640,7 +3879,8 @@
         "is_captain": false,
         "name": "Júnior Alonso",
         "number": 0,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 1993
       },
       {
         "appearances": 47,
@@ -3649,7 +3889,8 @@
         "is_captain": false,
         "name": "Fabián Balbuena",
         "number": 0,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 1991
       },
       {
         "appearances": 35,
@@ -3658,7 +3899,8 @@
         "is_captain": false,
         "name": "Omar Alderete",
         "number": 0,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 1996
       },
       {
         "appearances": 75,
@@ -3667,7 +3909,8 @@
         "is_captain": false,
         "name": "Miguel Almirón",
         "number": 0,
-        "position": "MF"
+        "position": "MF",
+        "birth_year": 1994
       },
       {
         "appearances": 51,
@@ -3676,7 +3919,8 @@
         "is_captain": false,
         "name": "Mathías Villasanti",
         "number": 0,
-        "position": "MF"
+        "position": "MF",
+        "birth_year": 1995
       },
       {
         "appearances": 32,
@@ -3685,7 +3929,8 @@
         "is_captain": false,
         "name": "Kaku",
         "number": 0,
-        "position": "MF"
+        "position": "MF",
+        "birth_year": 1993
       },
       {
         "appearances": 32,
@@ -3694,7 +3939,8 @@
         "is_captain": false,
         "name": "Andrés Cubas",
         "number": 0,
-        "position": "MF"
+        "position": "MF",
+        "birth_year": 1997
       },
       {
         "appearances": 55,
@@ -3703,7 +3949,8 @@
         "is_captain": false,
         "name": "Óscar Romero",
         "number": 0,
-        "position": "FW"
+        "position": "FW",
+        "birth_year": 1992
       },
       {
         "appearances": 51,
@@ -3712,7 +3959,8 @@
         "is_captain": false,
         "name": "Ángel Romero",
         "number": 0,
-        "position": "FW"
+        "position": "FW",
+        "birth_year": 1992
       },
       {
         "appearances": 47,
@@ -3721,7 +3969,8 @@
         "is_captain": false,
         "name": "Antonio Sanabria",
         "number": 0,
-        "position": "FW"
+        "position": "FW",
+        "birth_year": 1996
       },
       {
         "appearances": 9,
@@ -3730,7 +3979,8 @@
         "is_captain": false,
         "name": "Carlos Coronel",
         "number": 0,
-        "position": "GK"
+        "position": "GK",
+        "birth_year": 1997
       },
       {
         "appearances": 5,
@@ -3739,7 +3989,8 @@
         "is_captain": false,
         "name": "Orlando Gill",
         "number": 0,
-        "position": "GK"
+        "position": "GK",
+        "birth_year": 2001
       },
       {
         "appearances": 2,
@@ -3748,7 +3999,8 @@
         "is_captain": false,
         "name": "Santiago Rojas",
         "number": 0,
-        "position": "GK"
+        "position": "GK",
+        "birth_year": 2003
       }
     ]
   },
@@ -3761,7 +4013,8 @@
         "is_captain": false,
         "name": "Diogo Costa",
         "number": 0,
-        "position": "GK"
+        "position": "GK",
+        "birth_year": 1999
       },
       {
         "appearances": 74,
@@ -3770,7 +4023,8 @@
         "is_captain": false,
         "name": "Rúben Dias",
         "number": 0,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 1997
       },
       {
         "appearances": 66,
@@ -3779,7 +4033,8 @@
         "is_captain": false,
         "name": "João Cancelo",
         "number": 0,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 1994
       },
       {
         "appearances": 48,
@@ -3788,7 +4043,8 @@
         "is_captain": false,
         "name": "Nélson Semedo",
         "number": 0,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 1994
       },
       {
         "appearances": 43,
@@ -3797,7 +4053,8 @@
         "is_captain": false,
         "name": "Nuno Mendes",
         "number": 0,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 2002
       },
       {
         "appearances": 107,
@@ -3806,7 +4063,8 @@
         "is_captain": false,
         "name": "Bernardo Silva",
         "number": 0,
-        "position": "MF"
+        "position": "MF",
+        "birth_year": 1994
       },
       {
         "appearances": 87,
@@ -3815,7 +4073,8 @@
         "is_captain": false,
         "name": "Bruno Fernandes",
         "number": 0,
-        "position": "MF"
+        "position": "MF",
+        "birth_year": 1994
       },
       {
         "appearances": 65,
@@ -3824,7 +4083,8 @@
         "is_captain": false,
         "name": "Rúben Neves",
         "number": 0,
-        "position": "MF"
+        "position": "MF",
+        "birth_year": 1997
       },
       {
         "appearances": 37,
@@ -3833,7 +4093,8 @@
         "is_captain": false,
         "name": "Vitinha",
         "number": 0,
-        "position": "MF"
+        "position": "MF",
+        "birth_year": 2000
       },
       {
         "appearances": 226,
@@ -3842,7 +4103,8 @@
         "is_captain": true,
         "name": "Cristiano Ronaldo",
         "number": 0,
-        "position": "FW"
+        "position": "FW",
+        "birth_year": 1985
       },
       {
         "appearances": 52,
@@ -3851,7 +4113,8 @@
         "is_captain": false,
         "name": "João Félix",
         "number": 0,
-        "position": "FW"
+        "position": "FW",
+        "birth_year": 1999
       },
       {
         "appearances": 43,
@@ -3860,7 +4123,8 @@
         "is_captain": false,
         "name": "Rafael Leão",
         "number": 0,
-        "position": "FW"
+        "position": "FW",
+        "birth_year": 1999
       },
       {
         "appearances": 4,
@@ -3869,7 +4133,8 @@
         "is_captain": false,
         "name": "José Sá",
         "number": 0,
-        "position": "GK"
+        "position": "GK",
+        "birth_year": 1993
       },
       {
         "appearances": 2,
@@ -3878,7 +4143,8 @@
         "is_captain": false,
         "name": "Rui Silva",
         "number": 0,
-        "position": "GK"
+        "position": "GK",
+        "birth_year": 1994
       },
       {
         "appearances": 33,
@@ -3887,7 +4153,8 @@
         "is_captain": false,
         "name": "Diogo Dalot",
         "number": 0,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 1999
       }
     ]
   },
@@ -3900,7 +4167,8 @@
         "is_captain": false,
         "name": "Meshaal Barsham",
         "number": 0,
-        "position": "GK"
+        "position": "GK",
+        "birth_year": 1992
       },
       {
         "appearances": 114,
@@ -3909,7 +4177,8 @@
         "is_captain": false,
         "name": "Boualem Khoukhi",
         "number": 0,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 1990
       },
       {
         "appearances": 97,
@@ -3918,7 +4187,8 @@
         "is_captain": false,
         "name": "Pedro Miguel",
         "number": 0,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 1990
       },
       {
         "appearances": 90,
@@ -3927,7 +4197,8 @@
         "is_captain": false,
         "name": "Tarek Salman",
         "number": 0,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 1999
       },
       {
         "appearances": 70,
@@ -3936,7 +4207,8 @@
         "is_captain": false,
         "name": "Bassam Al-Rawi",
         "number": 0,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 1995
       },
       {
         "appearances": 116,
@@ -3945,7 +4217,8 @@
         "is_captain": false,
         "name": "Abdulaziz Hatem",
         "number": 0,
-        "position": "MF"
+        "position": "MF",
+        "birth_year": 1990
       },
       {
         "appearances": 116,
@@ -3954,7 +4227,8 @@
         "is_captain": false,
         "name": "Karim Boudiaf",
         "number": 0,
-        "position": "MF"
+        "position": "MF",
+        "birth_year": 1990
       },
       {
         "appearances": 49,
@@ -3963,7 +4237,8 @@
         "is_captain": false,
         "name": "Assim Madibo",
         "number": 0,
-        "position": "MF"
+        "position": "MF",
+        "birth_year": 1997
       },
       {
         "appearances": 49,
@@ -3972,7 +4247,8 @@
         "is_captain": false,
         "name": "Mohammed Waad",
         "number": 0,
-        "position": "MF"
+        "position": "MF",
+        "birth_year": 2001
       },
       {
         "appearances": 184,
@@ -3981,7 +4257,8 @@
         "is_captain": true,
         "name": "Hassan Al-Haydos",
         "number": 0,
-        "position": "FW"
+        "position": "FW",
+        "birth_year": 1990
       },
       {
         "appearances": 124,
@@ -3990,7 +4267,8 @@
         "is_captain": false,
         "name": "Sebastián Soria",
         "number": 0,
-        "position": "FW"
+        "position": "FW",
+        "birth_year": 1987
       },
       {
         "appearances": 123,
@@ -3999,7 +4277,8 @@
         "is_captain": false,
         "name": "Akram Afif",
         "number": 0,
-        "position": "FW"
+        "position": "FW",
+        "birth_year": 1996
       },
       {
         "appearances": 8,
@@ -4008,7 +4287,8 @@
         "is_captain": false,
         "name": "Salah Zakaria",
         "number": 0,
-        "position": "GK"
+        "position": "GK",
+        "birth_year": 1997
       },
       {
         "appearances": 3,
@@ -4017,7 +4297,8 @@
         "is_captain": false,
         "name": "Mahmud Abunada",
         "number": 0,
-        "position": "GK"
+        "position": "GK",
+        "birth_year": 1999
       },
       {
         "appearances": 1,
@@ -4026,7 +4307,8 @@
         "is_captain": false,
         "name": "Shehab Ellethy",
         "number": 0,
-        "position": "GK"
+        "position": "GK",
+        "birth_year": 2001
       }
     ]
   },
@@ -4178,7 +4460,8 @@
         "is_captain": false,
         "name": "Craig Gordon",
         "number": 0,
-        "position": "GK"
+        "position": "GK",
+        "birth_year": 1982
       },
       {
         "appearances": 92,
@@ -4187,7 +4470,8 @@
         "is_captain": true,
         "name": "Andy Robertson",
         "number": 0,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 1994
       },
       {
         "appearances": 66,
@@ -4196,7 +4480,8 @@
         "is_captain": false,
         "name": "Grant Hanley",
         "number": 0,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 1991
       },
       {
         "appearances": 55,
@@ -4205,7 +4490,8 @@
         "is_captain": false,
         "name": "Kieran Tierney",
         "number": 0,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 1997
       },
       {
         "appearances": 49,
@@ -4214,7 +4500,8 @@
         "is_captain": false,
         "name": "Scott McKenna",
         "number": 0,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 1996
       },
       {
         "appearances": 85,
@@ -4223,7 +4510,8 @@
         "is_captain": false,
         "name": "John McGinn",
         "number": 0,
-        "position": "MF"
+        "position": "MF",
+        "birth_year": 1994
       },
       {
         "appearances": 69,
@@ -4232,7 +4520,8 @@
         "is_captain": false,
         "name": "Scott McTominay",
         "number": 0,
-        "position": "MF"
+        "position": "MF",
+        "birth_year": 1996
       },
       {
         "appearances": 66,
@@ -4241,7 +4530,8 @@
         "is_captain": false,
         "name": "Ryan Christie",
         "number": 0,
-        "position": "MF"
+        "position": "MF",
+        "birth_year": 1995
       },
       {
         "appearances": 56,
@@ -4250,7 +4540,8 @@
         "is_captain": false,
         "name": "Kenny McLean",
         "number": 0,
-        "position": "MF"
+        "position": "MF",
+        "birth_year": 1992
       },
       {
         "appearances": 50,
@@ -4259,7 +4550,8 @@
         "is_captain": false,
         "name": "Lyndon Dykes",
         "number": 0,
-        "position": "FW"
+        "position": "FW",
+        "birth_year": 1995
       },
       {
         "appearances": 46,
@@ -4268,7 +4560,8 @@
         "is_captain": false,
         "name": "Ché Adams",
         "number": 0,
-        "position": "FW"
+        "position": "FW",
+        "birth_year": 1996
       },
       {
         "appearances": 18,
@@ -4277,7 +4570,8 @@
         "is_captain": false,
         "name": "Lawrence Shankland",
         "number": 0,
-        "position": "FW"
+        "position": "FW",
+        "birth_year": 1995
       },
       {
         "appearances": 21,
@@ -4286,7 +4580,8 @@
         "is_captain": false,
         "name": "Angus Gunn",
         "number": 0,
-        "position": "GK"
+        "position": "GK",
+        "birth_year": 1996
       },
       {
         "appearances": 2,
@@ -4295,7 +4590,8 @@
         "is_captain": false,
         "name": "Liam Kelly",
         "number": 0,
-        "position": "GK"
+        "position": "GK",
+        "birth_year": 1990
       },
       {
         "appearances": 37,
@@ -4304,7 +4600,8 @@
         "is_captain": false,
         "name": "Jack Hendry",
         "number": 0,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 1995
       }
     ]
   },
@@ -4317,7 +4614,8 @@
         "is_captain": false,
         "name": "Édouard Mendy",
         "number": 0,
-        "position": "GK"
+        "position": "GK",
+        "birth_year": 1992
       },
       {
         "appearances": 103,
@@ -4326,7 +4624,8 @@
         "is_captain": true,
         "name": "Kalidou Koulibaly",
         "number": 0,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 1991
       },
       {
         "appearances": 59,
@@ -4335,7 +4634,8 @@
         "is_captain": false,
         "name": "Krépin Diatta",
         "number": 0,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 1999
       },
       {
         "appearances": 29,
@@ -4344,7 +4644,8 @@
         "is_captain": false,
         "name": "Moussa Niakhaté",
         "number": 0,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 1996
       },
       {
         "appearances": 28,
@@ -4353,7 +4654,8 @@
         "is_captain": false,
         "name": "Ismail Jakobs",
         "number": 0,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 2000
       },
       {
         "appearances": 131,
@@ -4362,7 +4664,8 @@
         "is_captain": false,
         "name": "Idrissa Gueye",
         "number": 0,
-        "position": "MF"
+        "position": "MF",
+        "birth_year": 1989
       },
       {
         "appearances": 40,
@@ -4371,7 +4674,8 @@
         "is_captain": false,
         "name": "Pape Gueye",
         "number": 0,
-        "position": "MF"
+        "position": "MF",
+        "birth_year": 1999
       },
       {
         "appearances": 38,
@@ -4380,7 +4684,8 @@
         "is_captain": false,
         "name": "Pape Matar Sarr",
         "number": 0,
-        "position": "MF"
+        "position": "MF",
+        "birth_year": 2002
       },
       {
         "appearances": 29,
@@ -4389,7 +4694,8 @@
         "is_captain": false,
         "name": "Pathé Ciss",
         "number": 0,
-        "position": "MF"
+        "position": "MF",
+        "birth_year": 1994
       },
       {
         "appearances": 126,
@@ -4398,7 +4704,8 @@
         "is_captain": false,
         "name": "Sadio Mané",
         "number": 0,
-        "position": "FW"
+        "position": "FW",
+        "birth_year": 1992
       },
       {
         "appearances": 83,
@@ -4407,7 +4714,8 @@
         "is_captain": false,
         "name": "Ismaïla Sarr",
         "number": 0,
-        "position": "FW"
+        "position": "FW",
+        "birth_year": 1998
       },
       {
         "appearances": 38,
@@ -4416,7 +4724,8 @@
         "is_captain": false,
         "name": "Iliman Ndiaye",
         "number": 0,
-        "position": "FW"
+        "position": "FW",
+        "birth_year": 2000
       },
       {
         "appearances": 4,
@@ -4425,7 +4734,8 @@
         "is_captain": false,
         "name": "Mory Diaw",
         "number": 0,
-        "position": "GK"
+        "position": "GK",
+        "birth_year": 1992
       },
       {
         "appearances": 2,
@@ -4434,7 +4744,8 @@
         "is_captain": false,
         "name": "Yehvann Diouf",
         "number": 0,
-        "position": "GK"
+        "position": "GK",
+        "birth_year": 1999
       },
       {
         "appearances": 21,
@@ -4443,7 +4754,8 @@
         "is_captain": false,
         "name": "Abdoulaye Seck",
         "number": 0,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 1992
       }
     ]
   },
@@ -4548,7 +4860,8 @@
         "is_captain": true,
         "name": "Ronwen Williams",
         "number": 0,
-        "position": "GK"
+        "position": "GK",
+        "birth_year": 1992
       },
       {
         "appearances": 44,
@@ -4557,7 +4870,8 @@
         "is_captain": false,
         "name": "Aubrey Modiba",
         "number": 0,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 1994
       },
       {
         "appearances": 32,
@@ -4566,7 +4880,8 @@
         "is_captain": false,
         "name": "Khuliso Mudau",
         "number": 0,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 1998
       },
       {
         "appearances": 19,
@@ -4575,7 +4890,8 @@
         "is_captain": false,
         "name": "Nkosinathi Sibisi",
         "number": 0,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 1995
       },
       {
         "appearances": 10,
@@ -4584,7 +4900,8 @@
         "is_captain": false,
         "name": "Mbekezeli Mbokazi",
         "number": 0,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 1997
       },
       {
         "appearances": 53,
@@ -4593,7 +4910,8 @@
         "is_captain": false,
         "name": "Themba Zwane",
         "number": 0,
-        "position": "MF"
+        "position": "MF",
+        "birth_year": 1993
       },
       {
         "appearances": 51,
@@ -4602,7 +4920,8 @@
         "is_captain": false,
         "name": "Teboho Mokoena",
         "number": 0,
-        "position": "MF"
+        "position": "MF",
+        "birth_year": 1997
       },
       {
         "appearances": 27,
@@ -4611,7 +4930,8 @@
         "is_captain": false,
         "name": "Sphephelo Sithole",
         "number": 0,
-        "position": "MF"
+        "position": "MF",
+        "birth_year": 2001
       },
       {
         "appearances": 17,
@@ -4620,7 +4940,8 @@
         "is_captain": false,
         "name": "Lebohang Maboe",
         "number": 0,
-        "position": "MF"
+        "position": "MF",
+        "birth_year": 1993
       },
       {
         "appearances": 33,
@@ -4629,7 +4950,8 @@
         "is_captain": false,
         "name": "Thapelo Morena",
         "number": 0,
-        "position": "FW"
+        "position": "FW",
+        "birth_year": 1994
       },
       {
         "appearances": 26,
@@ -4638,7 +4960,8 @@
         "is_captain": false,
         "name": "Lyle Foster",
         "number": 0,
-        "position": "FW"
+        "position": "FW",
+        "birth_year": 2001
       },
       {
         "appearances": 26,
@@ -4647,7 +4970,8 @@
         "is_captain": false,
         "name": "Evidence Makgopa",
         "number": 0,
-        "position": "FW"
+        "position": "FW",
+        "birth_year": 1999
       },
       {
         "appearances": 4,
@@ -4656,7 +4980,8 @@
         "is_captain": false,
         "name": "Ricardo Goss",
         "number": 0,
-        "position": "GK"
+        "position": "GK",
+        "birth_year": 1993
       },
       {
         "appearances": 3,
@@ -4665,7 +4990,8 @@
         "is_captain": false,
         "name": "Sipho Chaine",
         "number": 0,
-        "position": "GK"
+        "position": "GK",
+        "birth_year": 1994
       },
       {
         "appearances": 0,
@@ -4674,7 +5000,8 @@
         "is_captain": false,
         "name": "Brandon Petersen",
         "number": 0,
-        "position": "GK"
+        "position": "GK",
+        "birth_year": 1993
       }
     ]
   },
@@ -4687,7 +5014,8 @@
         "number": 16,
         "is_captain": true,
         "appearances": 56,
-        "goals": 4
+        "goals": 4,
+        "birth_year": 1996
       },
       {
         "name": "Lamine Yamal",
@@ -4695,7 +5023,8 @@
         "club": "Barcelona",
         "number": 19,
         "appearances": 14,
-        "goals": 3
+        "goals": 3,
+        "birth_year": 2007
       },
       {
         "name": "Nico Williams",
@@ -4703,7 +5032,8 @@
         "club": "Athletic Bilbao",
         "number": 17,
         "appearances": 20,
-        "goals": 4
+        "goals": 4,
+        "birth_year": 2002
       },
       {
         "name": "Player 4",
@@ -4780,7 +5110,8 @@
         "is_captain": false,
         "name": "Gregor Kobel",
         "number": 1,
-        "position": "GK"
+        "position": "GK",
+        "birth_year": 1997
       },
       {
         "appearances": 8,
@@ -4789,7 +5120,8 @@
         "is_captain": false,
         "name": "Miro Muheim",
         "number": 2,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 1998
       },
       {
         "appearances": 58,
@@ -4798,7 +5130,8 @@
         "is_captain": false,
         "name": "Silvan Widmer",
         "number": 3,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 1993
       },
       {
         "appearances": 65,
@@ -4807,7 +5140,8 @@
         "is_captain": false,
         "name": "Nico Elvedi",
         "number": 4,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 1996
       },
       {
         "appearances": 79,
@@ -4816,7 +5150,8 @@
         "is_captain": false,
         "name": "Manuel Akanji",
         "number": 5,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 1995
       },
       {
         "appearances": 63,
@@ -4825,7 +5160,8 @@
         "is_captain": false,
         "name": "Denis Zakaria",
         "number": 6,
-        "position": "MF"
+        "position": "MF",
+        "birth_year": 1996
       },
       {
         "appearances": 86,
@@ -4834,7 +5170,8 @@
         "is_captain": false,
         "name": "Remo Freuler",
         "number": 8,
-        "position": "MF"
+        "position": "MF",
+        "birth_year": 1992
       },
       {
         "appearances": 10,
@@ -4843,7 +5180,8 @@
         "is_captain": false,
         "name": "Johan Manzambi",
         "number": 9,
-        "position": "MF"
+        "position": "MF",
+        "birth_year": 2002
       },
       {
         "appearances": 144,
@@ -4852,7 +5190,8 @@
         "is_captain": true,
         "name": "Granit Xhaka",
         "number": 10,
-        "position": "MF"
+        "position": "MF",
+        "birth_year": 1992
       },
       {
         "appearances": 85,
@@ -4861,7 +5200,8 @@
         "is_captain": false,
         "name": "Breel Embolo",
         "number": 7,
-        "position": "FW"
+        "position": "FW",
+        "birth_year": 1997
       },
       {
         "appearances": 29,
@@ -4870,7 +5210,8 @@
         "is_captain": false,
         "name": "Dan Ndoye",
         "number": 11,
-        "position": "FW"
+        "position": "FW",
+        "birth_year": 2000
       },
       {
         "appearances": 60,
@@ -4879,7 +5220,8 @@
         "is_captain": false,
         "name": "Rubén Vargas",
         "number": 17,
-        "position": "FW"
+        "position": "FW",
+        "birth_year": 1998
       },
       {
         "appearances": 12,
@@ -4888,7 +5230,8 @@
         "is_captain": false,
         "name": "Yvon Mvogo",
         "number": 12,
-        "position": "GK"
+        "position": "GK",
+        "birth_year": 1994
       },
       {
         "appearances": 136,
@@ -4897,7 +5240,8 @@
         "is_captain": false,
         "name": "Ricardo Rodriguez",
         "number": 13,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 1992
       },
       {
         "appearances": 6,
@@ -4906,7 +5250,8 @@
         "is_captain": false,
         "name": "Ardon Jashari",
         "number": 14,
-        "position": "MF"
+        "position": "MF",
+        "birth_year": 2002
       }
     ]
   },
@@ -4919,7 +5264,8 @@
         "is_captain": false,
         "name": "Aymen Dahmen",
         "number": 0,
-        "position": "GK"
+        "position": "GK",
+        "birth_year": 1997
       },
       {
         "appearances": 62,
@@ -4928,7 +5274,8 @@
         "is_captain": false,
         "name": "Montassar Talbi",
         "number": 0,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 1999
       },
       {
         "appearances": 52,
@@ -4937,7 +5284,8 @@
         "is_captain": false,
         "name": "Dylan Bronn",
         "number": 0,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 1998
       },
       {
         "appearances": 45,
@@ -4946,7 +5294,8 @@
         "is_captain": false,
         "name": "Ali Abdi",
         "number": 0,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 1997
       },
       {
         "appearances": 21,
@@ -4955,7 +5304,8 @@
         "is_captain": false,
         "name": "Yan Valery",
         "number": 0,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 1999
       },
       {
         "appearances": 81,
@@ -4964,7 +5314,8 @@
         "is_captain": true,
         "name": "Ellyes Skhiri",
         "number": 0,
-        "position": "MF"
+        "position": "MF",
+        "birth_year": 1995
       },
       {
         "appearances": 44,
@@ -4973,7 +5324,8 @@
         "is_captain": false,
         "name": "Hannibal Mejbri",
         "number": 0,
-        "position": "MF"
+        "position": "MF",
+        "birth_year": 2003
       },
       {
         "appearances": 39,
@@ -4982,7 +5334,8 @@
         "is_captain": false,
         "name": "Anis Ben Slimane",
         "number": 0,
-        "position": "MF"
+        "position": "MF",
+        "birth_year": 1999
       },
       {
         "appearances": 17,
@@ -4991,7 +5344,8 @@
         "is_captain": false,
         "name": "Mortadha Ben Ouanes",
         "number": 0,
-        "position": "MF"
+        "position": "MF",
+        "birth_year": 1999
       },
       {
         "appearances": 29,
@@ -5000,7 +5354,8 @@
         "is_captain": false,
         "name": "Elias Achouri",
         "number": 0,
-        "position": "FW"
+        "position": "FW",
+        "birth_year": 2002
       },
       {
         "appearances": 28,
@@ -5009,7 +5364,8 @@
         "is_captain": false,
         "name": "Firas Chaouat",
         "number": 0,
-        "position": "FW"
+        "position": "FW",
+        "birth_year": 1997
       },
       {
         "appearances": 18,
@@ -5018,7 +5374,8 @@
         "is_captain": false,
         "name": "Hazem Mastouri",
         "number": 0,
-        "position": "FW"
+        "position": "FW",
+        "birth_year": 1996
       },
       {
         "appearances": 2,
@@ -5027,7 +5384,8 @@
         "is_captain": false,
         "name": "Sabri Ben Hessen",
         "number": 0,
-        "position": "GK"
+        "position": "GK",
+        "birth_year": 1998
       },
       {
         "appearances": 1,
@@ -5036,7 +5394,8 @@
         "is_captain": false,
         "name": "Mouhib Chamakh",
         "number": 0,
-        "position": "GK"
+        "position": "GK",
+        "birth_year": 2002
       },
       {
         "appearances": 12,
@@ -5045,7 +5404,8 @@
         "is_captain": false,
         "name": "Mohamed Amine Ben Hamida",
         "number": 0,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 1996
       }
     ]
   },
@@ -5242,7 +5602,8 @@
         "number": 10,
         "is_captain": true,
         "appearances": 72,
-        "goals": 30
+        "goals": 30,
+        "birth_year": 1998
       },
       {
         "name": "Weston McKennie",
@@ -5250,7 +5611,8 @@
         "club": "Juventus",
         "number": 8,
         "appearances": 53,
-        "goals": 11
+        "goals": 11,
+        "birth_year": 1998
       },
       {
         "name": "Antonee Robinson",
@@ -5258,7 +5620,8 @@
         "club": "Fulham",
         "number": 5,
         "appearances": 46,
-        "goals": 4
+        "goals": 4,
+        "birth_year": 1997
       },
       {
         "name": "Player 4",
@@ -5335,7 +5698,8 @@
         "is_captain": false,
         "name": "Utkir Yusupov",
         "number": 0,
-        "position": "GK"
+        "position": "GK",
+        "birth_year": 1995
       },
       {
         "appearances": 47,
@@ -5344,7 +5708,8 @@
         "is_captain": false,
         "name": "Rustam Ashurmatov",
         "number": 0,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 1994
       },
       {
         "appearances": 44,
@@ -5353,7 +5718,8 @@
         "is_captain": false,
         "name": "Farrukh Sayfiev",
         "number": 0,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 1994
       },
       {
         "appearances": 40,
@@ -5362,7 +5728,8 @@
         "is_captain": false,
         "name": "Khojiakbar Alijonov",
         "number": 0,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 1997
       },
       {
         "appearances": 29,
@@ -5371,7 +5738,8 @@
         "is_captain": false,
         "name": "Sherzod Nasrullaev",
         "number": 0,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 1999
       },
       {
         "appearances": 82,
@@ -5380,7 +5748,8 @@
         "is_captain": false,
         "name": "Otabek Shukurov",
         "number": 0,
-        "position": "MF"
+        "position": "MF",
+        "birth_year": 1997
       },
       {
         "appearances": 71,
@@ -5389,7 +5758,8 @@
         "is_captain": false,
         "name": "Odiljon Hamrobekov",
         "number": 0,
-        "position": "MF"
+        "position": "MF",
+        "birth_year": 1998
       },
       {
         "appearances": 37,
@@ -5398,7 +5768,8 @@
         "is_captain": false,
         "name": "Jamshid Iskanderov",
         "number": 0,
-        "position": "MF"
+        "position": "MF",
+        "birth_year": 1997
       },
       {
         "appearances": 23,
@@ -5407,7 +5778,8 @@
         "is_captain": false,
         "name": "Akmal Mozgovoy",
         "number": 0,
-        "position": "MF"
+        "position": "MF",
+        "birth_year": 1994
       },
       {
         "appearances": 90,
@@ -5416,7 +5788,8 @@
         "is_captain": true,
         "name": "Eldor Shomurodov",
         "number": 0,
-        "position": "FW"
+        "position": "FW",
+        "birth_year": 1995
       },
       {
         "appearances": 81,
@@ -5425,7 +5798,8 @@
         "is_captain": false,
         "name": "Igor Sergeev",
         "number": 0,
-        "position": "FW"
+        "position": "FW",
+        "birth_year": 1996
       },
       {
         "appearances": 74,
@@ -5434,7 +5808,8 @@
         "is_captain": false,
         "name": "Jaloliddin Masharipov",
         "number": 0,
-        "position": "FW"
+        "position": "FW",
+        "birth_year": 1994
       },
       {
         "appearances": 7,
@@ -5443,7 +5818,8 @@
         "is_captain": false,
         "name": "Abduvohid Nematov",
         "number": 0,
-        "position": "GK"
+        "position": "GK",
+        "birth_year": 1997
       },
       {
         "appearances": 2,
@@ -5452,7 +5828,8 @@
         "is_captain": false,
         "name": "Botirali Ergashev",
         "number": 0,
-        "position": "GK"
+        "position": "GK",
+        "birth_year": 2000
       },
       {
         "appearances": 29,
@@ -5461,7 +5838,8 @@
         "is_captain": false,
         "name": "Umar Eshmurodov",
         "number": 0,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 1996
       }
     ]
   },
@@ -5566,7 +5944,8 @@
         "is_captain": false,
         "name": "Vozinha",
         "number": 0,
-        "position": "GK"
+        "position": "GK",
+        "birth_year": 1988
       },
       {
         "appearances": 60,
@@ -5575,7 +5954,8 @@
         "is_captain": false,
         "name": "Stopira",
         "number": 0,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 1988
       },
       {
         "appearances": 44,
@@ -5584,7 +5964,8 @@
         "is_captain": false,
         "name": "Roberto Lopes",
         "number": 0,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 1995
       },
       {
         "appearances": 40,
@@ -5593,7 +5974,8 @@
         "is_captain": false,
         "name": "João Paulo",
         "number": 0,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 1995
       },
       {
         "appearances": 29,
@@ -5602,7 +5984,8 @@
         "is_captain": false,
         "name": "Diney",
         "number": 0,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 1993
       },
       {
         "appearances": 53,
@@ -5611,7 +5994,8 @@
         "is_captain": false,
         "name": "Jamiro Monteiro",
         "number": 0,
-        "position": "MF"
+        "position": "MF",
+        "birth_year": 1995
       },
       {
         "appearances": 30,
@@ -5620,7 +6004,8 @@
         "is_captain": false,
         "name": "Kevin Pina",
         "number": 0,
-        "position": "MF"
+        "position": "MF",
+        "birth_year": 1997
       },
       {
         "appearances": 30,
@@ -5629,7 +6014,8 @@
         "is_captain": false,
         "name": "Deroy Duarte",
         "number": 0,
-        "position": "MF"
+        "position": "MF",
+        "birth_year": 1998
       },
       {
         "appearances": 14,
@@ -5638,7 +6024,8 @@
         "is_captain": false,
         "name": "Telmo Arcanjo",
         "number": 0,
-        "position": "MF"
+        "position": "MF",
+        "birth_year": 1999
       },
       {
         "appearances": 94,
@@ -5647,7 +6034,8 @@
         "is_captain": true,
         "name": "Ryan Mendes",
         "number": 0,
-        "position": "FW"
+        "position": "FW",
+        "birth_year": 1990
       },
       {
         "appearances": 59,
@@ -5656,7 +6044,8 @@
         "is_captain": false,
         "name": "Garry Rodrigues",
         "number": 0,
-        "position": "FW"
+        "position": "FW",
+        "birth_year": 1992
       },
       {
         "appearances": 36,
@@ -5665,7 +6054,8 @@
         "is_captain": false,
         "name": "Willy Semedo",
         "number": 0,
-        "position": "FW"
+        "position": "FW",
+        "birth_year": 1997
       },
       {
         "appearances": 10,
@@ -5674,7 +6064,8 @@
         "is_captain": false,
         "name": "Márcio Rosa",
         "number": 0,
-        "position": "GK"
+        "position": "GK",
+        "birth_year": 1999
       },
       {
         "appearances": 0,
@@ -5683,7 +6074,8 @@
         "is_captain": false,
         "name": "CJ dos Santos",
         "number": 0,
-        "position": "GK"
+        "position": "GK",
+        "birth_year": 1998
       },
       {
         "appearances": 26,
@@ -5692,7 +6084,8 @@
         "is_captain": false,
         "name": "Logan Costa",
         "number": 0,
-        "position": "DF"
+        "position": "DF",
+        "birth_year": 2001
       }
     ]
   },
