@@ -47,7 +47,28 @@
   </style>
 </head>
 <body>
-  <div id="top-nav"></div>
+  <nav class="top-nav" id="top-nav" role="navigation" aria-label="Main navigation">
+    <div class="top-nav-inner container">
+      <a class="top-nav-logo" href="/">⚽ WC2026</a>
+      <ul class="top-nav-links" id="top-nav-links">
+        <li><a href="/#section-recent" data-i18n="nav_recent">Recent</a></li>
+        <li class="top-nav-has-sub">
+          <a href="/#section-groups" data-i18n="nav_progress">Match Progress</a>
+          <ul class="top-nav-sub">
+            <li><a href="/#section-groups" data-i18n="nav_groups">Group Stage</a></li>
+            <li><a href="/#section-schedule" data-i18n="nav_knockout">Knockout Stage</a></li>
+          </ul>
+        </li>
+        <li><a href="/#scorers-section" data-i18n="nav_scorers">Top Scorers</a></li>
+        <li><a href="/#section-champion-odds" data-i18n="nav_champion_odds">Champion Odds</a></li>
+        <li><a href="/#section-schedule" data-i18n="nav_schedule">Full Schedule</a></li>
+      </ul>
+      <div class="top-nav-controls" id="app-header"></div>
+      <button class="top-nav-burger" id="top-nav-burger" aria-label="Menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
   <main class="container" style="padding-top:1rem">
     <a href="/" class="back-link">← Back to Schedule</a>
     <div class="team-hero">

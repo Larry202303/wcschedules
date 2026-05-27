@@ -89,6 +89,7 @@ async function boot() {
 
   // expose helpers + data for sibling modules
   window.teamName = teamName;
+  window.teamSlug = teamSlug;
   window.__scorersData = { teams: DATA.teams, matches: DATA.matches };
   if (typeof window.initScorers === "function") {
     window.initScorers(DATA.teams, DATA.matches);
@@ -114,6 +115,12 @@ function teamByCode(code) {
       group: "?",
     }
   );
+}
+
+function teamSlug(code) {
+  const t = teamByCode(code);
+  const name = (t && t.name_en) || code;
+  return name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 }
 
 function teamName(code) {
@@ -445,7 +452,7 @@ function renderGroups() {
             <li ${isMine ? 'class="my-team-row"' : ""} data-team="${row.code}">
               <span class="gc-rank">${rank}</span>
               <span class="team-flag-sm">${team.flag}</span>
-              <span class="team-name-sm">${teamName(row.code)}</span>
+              <a href="/teams/${teamSlug(row.code)}" class="team-name-sm" style="color:inherit;text-decoration:none">${teamName(row.code)}</a>
               <span class="gc-pts">${row.points}</span>
             </li>
           `;

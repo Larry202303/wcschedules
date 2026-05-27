@@ -159,6 +159,11 @@ function teamName(code) {
   if (entry && entry.en) return entry.en;
   return teamByCode(code).name_en;
 }
+function teamSlug(code) {
+  const t = teamByCode(code);
+  const name = (t && t.name_en) || code;
+  return name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+}
 function cityName(en) {
   const entry = DATA.i18n.cities[en];
   return entry && entry[STATE.lang] ? entry[STATE.lang] : en;
@@ -255,11 +260,11 @@ function renderHero() {
     (m.stage || "Group Stage") + (m.group ? ` · ${t("md_group")} ${m.group}` : "");
 
   document.getElementById("md-home-flag").textContent = home.flag;
-  document.getElementById("md-home-name").textContent = teamName(home.code);
+  document.getElementById("md-home-name").innerHTML = `<a href="/teams/${teamSlug(home.code)}" style="color:inherit;text-decoration:none">${teamName(home.code)}</a>`;
   document.getElementById("md-home-code").textContent = home.code;
 
   document.getElementById("md-away-flag").textContent = away.flag;
-  document.getElementById("md-away-name").textContent = teamName(away.code);
+  document.getElementById("md-away-name").innerHTML = `<a href="/teams/${teamSlug(away.code)}" style="color:inherit;text-decoration:none">${teamName(away.code)}</a>`;
   document.getElementById("md-away-code").textContent = away.code;
 
   const scoreEl = document.getElementById("md-score-display");

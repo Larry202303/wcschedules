@@ -81,12 +81,13 @@
         const flag = flagFor(t.country_code, teams);
         const name = teamLocalName(t.country_code, teams);
         const tagLabel = window.t(tagToKey(t.tag));
+        const slug = typeof window.teamSlug === 'function' ? window.teamSlug(t.country_code) : t.country_code.toLowerCase();
         return `
           <li class="sc-row">
             <span class="sc-rank">${t.rank}</span>
             <span class="sc-flag">${flag}</span>
             <span class="sc-name">
-              <strong>${name}</strong>
+              <a href="/teams/${slug}" style="color:inherit;text-decoration:none"><strong>${name}</strong></a>
             </span>
             <span class="sc-tag">${tagLabel}</span>
           </li>
@@ -118,11 +119,12 @@
       .map((row, i) => {
         const flag = flagFor(row.team_code, teams);
         const name = teamLocalName(row.team_code, teams);
+        const slug = typeof window.teamSlug === 'function' ? window.teamSlug(row.team_code) : row.team_code.toLowerCase();
         return `
           <li class="sc-row">
             <span class="sc-rank">${i + 1}</span>
             <span class="sc-flag">${flag}</span>
-            <span class="sc-name"><strong>${name}</strong></span>
+            <span class="sc-name"><a href="/teams/${slug}" style="color:inherit;text-decoration:none"><strong>${name}</strong></a></span>
             <span class="sc-goals">${row.goals}</span>
           </li>
         `;

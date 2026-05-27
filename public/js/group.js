@@ -87,6 +87,11 @@ function teamName(code) {
   if (entry && entry.en) return entry.en;
   return teamByCode(code).name_en;
 }
+function teamSlug(code) {
+  const t = teamByCode(code);
+  const name = (t && t.name_en) || code;
+  return name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+}
 function cityName(en) {
   const entry = DATA.i18n.cities && DATA.i18n.cities[en];
   return entry && entry[STATE.lang] ? entry[STATE.lang] : en;
@@ -231,7 +236,7 @@ function renderStandings() {
         <td class="gp-st-rank">${rank}</td>
         <td class="gp-st-team">
           <span class="gp-st-flag">${team.flag}</span>
-          <span class="gp-st-name">${escapeHtml(teamName(row.code))}</span>
+          <a href="/teams/${teamSlug(row.code)}" class="gp-st-name" style="color:inherit;text-decoration:none">${escapeHtml(teamName(row.code))}</a>
         </td>
         <td>${row.played}</td>
         <td>${row.win}</td>
@@ -259,11 +264,11 @@ function renderTeams() {
     .sort((a, b) => (a.name_en || "").localeCompare(b.name_en || ""));
 
   c.innerHTML = teams.map((tm) => `
-    <div class="gp-team-card">
+    <a href="/teams/${teamSlug(tm.code)}" class="gp-team-card" style="text-decoration:none;color:inherit;display:block">
       <div class="gp-team-flag">${tm.flag}</div>
       <div class="gp-team-name">${escapeHtml(teamName(tm.code))}</div>
       <div class="gp-team-code">${escapeHtml(tm.code)}</div>
-    </div>
+    </a>
   `).join("");
 }
 
