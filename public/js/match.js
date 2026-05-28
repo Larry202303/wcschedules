@@ -651,7 +651,7 @@ function renderSeoMeta() {
 
   // Canonical
   const slug = `${m.home_code.toLowerCase()}-${m.away_code.toLowerCase()}-${m.date_local}`;
-  document.getElementById("page-canonical").setAttribute("href", `https://wcschedules.com/match/${slug}`);
+  document.getElementById("page-canonical").setAttribute("href", `https://www.wcschedules.com/match/${slug}`);
 
   // Schema.org SportsEvent
   const ld = {

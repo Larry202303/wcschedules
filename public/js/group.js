@@ -327,5 +327,5 @@ function renderSeoMeta() {
   setMeta("page-desc", "content", desc);
   setMeta("og-title", "content", title);
   setMeta("og-desc", "content", desc);
-  setMeta("page-canonical", "href", `https://wcschedules.com/group.html?g=${STATE.group}`);
+  setMeta("page-canonical", "href", `https://www.wcschedules.com/group.html?g=${STATE.group}`);
 }

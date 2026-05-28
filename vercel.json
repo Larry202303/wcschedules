@@ -2,6 +2,19 @@
   "outputDirectory": "public",
   "cleanUrls": false,
   "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "wcschedules.com"
+        }
+      ],
+      "destination": "https://www.wcschedules.com/:path*",
+      "permanent": true
+    }
+  ],
   "rewrites": [
     {
       "source": "/teams/:slug",
