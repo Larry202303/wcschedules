@@ -16,7 +16,7 @@ const teams_map = {
 };
 
 const get_detailed_bio = (name, team) => {
-    return `${name} is the distinguished head coach of the ${team} national football team, leading the squad into the highly anticipated 2026 FIFA World Cup. With a wealth of tactical experience and a deep understanding of the modern game, he has implemented a rigorous training regime focused on technical excellence, physical conditioning, and mental resilience. Under his guidance, the team has shown significant progress in recent international fixtures, demonstrating a cohesive playing style that balances a solid defensive foundation with creative and dynamic attacking transitions. He is widely respected by players and peers alike for his visionary leadership qualities and his ability to inspire his team to perform at their absolute best on the world stage, aiming to make a lasting impact in the tournament held across North America.`;
+    return "";
 };
 
 const coach_data = {
@@ -45,16 +45,14 @@ for (let code in teams_map) {
         final_squads[code] = extracted.squads[code];
     } else {
         let players = default_squads[code] || [];
-        while(players.length < 11) {
-            players.push({ name: "Player " + (players.length + 1), position: players.length < 1 ? "GK" : (players.length < 5 ? "DF" : (players.length < 9 ? "MF" : "FW")), club: "TBD", number: players.length + 1, appearances: 10, goals: 0 });
-        }
+        // Leave missing squads empty; fake player rows hurt content quality.
         final_squads[code] = { key_players: players };
     }
 
     if (coach_data[code]) {
         final_coaches[code] = coach_data[code];
     } else {
-        const name = extracted.coaches[code] && extracted.coaches[code].name && extracted.coaches[code].name !== "Unknown" ? extracted.coaches[code].name : "Head Coach";
+        const name = extracted.coaches[code] && extracted.coaches[code].name && extracted.coaches[code].name !== "Unknown" ? extracted.coaches[code].name : "Coach to be announced";
         final_coaches[code] = {
             name: name,
             nationality: teams_map[code],

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="WC Schedules World Cup 2026 schedule">
+  <rect width="1200" height="630" fill="#06141f"/>
+  <rect x="0" y="0" width="1200" height="630" fill="url(#g)"/>
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#0f766e"/>
+      <stop offset="0.52" stop-color="#111827"/>
+      <stop offset="1" stop-color="#7f1d1d"/>
+    </linearGradient>
+  </defs>
+  <circle cx="956" cy="122" r="80" fill="#f8fafc" opacity="0.12"/>
+  <circle cx="1018" cy="184" r="30" fill="#f8fafc" opacity="0.18"/>
+  <text x="88" y="140" font-family="Arial, Helvetica, sans-serif" font-size="38" font-weight="700" fill="#d1fae5">WC Schedules</text>
+  <text x="88" y="276" font-family="Arial, Helvetica, sans-serif" font-size="84" font-weight="800" fill="#ffffff">World Cup 2026</text>
+  <text x="88" y="370" font-family="Arial, Helvetica, sans-serif" font-size="52" font-weight="700" fill="#ffffff">Schedule, Local Times & Odds</text>
+  <text x="88" y="466" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#cbd5e1">48 teams · 16 host cities · timezone-aware fixtures</text>
+  <text x="88" y="540" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#a7f3d0">wcschedules.com</text>
+</svg>

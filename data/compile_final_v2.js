@@ -57,9 +57,7 @@ for (let code in teams_map) {
         final_squads[code] = extracted.squads[code];
     } else {
         let players = default_squads[code] || [];
-        while(players.length < 11) {
-            players.push({ name: "Player " + (players.length + 1), position: players.length < 1 ? "GK" : (players.length < 5 ? "DF" : (players.length < 9 ? "MF" : "FW")), club: "TBD", number: players.length + 1, appearances: 10, goals: 0 });
-        }
+        // Leave missing squads empty; fake player rows hurt content quality.
         final_squads[code] = { key_players: players };
     }
 

@@ -53,10 +53,7 @@ for (let code in teams_map) {
         if (code === "URU") players.push({ name: "Federico Valverde", position: "MF", club: "Real Madrid", number: 15, is_captain: true }, { name: "Darwin Núñez", position: "FW", club: "Liverpool", number: 19 }, { name: "Ronald Araújo", position: "DF", club: "Barcelona", number: 4 });
         if (code === "MAR") players.push({ name: "Achraf Hakimi", position: "DF", club: "PSG", number: 2, is_captain: true }, { name: "Hakim Ziyech", position: "FW", club: "Galatasaray", number: 7 }, { name: "Sofyan Amrabat", position: "MF", club: "Fenerbahçe", number: 4 });
         
-        // Generic fill for others to ensure 11-15
-        while(players.length < 11) {
-            players.push({ name: "Player " + (players.length + 1), position: players.length < 1 ? "GK" : (players.length < 5 ? "DF" : (players.length < 9 ? "MF" : "FW")), club: "TBD", number: players.length + 1 });
-        }
+        // Leave missing squads empty; fake player rows hurt content quality.
         squads[code] = { key_players: players };
     }
 
@@ -74,7 +71,7 @@ for (let code in teams_map) {
             trophies: []
         };
     } else {
-        coaches[code] = { name: "Unknown", nationality: teams_map[code], age: 50, since: "2022", bio_en: "The head coach of " + teams_map[code] + " is leading the team into the 2026 FIFA World Cup. The squad focus on a mix of experienced veterans and rising talents to compete on the world stage.", trophies: [] };
+        coaches[code] = { name: "Coach to be announced", nationality: teams_map[code], age: null, since: "", bio_en: "", trophies: [] };
     }
 }
 
