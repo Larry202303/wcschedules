@@ -504,16 +504,53 @@ async function loadOdds() {
   }
 
   try {
-    const r = await fetch(`/api/odds?slug=${encodeURIComponent(STATE.pmLink.polymarket_slug)}`);
+    const r = await fetchWithTimeout(`/api/odds?slug=${encodeURIComponent(STATE.pmLink.polymarket_slug)}&history=0`, 9000);
     if (!r.ok) throw new Error("api " + r.status);
     const data = await r.json();
     renderOdds(data);
     renderSparkline(data);
   } catch (e) {
     console.error("odds err:", e);
-    cont.innerHTML = `<p class="md-odds-na">${t("md_odds_unavailable")}</p>`;
-    const chart = document.getElementById("md-odds-chart");
-    if (chart) chart.innerHTML = "";
+    const fallback = await loadOddsFallback();
+    if (fallback) {
+      renderOdds(fallback);
+      renderSparkline(fallback);
+    } else {
+      cont.innerHTML = `<p class="md-odds-na">${t("md_odds_unavailable")}</p>`;
+      const chart = document.getElementById("md-odds-chart");
+      if (chart) chart.innerHTML = "";
+    }
+  }
+}
+
+async function fetchWithTimeout(url, timeoutMs) {
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), timeoutMs || 8000);
+  try {
+    return await fetch(url, { signal: controller.signal });
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
+async function loadOddsFallback() {
+  try {
+    const slug = STATE.pmLink && STATE.pmLink.polymarket_slug;
+    if (!slug) return null;
+    const r = await fetchWithTimeout("/data/odds_fallback.json", 5000);
+    if (!r.ok) return null;
+    const data = await r.json();
+    const item = data.matches && data.matches[slug];
+    if (!item) return null;
+    return {
+      source: "fallback_estimate",
+      status: item.status || "estimated",
+      market_url: item.market_url,
+      last_updated: item.last_updated || data.updated,
+      outcomes: item.outcomes || [],
+    };
+  } catch (err) {
+    return null;
   }
 }
 
@@ -539,7 +576,7 @@ function renderOdds(data) {
         )
         .join("")}
     </div>
-    <p class="md-odds-foot">${t("md_odds_updated")}: ${new Date(data.last_updated).toLocaleTimeString(localeForIntl(STATE.lang))}</p>
+    <p class="md-odds-foot">${data.source === "fallback_estimate" ? "Estimate shown while live Polymarket data is unavailable" : `${t("md_odds_updated")}: ${new Date(data.last_updated).toLocaleTimeString(localeForIntl(STATE.lang))}`}</p>
   `;
 }
 

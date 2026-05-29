@@ -2075,8 +2075,35 @@ window.I18N = {
 
 };
 
+window.I18N.de = {
+  ...window.I18N.en,
+  lang_name: "Deutsch",
+  site_title: "WM 2026 Spielplan",
+  hero_title: "WM 2026",
+  hero_tagline: "Der einfache Spielplan zur WM 2026",
+  groups_title: "Gruppenphase",
+  schedule_title: "Vollständiger Spielplan",
+  schedule_filter_all: "Alle Spiele",
+  schedule_filter_today: "Heute",
+  schedule_filter_tomorrow: "Morgen",
+  schedule_filter_my_team: "Mein Team",
+  match_view_details: "Spieldetails",
+  nav_recent: "Aktuell",
+  nav_progress: "Turnier",
+  nav_groups: "Gruppen",
+  nav_knockout: "K.-o.-Phase",
+  nav_scorers: "Torschützen",
+  nav_champion_odds: "Titelquoten",
+  nav_schedule: "Spielplan",
+  co_desc: "Live-Siegwahrscheinlichkeiten von Polymarket. Top 10 Favoriten.",
+  co_loading: "Quoten werden geladen…",
+  co_updated: "Aktualisiert",
+  co_cta: "Auf Polymarket handeln ↗",
+};
+
 window.LANG_LIST = [
   { code: "en", name: "English", flag: "🇬🇧" },
+  { code: "de", name: "Deutsch", flag: "🇩🇪" },
   { code: "zh-CN", name: "简体中文", flag: "🇨🇳" },
   { code: "zh-TW", name: "繁體中文", flag: "🇭🇰" },
   { code: "es", name: "Español", flag: "🇪🇸" },

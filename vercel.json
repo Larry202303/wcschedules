@@ -25,6 +25,14 @@
       "destination": "/match/:slug/index.html"
     },
     {
+      "source": "/groups/:slug/",
+      "destination": "/groups/:slug/index.html"
+    },
+    {
+      "source": "/groups/:slug",
+      "destination": "/groups/:slug/index.html"
+    },
+    {
       "source": "/group/:slug",
       "destination": "/group.html?group=:slug"
     },

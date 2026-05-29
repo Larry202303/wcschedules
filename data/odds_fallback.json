@@ -1,0 +1,3261 @@
+{
+  "updated": "2026-05-29T00:00:00.000Z",
+  "source": "fallback_estimate",
+  "note": "Fallback estimates shown only when live Polymarket data is unavailable.",
+  "champion": [
+    {
+      "team": "Argentina",
+      "prob": 0.175,
+      "prob_pct": 17.5,
+      "conditionId": "",
+      "marketId": ""
+    },
+    {
+      "team": "France",
+      "prob": 0.155,
+      "prob_pct": 15.5,
+      "conditionId": "",
+      "marketId": ""
+    },
+    {
+      "team": "Brazil",
+      "prob": 0.135,
+      "prob_pct": 13.5,
+      "conditionId": "",
+      "marketId": ""
+    },
+    {
+      "team": "Spain",
+      "prob": 0.125,
+      "prob_pct": 12.5,
+      "conditionId": "",
+      "marketId": ""
+    },
+    {
+      "team": "England",
+      "prob": 0.115,
+      "prob_pct": 11.5,
+      "conditionId": "",
+      "marketId": ""
+    },
+    {
+      "team": "Portugal",
+      "prob": 0.085,
+      "prob_pct": 8.5,
+      "conditionId": "",
+      "marketId": ""
+    },
+    {
+      "team": "Germany",
+      "prob": 0.075,
+      "prob_pct": 7.5,
+      "conditionId": "",
+      "marketId": ""
+    },
+    {
+      "team": "Netherlands",
+      "prob": 0.055,
+      "prob_pct": 5.5,
+      "conditionId": "",
+      "marketId": ""
+    },
+    {
+      "team": "Belgium",
+      "prob": 0.038,
+      "prob_pct": 3.8,
+      "conditionId": "",
+      "marketId": ""
+    },
+    {
+      "team": "Uruguay",
+      "prob": 0.032,
+      "prob_pct": 3.2,
+      "conditionId": "",
+      "marketId": ""
+    },
+    {
+      "team": "United States",
+      "prob": 0.022,
+      "prob_pct": 2.2,
+      "conditionId": "",
+      "marketId": ""
+    },
+    {
+      "team": "Mexico",
+      "prob": 0.018,
+      "prob_pct": 1.8,
+      "conditionId": "",
+      "marketId": ""
+    }
+  ],
+  "matches": {
+    "fifwc-mex-rsa-2026-06-11": {
+      "market_url": "https://polymarket.com/search?_q=Mexico%20South%20Africa%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Mexico",
+          "price": 0.66,
+          "implied_probability_pct": 66
+        },
+        {
+          "name": "Draw",
+          "price": 0.215,
+          "implied_probability_pct": 22
+        },
+        {
+          "name": "South Africa",
+          "price": 0.125,
+          "implied_probability_pct": 13
+        }
+      ]
+    },
+    "mex-rsa-2026-06-11": {
+      "market_url": "https://polymarket.com/search?_q=Mexico%20South%20Africa%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Mexico",
+          "price": 0.66,
+          "implied_probability_pct": 66
+        },
+        {
+          "name": "Draw",
+          "price": 0.215,
+          "implied_probability_pct": 22
+        },
+        {
+          "name": "South Africa",
+          "price": 0.125,
+          "implied_probability_pct": 13
+        }
+      ]
+    },
+    "fifwc-kor-cze-2026-06-11": {
+      "market_url": "https://polymarket.com/search?_q=South%20Korea%20Czech%20Republic%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "South Korea",
+          "price": 0.414,
+          "implied_probability_pct": 41
+        },
+        {
+          "name": "Draw",
+          "price": 0.254,
+          "implied_probability_pct": 25
+        },
+        {
+          "name": "Czech Republic",
+          "price": 0.332,
+          "implied_probability_pct": 33
+        }
+      ]
+    },
+    "kor-cze-2026-06-11": {
+      "market_url": "https://polymarket.com/search?_q=South%20Korea%20Czech%20Republic%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "South Korea",
+          "price": 0.414,
+          "implied_probability_pct": 41
+        },
+        {
+          "name": "Draw",
+          "price": 0.254,
+          "implied_probability_pct": 25
+        },
+        {
+          "name": "Czech Republic",
+          "price": 0.332,
+          "implied_probability_pct": 33
+        }
+      ]
+    },
+    "fifwc-can-bih-2026-06-12": {
+      "market_url": "https://polymarket.com/search?_q=Canada%20Bosnia%20and%20Herzegovina%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Canada",
+          "price": 0.392,
+          "implied_probability_pct": 39
+        },
+        {
+          "name": "Draw",
+          "price": 0.257,
+          "implied_probability_pct": 26
+        },
+        {
+          "name": "Bosnia and Herzegovina",
+          "price": 0.351,
+          "implied_probability_pct": 35
+        }
+      ]
+    },
+    "can-bih-2026-06-12": {
+      "market_url": "https://polymarket.com/search?_q=Canada%20Bosnia%20and%20Herzegovina%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Canada",
+          "price": 0.392,
+          "implied_probability_pct": 39
+        },
+        {
+          "name": "Draw",
+          "price": 0.257,
+          "implied_probability_pct": 26
+        },
+        {
+          "name": "Bosnia and Herzegovina",
+          "price": 0.351,
+          "implied_probability_pct": 35
+        }
+      ]
+    },
+    "fifwc-usa-par-2026-06-12": {
+      "market_url": "https://polymarket.com/search?_q=United%20States%20Paraguay%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "United States",
+          "price": 0.597,
+          "implied_probability_pct": 60
+        },
+        {
+          "name": "Draw",
+          "price": 0.227,
+          "implied_probability_pct": 23
+        },
+        {
+          "name": "Paraguay",
+          "price": 0.176,
+          "implied_probability_pct": 18
+        }
+      ]
+    },
+    "usa-par-2026-06-12": {
+      "market_url": "https://polymarket.com/search?_q=United%20States%20Paraguay%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "United States",
+          "price": 0.597,
+          "implied_probability_pct": 60
+        },
+        {
+          "name": "Draw",
+          "price": 0.227,
+          "implied_probability_pct": 23
+        },
+        {
+          "name": "Paraguay",
+          "price": 0.176,
+          "implied_probability_pct": 18
+        }
+      ]
+    },
+    "fifwc-hai-sco-2026-06-13": {
+      "market_url": "https://polymarket.com/search?_q=Haiti%20Scotland%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Haiti",
+          "price": 0.136,
+          "implied_probability_pct": 14
+        },
+        {
+          "name": "Draw",
+          "price": 0.218,
+          "implied_probability_pct": 22
+        },
+        {
+          "name": "Scotland",
+          "price": 0.646,
+          "implied_probability_pct": 65
+        }
+      ]
+    },
+    "hai-sco-2026-06-13": {
+      "market_url": "https://polymarket.com/search?_q=Haiti%20Scotland%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Haiti",
+          "price": 0.136,
+          "implied_probability_pct": 14
+        },
+        {
+          "name": "Draw",
+          "price": 0.218,
+          "implied_probability_pct": 22
+        },
+        {
+          "name": "Scotland",
+          "price": 0.646,
+          "implied_probability_pct": 65
+        }
+      ]
+    },
+    "fifwc-aus-tur-2026-06-13": {
+      "market_url": "https://polymarket.com/search?_q=Australia%20Turkey%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Australia",
+          "price": 0.313,
+          "implied_probability_pct": 31
+        },
+        {
+          "name": "Draw",
+          "price": 0.251,
+          "implied_probability_pct": 25
+        },
+        {
+          "name": "Turkey",
+          "price": 0.436,
+          "implied_probability_pct": 44
+        }
+      ]
+    },
+    "aus-tur-2026-06-13": {
+      "market_url": "https://polymarket.com/search?_q=Australia%20Turkey%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Australia",
+          "price": 0.313,
+          "implied_probability_pct": 31
+        },
+        {
+          "name": "Draw",
+          "price": 0.251,
+          "implied_probability_pct": 25
+        },
+        {
+          "name": "Turkey",
+          "price": 0.436,
+          "implied_probability_pct": 44
+        }
+      ]
+    },
+    "fifwc-bra-mar-2026-06-13": {
+      "market_url": "https://polymarket.com/search?_q=Brazil%20Morocco%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Brazil",
+          "price": 0.674,
+          "implied_probability_pct": 67
+        },
+        {
+          "name": "Draw",
+          "price": 0.212,
+          "implied_probability_pct": 21
+        },
+        {
+          "name": "Morocco",
+          "price": 0.114,
+          "implied_probability_pct": 11
+        }
+      ]
+    },
+    "bra-mar-2026-06-13": {
+      "market_url": "https://polymarket.com/search?_q=Brazil%20Morocco%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Brazil",
+          "price": 0.674,
+          "implied_probability_pct": 67
+        },
+        {
+          "name": "Draw",
+          "price": 0.212,
+          "implied_probability_pct": 21
+        },
+        {
+          "name": "Morocco",
+          "price": 0.114,
+          "implied_probability_pct": 11
+        }
+      ]
+    },
+    "fifwc-qat-sui-2026-06-13": {
+      "market_url": "https://polymarket.com/search?_q=Qatar%20Switzerland%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Qatar",
+          "price": 0.191,
+          "implied_probability_pct": 19
+        },
+        {
+          "name": "Draw",
+          "price": 0.23,
+          "implied_probability_pct": 23
+        },
+        {
+          "name": "Switzerland",
+          "price": 0.579,
+          "implied_probability_pct": 58
+        }
+      ]
+    },
+    "qat-sui-2026-06-13": {
+      "market_url": "https://polymarket.com/search?_q=Qatar%20Switzerland%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Qatar",
+          "price": 0.191,
+          "implied_probability_pct": 19
+        },
+        {
+          "name": "Draw",
+          "price": 0.23,
+          "implied_probability_pct": 23
+        },
+        {
+          "name": "Switzerland",
+          "price": 0.579,
+          "implied_probability_pct": 58
+        }
+      ]
+    },
+    "fifwc-civ-ecu-2026-06-14": {
+      "market_url": "https://polymarket.com/search?_q=Ivory%20Coast%20Ecuador%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Ivory Coast",
+          "price": 0.332,
+          "implied_probability_pct": 33
+        },
+        {
+          "name": "Draw",
+          "price": 0.254,
+          "implied_probability_pct": 25
+        },
+        {
+          "name": "Ecuador",
+          "price": 0.414,
+          "implied_probability_pct": 41
+        }
+      ]
+    },
+    "civ-ecu-2026-06-14": {
+      "market_url": "https://polymarket.com/search?_q=Ivory%20Coast%20Ecuador%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Ivory Coast",
+          "price": 0.332,
+          "implied_probability_pct": 33
+        },
+        {
+          "name": "Draw",
+          "price": 0.254,
+          "implied_probability_pct": 25
+        },
+        {
+          "name": "Ecuador",
+          "price": 0.414,
+          "implied_probability_pct": 41
+        }
+      ]
+    },
+    "fifwc-ger-cuw-2026-06-14": {
+      "market_url": "https://polymarket.com/search?_q=Germany%20Cura%C3%A7ao%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Germany",
+          "price": 0.797,
+          "implied_probability_pct": 80
+        },
+        {
+          "name": "Draw",
+          "price": 0.18,
+          "implied_probability_pct": 18
+        },
+        {
+          "name": "Curaçao",
+          "price": 0.023,
+          "implied_probability_pct": 2
+        }
+      ]
+    },
+    "ger-cuw-2026-06-14": {
+      "market_url": "https://polymarket.com/search?_q=Germany%20Cura%C3%A7ao%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Germany",
+          "price": 0.797,
+          "implied_probability_pct": 80
+        },
+        {
+          "name": "Draw",
+          "price": 0.18,
+          "implied_probability_pct": 18
+        },
+        {
+          "name": "Curaçao",
+          "price": 0.023,
+          "implied_probability_pct": 2
+        }
+      ]
+    },
+    "fifwc-ned-jpn-2026-06-14": {
+      "market_url": "https://polymarket.com/search?_q=Netherlands%20Japan%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Netherlands",
+          "price": 0.614,
+          "implied_probability_pct": 61
+        },
+        {
+          "name": "Draw",
+          "price": 0.224,
+          "implied_probability_pct": 22
+        },
+        {
+          "name": "Japan",
+          "price": 0.162,
+          "implied_probability_pct": 16
+        }
+      ]
+    },
+    "ned-jpn-2026-06-14": {
+      "market_url": "https://polymarket.com/search?_q=Netherlands%20Japan%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Netherlands",
+          "price": 0.614,
+          "implied_probability_pct": 61
+        },
+        {
+          "name": "Draw",
+          "price": 0.224,
+          "implied_probability_pct": 22
+        },
+        {
+          "name": "Japan",
+          "price": 0.162,
+          "implied_probability_pct": 16
+        }
+      ]
+    },
+    "fifwc-swe-tun-2026-06-14": {
+      "market_url": "https://polymarket.com/search?_q=Sweden%20Tunisia%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Sweden",
+          "price": 0.541,
+          "implied_probability_pct": 54
+        },
+        {
+          "name": "Draw",
+          "price": 0.236,
+          "implied_probability_pct": 24
+        },
+        {
+          "name": "Tunisia",
+          "price": 0.223,
+          "implied_probability_pct": 22
+        }
+      ]
+    },
+    "swe-tun-2026-06-14": {
+      "market_url": "https://polymarket.com/search?_q=Sweden%20Tunisia%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Sweden",
+          "price": 0.541,
+          "implied_probability_pct": 54
+        },
+        {
+          "name": "Draw",
+          "price": 0.236,
+          "implied_probability_pct": 24
+        },
+        {
+          "name": "Tunisia",
+          "price": 0.223,
+          "implied_probability_pct": 22
+        }
+      ]
+    },
+    "fifwc-ksa-uru-2026-06-15": {
+      "market_url": "https://polymarket.com/search?_q=Saudi%20Arabia%20Uruguay%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Saudi Arabia",
+          "price": 0.095,
+          "implied_probability_pct": 10
+        },
+        {
+          "name": "Draw",
+          "price": 0.206,
+          "implied_probability_pct": 21
+        },
+        {
+          "name": "Uruguay",
+          "price": 0.699,
+          "implied_probability_pct": 70
+        }
+      ]
+    },
+    "ksa-uru-2026-06-15": {
+      "market_url": "https://polymarket.com/search?_q=Saudi%20Arabia%20Uruguay%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Saudi Arabia",
+          "price": 0.095,
+          "implied_probability_pct": 10
+        },
+        {
+          "name": "Draw",
+          "price": 0.206,
+          "implied_probability_pct": 21
+        },
+        {
+          "name": "Uruguay",
+          "price": 0.699,
+          "implied_probability_pct": 70
+        }
+      ]
+    },
+    "fifwc-esp-cpv-2026-06-15": {
+      "market_url": "https://polymarket.com/search?_q=Spain%20Cape%20Verde%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Spain",
+          "price": 0.792,
+          "implied_probability_pct": 79
+        },
+        {
+          "name": "Draw",
+          "price": 0.18,
+          "implied_probability_pct": 18
+        },
+        {
+          "name": "Cape Verde",
+          "price": 0.028,
+          "implied_probability_pct": 3
+        }
+      ]
+    },
+    "esp-cpv-2026-06-15": {
+      "market_url": "https://polymarket.com/search?_q=Spain%20Cape%20Verde%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Spain",
+          "price": 0.792,
+          "implied_probability_pct": 79
+        },
+        {
+          "name": "Draw",
+          "price": 0.18,
+          "implied_probability_pct": 18
+        },
+        {
+          "name": "Cape Verde",
+          "price": 0.028,
+          "implied_probability_pct": 3
+        }
+      ]
+    },
+    "fifwc-irn-nzl-2026-06-15": {
+      "market_url": "https://polymarket.com/search?_q=Iran%20New%20Zealand%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Iran",
+          "price": 0.561,
+          "implied_probability_pct": 56
+        },
+        {
+          "name": "Draw",
+          "price": 0.233,
+          "implied_probability_pct": 23
+        },
+        {
+          "name": "New Zealand",
+          "price": 0.206,
+          "implied_probability_pct": 21
+        }
+      ]
+    },
+    "irn-nzl-2026-06-15": {
+      "market_url": "https://polymarket.com/search?_q=Iran%20New%20Zealand%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Iran",
+          "price": 0.561,
+          "implied_probability_pct": 56
+        },
+        {
+          "name": "Draw",
+          "price": 0.233,
+          "implied_probability_pct": 23
+        },
+        {
+          "name": "New Zealand",
+          "price": 0.206,
+          "implied_probability_pct": 21
+        }
+      ]
+    },
+    "fifwc-bel-egy-2026-06-15": {
+      "market_url": "https://polymarket.com/search?_q=Belgium%20Egypt%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Belgium",
+          "price": 0.711,
+          "implied_probability_pct": 71
+        },
+        {
+          "name": "Draw",
+          "price": 0.203,
+          "implied_probability_pct": 20
+        },
+        {
+          "name": "Egypt",
+          "price": 0.086,
+          "implied_probability_pct": 9
+        }
+      ]
+    },
+    "bel-egy-2026-06-15": {
+      "market_url": "https://polymarket.com/search?_q=Belgium%20Egypt%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Belgium",
+          "price": 0.711,
+          "implied_probability_pct": 71
+        },
+        {
+          "name": "Draw",
+          "price": 0.203,
+          "implied_probability_pct": 20
+        },
+        {
+          "name": "Egypt",
+          "price": 0.086,
+          "implied_probability_pct": 9
+        }
+      ]
+    },
+    "fifwc-fra-sen-2026-06-16": {
+      "market_url": "https://polymarket.com/search?_q=France%20Senegal%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "France",
+          "price": 0.699,
+          "implied_probability_pct": 70
+        },
+        {
+          "name": "Draw",
+          "price": 0.206,
+          "implied_probability_pct": 21
+        },
+        {
+          "name": "Senegal",
+          "price": 0.095,
+          "implied_probability_pct": 10
+        }
+      ]
+    },
+    "fra-sen-2026-06-16": {
+      "market_url": "https://polymarket.com/search?_q=France%20Senegal%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "France",
+          "price": 0.699,
+          "implied_probability_pct": 70
+        },
+        {
+          "name": "Draw",
+          "price": 0.206,
+          "implied_probability_pct": 21
+        },
+        {
+          "name": "Senegal",
+          "price": 0.095,
+          "implied_probability_pct": 10
+        }
+      ]
+    },
+    "fifwc-irq-nor-2026-06-16": {
+      "market_url": "https://polymarket.com/search?_q=Iraq%20Norway%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Iraq",
+          "price": 0.136,
+          "implied_probability_pct": 14
+        },
+        {
+          "name": "Draw",
+          "price": 0.218,
+          "implied_probability_pct": 22
+        },
+        {
+          "name": "Norway",
+          "price": 0.646,
+          "implied_probability_pct": 65
+        }
+      ]
+    },
+    "irq-nor-2026-06-16": {
+      "market_url": "https://polymarket.com/search?_q=Iraq%20Norway%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Iraq",
+          "price": 0.136,
+          "implied_probability_pct": 14
+        },
+        {
+          "name": "Draw",
+          "price": 0.218,
+          "implied_probability_pct": 22
+        },
+        {
+          "name": "Norway",
+          "price": 0.646,
+          "implied_probability_pct": 65
+        }
+      ]
+    },
+    "fifwc-arg-alg-2026-06-16": {
+      "market_url": "https://polymarket.com/search?_q=Argentina%20Algeria%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Argentina",
+          "price": 0.792,
+          "implied_probability_pct": 79
+        },
+        {
+          "name": "Draw",
+          "price": 0.18,
+          "implied_probability_pct": 18
+        },
+        {
+          "name": "Algeria",
+          "price": 0.028,
+          "implied_probability_pct": 3
+        }
+      ]
+    },
+    "arg-alg-2026-06-16": {
+      "market_url": "https://polymarket.com/search?_q=Argentina%20Algeria%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Argentina",
+          "price": 0.792,
+          "implied_probability_pct": 79
+        },
+        {
+          "name": "Draw",
+          "price": 0.18,
+          "implied_probability_pct": 18
+        },
+        {
+          "name": "Algeria",
+          "price": 0.028,
+          "implied_probability_pct": 3
+        }
+      ]
+    },
+    "fifwc-aut-jor-2026-06-16": {
+      "market_url": "https://polymarket.com/search?_q=Austria%20Jordan%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Austria",
+          "price": 0.646,
+          "implied_probability_pct": 65
+        },
+        {
+          "name": "Draw",
+          "price": 0.218,
+          "implied_probability_pct": 22
+        },
+        {
+          "name": "Jordan",
+          "price": 0.136,
+          "implied_probability_pct": 14
+        }
+      ]
+    },
+    "aut-jor-2026-06-16": {
+      "market_url": "https://polymarket.com/search?_q=Austria%20Jordan%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Austria",
+          "price": 0.646,
+          "implied_probability_pct": 65
+        },
+        {
+          "name": "Draw",
+          "price": 0.218,
+          "implied_probability_pct": 22
+        },
+        {
+          "name": "Jordan",
+          "price": 0.136,
+          "implied_probability_pct": 14
+        }
+      ]
+    },
+    "fifwc-gha-pan-2026-06-17": {
+      "market_url": "https://polymarket.com/search?_q=Ghana%20Panama%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Ghana",
+          "price": 0.436,
+          "implied_probability_pct": 44
+        },
+        {
+          "name": "Draw",
+          "price": 0.251,
+          "implied_probability_pct": 25
+        },
+        {
+          "name": "Panama",
+          "price": 0.313,
+          "implied_probability_pct": 31
+        }
+      ]
+    },
+    "gha-pan-2026-06-17": {
+      "market_url": "https://polymarket.com/search?_q=Ghana%20Panama%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Ghana",
+          "price": 0.436,
+          "implied_probability_pct": 44
+        },
+        {
+          "name": "Draw",
+          "price": 0.251,
+          "implied_probability_pct": 25
+        },
+        {
+          "name": "Panama",
+          "price": 0.313,
+          "implied_probability_pct": 31
+        }
+      ]
+    },
+    "fifwc-eng-cro-2026-06-17": {
+      "market_url": "https://polymarket.com/search?_q=England%20Croatia%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "England",
+          "price": 0.521,
+          "implied_probability_pct": 52
+        },
+        {
+          "name": "Draw",
+          "price": 0.239,
+          "implied_probability_pct": 24
+        },
+        {
+          "name": "Croatia",
+          "price": 0.24,
+          "implied_probability_pct": 24
+        }
+      ]
+    },
+    "eng-cro-2026-06-17": {
+      "market_url": "https://polymarket.com/search?_q=England%20Croatia%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "England",
+          "price": 0.521,
+          "implied_probability_pct": 52
+        },
+        {
+          "name": "Draw",
+          "price": 0.239,
+          "implied_probability_pct": 24
+        },
+        {
+          "name": "Croatia",
+          "price": 0.24,
+          "implied_probability_pct": 24
+        }
+      ]
+    },
+    "fifwc-por-cod-2026-06-17": {
+      "market_url": "https://polymarket.com/search?_q=Portugal%20DR%20Congo%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Portugal",
+          "price": 0.775,
+          "implied_probability_pct": 78
+        },
+        {
+          "name": "Draw",
+          "price": 0.182,
+          "implied_probability_pct": 18
+        },
+        {
+          "name": "DR Congo",
+          "price": 0.043,
+          "implied_probability_pct": 4
+        }
+      ]
+    },
+    "por-cod-2026-06-17": {
+      "market_url": "https://polymarket.com/search?_q=Portugal%20DR%20Congo%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Portugal",
+          "price": 0.775,
+          "implied_probability_pct": 78
+        },
+        {
+          "name": "Draw",
+          "price": 0.182,
+          "implied_probability_pct": 18
+        },
+        {
+          "name": "DR Congo",
+          "price": 0.043,
+          "implied_probability_pct": 4
+        }
+      ]
+    },
+    "fifwc-uzb-col-2026-06-17": {
+      "market_url": "https://polymarket.com/search?_q=Uzbekistan%20Colombia%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Uzbekistan",
+          "price": 0.149,
+          "implied_probability_pct": 15
+        },
+        {
+          "name": "Draw",
+          "price": 0.221,
+          "implied_probability_pct": 22
+        },
+        {
+          "name": "Colombia",
+          "price": 0.63,
+          "implied_probability_pct": 63
+        }
+      ]
+    },
+    "uzb-col-2026-06-17": {
+      "market_url": "https://polymarket.com/search?_q=Uzbekistan%20Colombia%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Uzbekistan",
+          "price": 0.149,
+          "implied_probability_pct": 15
+        },
+        {
+          "name": "Draw",
+          "price": 0.221,
+          "implied_probability_pct": 22
+        },
+        {
+          "name": "Colombia",
+          "price": 0.63,
+          "implied_probability_pct": 63
+        }
+      ]
+    },
+    "fifwc-cze-rsa-2026-06-18": {
+      "market_url": "https://polymarket.com/search?_q=Czech%20Republic%20South%20Africa%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Czech Republic",
+          "price": 0.501,
+          "implied_probability_pct": 50
+        },
+        {
+          "name": "Draw",
+          "price": 0.242,
+          "implied_probability_pct": 24
+        },
+        {
+          "name": "South Africa",
+          "price": 0.257,
+          "implied_probability_pct": 26
+        }
+      ]
+    },
+    "cze-rsa-2026-06-18": {
+      "market_url": "https://polymarket.com/search?_q=Czech%20Republic%20South%20Africa%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Czech Republic",
+          "price": 0.501,
+          "implied_probability_pct": 50
+        },
+        {
+          "name": "Draw",
+          "price": 0.242,
+          "implied_probability_pct": 24
+        },
+        {
+          "name": "South Africa",
+          "price": 0.257,
+          "implied_probability_pct": 26
+        }
+      ]
+    },
+    "fifwc-sui-bih-2026-06-18": {
+      "market_url": "https://polymarket.com/search?_q=Switzerland%20Bosnia%20and%20Herzegovina%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Switzerland",
+          "price": 0.579,
+          "implied_probability_pct": 58
+        },
+        {
+          "name": "Draw",
+          "price": 0.23,
+          "implied_probability_pct": 23
+        },
+        {
+          "name": "Bosnia and Herzegovina",
+          "price": 0.191,
+          "implied_probability_pct": 19
+        }
+      ]
+    },
+    "sui-bih-2026-06-18": {
+      "market_url": "https://polymarket.com/search?_q=Switzerland%20Bosnia%20and%20Herzegovina%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Switzerland",
+          "price": 0.579,
+          "implied_probability_pct": 58
+        },
+        {
+          "name": "Draw",
+          "price": 0.23,
+          "implied_probability_pct": 23
+        },
+        {
+          "name": "Bosnia and Herzegovina",
+          "price": 0.191,
+          "implied_probability_pct": 19
+        }
+      ]
+    },
+    "fifwc-can-qat-2026-06-18": {
+      "market_url": "https://polymarket.com/search?_q=Canada%20Qatar%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Canada",
+          "price": 0.392,
+          "implied_probability_pct": 39
+        },
+        {
+          "name": "Draw",
+          "price": 0.257,
+          "implied_probability_pct": 26
+        },
+        {
+          "name": "Qatar",
+          "price": 0.351,
+          "implied_probability_pct": 35
+        }
+      ]
+    },
+    "can-qat-2026-06-18": {
+      "market_url": "https://polymarket.com/search?_q=Canada%20Qatar%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Canada",
+          "price": 0.392,
+          "implied_probability_pct": 39
+        },
+        {
+          "name": "Draw",
+          "price": 0.257,
+          "implied_probability_pct": 26
+        },
+        {
+          "name": "Qatar",
+          "price": 0.351,
+          "implied_probability_pct": 35
+        }
+      ]
+    },
+    "fifwc-mex-kor-2026-06-18": {
+      "market_url": "https://polymarket.com/search?_q=Mexico%20South%20Korea%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Mexico",
+          "price": 0.521,
+          "implied_probability_pct": 52
+        },
+        {
+          "name": "Draw",
+          "price": 0.239,
+          "implied_probability_pct": 24
+        },
+        {
+          "name": "South Korea",
+          "price": 0.24,
+          "implied_probability_pct": 24
+        }
+      ]
+    },
+    "mex-kor-2026-06-18": {
+      "market_url": "https://polymarket.com/search?_q=Mexico%20South%20Korea%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Mexico",
+          "price": 0.521,
+          "implied_probability_pct": 52
+        },
+        {
+          "name": "Draw",
+          "price": 0.239,
+          "implied_probability_pct": 24
+        },
+        {
+          "name": "South Korea",
+          "price": 0.24,
+          "implied_probability_pct": 24
+        }
+      ]
+    },
+    "fifwc-bra-hai-2026-06-19": {
+      "market_url": "https://polymarket.com/search?_q=Brazil%20Haiti%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Brazil",
+          "price": 0.804,
+          "implied_probability_pct": 80
+        },
+        {
+          "name": "Draw",
+          "price": 0.18,
+          "implied_probability_pct": 18
+        },
+        {
+          "name": "Haiti",
+          "price": 0.016,
+          "implied_probability_pct": 2
+        }
+      ]
+    },
+    "bra-hai-2026-06-19": {
+      "market_url": "https://polymarket.com/search?_q=Brazil%20Haiti%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Brazil",
+          "price": 0.804,
+          "implied_probability_pct": 80
+        },
+        {
+          "name": "Draw",
+          "price": 0.18,
+          "implied_probability_pct": 18
+        },
+        {
+          "name": "Haiti",
+          "price": 0.016,
+          "implied_probability_pct": 2
+        }
+      ]
+    },
+    "fifwc-sco-mar-2026-06-19": {
+      "market_url": "https://polymarket.com/search?_q=Scotland%20Morocco%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Scotland",
+          "price": 0.275,
+          "implied_probability_pct": 28
+        },
+        {
+          "name": "Draw",
+          "price": 0.245,
+          "implied_probability_pct": 25
+        },
+        {
+          "name": "Morocco",
+          "price": 0.48,
+          "implied_probability_pct": 48
+        }
+      ]
+    },
+    "sco-mar-2026-06-19": {
+      "market_url": "https://polymarket.com/search?_q=Scotland%20Morocco%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Scotland",
+          "price": 0.275,
+          "implied_probability_pct": 28
+        },
+        {
+          "name": "Draw",
+          "price": 0.245,
+          "implied_probability_pct": 25
+        },
+        {
+          "name": "Morocco",
+          "price": 0.48,
+          "implied_probability_pct": 48
+        }
+      ]
+    },
+    "fifwc-tur-par-2026-06-19": {
+      "market_url": "https://polymarket.com/search?_q=Turkey%20Paraguay%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Turkey",
+          "price": 0.458,
+          "implied_probability_pct": 46
+        },
+        {
+          "name": "Draw",
+          "price": 0.248,
+          "implied_probability_pct": 25
+        },
+        {
+          "name": "Paraguay",
+          "price": 0.294,
+          "implied_probability_pct": 29
+        }
+      ]
+    },
+    "tur-par-2026-06-19": {
+      "market_url": "https://polymarket.com/search?_q=Turkey%20Paraguay%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Turkey",
+          "price": 0.458,
+          "implied_probability_pct": 46
+        },
+        {
+          "name": "Draw",
+          "price": 0.248,
+          "implied_probability_pct": 25
+        },
+        {
+          "name": "Paraguay",
+          "price": 0.294,
+          "implied_probability_pct": 29
+        }
+      ]
+    },
+    "fifwc-usa-aus-2026-06-19": {
+      "market_url": "https://polymarket.com/search?_q=United%20States%20Australia%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "United States",
+          "price": 0.579,
+          "implied_probability_pct": 58
+        },
+        {
+          "name": "Draw",
+          "price": 0.23,
+          "implied_probability_pct": 23
+        },
+        {
+          "name": "Australia",
+          "price": 0.191,
+          "implied_probability_pct": 19
+        }
+      ]
+    },
+    "usa-aus-2026-06-19": {
+      "market_url": "https://polymarket.com/search?_q=United%20States%20Australia%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "United States",
+          "price": 0.579,
+          "implied_probability_pct": 58
+        },
+        {
+          "name": "Draw",
+          "price": 0.23,
+          "implied_probability_pct": 23
+        },
+        {
+          "name": "Australia",
+          "price": 0.191,
+          "implied_probability_pct": 19
+        }
+      ]
+    },
+    "fifwc-ger-civ-2026-06-20": {
+      "market_url": "https://polymarket.com/search?_q=Germany%20Ivory%20Coast%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Germany",
+          "price": 0.711,
+          "implied_probability_pct": 71
+        },
+        {
+          "name": "Draw",
+          "price": 0.203,
+          "implied_probability_pct": 20
+        },
+        {
+          "name": "Ivory Coast",
+          "price": 0.086,
+          "implied_probability_pct": 9
+        }
+      ]
+    },
+    "ger-civ-2026-06-20": {
+      "market_url": "https://polymarket.com/search?_q=Germany%20Ivory%20Coast%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Germany",
+          "price": 0.711,
+          "implied_probability_pct": 71
+        },
+        {
+          "name": "Draw",
+          "price": 0.203,
+          "implied_probability_pct": 20
+        },
+        {
+          "name": "Ivory Coast",
+          "price": 0.086,
+          "implied_probability_pct": 9
+        }
+      ]
+    },
+    "fifwc-ecu-cuw-2026-06-20": {
+      "market_url": "https://polymarket.com/search?_q=Ecuador%20Cura%C3%A7ao%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Ecuador",
+          "price": 0.66,
+          "implied_probability_pct": 66
+        },
+        {
+          "name": "Draw",
+          "price": 0.215,
+          "implied_probability_pct": 22
+        },
+        {
+          "name": "Curaçao",
+          "price": 0.125,
+          "implied_probability_pct": 13
+        }
+      ]
+    },
+    "ecu-cuw-2026-06-20": {
+      "market_url": "https://polymarket.com/search?_q=Ecuador%20Cura%C3%A7ao%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Ecuador",
+          "price": 0.66,
+          "implied_probability_pct": 66
+        },
+        {
+          "name": "Draw",
+          "price": 0.215,
+          "implied_probability_pct": 22
+        },
+        {
+          "name": "Curaçao",
+          "price": 0.125,
+          "implied_probability_pct": 13
+        }
+      ]
+    },
+    "fifwc-ned-swe-2026-06-20": {
+      "market_url": "https://polymarket.com/search?_q=Netherlands%20Sweden%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Netherlands",
+          "price": 0.646,
+          "implied_probability_pct": 65
+        },
+        {
+          "name": "Draw",
+          "price": 0.218,
+          "implied_probability_pct": 22
+        },
+        {
+          "name": "Sweden",
+          "price": 0.136,
+          "implied_probability_pct": 14
+        }
+      ]
+    },
+    "ned-swe-2026-06-20": {
+      "market_url": "https://polymarket.com/search?_q=Netherlands%20Sweden%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Netherlands",
+          "price": 0.646,
+          "implied_probability_pct": 65
+        },
+        {
+          "name": "Draw",
+          "price": 0.218,
+          "implied_probability_pct": 22
+        },
+        {
+          "name": "Sweden",
+          "price": 0.136,
+          "implied_probability_pct": 14
+        }
+      ]
+    },
+    "fifwc-tun-jpn-2026-06-20": {
+      "market_url": "https://polymarket.com/search?_q=Tunisia%20Japan%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Tunisia",
+          "price": 0.191,
+          "implied_probability_pct": 19
+        },
+        {
+          "name": "Draw",
+          "price": 0.23,
+          "implied_probability_pct": 23
+        },
+        {
+          "name": "Japan",
+          "price": 0.579,
+          "implied_probability_pct": 58
+        }
+      ]
+    },
+    "tun-jpn-2026-06-20": {
+      "market_url": "https://polymarket.com/search?_q=Tunisia%20Japan%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Tunisia",
+          "price": 0.191,
+          "implied_probability_pct": 19
+        },
+        {
+          "name": "Draw",
+          "price": 0.23,
+          "implied_probability_pct": 23
+        },
+        {
+          "name": "Japan",
+          "price": 0.579,
+          "implied_probability_pct": 58
+        }
+      ]
+    },
+    "fifwc-uru-cpv-2026-06-21": {
+      "market_url": "https://polymarket.com/search?_q=Uruguay%20Cape%20Verde%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Uruguay",
+          "price": 0.751,
+          "implied_probability_pct": 75
+        },
+        {
+          "name": "Draw",
+          "price": 0.191,
+          "implied_probability_pct": 19
+        },
+        {
+          "name": "Cape Verde",
+          "price": 0.058,
+          "implied_probability_pct": 6
+        }
+      ]
+    },
+    "uru-cpv-2026-06-21": {
+      "market_url": "https://polymarket.com/search?_q=Uruguay%20Cape%20Verde%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Uruguay",
+          "price": 0.751,
+          "implied_probability_pct": 75
+        },
+        {
+          "name": "Draw",
+          "price": 0.191,
+          "implied_probability_pct": 19
+        },
+        {
+          "name": "Cape Verde",
+          "price": 0.058,
+          "implied_probability_pct": 6
+        }
+      ]
+    },
+    "fifwc-esp-ksa-2026-06-21": {
+      "market_url": "https://polymarket.com/search?_q=Spain%20Saudi%20Arabia%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Spain",
+          "price": 0.767,
+          "implied_probability_pct": 77
+        },
+        {
+          "name": "Draw",
+          "price": 0.185,
+          "implied_probability_pct": 19
+        },
+        {
+          "name": "Saudi Arabia",
+          "price": 0.048,
+          "implied_probability_pct": 5
+        }
+      ]
+    },
+    "esp-ksa-2026-06-21": {
+      "market_url": "https://polymarket.com/search?_q=Spain%20Saudi%20Arabia%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Spain",
+          "price": 0.767,
+          "implied_probability_pct": 77
+        },
+        {
+          "name": "Draw",
+          "price": 0.185,
+          "implied_probability_pct": 19
+        },
+        {
+          "name": "Saudi Arabia",
+          "price": 0.048,
+          "implied_probability_pct": 5
+        }
+      ]
+    },
+    "fifwc-bel-irn-2026-06-21": {
+      "market_url": "https://polymarket.com/search?_q=Belgium%20Iran%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Belgium",
+          "price": 0.66,
+          "implied_probability_pct": 66
+        },
+        {
+          "name": "Draw",
+          "price": 0.215,
+          "implied_probability_pct": 22
+        },
+        {
+          "name": "Iran",
+          "price": 0.125,
+          "implied_probability_pct": 13
+        }
+      ]
+    },
+    "bel-irn-2026-06-21": {
+      "market_url": "https://polymarket.com/search?_q=Belgium%20Iran%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Belgium",
+          "price": 0.66,
+          "implied_probability_pct": 66
+        },
+        {
+          "name": "Draw",
+          "price": 0.215,
+          "implied_probability_pct": 22
+        },
+        {
+          "name": "Iran",
+          "price": 0.125,
+          "implied_probability_pct": 13
+        }
+      ]
+    },
+    "fifwc-nzl-egy-2026-06-21": {
+      "market_url": "https://polymarket.com/search?_q=New%20Zealand%20Egypt%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "New Zealand",
+          "price": 0.275,
+          "implied_probability_pct": 28
+        },
+        {
+          "name": "Draw",
+          "price": 0.245,
+          "implied_probability_pct": 25
+        },
+        {
+          "name": "Egypt",
+          "price": 0.48,
+          "implied_probability_pct": 48
+        }
+      ]
+    },
+    "nzl-egy-2026-06-21": {
+      "market_url": "https://polymarket.com/search?_q=New%20Zealand%20Egypt%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "New Zealand",
+          "price": 0.275,
+          "implied_probability_pct": 28
+        },
+        {
+          "name": "Draw",
+          "price": 0.245,
+          "implied_probability_pct": 25
+        },
+        {
+          "name": "Egypt",
+          "price": 0.48,
+          "implied_probability_pct": 48
+        }
+      ]
+    },
+    "fifwc-nor-sen-2026-06-22": {
+      "market_url": "https://polymarket.com/search?_q=Norway%20Senegal%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Norway",
+          "price": 0.351,
+          "implied_probability_pct": 35
+        },
+        {
+          "name": "Draw",
+          "price": 0.257,
+          "implied_probability_pct": 26
+        },
+        {
+          "name": "Senegal",
+          "price": 0.392,
+          "implied_probability_pct": 39
+        }
+      ]
+    },
+    "nor-sen-2026-06-22": {
+      "market_url": "https://polymarket.com/search?_q=Norway%20Senegal%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Norway",
+          "price": 0.351,
+          "implied_probability_pct": 35
+        },
+        {
+          "name": "Draw",
+          "price": 0.257,
+          "implied_probability_pct": 26
+        },
+        {
+          "name": "Senegal",
+          "price": 0.392,
+          "implied_probability_pct": 39
+        }
+      ]
+    },
+    "fifwc-fra-irq-2026-06-22": {
+      "market_url": "https://polymarket.com/search?_q=France%20Iraq%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "France",
+          "price": 0.8,
+          "implied_probability_pct": 80
+        },
+        {
+          "name": "Draw",
+          "price": 0.18,
+          "implied_probability_pct": 18
+        },
+        {
+          "name": "Iraq",
+          "price": 0.02,
+          "implied_probability_pct": 2
+        }
+      ]
+    },
+    "fra-irq-2026-06-22": {
+      "market_url": "https://polymarket.com/search?_q=France%20Iraq%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "France",
+          "price": 0.8,
+          "implied_probability_pct": 80
+        },
+        {
+          "name": "Draw",
+          "price": 0.18,
+          "implied_probability_pct": 18
+        },
+        {
+          "name": "Iraq",
+          "price": 0.02,
+          "implied_probability_pct": 2
+        }
+      ]
+    },
+    "fifwc-arg-aut-2026-06-22": {
+      "market_url": "https://polymarket.com/search?_q=Argentina%20Austria%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Argentina",
+          "price": 0.742,
+          "implied_probability_pct": 74
+        },
+        {
+          "name": "Draw",
+          "price": 0.194,
+          "implied_probability_pct": 19
+        },
+        {
+          "name": "Austria",
+          "price": 0.064,
+          "implied_probability_pct": 6
+        }
+      ]
+    },
+    "arg-aut-2026-06-22": {
+      "market_url": "https://polymarket.com/search?_q=Argentina%20Austria%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Argentina",
+          "price": 0.742,
+          "implied_probability_pct": 74
+        },
+        {
+          "name": "Draw",
+          "price": 0.194,
+          "implied_probability_pct": 19
+        },
+        {
+          "name": "Austria",
+          "price": 0.064,
+          "implied_probability_pct": 6
+        }
+      ]
+    },
+    "fifwc-jor-alg-2026-06-22": {
+      "market_url": "https://polymarket.com/search?_q=Jordan%20Algeria%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Jordan",
+          "price": 0.257,
+          "implied_probability_pct": 26
+        },
+        {
+          "name": "Draw",
+          "price": 0.242,
+          "implied_probability_pct": 24
+        },
+        {
+          "name": "Algeria",
+          "price": 0.501,
+          "implied_probability_pct": 50
+        }
+      ]
+    },
+    "jor-alg-2026-06-22": {
+      "market_url": "https://polymarket.com/search?_q=Jordan%20Algeria%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Jordan",
+          "price": 0.257,
+          "implied_probability_pct": 26
+        },
+        {
+          "name": "Draw",
+          "price": 0.242,
+          "implied_probability_pct": 24
+        },
+        {
+          "name": "Algeria",
+          "price": 0.501,
+          "implied_probability_pct": 50
+        }
+      ]
+    },
+    "fifwc-eng-gha-2026-06-23": {
+      "market_url": "https://polymarket.com/search?_q=England%20Ghana%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "England",
+          "price": 0.767,
+          "implied_probability_pct": 77
+        },
+        {
+          "name": "Draw",
+          "price": 0.185,
+          "implied_probability_pct": 19
+        },
+        {
+          "name": "Ghana",
+          "price": 0.048,
+          "implied_probability_pct": 5
+        }
+      ]
+    },
+    "eng-gha-2026-06-23": {
+      "market_url": "https://polymarket.com/search?_q=England%20Ghana%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "England",
+          "price": 0.767,
+          "implied_probability_pct": 77
+        },
+        {
+          "name": "Draw",
+          "price": 0.185,
+          "implied_probability_pct": 19
+        },
+        {
+          "name": "Ghana",
+          "price": 0.048,
+          "implied_probability_pct": 5
+        }
+      ]
+    },
+    "fifwc-pan-cro-2026-06-23": {
+      "market_url": "https://polymarket.com/search?_q=Panama%20Croatia%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Panama",
+          "price": 0.071,
+          "implied_probability_pct": 7
+        },
+        {
+          "name": "Draw",
+          "price": 0.197,
+          "implied_probability_pct": 20
+        },
+        {
+          "name": "Croatia",
+          "price": 0.732,
+          "implied_probability_pct": 73
+        }
+      ]
+    },
+    "pan-cro-2026-06-23": {
+      "market_url": "https://polymarket.com/search?_q=Panama%20Croatia%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Panama",
+          "price": 0.071,
+          "implied_probability_pct": 7
+        },
+        {
+          "name": "Draw",
+          "price": 0.197,
+          "implied_probability_pct": 20
+        },
+        {
+          "name": "Croatia",
+          "price": 0.732,
+          "implied_probability_pct": 73
+        }
+      ]
+    },
+    "fifwc-por-uzb-2026-06-23": {
+      "market_url": "https://polymarket.com/search?_q=Portugal%20Uzbekistan%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Portugal",
+          "price": 0.767,
+          "implied_probability_pct": 77
+        },
+        {
+          "name": "Draw",
+          "price": 0.185,
+          "implied_probability_pct": 19
+        },
+        {
+          "name": "Uzbekistan",
+          "price": 0.048,
+          "implied_probability_pct": 5
+        }
+      ]
+    },
+    "por-uzb-2026-06-23": {
+      "market_url": "https://polymarket.com/search?_q=Portugal%20Uzbekistan%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Portugal",
+          "price": 0.767,
+          "implied_probability_pct": 77
+        },
+        {
+          "name": "Draw",
+          "price": 0.185,
+          "implied_probability_pct": 19
+        },
+        {
+          "name": "Uzbekistan",
+          "price": 0.048,
+          "implied_probability_pct": 5
+        }
+      ]
+    },
+    "fifwc-col-cod-2026-06-23": {
+      "market_url": "https://polymarket.com/search?_q=Colombia%20DR%20Congo%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Colombia",
+          "price": 0.646,
+          "implied_probability_pct": 65
+        },
+        {
+          "name": "Draw",
+          "price": 0.218,
+          "implied_probability_pct": 22
+        },
+        {
+          "name": "DR Congo",
+          "price": 0.136,
+          "implied_probability_pct": 14
+        }
+      ]
+    },
+    "col-cod-2026-06-23": {
+      "market_url": "https://polymarket.com/search?_q=Colombia%20DR%20Congo%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Colombia",
+          "price": 0.646,
+          "implied_probability_pct": 65
+        },
+        {
+          "name": "Draw",
+          "price": 0.218,
+          "implied_probability_pct": 22
+        },
+        {
+          "name": "DR Congo",
+          "price": 0.136,
+          "implied_probability_pct": 14
+        }
+      ]
+    },
+    "fifwc-sco-bra-2026-06-24": {
+      "market_url": "https://polymarket.com/search?_q=Scotland%20Brazil%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Scotland",
+          "price": 0.071,
+          "implied_probability_pct": 7
+        },
+        {
+          "name": "Draw",
+          "price": 0.197,
+          "implied_probability_pct": 20
+        },
+        {
+          "name": "Brazil",
+          "price": 0.732,
+          "implied_probability_pct": 73
+        }
+      ]
+    },
+    "sco-bra-2026-06-24": {
+      "market_url": "https://polymarket.com/search?_q=Scotland%20Brazil%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Scotland",
+          "price": 0.071,
+          "implied_probability_pct": 7
+        },
+        {
+          "name": "Draw",
+          "price": 0.197,
+          "implied_probability_pct": 20
+        },
+        {
+          "name": "Brazil",
+          "price": 0.732,
+          "implied_probability_pct": 73
+        }
+      ]
+    },
+    "fifwc-mar-hai-2026-06-24": {
+      "market_url": "https://polymarket.com/search?_q=Morocco%20Haiti%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Morocco",
+          "price": 0.711,
+          "implied_probability_pct": 71
+        },
+        {
+          "name": "Draw",
+          "price": 0.203,
+          "implied_probability_pct": 20
+        },
+        {
+          "name": "Haiti",
+          "price": 0.086,
+          "implied_probability_pct": 9
+        }
+      ]
+    },
+    "mar-hai-2026-06-24": {
+      "market_url": "https://polymarket.com/search?_q=Morocco%20Haiti%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Morocco",
+          "price": 0.711,
+          "implied_probability_pct": 71
+        },
+        {
+          "name": "Draw",
+          "price": 0.203,
+          "implied_probability_pct": 20
+        },
+        {
+          "name": "Haiti",
+          "price": 0.086,
+          "implied_probability_pct": 9
+        }
+      ]
+    },
+    "fifwc-sui-can-2026-06-24": {
+      "market_url": "https://polymarket.com/search?_q=Switzerland%20Canada%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Switzerland",
+          "price": 0.561,
+          "implied_probability_pct": 56
+        },
+        {
+          "name": "Draw",
+          "price": 0.233,
+          "implied_probability_pct": 23
+        },
+        {
+          "name": "Canada",
+          "price": 0.206,
+          "implied_probability_pct": 21
+        }
+      ]
+    },
+    "sui-can-2026-06-24": {
+      "market_url": "https://polymarket.com/search?_q=Switzerland%20Canada%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Switzerland",
+          "price": 0.561,
+          "implied_probability_pct": 56
+        },
+        {
+          "name": "Draw",
+          "price": 0.233,
+          "implied_probability_pct": 23
+        },
+        {
+          "name": "Canada",
+          "price": 0.206,
+          "implied_probability_pct": 21
+        }
+      ]
+    },
+    "fifwc-bih-qat-2026-06-24": {
+      "market_url": "https://polymarket.com/search?_q=Bosnia%20and%20Herzegovina%20Qatar%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Bosnia and Herzegovina",
+          "price": 0.37,
+          "implied_probability_pct": 37
+        },
+        {
+          "name": "Draw",
+          "price": 0.26,
+          "implied_probability_pct": 26
+        },
+        {
+          "name": "Qatar",
+          "price": 0.37,
+          "implied_probability_pct": 37
+        }
+      ]
+    },
+    "bih-qat-2026-06-24": {
+      "market_url": "https://polymarket.com/search?_q=Bosnia%20and%20Herzegovina%20Qatar%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Bosnia and Herzegovina",
+          "price": 0.37,
+          "implied_probability_pct": 37
+        },
+        {
+          "name": "Draw",
+          "price": 0.26,
+          "implied_probability_pct": 26
+        },
+        {
+          "name": "Qatar",
+          "price": 0.37,
+          "implied_probability_pct": 37
+        }
+      ]
+    },
+    "fifwc-cze-mex-2026-06-24": {
+      "market_url": "https://polymarket.com/search?_q=Czech%20Republic%20Mexico%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Czech Republic",
+          "price": 0.206,
+          "implied_probability_pct": 21
+        },
+        {
+          "name": "Draw",
+          "price": 0.233,
+          "implied_probability_pct": 23
+        },
+        {
+          "name": "Mexico",
+          "price": 0.561,
+          "implied_probability_pct": 56
+        }
+      ]
+    },
+    "cze-mex-2026-06-24": {
+      "market_url": "https://polymarket.com/search?_q=Czech%20Republic%20Mexico%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Czech Republic",
+          "price": 0.206,
+          "implied_probability_pct": 21
+        },
+        {
+          "name": "Draw",
+          "price": 0.233,
+          "implied_probability_pct": 23
+        },
+        {
+          "name": "Mexico",
+          "price": 0.561,
+          "implied_probability_pct": 56
+        }
+      ]
+    },
+    "fifwc-rsa-kor-2026-06-24": {
+      "market_url": "https://polymarket.com/search?_q=South%20Africa%20South%20Korea%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "South Africa",
+          "price": 0.223,
+          "implied_probability_pct": 22
+        },
+        {
+          "name": "Draw",
+          "price": 0.236,
+          "implied_probability_pct": 24
+        },
+        {
+          "name": "South Korea",
+          "price": 0.541,
+          "implied_probability_pct": 54
+        }
+      ]
+    },
+    "rsa-kor-2026-06-24": {
+      "market_url": "https://polymarket.com/search?_q=South%20Africa%20South%20Korea%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "South Africa",
+          "price": 0.223,
+          "implied_probability_pct": 22
+        },
+        {
+          "name": "Draw",
+          "price": 0.236,
+          "implied_probability_pct": 24
+        },
+        {
+          "name": "South Korea",
+          "price": 0.541,
+          "implied_probability_pct": 54
+        }
+      ]
+    },
+    "fifwc-cuw-civ-2026-06-25": {
+      "market_url": "https://polymarket.com/search?_q=Cura%C3%A7ao%20Ivory%20Coast%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Curaçao",
+          "price": 0.149,
+          "implied_probability_pct": 15
+        },
+        {
+          "name": "Draw",
+          "price": 0.221,
+          "implied_probability_pct": 22
+        },
+        {
+          "name": "Ivory Coast",
+          "price": 0.63,
+          "implied_probability_pct": 63
+        }
+      ]
+    },
+    "cuw-civ-2026-06-25": {
+      "market_url": "https://polymarket.com/search?_q=Cura%C3%A7ao%20Ivory%20Coast%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Curaçao",
+          "price": 0.149,
+          "implied_probability_pct": 15
+        },
+        {
+          "name": "Draw",
+          "price": 0.221,
+          "implied_probability_pct": 22
+        },
+        {
+          "name": "Ivory Coast",
+          "price": 0.63,
+          "implied_probability_pct": 63
+        }
+      ]
+    },
+    "fifwc-ecu-ger-2026-06-25": {
+      "market_url": "https://polymarket.com/search?_q=Ecuador%20Germany%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Ecuador",
+          "price": 0.104,
+          "implied_probability_pct": 10
+        },
+        {
+          "name": "Draw",
+          "price": 0.209,
+          "implied_probability_pct": 21
+        },
+        {
+          "name": "Germany",
+          "price": 0.687,
+          "implied_probability_pct": 69
+        }
+      ]
+    },
+    "ecu-ger-2026-06-25": {
+      "market_url": "https://polymarket.com/search?_q=Ecuador%20Germany%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Ecuador",
+          "price": 0.104,
+          "implied_probability_pct": 10
+        },
+        {
+          "name": "Draw",
+          "price": 0.209,
+          "implied_probability_pct": 21
+        },
+        {
+          "name": "Germany",
+          "price": 0.687,
+          "implied_probability_pct": 69
+        }
+      ]
+    },
+    "fifwc-jpn-swe-2026-06-25": {
+      "market_url": "https://polymarket.com/search?_q=Japan%20Sweden%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Japan",
+          "price": 0.414,
+          "implied_probability_pct": 41
+        },
+        {
+          "name": "Draw",
+          "price": 0.254,
+          "implied_probability_pct": 25
+        },
+        {
+          "name": "Sweden",
+          "price": 0.332,
+          "implied_probability_pct": 33
+        }
+      ]
+    },
+    "jpn-swe-2026-06-25": {
+      "market_url": "https://polymarket.com/search?_q=Japan%20Sweden%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Japan",
+          "price": 0.414,
+          "implied_probability_pct": 41
+        },
+        {
+          "name": "Draw",
+          "price": 0.254,
+          "implied_probability_pct": 25
+        },
+        {
+          "name": "Sweden",
+          "price": 0.332,
+          "implied_probability_pct": 33
+        }
+      ]
+    },
+    "fifwc-tun-ned-2026-06-25": {
+      "market_url": "https://polymarket.com/search?_q=Tunisia%20Netherlands%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Tunisia",
+          "price": 0.064,
+          "implied_probability_pct": 6
+        },
+        {
+          "name": "Draw",
+          "price": 0.194,
+          "implied_probability_pct": 19
+        },
+        {
+          "name": "Netherlands",
+          "price": 0.742,
+          "implied_probability_pct": 74
+        }
+      ]
+    },
+    "tun-ned-2026-06-25": {
+      "market_url": "https://polymarket.com/search?_q=Tunisia%20Netherlands%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Tunisia",
+          "price": 0.064,
+          "implied_probability_pct": 6
+        },
+        {
+          "name": "Draw",
+          "price": 0.194,
+          "implied_probability_pct": 19
+        },
+        {
+          "name": "Netherlands",
+          "price": 0.742,
+          "implied_probability_pct": 74
+        }
+      ]
+    },
+    "fifwc-tur-usa-2026-06-25": {
+      "market_url": "https://polymarket.com/search?_q=Turkey%20United%20States%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Turkey",
+          "price": 0.24,
+          "implied_probability_pct": 24
+        },
+        {
+          "name": "Draw",
+          "price": 0.239,
+          "implied_probability_pct": 24
+        },
+        {
+          "name": "United States",
+          "price": 0.521,
+          "implied_probability_pct": 52
+        }
+      ]
+    },
+    "tur-usa-2026-06-25": {
+      "market_url": "https://polymarket.com/search?_q=Turkey%20United%20States%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Turkey",
+          "price": 0.24,
+          "implied_probability_pct": 24
+        },
+        {
+          "name": "Draw",
+          "price": 0.239,
+          "implied_probability_pct": 24
+        },
+        {
+          "name": "United States",
+          "price": 0.521,
+          "implied_probability_pct": 52
+        }
+      ]
+    },
+    "fifwc-par-aus-2026-06-25": {
+      "market_url": "https://polymarket.com/search?_q=Paraguay%20Australia%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Paraguay",
+          "price": 0.351,
+          "implied_probability_pct": 35
+        },
+        {
+          "name": "Draw",
+          "price": 0.257,
+          "implied_probability_pct": 26
+        },
+        {
+          "name": "Australia",
+          "price": 0.392,
+          "implied_probability_pct": 39
+        }
+      ]
+    },
+    "par-aus-2026-06-25": {
+      "market_url": "https://polymarket.com/search?_q=Paraguay%20Australia%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Paraguay",
+          "price": 0.351,
+          "implied_probability_pct": 35
+        },
+        {
+          "name": "Draw",
+          "price": 0.257,
+          "implied_probability_pct": 26
+        },
+        {
+          "name": "Australia",
+          "price": 0.392,
+          "implied_probability_pct": 39
+        }
+      ]
+    },
+    "fifwc-nor-fra-2026-06-26": {
+      "market_url": "https://polymarket.com/search?_q=Norway%20France%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Norway",
+          "price": 0.086,
+          "implied_probability_pct": 9
+        },
+        {
+          "name": "Draw",
+          "price": 0.203,
+          "implied_probability_pct": 20
+        },
+        {
+          "name": "France",
+          "price": 0.711,
+          "implied_probability_pct": 71
+        }
+      ]
+    },
+    "nor-fra-2026-06-26": {
+      "market_url": "https://polymarket.com/search?_q=Norway%20France%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Norway",
+          "price": 0.086,
+          "implied_probability_pct": 9
+        },
+        {
+          "name": "Draw",
+          "price": 0.203,
+          "implied_probability_pct": 20
+        },
+        {
+          "name": "France",
+          "price": 0.711,
+          "implied_probability_pct": 71
+        }
+      ]
+    },
+    "fifwc-sen-irq-2026-06-26": {
+      "market_url": "https://polymarket.com/search?_q=Senegal%20Iraq%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Senegal",
+          "price": 0.66,
+          "implied_probability_pct": 66
+        },
+        {
+          "name": "Draw",
+          "price": 0.215,
+          "implied_probability_pct": 22
+        },
+        {
+          "name": "Iraq",
+          "price": 0.125,
+          "implied_probability_pct": 13
+        }
+      ]
+    },
+    "sen-irq-2026-06-26": {
+      "market_url": "https://polymarket.com/search?_q=Senegal%20Iraq%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Senegal",
+          "price": 0.66,
+          "implied_probability_pct": 66
+        },
+        {
+          "name": "Draw",
+          "price": 0.215,
+          "implied_probability_pct": 22
+        },
+        {
+          "name": "Iraq",
+          "price": 0.125,
+          "implied_probability_pct": 13
+        }
+      ]
+    },
+    "fifwc-egy-irn-2026-06-26": {
+      "market_url": "https://polymarket.com/search?_q=Egypt%20Iran%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Egypt",
+          "price": 0.294,
+          "implied_probability_pct": 29
+        },
+        {
+          "name": "Draw",
+          "price": 0.248,
+          "implied_probability_pct": 25
+        },
+        {
+          "name": "Iran",
+          "price": 0.458,
+          "implied_probability_pct": 46
+        }
+      ]
+    },
+    "egy-irn-2026-06-26": {
+      "market_url": "https://polymarket.com/search?_q=Egypt%20Iran%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Egypt",
+          "price": 0.294,
+          "implied_probability_pct": 29
+        },
+        {
+          "name": "Draw",
+          "price": 0.248,
+          "implied_probability_pct": 25
+        },
+        {
+          "name": "Iran",
+          "price": 0.458,
+          "implied_probability_pct": 46
+        }
+      ]
+    },
+    "fifwc-nzl-bel-2026-06-26": {
+      "market_url": "https://polymarket.com/search?_q=New%20Zealand%20Belgium%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "New Zealand",
+          "price": 0.053,
+          "implied_probability_pct": 5
+        },
+        {
+          "name": "Draw",
+          "price": 0.188,
+          "implied_probability_pct": 19
+        },
+        {
+          "name": "Belgium",
+          "price": 0.759,
+          "implied_probability_pct": 76
+        }
+      ]
+    },
+    "nzl-bel-2026-06-26": {
+      "market_url": "https://polymarket.com/search?_q=New%20Zealand%20Belgium%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "New Zealand",
+          "price": 0.053,
+          "implied_probability_pct": 5
+        },
+        {
+          "name": "Draw",
+          "price": 0.188,
+          "implied_probability_pct": 19
+        },
+        {
+          "name": "Belgium",
+          "price": 0.759,
+          "implied_probability_pct": 76
+        }
+      ]
+    },
+    "fifwc-cpv-ksa-2026-06-26": {
+      "market_url": "https://polymarket.com/search?_q=Cape%20Verde%20Saudi%20Arabia%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Cape Verde",
+          "price": 0.275,
+          "implied_probability_pct": 28
+        },
+        {
+          "name": "Draw",
+          "price": 0.245,
+          "implied_probability_pct": 25
+        },
+        {
+          "name": "Saudi Arabia",
+          "price": 0.48,
+          "implied_probability_pct": 48
+        }
+      ]
+    },
+    "cpv-ksa-2026-06-26": {
+      "market_url": "https://polymarket.com/search?_q=Cape%20Verde%20Saudi%20Arabia%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Cape Verde",
+          "price": 0.275,
+          "implied_probability_pct": 28
+        },
+        {
+          "name": "Draw",
+          "price": 0.245,
+          "implied_probability_pct": 25
+        },
+        {
+          "name": "Saudi Arabia",
+          "price": 0.48,
+          "implied_probability_pct": 48
+        }
+      ]
+    },
+    "fifwc-uru-esp-2026-06-26": {
+      "market_url": "https://polymarket.com/search?_q=Uruguay%20Spain%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Uruguay",
+          "price": 0.24,
+          "implied_probability_pct": 24
+        },
+        {
+          "name": "Draw",
+          "price": 0.239,
+          "implied_probability_pct": 24
+        },
+        {
+          "name": "Spain",
+          "price": 0.521,
+          "implied_probability_pct": 52
+        }
+      ]
+    },
+    "uru-esp-2026-06-26": {
+      "market_url": "https://polymarket.com/search?_q=Uruguay%20Spain%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Uruguay",
+          "price": 0.24,
+          "implied_probability_pct": 24
+        },
+        {
+          "name": "Draw",
+          "price": 0.239,
+          "implied_probability_pct": 24
+        },
+        {
+          "name": "Spain",
+          "price": 0.521,
+          "implied_probability_pct": 52
+        }
+      ]
+    },
+    "fifwc-pan-eng-2026-06-27": {
+      "market_url": "https://polymarket.com/search?_q=Panama%20England%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Panama",
+          "price": 0.035,
+          "implied_probability_pct": 4
+        },
+        {
+          "name": "Draw",
+          "price": 0.18,
+          "implied_probability_pct": 18
+        },
+        {
+          "name": "England",
+          "price": 0.785,
+          "implied_probability_pct": 79
+        }
+      ]
+    },
+    "pan-eng-2026-06-27": {
+      "market_url": "https://polymarket.com/search?_q=Panama%20England%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Panama",
+          "price": 0.035,
+          "implied_probability_pct": 4
+        },
+        {
+          "name": "Draw",
+          "price": 0.18,
+          "implied_probability_pct": 18
+        },
+        {
+          "name": "England",
+          "price": 0.785,
+          "implied_probability_pct": 79
+        }
+      ]
+    },
+    "fifwc-cro-gha-2026-06-27": {
+      "market_url": "https://polymarket.com/search?_q=Croatia%20Ghana%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Croatia",
+          "price": 0.699,
+          "implied_probability_pct": 70
+        },
+        {
+          "name": "Draw",
+          "price": 0.206,
+          "implied_probability_pct": 21
+        },
+        {
+          "name": "Ghana",
+          "price": 0.095,
+          "implied_probability_pct": 10
+        }
+      ]
+    },
+    "cro-gha-2026-06-27": {
+      "market_url": "https://polymarket.com/search?_q=Croatia%20Ghana%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Croatia",
+          "price": 0.699,
+          "implied_probability_pct": 70
+        },
+        {
+          "name": "Draw",
+          "price": 0.206,
+          "implied_probability_pct": 21
+        },
+        {
+          "name": "Ghana",
+          "price": 0.095,
+          "implied_probability_pct": 10
+        }
+      ]
+    },
+    "fifwc-alg-aut-2026-06-27": {
+      "market_url": "https://polymarket.com/search?_q=Algeria%20Austria%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Algeria",
+          "price": 0.223,
+          "implied_probability_pct": 22
+        },
+        {
+          "name": "Draw",
+          "price": 0.236,
+          "implied_probability_pct": 24
+        },
+        {
+          "name": "Austria",
+          "price": 0.541,
+          "implied_probability_pct": 54
+        }
+      ]
+    },
+    "alg-aut-2026-06-27": {
+      "market_url": "https://polymarket.com/search?_q=Algeria%20Austria%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Algeria",
+          "price": 0.223,
+          "implied_probability_pct": 22
+        },
+        {
+          "name": "Draw",
+          "price": 0.236,
+          "implied_probability_pct": 24
+        },
+        {
+          "name": "Austria",
+          "price": 0.541,
+          "implied_probability_pct": 54
+        }
+      ]
+    },
+    "fifwc-jor-arg-2026-06-27": {
+      "market_url": "https://polymarket.com/search?_q=Jordan%20Argentina%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Jordan",
+          "price": 0.015,
+          "implied_probability_pct": 2
+        },
+        {
+          "name": "Draw",
+          "price": 0.18,
+          "implied_probability_pct": 18
+        },
+        {
+          "name": "Argentina",
+          "price": 0.805,
+          "implied_probability_pct": 81
+        }
+      ]
+    },
+    "jor-arg-2026-06-27": {
+      "market_url": "https://polymarket.com/search?_q=Jordan%20Argentina%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Jordan",
+          "price": 0.015,
+          "implied_probability_pct": 2
+        },
+        {
+          "name": "Draw",
+          "price": 0.18,
+          "implied_probability_pct": 18
+        },
+        {
+          "name": "Argentina",
+          "price": 0.805,
+          "implied_probability_pct": 81
+        }
+      ]
+    },
+    "fifwc-col-por-2026-06-27": {
+      "market_url": "https://polymarket.com/search?_q=Colombia%20Portugal%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Colombia",
+          "price": 0.162,
+          "implied_probability_pct": 16
+        },
+        {
+          "name": "Draw",
+          "price": 0.224,
+          "implied_probability_pct": 22
+        },
+        {
+          "name": "Portugal",
+          "price": 0.614,
+          "implied_probability_pct": 61
+        }
+      ]
+    },
+    "col-por-2026-06-27": {
+      "market_url": "https://polymarket.com/search?_q=Colombia%20Portugal%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "Colombia",
+          "price": 0.162,
+          "implied_probability_pct": 16
+        },
+        {
+          "name": "Draw",
+          "price": 0.224,
+          "implied_probability_pct": 22
+        },
+        {
+          "name": "Portugal",
+          "price": 0.614,
+          "implied_probability_pct": 61
+        }
+      ]
+    },
+    "fifwc-cod-uzb-2026-06-27": {
+      "market_url": "https://polymarket.com/search?_q=DR%20Congo%20Uzbekistan%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "DR Congo",
+          "price": 0.351,
+          "implied_probability_pct": 35
+        },
+        {
+          "name": "Draw",
+          "price": 0.257,
+          "implied_probability_pct": 26
+        },
+        {
+          "name": "Uzbekistan",
+          "price": 0.392,
+          "implied_probability_pct": 39
+        }
+      ]
+    },
+    "cod-uzb-2026-06-27": {
+      "market_url": "https://polymarket.com/search?_q=DR%20Congo%20Uzbekistan%20World%20Cup",
+      "status": "estimated",
+      "last_updated": "2026-05-29T00:00:00.000Z",
+      "outcomes": [
+        {
+          "name": "DR Congo",
+          "price": 0.351,
+          "implied_probability_pct": 35
+        },
+        {
+          "name": "Draw",
+          "price": 0.257,
+          "implied_probability_pct": 26
+        },
+        {
+          "name": "Uzbekistan",
+          "price": 0.392,
+          "implied_probability_pct": 39
+        }
+      ]
+    }
+  }
+}

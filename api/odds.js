@@ -16,9 +16,13 @@
 
 const GAMMA = "https://gamma-api.polymarket.com";
 const CLOB = "https://clob.polymarket.com";
+const FALLBACK = require("../public/data/odds_fallback.json");
 
 async function fetchJson(url) {
-  const res = await fetch(url, { headers: { "User-Agent": "wcschedules.com" } });
+  const res = await fetch(url, {
+    headers: { "User-Agent": "wcschedules.com" },
+    signal: AbortSignal.timeout(7000),
+  });
   if (!res.ok) throw new Error(`Upstream ${res.status} for ${url}`);
   return res.json();
 }
@@ -57,7 +61,7 @@ module.exports = async (req, res) => {
   if (req.method === "OPTIONS") return res.status(200).end();
 
   const { slug, condition_id, history } = req.query || {};
-  const wantHistory = history !== "0" && history !== "false"; // default ON
+  const wantHistory = history === "1" || history === "true"; // default OFF for speed
   if (!slug && !condition_id) {
     return res.status(400).json({ error: "missing slug or condition_id" });
   }
@@ -70,17 +74,45 @@ module.exports = async (req, res) => {
     if (slug) {
       const events = await fetchJson(`${GAMMA}/events?slug=${encodeURIComponent(slug)}`);
       if (!Array.isArray(events) || events.length === 0) {
-        return res.status(404).json({ error: "event not found", slug });
+        return sendFallback(req, res, slug, condition_id);
       }
       const event = events[0];
       market_url = `https://polymarket.com/event/${event.slug}`;
       status = event.closed ? "closed" : event.active ? "active" : "inactive";
 
-      const winnerMarket = event.markets?.find((m) =>
-        /winner|moneyline|to win/i.test(m.question || "")
-      ) || event.markets?.[0];
+      const binaryOutcomeMarkets = Array.isArray(event.markets)
+        ? event.markets.filter((m) => {
+            const names = safeJson(m.outcomes) || [];
+            return names.length === 2 && names[0] === "Yes" && names[1] === "No" && m.groupItemTitle;
+          })
+        : [];
 
-      if (winnerMarket) {
+      if (binaryOutcomeMarkets.length >= 2) {
+        outcomes = binaryOutcomeMarkets.map((m) => {
+          const prices = safeJson(m.outcomePrices) || [];
+          const tokenIds = safeJson(m.clobTokenIds) || [];
+          const name = String(m.groupItemTitle || m.question || "").replace(/ \(.+\)$/, "");
+          const price = parseFloat(prices[0] || 0);
+          return {
+            name,
+            price,
+            implied_probability_pct: Math.round(price * 100),
+            token_id: tokenIds[0] || null,
+          };
+        });
+
+        if (wantHistory) {
+          const histories = await Promise.all(
+            outcomes.map((o) => o.token_id ? fetchHistory(o.token_id) : Promise.resolve([]))
+          );
+          outcomes.forEach((o, i) => { o.history = histories[i]; });
+        }
+      } else {
+        const winnerMarket = event.markets?.find((m) =>
+          /winner|moneyline|to win/i.test(m.question || "")
+        ) || event.markets?.[0];
+
+        if (winnerMarket) {
         const names = safeJson(winnerMarket.outcomes) || [];
         const prices = safeJson(winnerMarket.outcomePrices) || [];
         const tokenIds = safeJson(winnerMarket.clobTokenIds) || [];
@@ -100,6 +132,7 @@ module.exports = async (req, res) => {
           );
           outcomes.forEach((o, i) => { o.history = histories[i]; });
         }
+      }
       }
     } else if (condition_id) {
       const market = await fetchJson(`${CLOB}/markets/${condition_id}`);
@@ -137,9 +170,34 @@ module.exports = async (req, res) => {
     });
   } catch (err) {
     console.error("odds proxy err:", err);
-    return res.status(500).json({ error: String(err.message || err) });
+    return sendFallback(req, res, slug, condition_id, err);
   }
 };
+
+function sendFallback(req, res, slug, conditionId, err) {
+  const key = slug || findSlugByCondition(conditionId);
+  const fallback = key && FALLBACK.matches && FALLBACK.matches[key];
+  if (!fallback) {
+    return res.status(err ? 502 : 404).json({ error: String((err && err.message) || "fallback not found") });
+  }
+  res.setHeader("Cache-Control", "public, s-maxage=300, stale-while-revalidate=900");
+  return res.status(200).json({
+    source: "fallback_estimate",
+    status: fallback.status || "estimated",
+    market_url: fallback.market_url,
+    last_updated: fallback.last_updated || FALLBACK.updated,
+    fallback_reason: err ? String(err.message || err) : "live market not found",
+    outcomes: fallback.outcomes || [],
+  });
+}
+
+function findSlugByCondition(conditionId) {
+  if (!conditionId) return null;
+  return Object.keys(FALLBACK.matches || {}).find((key) => {
+    const item = FALLBACK.matches[key];
+    return item && item.condition_id === conditionId;
+  });
+}
 
 function safeJson(s) {
   if (Array.isArray(s)) return s;

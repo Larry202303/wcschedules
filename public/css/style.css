@@ -1510,6 +1510,43 @@ html[dir="rtl"] .gp-match-row:hover .gp-match-arrow { transform: translateX(-3px
 #section-recent,#section-groups,#scorers-section,
 #section-champion-odds,#section-schedule { scroll-margin-top: 64px; }
 
+.seo-links {
+  margin-top: 24px;
+}
+.seo-link-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 14px;
+}
+.seo-link-grid > div {
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 14px 16px;
+  background: #fff;
+}
+.seo-link-grid h3 {
+  margin: 0 0 8px;
+  font-size: 15px;
+  color: #111827;
+}
+.seo-link-grid p {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.8;
+  color: #6b7280;
+}
+.seo-link-grid a {
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: 600;
+}
+.seo-link-grid a:hover { text-decoration: underline; }
+.co-note {
+  margin: 10px 0 0;
+  font-size: 12px;
+  color: #9ca3af;
+}
+
 /* ============================================
    RECENT MATCHES
    ============================================ */

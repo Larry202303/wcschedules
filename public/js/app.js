@@ -484,10 +484,11 @@ function renderGroups() {
 function navigateToGroup(groupKey) {
   const lang = STATE.lang || "en";
   const tz = STATE.tz || "";
-  const params = new URLSearchParams({ g: groupKey.toUpperCase() });
+  const params = new URLSearchParams();
   if (lang && lang !== "en") params.set("lang", lang);
   if (tz) params.set("tz", tz);
-  window.location.href = `group.html?${params.toString()}`;
+  const qs = params.toString();
+  window.location.href = `/groups/${groupKey.toLowerCase()}/${qs ? `?${qs}` : ""}`;
 }
 
 /* ============================================
