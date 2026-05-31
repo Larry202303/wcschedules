@@ -61,7 +61,7 @@
           <li class="co-row">
             <span class="co-medal">${medal}</span>
             <span class="co-flag">${flag}</span>
-            <a href="/teams/${slug}" class="co-name" style="color:inherit;text-decoration:none">${escapeHtml(m.team)}</a>
+            <a href="/teams/${slug}" class="co-name" style="text-decoration:none">${escapeHtml(m.team)}</a>
             <span class="co-right">
               ${probBar(pct)}
               <span class="co-pct">${pct}%</span>

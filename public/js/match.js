@@ -485,6 +485,9 @@ async function loadOdds() {
   const cont = document.getElementById("md-odds");
   const cta = document.getElementById("md-odds-cta");
 
+  // Clear the static "Loading live odds…" placeholder immediately
+  cont.innerHTML = "";
+
   // Always show the trade button (with affiliate)
   if (STATE.pmLink) {
     const sep = STATE.pmLink.polymarket_url.includes("?") ? "&" : "?";
@@ -503,6 +506,14 @@ async function loadOdds() {
     return;
   }
 
+  // Show fallback data first so users always see something
+  const fallbackEarly = await loadOddsFallback();
+  if (fallbackEarly) {
+    renderOdds(fallbackEarly);
+    renderSparkline(fallbackEarly);
+  }
+
+  // Then fetch live data and update
   try {
     const r = await fetchWithTimeout(`/api/odds?slug=${encodeURIComponent(STATE.pmLink.polymarket_slug)}&history=0`, 9000);
     if (!r.ok) throw new Error("api " + r.status);
@@ -510,12 +521,8 @@ async function loadOdds() {
     renderOdds(data);
     renderSparkline(data);
   } catch (e) {
-    console.error("odds err:", e);
-    const fallback = await loadOddsFallback();
-    if (fallback) {
-      renderOdds(fallback);
-      renderSparkline(fallback);
-    } else {
+    console.warn("live odds fetch failed, keeping fallback:", e);
+    if (!fallbackEarly) {
       cont.innerHTML = `<p class="md-odds-na">${t("md_odds_unavailable")}</p>`;
       const chart = document.getElementById("md-odds-chart");
       if (chart) chart.innerHTML = "";

@@ -1593,10 +1593,10 @@ html[dir="rtl"] .gp-match-row:hover .gp-match-arrow { transform: translateX(-3px
 .co-list {
   list-style: none;
   margin: 0; padding: 0;
-  border: 1px solid #e5e7eb;
+  border: 1px solid rgba(255,255,255,0.1);
   border-radius: 12px;
   overflow: hidden;
-  background: #fff;
+  background: rgba(255,255,255,0.04);
 }
 .co-row {
   display: grid;
@@ -1604,14 +1604,14 @@ html[dir="rtl"] .gp-match-row:hover .gp-match-arrow { transform: translateX(-3px
   align-items: center;
   gap: 10px;
   padding: 12px 16px;
-  border-bottom: 1px solid #f3f4f6;
+  border-bottom: 1px solid rgba(255,255,255,0.06);
   font-size: 14px;
 }
 .co-row:last-child { border-bottom: none; }
 .co-medal { font-size: 18px; text-align: center; }
-.co-rank { font-size: 13px; font-weight: 600; color: #6b7280; text-align: center; }
+.co-rank { font-size: 13px; font-weight: 600; color: rgba(255,255,255,0.5); text-align: center; }
 .co-flag { font-size: 20px; line-height: 1; }
-.co-name { font-weight: 600; color: #111827; }
+.co-name { font-weight: 600; color: #ffffff; }
 .co-right {
   display: flex;
   align-items: center;
@@ -1622,7 +1622,7 @@ html[dir="rtl"] .gp-match-row:hover .gp-match-arrow { transform: translateX(-3px
 .co-bar-wrap {
   width: 80px;
   height: 6px;
-  background: #f3f4f6;
+  background: rgba(255,255,255,0.1);
   border-radius: 99px;
   overflow: hidden;
   flex-shrink: 0;
@@ -1635,7 +1635,7 @@ html[dir="rtl"] .gp-match-row:hover .gp-match-arrow { transform: translateX(-3px
 .co-pct {
   font-weight: 700;
   font-size: 14px;
-  color: #111827;
+  color: #ffffff;
   min-width: 40px;
   text-align: right;
 }
