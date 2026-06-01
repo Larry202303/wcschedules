@@ -1590,6 +1590,21 @@ html[dir="rtl"] .gp-match-row:hover .gp-match-arrow { transform: translateX(-3px
   padding: 24px 0;
   text-align: center;
 }
+/* ── Champion Odds: Tier wrapper ── */
+.co-tier {
+  margin-bottom: 12px;
+}
+.co-tier:last-child { margin-bottom: 0; }
+.co-tier-label {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.45);
+  padding: 4px 4px 6px;
+}
+
+/* ── Champion Odds: List & rows ── */
 .co-list {
   list-style: none;
   margin: 0; padding: 0;
@@ -1603,12 +1618,13 @@ html[dir="rtl"] .gp-match-row:hover .gp-match-arrow { transform: translateX(-3px
   grid-template-columns: 36px 28px 1fr auto;
   align-items: center;
   gap: 10px;
-  padding: 12px 16px;
+  padding: 11px 16px;
   border-bottom: 1px solid rgba(255,255,255,0.06);
   font-size: 14px;
 }
 .co-row:last-child { border-bottom: none; }
-.co-medal { font-size: 18px; text-align: center; }
+.co-medal { font-size: 18px; text-align: center; line-height: 1; }
+.co-rank-num { font-size: 12px; font-weight: 700; color: rgba(255,255,255,0.35); text-align: center; }
 .co-rank { font-size: 13px; font-weight: 600; color: rgba(255,255,255,0.5); text-align: center; }
 .co-flag { font-size: 20px; line-height: 1; }
 .co-name { font-weight: 600; color: #ffffff; }

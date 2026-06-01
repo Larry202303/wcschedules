@@ -136,10 +136,13 @@ window.I18N = {
     recent_desc: "Yesterday · Today · Tomorrow (Los Angeles time)",
     recent_no_matches: "No matches in this window.",
     co_title: "Champion Odds",
-    co_desc: "Live win probabilities from Polymarket. Top 10 title contenders.",
+    co_desc: "Live win probabilities from Polymarket. All 48 teams ranked by probability.",
     co_loading: "Loading odds…",
     co_updated: "Updated",
     co_cta: "Trade on Polymarket ↗",
+    co_tier_fav: "🥇 Favorites",
+    co_tier_dark: "🐴 Dark Horses",
+    co_tier_long: "🎲 Long Shots",
   },
 
   "zh-CN": {
@@ -274,10 +277,13 @@ window.I18N = {
     recent_desc: "昨天 · 今天 · 明天（洛杉矶时间）",
     recent_no_matches: "此时间段内暂无比赛。",
     co_title: "冠军队伍赔率榜",
-    co_desc: "来自 Polymarket 预测市场的实时夺冠概率，前 10 大热门。",
+    co_desc: "来自 Polymarket 预测市场的实时夺冠概率，全部 48 支球队排名。",
     co_loading: "正在加载赔率…",
     co_updated: "更新于",
     co_cta: "在 Polymarket 上交易 ↗",
+    co_tier_fav: "🥇 热门",
+    co_tier_dark: "🐴 黑马",
+    co_tier_long: "🎲 长线",
   },
 
   "zh-TW": {
@@ -412,10 +418,13 @@ window.I18N = {
     recent_desc: "昨天 · 今天 · 明天（洛杉磯時間）",
     recent_no_matches: "此時間段內暫無比賽。",
     co_title: "冠軍隊伍賠率榜",
-    co_desc: "來自 Polymarket 的實時奪冠概率，前 10 大熱門。",
+    co_desc: "來自 Polymarket 的實時奪冠概率，全部 48 支球隊排名。",
     co_loading: "正在載入賠率…",
     co_updated: "更新於",
     co_cta: "在 Polymarket 上交易 ↗",
+    co_tier_fav: "🥇 熱門",
+    co_tier_dark: "🐴 黑馬",
+    co_tier_long: "🎲 長線",
   },
 
   es: {
@@ -550,10 +559,13 @@ window.I18N = {
     recent_desc: "Ayer · Hoy · Mañana (hora de Los Ángeles)",
     recent_no_matches: "No hay partidos en este período.",
     co_title: "Odds al Campeón",
-    co_desc: "Probabilidades de título en Polymarket. Top 10 favoritos.",
+    co_desc: "Probabilidades de título en Polymarket. Los 48 equipos clasificados.",
     co_loading: "Cargando odds…",
     co_updated: "Actualizado",
     co_cta: "Operar en Polymarket ↗",
+    co_tier_fav: "🥇 Favoritos",
+    co_tier_dark: "🐴 Tapados",
+    co_tier_long: "🎲 Longshots",
   },
 
   pt: {
@@ -688,10 +700,13 @@ window.I18N = {
     recent_desc: "Ontem · Hoje · Amanhã (horário de Los Angeles)",
     recent_no_matches: "Nenhuma partida neste período.",
     co_title: "Odds do Campeão",
-    co_desc: "Probabilidades ao vivo do Polymarket. Top 10 favoritos.",
+    co_desc: "Probabilidades ao vivo do Polymarket. Os 48 times classificados.",
     co_loading: "Carregando odds…",
     co_updated: "Atualizado",
     co_cta: "Negociar no Polymarket ↗",
+    co_tier_fav: "🥇 Favoritos",
+    co_tier_dark: "🐴 Zebras",
+    co_tier_long: "🎲 Apostas Longas",
   },
 
   ja: {
@@ -826,10 +841,13 @@ window.I18N = {
     recent_desc: "Hier · Aujourd'hui · Demain (heure de Los Angeles)",
     recent_no_matches: "Aucun match sur cette période.",
     co_title: "Cotes pour le titre",
-    co_desc: "Probabilités en direct sur Polymarket. Top 10 favoris.",
+    co_desc: "Probabilités en direct sur Polymarket. Les 48 équipes classées.",
     co_loading: "Chargement des cotes…",
     co_updated: "Mis à jour",
     co_cta: "Trader sur Polymarket ↗",
+    co_tier_fav: "🥇 Favoris",
+    co_tier_dark: "🐴 Outsiders",
+    co_tier_long: "🎲 Longshots",
   },
 
   ko: {
@@ -964,10 +982,13 @@ window.I18N = {
     recent_desc: "昨日 · 今日 · 明日（ロサンゼルス時間）",
     recent_no_matches: "この期間に試合はありません。",
     co_title: "優勝オッズ",
-    co_desc: "Polymarketによるリアルタイム優勝確率。上位10カ国。",
+    co_desc: "Polymarketによるリアルタイム優勝確率。全48カ国ランキング。",
     co_loading: "オッズ読み込み中…",
     co_updated: "更新",
     co_cta: "Polymarketで取引 ↗",
+    co_tier_fav: "🥇 優勝候補",
+    co_tier_dark: "🐴 ダークホース",
+    co_tier_long: "🎲 ロングショット",
   },
 
   ru: {
@@ -1102,10 +1123,13 @@ window.I18N = {
     recent_desc: "어제 · 오늘 · 내일 (LA 시간 기준)",
     recent_no_matches: "이 기간에 경기가 없습니다.",
     co_title: "우승 배당률",
-    co_desc: "Polymarket 실시간 우승 확률. 상위 10개국.",
+    co_desc: "Polymarket 실시간 우승 확률. 전체 48개국 순위.",
     co_loading: "배당률 로딩 중…",
     co_updated: "업데이트",
     co_cta: "Polymarket에서 거래 ↗",
+    co_tier_fav: "🥇 우승 후보",
+    co_tier_dark: "🐴 다크호스",
+    co_tier_long: "🎲 이변 후보",
   },
 
   ar: {
@@ -1240,10 +1264,13 @@ window.I18N = {
     recent_desc: "Вчера · Сегодня · Завтра (время Лос-Анджелеса)",
     recent_no_matches: "В этот период матчей нет.",
     co_title: "Котировки на чемпиона",
-    co_desc: "Вероятности победы в режиме реального времени от Polymarket. Топ-10.",
+    co_desc: "Вероятности победы в режиме реального времени от Polymarket. Все 48 сборных.",
     co_loading: "Загрузка котировок…",
     co_updated: "Обновлено",
     co_cta: "Торговать на Polymarket ↗",
+    co_tier_fav: "🥇 Фавориты",
+    co_tier_dark: "🐴 Тёмные лошадки",
+    co_tier_long: "🎲 Аутсайдеры",
   },
 
   id: {
@@ -1378,10 +1405,13 @@ window.I18N = {
     recent_desc: "أمس · اليوم · غداً (بتوقيت لوس أنجلوس)",
     recent_no_matches: "لا توجد مباريات في هذه الفترة.",
     co_title: "أسعار الفائز بالبطولة",
-    co_desc: "احتمالات الفوز المباشرة من Polymarket. أفضل 10 منتخبات.",
+    co_desc: "احتمالات الفوز المباشرة من Polymarket. ترتيب جميع المنتخبات الـ 48.",
     co_loading: "تحميل الأسعار…",
     co_updated: "تحديث",
     co_cta: "التداول على Polymarket ↗",
+    co_tier_fav: "🥇 المفضلون",
+    co_tier_dark: "🐴 المفاجآت",
+    co_tier_long: "🎲 الاحتمالات البعيدة",
   },
   fr: {
     lang_name: "Français",
@@ -1515,10 +1545,13 @@ window.I18N = {
     recent_desc: "Kemarin · Hari ini · Besok (waktu Los Angeles)",
     recent_no_matches: "Tidak ada pertandingan dalam periode ini.",
     co_title: "Odds Juara",
-    co_desc: "Probabilitas kemenangan langsung dari Polymarket. 10 tim teratas.",
+    co_desc: "Probabilitas kemenangan langsung dari Polymarket. Peringkat semua 48 tim.",
     co_loading: "Memuat odds…",
     co_updated: "Diperbarui",
     co_cta: "Trade di Polymarket ↗",
+    co_tier_fav: "🥇 Favorit",
+    co_tier_dark: "🐴 Kuda Hitam",
+    co_tier_long: "🎲 Peluang Jauh",
   },
 
   th: {
@@ -1653,10 +1686,13 @@ window.I18N = {
     recent_desc: "เมื่อวาน · วันนี้ · พรุ่งนี้ (เวลาลอสแอนเจลิส)",
     recent_no_matches: "ไม่มีแมตช์ในช่วงเวลานี้",
     co_title: "อัตราต่อรองแชมป์",
-    co_desc: "ความน่าจะเป็นสดจาก Polymarket 10 ทีมโปรด",
+    co_desc: "ความน่าจะเป็นสดจาก Polymarket จัดอันดับ 48 ทีม",
     co_loading: "กำลังโหลดราคาต่อรอง…",
     co_updated: "อัปเดต",
     co_cta: "เทรดบน Polymarket ↗",
+    co_tier_fav: "🥇 เต็งหนึ่ง",
+    co_tier_dark: "🐴 ม้ามืด",
+    co_tier_long: "🎲 ทีมรอง",
   },
 
   vi: {
@@ -1791,10 +1827,13 @@ window.I18N = {
     recent_desc: "Hôm qua · Hôm nay · Ngày mai (giờ Los Angeles)",
     recent_no_matches: "Không có trận đấu trong khoảng thời gian này.",
     co_title: "Tỷ lệ vô địch",
-    co_desc: "Xác suất vô địch trực tiếp từ Polymarket. Top 10 ứng viên.",
+    co_desc: "Xác suất vô địch trực tiếp từ Polymarket. Xếp hạng cả 48 đội.",
     co_loading: "Đang tải tỷ lệ…",
     co_updated: "Cập nhật",
     co_cta: "Giao dịch trên Polymarket ↗",
+    co_tier_fav: "🥇 Ứng Viên Hàng Đầu",
+    co_tier_dark: "🐴 Ngựa Ô",
+    co_tier_long: "🎲 Cửa Dài",
   },
 
   tr: {
@@ -1929,10 +1968,13 @@ window.I18N = {
     recent_desc: "Dün · Bugün · Yarın (Los Angeles saatiyle)",
     recent_no_matches: "Bu zaman diliminde maç bulunmuyor.",
     co_title: "Şampiyon Oranları",
-    co_desc: "Polymarket tahmin piyasasından canlı kazanma olasılıkları. İlk 10 favori.",
+    co_desc: "Polymarket tahmin piyasasından canlı kazanma olasılıkları. Tüm 48 takım sıralandı.",
     co_loading: "Oranlar yükleniyor…",
     co_updated: "Güncellendi",
     co_cta: "Polymarket'te İşlem Yap ↗",
+    co_tier_fav: "🥇 Favoriler",
+    co_tier_dark: "🐴 Sürpriz Adaylar",
+    co_tier_long: "🎲 Uzak İhtimaller",
   },
 
   fa: {
@@ -2067,10 +2109,13 @@ window.I18N = {
     recent_desc: "دیروز · امروز · فردا (به وقت لوس‌آنجلس)",
     recent_no_matches: "هیچ بازی‌ای در این بازه زمانی وجود ندارد.",
     co_title: "احتمال قهرمانی",
-    co_desc: "احتمالات زنده از Polymarket. ۱۰ تیم برتر.",
+    co_desc: "احتمالات زنده از Polymarket. رتبه‌بندی تمام ۴۸ تیم.",
     co_loading: "در حال بارگذاری احتمالات…",
     co_updated: "به‌روزرسانی",
     co_cta: "معامله در Polymarket ↗",
+    co_tier_fav: "🥇 مدعیان اصلی",
+    co_tier_dark: "🐴 غافلگیرکننده‌ها",
+    co_tier_long: "🎲 شانس‌های دور",
   },
 
 };
@@ -2095,10 +2140,13 @@ window.I18N.de = {
   nav_scorers: "Torschützen",
   nav_champion_odds: "Titelquoten",
   nav_schedule: "Spielplan",
-  co_desc: "Live-Siegwahrscheinlichkeiten von Polymarket. Top 10 Favoriten.",
+  co_desc: "Live-Siegwahrscheinlichkeiten von Polymarket. Alle 48 Teams im Ranking.",
   co_loading: "Quoten werden geladen…",
   co_updated: "Aktualisiert",
   co_cta: "Auf Polymarket handeln ↗",
+  co_tier_fav: "🥇 Favoriten",
+  co_tier_dark: "🐴 Geheimfavoriten",
+  co_tier_long: "🎲 Außenseiter",
 };
 
 window.LANG_LIST = [
