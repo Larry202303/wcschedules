@@ -120,19 +120,23 @@ async function boot() {
 
   STATE.pmLink = findPolymarketLink(STATE.match);
 
-  applyTranslationsWrapper();
-  renderHeader();
-  if (window.initTopNav) initTopNav();
-  renderHero();
-  renderPreview();
-  renderCoaches();
-  renderSquads();
-  renderSeoMeta();
+  // Each render step is isolated — a failure in one must NOT block the others (esp. odds)
+  const safe = (label, fn) => { try { fn(); } catch (e) { console.warn(`[boot] ${label} failed:`, e.message); } };
+  safe("translations", applyTranslationsWrapper);
+  safe("header", renderHeader);
+  safe("topnav", () => { if (window.initTopNav) initTopNav(); });
+  safe("hero", renderHero);
+  safe("preview", renderPreview);
+  safe("coaches", renderCoaches);
+  safe("squads", renderSquads);
+  safe("seoMeta", renderSeoMeta);
 
-  document.getElementById("md-loading").style.display = "none";
-  document.getElementById("md-content").style.display = "block";
+  const mdLoading = document.getElementById("md-loading");
+  if (mdLoading) mdLoading.style.display = "none";
+  const mdContent = document.getElementById("md-content");
+  if (mdContent) mdContent.style.display = "block";
 
-  // Fetch live odds (non-blocking)
+  // Fetch live odds (non-blocking, always runs)
   loadOdds();
 }
 
@@ -696,15 +700,19 @@ function renderSeoMeta() {
     .replace("{date}", date)
     .replace("{venue}", `${stadiumName(m.stadium)}, ${cityName(m.city)}`);
 
+  // Safe DOM helpers — never throw if an element is missing
+  const setText = (id, val) => { const el = document.getElementById(id); if (el) el.textContent = val; };
+  const setAttr = (id, attr, val) => { const el = document.getElementById(id); if (el) el.setAttribute(attr, val); };
+
   document.title = title;
-  document.getElementById("page-title").textContent = title;
-  document.getElementById("page-desc").setAttribute("content", desc);
-  document.getElementById("og-title").setAttribute("content", title);
-  document.getElementById("og-desc").setAttribute("content", desc);
+  setText("page-title", title);
+  setAttr("page-desc", "content", desc);
+  setAttr("og-title", "content", title);
+  setAttr("og-desc", "content", desc);
 
   // Canonical
   const slug = `${m.home_code.toLowerCase()}-${m.away_code.toLowerCase()}-${m.date_local}`;
-  document.getElementById("page-canonical").setAttribute("href", `https://www.wcschedules.com/match/${slug}`);
+  setAttr("page-canonical", "href", `https://www.wcschedules.com/match/${slug}`);
 
   // Schema.org SportsEvent
   const ld = {
@@ -725,7 +733,7 @@ function renderSeoMeta() {
     ],
     superEvent: { "@type": "SportsEvent", name: "FIFA World Cup 2026" },
   };
-  document.getElementById("ld-event").textContent = JSON.stringify(ld);
+  setText("ld-event", JSON.stringify(ld));
 }
 
 function escapeHtml(s) {
