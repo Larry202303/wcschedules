@@ -1718,3 +1718,69 @@ html[dir="rtl"] .gp-match-row:hover .gp-match-arrow { transform: translateX(-3px
   .co-bar-wrap { width: 50px; }
   .co-right { min-width: 80px; gap: 6px; }
 }
+
+/* ── Group Advancement Odds ── */
+.gpa-card {
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 16px;
+  background: rgba(255,255,255,0.04);
+  padding: 20px;
+}
+.gpa-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.gpa-title {
+  font-size: 15px;
+  font-weight: 700;
+  color: #ffffff;
+}
+.gpa-cta {
+  font-size: 12px;
+  font-weight: 700;
+  color: #fff;
+  background: #7c3aed;
+  padding: 5px 12px;
+  border-radius: 999px;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.gpa-cta:hover { background: #6d28d9; }
+.gpa-rows { display: flex; flex-direction: column; gap: 10px; }
+.gpa-row {
+  display: grid;
+  grid-template-columns: 28px 1fr 1fr auto;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+}
+.gpa-flag { font-size: 20px; line-height: 1; }
+.gpa-name { font-weight: 600; color: #ffffff; }
+.gpa-bar-wrap {
+  height: 8px;
+  background: rgba(255,255,255,0.1);
+  border-radius: 99px;
+  overflow: hidden;
+}
+.gpa-bar {
+  height: 100%;
+  border-radius: 99px;
+  transition: width 0.4s ease;
+}
+.gpa-pct {
+  font-weight: 700;
+  font-size: 14px;
+  color: #ffffff;
+  min-width: 42px;
+  text-align: right;
+}
+.gpa-note {
+  font-size: 11px;
+  color: rgba(255,255,255,0.35);
+  margin: 14px 0 0;
+  line-height: 1.5;
+}

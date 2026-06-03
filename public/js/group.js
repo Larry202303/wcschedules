@@ -20,8 +20,14 @@ let STATE = {
 const t = (key) => (window.t ? window.t(key, STATE.lang) : key);
 
 function parseGroupKey() {
+  // Support pre-set key (static group pages) or URL param
+  const preset = window.__GROUP_KEY__;
+  if (preset) {
+    const k = preset.trim().toUpperCase();
+    return /^[A-L]$/.test(k) ? k : null;
+  }
   const params = new URLSearchParams(window.location.search);
-  const g = params.get("g");
+  const g = params.get("g") || params.get("group");
   if (!g) return null;
   const k = g.trim().toUpperCase();
   return /^[A-L]$/.test(k) ? k : null;
@@ -62,6 +68,9 @@ async function boot() {
 
   document.getElementById("gp-loading").style.display = "none";
   document.getElementById("gp-content").style.display = "block";
+
+  // Load advance odds async (non-blocking)
+  renderAdvanceOdds();
 }
 
 function applyTranslationsWrapper() {
@@ -121,9 +130,7 @@ function formatUserLocal(date) {
 
 function matchDetailHref(m) {
   const slug = `${m.home_code.toLowerCase()}-${m.away_code.toLowerCase()}-${m.date_local}`;
-  const params = new URLSearchParams({ id: slug });
-  if (STATE.lang && STATE.lang !== "en") params.set("lang", STATE.lang);
-  return `match.html?${params.toString()}`;
+  return `/match/${slug}`;
 }
 
 function escapeHtml(s) {
@@ -328,4 +335,99 @@ function renderSeoMeta() {
   setMeta("og-title", "content", title);
   setMeta("og-desc", "content", desc);
   setMeta("page-canonical", "href", `https://www.wcschedules.com/group.html?g=${STATE.group}`);
+}
+
+/* ============================================
+   ADVANCEMENT ODDS
+   Uses champion odds for teams in this group,
+   converts to relative probability.
+   ============================================ */
+async function renderAdvanceOdds() {
+  const cont = document.getElementById("gp-advance-odds");
+  if (!cont) return;
+
+  const groupTeams = DATA.teams.filter((tm) => (tm.group || "").toUpperCase() === STATE.group);
+  if (!groupTeams.length) return;
+
+  const POLYMARKET_REF = "wcschedules";
+
+  // Fetch champion odds
+  let champData = null;
+  try {
+    const r = await fetch("/api/champion-odds");
+    if (r.ok) champData = await r.json();
+  } catch (_) {}
+
+  // Fallback to static file
+  if (!champData || !champData.markets) {
+    try {
+      const r = await fetch("/data/odds_fallback.json");
+      const fb = await r.json();
+      champData = { markets: fb.champion || [], source: "fallback_estimate" };
+    } catch (_) {}
+  }
+
+  if (!champData || !champData.markets || !champData.markets.length) {
+    cont.innerHTML = "";
+    return;
+  }
+
+  // Match group teams to champion odds
+  const teamOdds = groupTeams.map((tm) => {
+    const match = champData.markets.find(
+      (m) => m.team && m.team.toLowerCase() === tm.name_en.toLowerCase()
+    );
+    const prob = match ? (typeof match.prob_pct === "number" ? match.prob_pct : Math.round(match.prob * 1000) / 10) : 0;
+    return { team: tm, prob };
+  }).filter((x) => x.prob > 0);
+
+  if (!teamOdds.length) { cont.innerHTML = ""; return; }
+
+  // Sort by prob desc
+  teamOdds.sort((a, b) => b.prob - a.prob);
+
+  // Normalise to relative probability within group (sum = 100%)
+  const total = teamOdds.reduce((s, x) => s + x.prob, 0);
+  const rows = teamOdds.map((x) => {
+    const relPct = total > 0 ? Math.round((x.prob / total) * 100) : 0;
+    const barW = Math.max(relPct, 2);
+    const barColor = relPct >= 40 ? "#16a34a" : relPct >= 25 ? "#6366f1" : "#6b7280";
+    const slug = teamSlug(x.team.code);
+    return `
+      <div class="gpa-row">
+        <span class="gpa-flag">${x.team.flag}</span>
+        <a href="/teams/${slug}" class="gpa-name" style="text-decoration:none">${escapeHtml(teamName(x.team.code))}</a>
+        <div class="gpa-bar-wrap">
+          <div class="gpa-bar" style="width:${barW}%;background:${barColor}"></div>
+        </div>
+        <span class="gpa-pct">${relPct}%</span>
+      </div>`;
+  }).join("");
+
+  const tradeUrl = `https://polymarket.com/event/2026-fifa-world-cup-winner-595?via=${POLYMARKET_REF}`;
+  const isFallback = champData.source === "fallback_estimate";
+
+  cont.innerHTML = `
+    <div class="gpa-card">
+      <div class="gpa-header">
+        <span class="gpa-title">${t("gp_advance_title")}</span>
+        <a href="${tradeUrl}" target="_blank" rel="noopener" class="gpa-cta">${t("gp_advance_trade")}</a>
+      </div>
+      <div class="gpa-rows">${rows}</div>
+      <p class="gpa-note">${t("gp_advance_note")}${isFallback ? " (pre-tournament estimates)" : ""}</p>
+    </div>`;
+
+  // Re-render on lang change
+  document.addEventListener("langchange", () => {
+    const titleEl = cont.querySelector(".gpa-title");
+    if (titleEl) titleEl.textContent = t("gp_advance_title");
+    const noteEl = cont.querySelector(".gpa-note");
+    if (noteEl) noteEl.textContent = t("gp_advance_note") + (isFallback ? " (pre-tournament estimates)" : "");
+    const ctaEl = cont.querySelector(".gpa-cta");
+    if (ctaEl) ctaEl.textContent = t("gp_advance_trade");
+    // Re-render team names
+    cont.querySelectorAll(".gpa-name").forEach((el, i) => {
+      if (teamOdds[i]) el.textContent = teamName(teamOdds[i].team.code);
+    });
+  });
 }
