@@ -484,50 +484,59 @@ function renderSquadList(squad) {
 async function loadOdds() {
   const cont = document.getElementById("md-odds");
   const cta = document.getElementById("md-odds-cta");
+  if (!cont) return;
 
-  // Clear the static "Loading live odds…" placeholder immediately
-  cont.innerHTML = "";
-
-  // Always show the trade button (with affiliate)
-  if (STATE.pmLink) {
-    const sep = STATE.pmLink.polymarket_url.includes("?") ? "&" : "?";
-    cta.href = `${STATE.pmLink.polymarket_url}${sep}via=${POLYMARKET_REF}`;
-    cta.style.display = "inline-block";
-  } else {
-    // No direct link → fallback search
-    const home = teamByCode(STATE.match.home_code).name_en;
-    const away = teamByCode(STATE.match.away_code).name_en;
-    cta.href = `https://polymarket.com/search?_q=${encodeURIComponent(home + " " + away)}&via=${POLYMARKET_REF}`;
-    cta.style.display = "inline-block";
+  // Set trade button CTA
+  if (cta) {
+    if (STATE.pmLink && STATE.pmLink.polymarket_url) {
+      const sep = STATE.pmLink.polymarket_url.includes("?") ? "&" : "?";
+      cta.href = `${STATE.pmLink.polymarket_url}${sep}via=${POLYMARKET_REF}`;
+      cta.style.display = "inline-block";
+    } else if (STATE.match) {
+      const home = teamByCode(STATE.match.home_code).name_en;
+      const away = teamByCode(STATE.match.away_code).name_en;
+      cta.href = `https://polymarket.com/search?_q=${encodeURIComponent(home + " " + away)}&via=${POLYMARKET_REF}`;
+      cta.style.display = "inline-block";
+    }
   }
 
+  // No polymarket slug → show unavailable immediately, done
   if (!STATE.pmLink || !STATE.pmLink.polymarket_slug) {
     cont.innerHTML = `<p class="md-odds-na">${t("md_odds_unavailable")}</p>`;
     return;
   }
 
-  // Show fallback data first so users always see something
-  const fallbackEarly = await loadOddsFallback();
-  if (fallbackEarly) {
-    renderOdds(fallbackEarly);
-    renderSparkline(fallbackEarly);
-  }
-
-  // Then fetch live data and update
+  // Try live API first
   try {
     const r = await fetchWithTimeout(`/api/odds?slug=${encodeURIComponent(STATE.pmLink.polymarket_slug)}&history=0`, 9000);
     if (!r.ok) throw new Error("api " + r.status);
     const data = await r.json();
-    renderOdds(data);
-    renderSparkline(data);
-  } catch (e) {
-    console.warn("live odds fetch failed, keeping fallback:", e);
-    if (!fallbackEarly) {
-      cont.innerHTML = `<p class="md-odds-na">${t("md_odds_unavailable")}</p>`;
-      const chart = document.getElementById("md-odds-chart");
-      if (chart) chart.innerHTML = "";
+    if (data && Array.isArray(data.outcomes) && data.outcomes.length > 0) {
+      renderOdds(data);
+      renderSparkline(data);
+      return;
     }
+    throw new Error("empty outcomes");
+  } catch (e) {
+    console.warn("live odds failed, trying fallback:", e.message);
   }
+
+  // Fallback to static data
+  try {
+    const fallback = await loadOddsFallback();
+    if (fallback && Array.isArray(fallback.outcomes) && fallback.outcomes.length > 0) {
+      renderOdds(fallback);
+      renderSparkline(fallback);
+      return;
+    }
+  } catch (e) {
+    console.warn("fallback also failed:", e.message);
+  }
+
+  // Nothing available
+  cont.innerHTML = `<p class="md-odds-na">${t("md_odds_unavailable")}</p>`;
+  const chart = document.getElementById("md-odds-chart");
+  if (chart) chart.innerHTML = "";
 }
 
 async function fetchWithTimeout(url, timeoutMs) {
