@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-JFNFTFSZCF"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-JFNFTFSZCF');
+  </script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About – WCSchedules.com</title>
+  <meta name="description" content="WCSchedules.com is your free, real-time 2026 FIFA World Cup schedule. Live odds, multi-language support, and the simplest World Cup tracker on the web.">
+  <meta property="og:title" content="About – WCSchedules.com">
+  <meta property="og:description" content="Your free, real-time 2026 FIFA World Cup schedule with live odds and multi-language support.">
+  <meta property="og:image" content="https://www.wcschedules.com/og-image.png">
+  <meta property="og:url" content="https://www.wcschedules.com/about">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://www.wcschedules.com/og-image.png">
+  <link rel="canonical" href="https://www.wcschedules.com/about">
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8973794917285635" crossorigin="anonymous"></script>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      background: #0f1117;
+      color: #e0e0e0;
+      line-height: 1.8;
+    }
+    header {
+      background: #1a1d27;
+      border-bottom: 1px solid #2a2d3a;
+      padding: 16px 24px;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+    header a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 1.1rem;
+    }
+    header a:hover { color: #60a5fa; }
+    .container {
+      max-width: 800px;
+      margin: 48px auto;
+      padding: 0 24px 80px;
+    }
+    h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 24px;
+    }
+    h2 {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: #fff;
+      margin: 32px 0 12px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid #2a2d3a;
+    }
+    p { margin-bottom: 14px; color: #b0b8c8; }
+    ul { margin: 8px 0 14px 24px; color: #b0b8c8; }
+    ul li { margin-bottom: 6px; }
+    a { color: #60a5fa; }
+    a:hover { text-decoration: underline; }
+    .contact-box {
+      background: #1a1d27;
+      border: 1px solid #2a2d3a;
+      border-radius: 12px;
+      padding: 24px 28px;
+      margin-top: 32px;
+    }
+    .contact-box h2 {
+      border-bottom: none;
+      margin-top: 0;
+    }
+    .contact-email {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      margin-top: 8px;
+      font-size: 1.05rem;
+      color: #60a5fa;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .contact-email:hover { text-decoration: underline; }
+    .back-btn {
+      display: inline-block;
+      margin-top: 40px;
+      padding: 10px 20px;
+      background: #2563eb;
+      color: #fff;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .back-btn:hover { background: #1d4ed8; text-decoration: none; }
+    /* Language switcher */
+    .lang-bar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 36px;
+    }
+    .lang-btn {
+      padding: 4px 12px;
+      border-radius: 20px;
+      border: 1px solid #2a2d3a;
+      background: transparent;
+      color: #9ca3af;
+      font-size: 0.8rem;
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+    .lang-btn:hover, .lang-btn.active {
+      background: #2563eb;
+      border-color: #2563eb;
+      color: #fff;
+    }
+    /* RTL support */
+    [dir="rtl"] { text-align: right; }
+    [dir="rtl"] ul { margin: 8px 24px 14px 0; }
+  </style>
+</head>
+<body>
+
+<header>
+  <a href="/">⚽ WC2026</a>
+  <span style="color:#6b7280">›</span>
+  <span id="header-label" style="color:#9ca3af">About</span>
+</header>
+
+<div class="container">
+  <div class="lang-bar" id="lang-bar"></div>
+
+  <h1 id="about-title">About WCSchedules.com</h1>
+
+  <div id="about-body">
+    <!-- content injected by JS -->
+  </div>
+
+  <div class="contact-box">
+    <h2 id="contact-title">Contact Us</h2>
+    <p id="contact-desc">Have a question, found a data error, or want to share feedback? We'd love to hear from you.</p>
+    <a class="contact-email" href="mailto:jujiguang@gmail.com">✉ jujiguang@gmail.com</a>
+  </div>
+
+  <a class="back-btn" id="back-btn" href="/">← Back to Schedule</a>
+</div>
+
+<script>
+const ABOUT_I18N = {
+  en: {
+    dir: "ltr",
+    headerLabel: "About",
+    title: "About WCSchedules.com",
+    body: `
+      <p>WCSchedules.com is a free, independent website dedicated to the <strong>2026 FIFA World Cup</strong> — the biggest football tournament in history, spanning three nations: the United States, Canada, and Mexico.</p>
+      <h2>What We Offer</h2>
+      <ul>
+        <li><strong>Real-time match schedule</strong> — every fixture from the Group Stage to the Final, updated live.</li>
+        <li><strong>Live prediction market odds</strong> — match and championship odds sourced from Polymarket, updated in real time.</li>
+        <li><strong>Team & group pages</strong> — standings, fixtures, squad lists, and relative qualifying odds for all 48 teams across 12 groups.</li>
+        <li><strong>15 languages</strong> — fully translated interface so fans around the world can follow the tournament in their own language.</li>
+        <li><strong>Timezone-aware</strong> — all kick-off times automatically displayed in your local timezone.</li>
+      </ul>
+      <h2>Our Mission</h2>
+      <p>We built WCSchedules.com because we wanted a single, clutter-free place to track the 2026 World Cup — without needing to dig through multiple apps or sites. Everything you need, in one place, updated automatically.</p>
+      <h2>About the Data</h2>
+      <p>Match schedules and team information are sourced from official FIFA data. Odds are sourced from <a href="https://polymarket.com" target="_blank" rel="noopener">Polymarket</a>, a public prediction market. We display this data for informational and entertainment purposes only — this is not a gambling site.</p>
+      <h2>Who We Are</h2>
+      <p>WCSchedules.com is an independent project built and maintained by a small team of football fans and developers who love the World Cup. We are not affiliated with FIFA, any national football association, or any betting company.</p>
+    `,
+    contactTitle: "Contact Us",
+    contactDesc: "Have a question, found a data error, or want to share feedback? We'd love to hear from you.",
+    backBtn: "← Back to Schedule",
+  },
+  "zh-CN": {
+    dir: "ltr",
+    headerLabel: "关于我们",
+    title: "关于 WCSchedules.com",
+    body: `
+      <p>WCSchedules.com 是一个免费的独立网站，专注于 <strong>2026 FIFA 世界杯</strong>——历史上规模最大的足球赛事，横跨美国、加拿大和墨西哥三个国家。</p>
+      <h2>我们提供什么</h2>
+      <ul>
+        <li><strong>实时赛程</strong> —— 从小组赛到决赛的每一场比赛，实时更新。</li>
+        <li><strong>实时预测市场赔率</strong> —— 来自 Polymarket 的比赛及冠军赔率，实时更新。</li>
+        <li><strong>球队与小组页面</strong> —— 全部 48 支球队、12 个小组的积分榜、赛程、阵容及出线概率。</li>
+        <li><strong>15 种语言</strong> —— 全界面多语言翻译，全球球迷都能用母语追赛。</li>
+        <li><strong>时区自适应</strong> —— 所有开球时间自动转换为您的本地时区。</li>
+      </ul>
+      <h2>我们的目标</h2>
+      <p>我们打造 WCSchedules.com，是因为希望有一个简洁、无干扰的地方来追踪 2026 世界杯——不必在多个 App 和网站间来回切换。所有信息，一站到位，自动更新。</p>
+      <h2>数据来源</h2>
+      <p>赛程和球队信息来源于 FIFA 官方数据，赔率来源于公开预测市场 <a href="https://polymarket.com" target="_blank" rel="noopener">Polymarket</a>。本站数据仅供参考和娱乐，不提供任何博彩服务。</p>
+      <h2>关于我们</h2>
+      <p>WCSchedules.com 是由一支热爱足球和世界杯的小型独立团队开发和维护的项目。我们与 FIFA、任何国家足协或博彩公司均无任何关联。</p>
+    `,
+    contactTitle: "联系我们",
+    contactDesc: "有任何问题、发现数据错误，或想分享反馈？欢迎随时联系我们。",
+    backBtn: "← 返回赛程",
+  },
+  "zh-TW": {
+    dir: "ltr",
+    headerLabel: "關於我們",
+    title: "關於 WCSchedules.com",
+    body: `
+      <p>WCSchedules.com 是一個免費的獨立網站，專注於 <strong>2026 FIFA 世界盃</strong>——史上規模最大的足球賽事，橫跨美國、加拿大和墨西哥三個國家。</p>
+      <h2>我們提供什麼</h2>
+      <ul>
+        <li><strong>即時賽程</strong> —— 從小組賽到決賽的每一場比賽，即時更新。</li>
+        <li><strong>即時預測市場賠率</strong> —— 來自 Polymarket 的比賽及冠軍賠率，即時更新。</li>
+        <li><strong>球隊與小組頁面</strong> —— 全部 48 支球隊、12 個小組的積分榜、賽程、陣容及出線機率。</li>
+        <li><strong>15 種語言</strong> —— 全介面多語言翻譯，全球球迷都能用母語追賽。</li>
+        <li><strong>時區自適應</strong> —— 所有開球時間自動轉換為您的本地時區。</li>
+      </ul>
+      <h2>我們的目標</h2>
+      <p>我們打造 WCSchedules.com，是希望有一個簡潔、無干擾的地方追蹤 2026 世界盃——不必在多個 App 和網站間切換。所有資訊，一站到位，自動更新。</p>
+      <h2>資料來源</h2>
+      <p>賽程和球隊資訊來源於 FIFA 官方資料，賠率來源於公開預測市場 <a href="https://polymarket.com" target="_blank" rel="noopener">Polymarket</a>。本站資料僅供參考與娛樂，不提供任何博彩服務。</p>
+      <h2>關於我們</h2>
+      <p>WCSchedules.com 是由一支熱愛足球和世界盃的小型獨立團隊開發與維護的專案。我們與 FIFA、任何國家足協或博彩公司均無任何關聯。</p>
+    `,
+    contactTitle: "聯絡我們",
+    contactDesc: "有任何問題、發現資料錯誤，或想分享意見？歡迎隨時聯絡我們。",
+    backBtn: "← 返回賽程",
+  },
+  es: {
+    dir: "ltr",
+    headerLabel: "Acerca de",
+    title: "Acerca de WCSchedules.com",
+    body: `
+      <p>WCSchedules.com es un sitio web independiente y gratuito dedicado a la <strong>Copa Mundial FIFA 2026</strong>, el torneo de fútbol más grande de la historia, que se celebra en tres países: Estados Unidos, Canadá y México.</p>
+      <h2>Qué ofrecemos</h2>
+      <ul>
+        <li><strong>Calendario en tiempo real</strong> — todos los partidos, desde la fase de grupos hasta la final, actualizados en vivo.</li>
+        <li><strong>Cuotas de mercados de predicción en vivo</strong> — cuotas de partidos y del campeón provenientes de Polymarket, actualizadas en tiempo real.</li>
+        <li><strong>Páginas de equipos y grupos</strong> — clasificaciones, calendarios, listas de jugadores y probabilidades de clasificación para los 48 equipos en 12 grupos.</li>
+        <li><strong>15 idiomas</strong> — interfaz completamente traducida para que los aficionados de todo el mundo puedan seguir el torneo en su idioma.</li>
+        <li><strong>Adaptado a tu zona horaria</strong> — todos los horarios de los partidos se muestran automáticamente en tu hora local.</li>
+      </ul>
+      <h2>Nuestra misión</h2>
+      <p>Creamos WCSchedules.com porque queríamos un lugar sencillo y sin distracciones para seguir el Mundial 2026, sin tener que consultar múltiples aplicaciones o sitios web. Todo lo que necesitas, en un solo lugar, actualizado automáticamente.</p>
+      <h2>Sobre los datos</h2>
+      <p>Los calendarios y la información de equipos provienen de datos oficiales de la FIFA. Las cuotas son de <a href="https://polymarket.com" target="_blank" rel="noopener">Polymarket</a>, un mercado de predicciones público. Mostramos estos datos con fines informativos y de entretenimiento; no somos un sitio de apuestas.</p>
+      <h2>Quiénes somos</h2>
+      <p>WCSchedules.com es un proyecto independiente creado y mantenido por un pequeño equipo de aficionados al fútbol y desarrolladores. No tenemos ninguna afiliación con la FIFA, ninguna federación nacional ni ninguna empresa de apuestas.</p>
+    `,
+    contactTitle: "Contáctanos",
+    contactDesc: "¿Tienes alguna pregunta, encontraste un error en los datos o quieres compartir comentarios? Nos encantaría saber de ti.",
+    backBtn: "← Volver al calendario",
+  },
+  pt: {
+    dir: "ltr",
+    headerLabel: "Sobre",
+    title: "Sobre WCSchedules.com",
+    body: `
+      <p>WCSchedules.com é um site independente e gratuito dedicado à <strong>Copa do Mundo FIFA 2026</strong>, o maior torneio de futebol da história, realizado em três países: Estados Unidos, Canadá e México.</p>
+      <h2>O que oferecemos</h2>
+      <ul>
+        <li><strong>Calendário em tempo real</strong> — todos os jogos, da fase de grupos à final, atualizados ao vivo.</li>
+        <li><strong>Odds de mercados de previsão ao vivo</strong> — odds de partidas e de campeão do Polymarket, atualizadas em tempo real.</li>
+        <li><strong>Páginas de times e grupos</strong> — classificações, calendários, listas de jogadores e probabilidades de classificação para todos os 48 times em 12 grupos.</li>
+        <li><strong>15 idiomas</strong> — interface totalmente traduzida para torcedores do mundo todo acompanharem na sua língua.</li>
+        <li><strong>Fuso horário automático</strong> — todos os horários dos jogos exibidos automaticamente no seu fuso horário local.</li>
+      </ul>
+      <h2>Nossa missão</h2>
+      <p>Criamos WCSchedules.com porque queríamos um lugar simples e sem distrações para acompanhar a Copa 2026 — sem precisar acessar vários apps ou sites. Tudo que você precisa, em um só lugar, atualizado automaticamente.</p>
+      <h2>Sobre os dados</h2>
+      <p>Calendários e informações de times são de dados oficiais da FIFA. As odds são do <a href="https://polymarket.com" target="_blank" rel="noopener">Polymarket</a>, um mercado de previsões público. Exibimos esses dados apenas para fins informativos e de entretenimento — não somos um site de apostas.</p>
+      <h2>Quem somos</h2>
+      <p>WCSchedules.com é um projeto independente criado e mantido por uma pequena equipe de fãs de futebol e desenvolvedores. Não temos nenhuma afiliação com a FIFA, qualquer federação nacional ou empresa de apostas.</p>
+    `,
+    contactTitle: "Fale conosco",
+    contactDesc: "Tem alguma dúvida, encontrou um erro nos dados ou quer compartilhar feedback? Adoraríamos ouvir você.",
+    backBtn: "← Voltar ao calendário",
+  },
+  ja: {
+    dir: "ltr",
+    headerLabel: "サイトについて",
+    title: "WCSchedules.com について",
+    body: `
+      <p>WCSchedules.com は、<strong>2026 FIFA ワールドカップ</strong>に特化した無料の独立系ウェブサイトです。アメリカ・カナダ・メキシコの3カ国で開催される、史上最大規模のサッカー大会をお届けします。</p>
+      <h2>提供コンテンツ</h2>
+      <ul>
+        <li><strong>リアルタイム試合スケジュール</strong> — グループステージから決勝まで全試合をライブ更新。</li>
+        <li><strong>ライブ予測市場オッズ</strong> — Polymarket 提供の試合・優勝オッズをリアルタイムで表示。</li>
+        <li><strong>チーム・グループページ</strong> — 全48チーム・12グループの順位表、試合日程、スカッドリスト、突破確率。</li>
+        <li><strong>15言語対応</strong> — 世界中のファンが母国語で大会を追えるよう、全画面翻訳済み。</li>
+        <li><strong>タイムゾーン自動対応</strong> — キックオフ時刻をあなたの現地時間で自動表示。</li>
+      </ul>
+      <h2>私たちの目標</h2>
+      <p>複数のアプリやサイトを行き来せずに、2026 ワールドカップをシンプルに追えるサイトを作りたいという想いから WCSchedules.com を作りました。必要な情報をすべて一か所に、自動更新でお届けします。</p>
+      <h2>データについて</h2>
+      <p>試合スケジュールとチーム情報は FIFA 公式データを基にしています。オッズは公開予測市場の <a href="https://polymarket.com" target="_blank" rel="noopener">Polymarket</a> から取得しています。情報・エンターテインメント目的での提供であり、ギャンブルサービスではありません。</p>
+      <h2>私たちについて</h2>
+      <p>WCSchedules.com は、サッカーとワールドカップを愛する小規模な独立チームが開発・運営するプロジェクトです。FIFA・各国サッカー協会・ベッティング会社とは一切関係ありません。</p>
+    `,
+    contactTitle: "お問い合わせ",
+    contactDesc: "ご質問、データの誤りの発見、フィードバックなど、お気軽にご連絡ください。",
+    backBtn: "← スケジュールに戻る",
+  },
+  ko: {
+    dir: "ltr",
+    headerLabel: "소개",
+    title: "WCSchedules.com 소개",
+    body: `
+      <p>WCSchedules.com은 <strong>2026 FIFA 월드컵</strong>에 특화된 무료 독립 웹사이트입니다. 미국·캐나다·멕시코 세 나라에서 펼쳐지는 역대 최대 규모의 축구 대회를 한눈에 확인하세요.</p>
+      <h2>제공 서비스</h2>
+      <ul>
+        <li><strong>실시간 경기 일정</strong> — 조별 리그부터 결승전까지 모든 경기를 실시간으로 업데이트.</li>
+        <li><strong>라이브 예측 시장 배당률</strong> — Polymarket의 경기 및 우승 배당률을 실시간으로 제공.</li>
+        <li><strong>팀 & 조 페이지</strong> — 48개 팀, 12개 조의 순위표, 일정, 선수 명단, 진출 확률.</li>
+        <li><strong>15개 언어 지원</strong> — 전 세계 팬들이 모국어로 대회를 즐길 수 있도록 완전 번역된 인터페이스.</li>
+        <li><strong>시간대 자동 반영</strong> — 모든 킥오프 시간이 현지 시간대로 자동 표시.</li>
+      </ul>
+      <h2>우리의 목표</h2>
+      <p>여러 앱과 사이트를 전전하지 않고도 2026 월드컵을 깔끔하게 추적할 수 있는 공간을 만들고 싶어 WCSchedules.com을 만들었습니다. 필요한 모든 정보를 한 곳에서, 자동으로 업데이트합니다.</p>
+      <h2>데이터 출처</h2>
+      <p>경기 일정과 팀 정보는 FIFA 공식 데이터를 기반으로 합니다. 배당률은 공개 예측 시장인 <a href="https://polymarket.com" target="_blank" rel="noopener">Polymarket</a>에서 가져옵니다. 이 정보는 정보 제공 및 엔터테인먼트 목적으로만 제공되며, 도박 서비스가 아닙니다.</p>
+      <h2>우리는 누구인가</h2>
+      <p>WCSchedules.com은 축구와 월드컵을 사랑하는 소규모 독립 팀이 개발·운영하는 프로젝트입니다. FIFA, 어떤 국가 축구 협회, 또는 베팅 회사와도 무관합니다.</p>
+    `,
+    contactTitle: "문의하기",
+    contactDesc: "질문이 있거나 데이터 오류를 발견하셨거나 피드백을 공유하고 싶으신가요? 언제든지 연락 주세요.",
+    backBtn: "← 일정으로 돌아가기",
+  },
+  ru: {
+    dir: "ltr",
+    headerLabel: "О сайте",
+    title: "О WCSchedules.com",
+    body: `
+      <p>WCSchedules.com — бесплатный независимый сайт, посвящённый <strong>чемпионату мира по футболу FIFA 2026</strong>, крупнейшему футбольному турниру в истории, который пройдёт в трёх странах: США, Канаде и Мексике.</p>
+      <h2>Что мы предлагаем</h2>
+      <ul>
+        <li><strong>Расписание матчей в реальном времени</strong> — все матчи от группового этапа до финала, обновляется в режиме реального времени.</li>
+        <li><strong>Живые коэффициенты предсказательных рынков</strong> — коэффициенты матчей и победителя турнира от Polymarket, обновляются в реальном времени.</li>
+        <li><strong>Страницы команд и групп</strong> — турнирные таблицы, расписания, составы и вероятности выхода из группы для всех 48 команд в 12 группах.</li>
+        <li><strong>15 языков</strong> — полностью переведённый интерфейс для болельщиков со всего мира.</li>
+        <li><strong>Автоматическое определение часового пояса</strong> — время начала матчей отображается в вашем местном времени.</li>
+      </ul>
+      <h2>Наша миссия</h2>
+      <p>Мы создали WCSchedules.com, потому что хотели иметь простое и понятное место для отслеживания ЧМ-2026 — без необходимости листать несколько приложений и сайтов. Всё необходимое в одном месте, обновляется автоматически.</p>
+      <h2>Об источниках данных</h2>
+      <p>Расписание матчей и информация о командах основаны на официальных данных FIFA. Коэффициенты берутся с публичного предсказательного рынка <a href="https://polymarket.com" target="_blank" rel="noopener">Polymarket</a>. Данные представлены исключительно в информационных и развлекательных целях — это не букмекерский сайт.</p>
+      <h2>Кто мы</h2>
+      <p>WCSchedules.com — независимый проект, разработанный и поддерживаемый небольшой командой любителей футбола и разработчиков. Мы не связаны с FIFA, какой-либо национальной федерацией или букмекерскими компаниями.</p>
+    `,
+    contactTitle: "Свяжитесь с нами",
+    contactDesc: "Есть вопрос, нашли ошибку в данных или хотите поделиться отзывом? Будем рады вашему сообщению.",
+    backBtn: "← Назад к расписанию",
+  },
+  ar: {
+    dir: "rtl",
+    headerLabel: "حول الموقع",
+    title: "حول WCSchedules.com",
+    body: `
+      <p>WCSchedules.com موقع مستقل ومجاني مخصص لـ <strong>كأس العالم FIFA 2026</strong>، أكبر بطولة كرة قدم في التاريخ، وتُقام في ثلاث دول: الولايات المتحدة، كندا، والمكسيك.</p>
+      <h2>ما الذي نقدمه</h2>
+      <ul>
+        <li><strong>جدول المباريات المباشر</strong> — جميع المباريات من دور المجموعات حتى النهائي، يُحدَّث لحظياً.</li>
+        <li><strong>أسعار الرهانات المباشرة من أسواق التوقعات</strong> — نسب الفوز للمباريات والبطولة من Polymarket، تُحدَّث في الوقت الفعلي.</li>
+        <li><strong>صفحات الفرق والمجموعات</strong> — ترتيب وجدول مباريات وقوائم اللاعبين واحتمالات التأهل لجميع الفرق الـ48 في المجموعات الـ12.</li>
+        <li><strong>15 لغة</strong> — واجهة مترجمة بالكامل ليتابع المشجعون حول العالم البطولة بلغتهم.</li>
+        <li><strong>توقيت محلي تلقائي</strong> — تُعرض مواعيد المباريات بتوقيتك المحلي تلقائياً.</li>
+      </ul>
+      <h2>مهمتنا</h2>
+      <p>أنشأنا WCSchedules.com لأننا أردنا مكاناً واحداً بسيطاً وخالياً من التشتيت لمتابعة كأس العالم 2026 — دون الحاجة للتنقل بين تطبيقات ومواقع متعددة. كل ما تحتاجه في مكان واحد، يُحدَّث تلقائياً.</p>
+      <h2>مصادر البيانات</h2>
+      <p>جداول المباريات ومعلومات الفرق مستمدة من البيانات الرسمية لـ FIFA. أسعار الرهانات مأخوذة من <a href="https://polymarket.com" target="_blank" rel="noopener">Polymarket</a>، سوق التوقعات العام. تُعرض هذه البيانات للأغراض الإعلامية والترفيهية فحسب — لسنا موقعاً للمراهنات.</p>
+      <h2>من نحن</h2>
+      <p>WCSchedules.com مشروع مستقل طوّره ويديره فريق صغير من عشاق كرة القدم والمطورين. لا تربطنا أي علاقة بـ FIFA أو أي اتحاد وطني أو شركة رهانات.</p>
+    `,
+    contactTitle: "تواصل معنا",
+    contactDesc: "هل لديك سؤال، أو وجدت خطأ في البيانات، أو تريد مشاركة رأيك؟ يسعدنا سماعك.",
+    backBtn: "← العودة إلى الجدول",
+  },
+  id: {
+    dir: "ltr",
+    headerLabel: "Tentang Kami",
+    title: "Tentang WCSchedules.com",
+    body: `
+      <p>WCSchedules.com adalah situs web independen dan gratis yang didedikasikan untuk <strong>Piala Dunia FIFA 2026</strong>, turnamen sepak bola terbesar dalam sejarah, yang digelar di tiga negara: Amerika Serikat, Kanada, dan Meksiko.</p>
+      <h2>Yang Kami Tawarkan</h2>
+      <ul>
+        <li><strong>Jadwal pertandingan real-time</strong> — setiap pertandingan dari fase grup hingga final, diperbarui langsung.</li>
+        <li><strong>Odds pasar prediksi langsung</strong> — odds pertandingan dan juara dari Polymarket, diperbarui secara real-time.</li>
+        <li><strong>Halaman tim & grup</strong> — klasemen, jadwal, daftar pemain, dan peluang lolos untuk 48 tim di 12 grup.</li>
+        <li><strong>15 bahasa</strong> — antarmuka yang sepenuhnya diterjemahkan agar penggemar di seluruh dunia dapat mengikuti turnamen dalam bahasa mereka.</li>
+        <li><strong>Zona waktu otomatis</strong> — semua waktu kick-off ditampilkan secara otomatis dalam zona waktu lokal Anda.</li>
+      </ul>
+      <h2>Misi Kami</h2>
+      <p>Kami membangun WCSchedules.com karena ingin memiliki satu tempat yang sederhana dan bebas gangguan untuk mengikuti Piala Dunia 2026 — tanpa harus membuka banyak aplikasi atau situs. Semua yang Anda butuhkan, dalam satu tempat, diperbarui otomatis.</p>
+      <h2>Tentang Data</h2>
+      <p>Jadwal pertandingan dan informasi tim bersumber dari data resmi FIFA. Odds bersumber dari <a href="https://polymarket.com" target="_blank" rel="noopener">Polymarket</a>, pasar prediksi publik. Kami menampilkan data ini hanya untuk keperluan informasi dan hiburan — ini bukan situs judi.</p>
+      <h2>Siapa Kami</h2>
+      <p>WCSchedules.com adalah proyek independen yang dibangun dan dikelola oleh tim kecil penggemar sepak bola dan pengembang. Kami tidak berafiliasi dengan FIFA, federasi sepak bola nasional mana pun, maupun perusahaan taruhan.</p>
+    `,
+    contactTitle: "Hubungi Kami",
+    contactDesc: "Punya pertanyaan, menemukan kesalahan data, atau ingin berbagi masukan? Kami senang mendengar dari Anda.",
+    backBtn: "← Kembali ke Jadwal",
+  },
+  fr: {
+    dir: "ltr",
+    headerLabel: "À propos",
+    title: "À propos de WCSchedules.com",
+    body: `
+      <p>WCSchedules.com est un site web indépendant et gratuit dédié à la <strong>Coupe du Monde FIFA 2026</strong>, le plus grand tournoi de football de l'histoire, organisé dans trois pays : les États-Unis, le Canada et le Mexique.</p>
+      <h2>Ce que nous proposons</h2>
+      <ul>
+        <li><strong>Calendrier des matchs en temps réel</strong> — tous les matchs de la phase de groupes à la finale, mis à jour en direct.</li>
+        <li><strong>Cotes des marchés de prédiction en direct</strong> — cotes de matchs et du vainqueur du tournoi via Polymarket, mises à jour en temps réel.</li>
+        <li><strong>Pages équipes & groupes</strong> — classements, calendriers, listes de joueurs et probabilités de qualification pour les 48 équipes dans 12 groupes.</li>
+        <li><strong>15 langues</strong> — interface entièrement traduite pour que les fans du monde entier suivent le tournoi dans leur langue.</li>
+        <li><strong>Fuseau horaire automatique</strong> — tous les horaires de matchs affichés automatiquement dans votre heure locale.</li>
+      </ul>
+      <h2>Notre mission</h2>
+      <p>Nous avons créé WCSchedules.com parce que nous voulions un endroit simple et sans distraction pour suivre la Coupe du Monde 2026 — sans avoir à naviguer entre plusieurs applications ou sites. Tout ce dont vous avez besoin, en un seul endroit, mis à jour automatiquement.</p>
+      <h2>À propos des données</h2>
+      <p>Les calendriers et les informations sur les équipes proviennent des données officielles de la FIFA. Les cotes proviennent de <a href="https://polymarket.com" target="_blank" rel="noopener">Polymarket</a>, un marché de prédiction public. Nous affichons ces données à des fins informatives et de divertissement uniquement — ce n'est pas un site de paris.</p>
+      <h2>Qui sommes-nous</h2>
+      <p>WCSchedules.com est un projet indépendant créé et maintenu par une petite équipe de passionnés de football et de développeurs. Nous ne sommes affiliés ni à la FIFA, ni à aucune fédération nationale, ni à aucune société de paris.</p>
+    `,
+    contactTitle: "Nous contacter",
+    contactDesc: "Une question, une erreur dans les données ou un retour à partager ? Nous serions ravis de vous lire.",
+    backBtn: "← Retour au calendrier",
+  },
+  th: {
+    dir: "ltr",
+    headerLabel: "เกี่ยวกับเรา",
+    title: "เกี่ยวกับ WCSchedules.com",
+    body: `
+      <p>WCSchedules.com เป็นเว็บไซต์อิสระและฟรีที่อุทิศให้กับ <strong>ฟุตบอลโลก FIFA 2026</strong> การแข่งขันฟุตบอลที่ยิ่งใหญ่ที่สุดในประวัติศาสตร์ จัดขึ้นใน 3 ประเทศ ได้แก่ สหรัฐอเมริกา แคนาดา และเม็กซิโก</p>
+      <h2>สิ่งที่เรานำเสนอ</h2>
+      <ul>
+        <li><strong>ตารางแข่งขันแบบเรียลไทม์</strong> — ทุกนัดตั้งแต่รอบแบ่งกลุ่มจนถึงรอบชิงชนะเลิศ อัปเดตสด</li>
+        <li><strong>ราคาต่อรองตลาดทำนายแบบสด</strong> — ราคาต่อรองแมตช์และแชมป์จาก Polymarket อัปเดตแบบเรียลไทม์</li>
+        <li><strong>หน้าทีมและกลุ่ม</strong> — ตารางคะแนน ตารางแข่ง รายชื่อผู้เล่น และโอกาสผ่านเข้ารอบของ 48 ทีมใน 12 กลุ่ม</li>
+        <li><strong>15 ภาษา</strong> — อินเทอร์เฟซแปลครบถ้วนเพื่อให้แฟนบอลทั่วโลกติดตามในภาษาของตัวเอง</li>
+        <li><strong>โซนเวลาอัตโนมัติ</strong> — เวลาเตะทุกนัดแสดงตามเวลาท้องถิ่นของคุณโดยอัตโนมัติ</li>
+      </ul>
+      <h2>พันธกิจของเรา</h2>
+      <p>เราสร้าง WCSchedules.com เพราะต้องการที่เดียวที่เรียบง่ายและปราศจากความยุ่งเหยิงสำหรับติดตามฟุตบอลโลก 2026 โดยไม่ต้องเปิดหลายแอปหรือหลายเว็บ ทุกสิ่งที่คุณต้องการอยู่ที่นี่ อัปเดตอัตโนมัติ</p>
+      <h2>เกี่ยวกับข้อมูล</h2>
+      <p>ตารางแข่งขันและข้อมูลทีมมาจากข้อมูลอย่างเป็นทางการของ FIFA ราคาต่อรองมาจาก <a href="https://polymarket.com" target="_blank" rel="noopener">Polymarket</a> ตลาดทำนายสาธารณะ ข้อมูลนี้นำเสนอเพื่อวัตถุประสงค์ด้านข้อมูลและความบันเทิงเท่านั้น ไม่ใช่เว็บพนัน</p>
+      <h2>เราคือใคร</h2>
+      <p>WCSchedules.com เป็นโปรเจกต์อิสระที่สร้างและดูแลโดยทีมแฟนบอลและนักพัฒนากลุ่มเล็กๆ เราไม่มีความเกี่ยวข้องกับ FIFA สมาคมฟุตบอลแห่งชาติใดๆ หรือบริษัทพนัน</p>
+    `,
+    contactTitle: "ติดต่อเรา",
+    contactDesc: "มีคำถาม พบข้อผิดพลาดในข้อมูล หรืออยากแชร์ความคิดเห็น? เรายินดีรับฟังเสมอ",
+    backBtn: "← กลับไปที่ตาราง",
+  },
+  vi: {
+    dir: "ltr",
+    headerLabel: "Giới thiệu",
+    title: "Giới thiệu WCSchedules.com",
+    body: `
+      <p>WCSchedules.com là trang web độc lập và miễn phí dành riêng cho <strong>FIFA World Cup 2026</strong>, giải đấu bóng đá lớn nhất lịch sử, tổ chức tại ba quốc gia: Hoa Kỳ, Canada và Mexico.</p>
+      <h2>Chúng tôi cung cấp gì</h2>
+      <ul>
+        <li><strong>Lịch thi đấu thời gian thực</strong> — tất cả các trận từ vòng bảng đến chung kết, cập nhật trực tiếp.</li>
+        <li><strong>Tỷ lệ thị trường dự đoán trực tiếp</strong> — tỷ lệ cược trận đấu và vô địch từ Polymarket, cập nhật theo thời gian thực.</li>
+        <li><strong>Trang đội & bảng đấu</strong> — bảng xếp hạng, lịch thi đấu, danh sách cầu thủ và xác suất vượt qua vòng bảng cho 48 đội ở 12 bảng.</li>
+        <li><strong>15 ngôn ngữ</strong> — giao diện được dịch hoàn chỉnh để người hâm mộ trên toàn thế giới theo dõi bằng ngôn ngữ của mình.</li>
+        <li><strong>Múi giờ tự động</strong> — tất cả giờ thi đấu được hiển thị tự động theo múi giờ địa phương của bạn.</li>
+      </ul>
+      <h2>Sứ mệnh của chúng tôi</h2>
+      <p>Chúng tôi xây dựng WCSchedules.com vì muốn có một nơi đơn giản, không rắc rối để theo dõi World Cup 2026 — không cần phải chuyển qua lại giữa nhiều ứng dụng hay trang web. Mọi thứ bạn cần, ở một nơi, cập nhật tự động.</p>
+      <h2>Về dữ liệu</h2>
+      <p>Lịch thi đấu và thông tin đội bóng được lấy từ dữ liệu chính thức của FIFA. Tỷ lệ cược đến từ <a href="https://polymarket.com" target="_blank" rel="noopener">Polymarket</a>, một thị trường dự đoán công khai. Chúng tôi hiển thị dữ liệu này chỉ cho mục đích thông tin và giải trí — đây không phải trang cờ bạc.</p>
+      <h2>Chúng tôi là ai</h2>
+      <p>WCSchedules.com là dự án độc lập được xây dựng và duy trì bởi một nhóm nhỏ những người yêu bóng đá và lập trình viên. Chúng tôi không có liên kết với FIFA, bất kỳ liên đoàn bóng đá quốc gia nào hay công ty cá cược nào.</p>
+    `,
+    contactTitle: "Liên hệ với chúng tôi",
+    contactDesc: "Có câu hỏi, phát hiện lỗi dữ liệu hay muốn chia sẻ phản hồi? Chúng tôi rất muốn nghe từ bạn.",
+    backBtn: "← Quay lại lịch thi đấu",
+  },
+  tr: {
+    dir: "ltr",
+    headerLabel: "Hakkımızda",
+    title: "WCSchedules.com Hakkında",
+    body: `
+      <p>WCSchedules.com, <strong>2026 FIFA Dünya Kupası</strong>'na adanmış ücretsiz ve bağımsız bir web sitesidir. Tarihinin en büyük futbol turnuvası, üç ülkede düzenleniyor: ABD, Kanada ve Meksika.</p>
+      <h2>Neler Sunuyoruz</h2>
+      <ul>
+        <li><strong>Gerçek zamanlı maç takvimi</strong> — Grup aşamasından finale kadar tüm maçlar, canlı olarak güncellenir.</li>
+        <li><strong>Canlı tahmin piyasası oranları</strong> — Polymarket'ten alınan maç ve şampiyonluk oranları, gerçek zamanlı olarak güncellenir.</li>
+        <li><strong>Takım ve grup sayfaları</strong> — 12 grupta 48 takımın puan durumu, fikstür, oyuncu kadrosu ve gruptan çıkma olasılıkları.</li>
+        <li><strong>15 dil</strong> — Dünya genelindeki taraftarların turnuvayı kendi dillerinde takip edebilmesi için tam çeviri yapılmış arayüz.</li>
+        <li><strong>Otomatik saat dilimi</strong> — Tüm maç başlangıç saatleri yerel saatinize göre otomatik gösterilir.</li>
+      </ul>
+      <h2>Misyonumuz</h2>
+      <p>WCSchedules.com'u, 2026 Dünya Kupası'nı birden fazla uygulama veya site arasında geçiş yapmadan takip edebileceğimiz sade ve dağınıklıktan uzak bir yer olsun diye kurduk. İhtiyacınız olan her şey tek yerde, otomatik olarak güncelleniyor.</p>
+      <h2>Veriler Hakkında</h2>
+      <p>Maç takvimleri ve takım bilgileri FIFA'nın resmi verilerine dayanmaktadır. Oranlar, kamuya açık bir tahmin piyasası olan <a href="https://polymarket.com" target="_blank" rel="noopener">Polymarket</a>'ten alınmaktadır. Bu veriler yalnızca bilgilendirme ve eğlence amaçlıdır — bu bir bahis sitesi değildir.</p>
+      <h2>Biz Kimiz</h2>
+      <p>WCSchedules.com, futbol ve Dünya Kupası tutkunlarından oluşan küçük bir bağımsız ekip tarafından geliştirilip yönetilmektedir. FIFA, herhangi bir ulusal futbol federasyonu veya bahis şirketiyle herhangi bir bağlantımız bulunmamaktadır.</p>
+    `,
+    contactTitle: "Bize Ulaşın",
+    contactDesc: "Bir sorunuz mu var, bir veri hatası mı buldunuz veya geri bildirim paylaşmak mı istiyorsunuz? Sizden haber almaktan memnuniyet duyarız.",
+    backBtn: "← Takvime Dön",
+  },
+  fa: {
+    dir: "rtl",
+    headerLabel: "درباره ما",
+    title: "درباره WCSchedules.com",
+    body: `
+      <p>WCSchedules.com یک وب‌سایت مستقل و رایگان است که به <strong>جام جهانی فوتبال FIFA 2026</strong> اختصاص دارد؛ بزرگ‌ترین رقابت فوتبال تاریخ که در سه کشور ایالات متحده، کانادا و مکزیک برگزار می‌شود.</p>
+      <h2>چه ارائه می‌دهیم</h2>
+      <ul>
+        <li><strong>برنامه مسابقات لحظه‌به‌لحظه</strong> — تمام بازی‌ها از مرحله گروهی تا فینال، به‌روزرسانی زنده.</li>
+        <li><strong>ضرایب زنده بازار پیش‌بینی</strong> — ضرایب بازی‌ها و قهرمانی از Polymarket، به‌روزرسانی در لحظه.</li>
+        <li><strong>صفحات تیم‌ها و گروه‌ها</strong> — جدول رده‌بندی، برنامه، ترکیب بازیکنان و احتمال صعود برای همه ۴۸ تیم در ۱۲ گروه.</li>
+        <li><strong>۱۵ زبان</strong> — رابط کاربری کاملاً ترجمه‌شده تا هواداران سراسر جهان بتوانند به زبان خود رقابت‌ها را دنبال کنند.</li>
+        <li><strong>منطقه زمانی خودکار</strong> — ساعت شروع تمام بازی‌ها به‌طور خودکار بر اساس منطقه زمانی شما نمایش داده می‌شود.</li>
+      </ul>
+      <h2>مأموریت ما</h2>
+      <p>WCSchedules.com را ساختیم چون می‌خواستیم یک مکان ساده و بدون شلوغی برای دنبال کردن جام جهانی ۲۰۲۶ داشته باشیم، بدون نیاز به جابه‌جایی بین چندین اپ یا سایت. همه چیزی که نیاز دارید، در یک جا، به‌روزرسانی خودکار.</p>
+      <h2>درباره داده‌ها</h2>
+      <p>برنامه مسابقات و اطلاعات تیم‌ها از داده‌های رسمی FIFA استخراج شده است. ضرایب از <a href="https://polymarket.com" target="_blank" rel="noopener">Polymarket</a>، یک بازار پیش‌بینی عمومی، گرفته می‌شوند. این اطلاعات صرفاً برای اهداف اطلاعاتی و سرگرمی ارائه می‌شوند — این یک سایت شرط‌بندی نیست.</p>
+      <h2>ما کی هستیم</h2>
+      <p>WCSchedules.com یک پروژه مستقل است که توسط یک تیم کوچک از علاقه‌مندان به فوتبال و توسعه‌دهندگان ساخته و نگهداری می‌شود. ما هیچ وابستگی‌ای به FIFA، هیچ فدراسیون ملی یا شرکت شرط‌بندی نداریم.</p>
+    `,
+    contactTitle: "تماس با ما",
+    contactDesc: "سوالی دارید، خطایی در داده‌ها یافتید یا می‌خواهید بازخورد بدهید؟ خوشحال می‌شویم از شما بشنویم.",
+    backBtn: "← بازگشت به برنامه",
+  },
+};
+
+const LANG_FLAGS = {
+  en: "🇬🇧", "zh-CN": "🇨🇳", "zh-TW": "🇭🇰", es: "🇪🇸", pt: "🇧🇷",
+  ja: "🇯🇵", ko: "🇰🇷", ru: "🇷🇺", ar: "🇸🇦", id: "🇮🇩",
+  fr: "🇫🇷", th: "🇹🇭", vi: "🇻🇳", tr: "🇹🇷", fa: "🇮🇷"
+};
+
+const LANG_NAMES = {
+  en: "English", "zh-CN": "简体中文", "zh-TW": "繁體中文", es: "Español",
+  pt: "Português", ja: "日本語", ko: "한국어", ru: "Русский",
+  ar: "العربية", id: "Indonesia", fr: "Français", th: "ไทย",
+  vi: "Tiếng Việt", tr: "Türkçe", fa: "فارسی"
+};
+
+function detectLang() {
+  const stored = localStorage.getItem("wc_lang");
+  if (stored && ABOUT_I18N[stored]) return stored;
+  const url = new URLSearchParams(location.search).get("lang");
+  if (url && ABOUT_I18N[url]) return url;
+  const b = (navigator.language || "en").toLowerCase();
+  if (b.startsWith("zh-tw") || b.startsWith("zh-hk")) return "zh-TW";
+  if (b.startsWith("zh")) return "zh-CN";
+  const short = b.split("-")[0];
+  if (ABOUT_I18N[short]) return short;
+  return "en";
+}
+
+function applyLang(code) {
+  const d = ABOUT_I18N[code] || ABOUT_I18N.en;
+  document.documentElement.lang = code;
+  document.documentElement.dir = d.dir;
+  document.getElementById("header-label").textContent = d.headerLabel;
+  document.getElementById("about-title").textContent = d.title;
+  document.getElementById("about-body").innerHTML = d.body;
+  document.getElementById("contact-title").textContent = d.contactTitle;
+  document.getElementById("contact-desc").textContent = d.contactDesc;
+  document.getElementById("back-btn").textContent = d.backBtn;
+  // Sync with site-wide lang storage
+  localStorage.setItem("wc_lang", code);
+  // Update active button
+  document.querySelectorAll(".lang-btn").forEach(btn => {
+    btn.classList.toggle("active", btn.dataset.lang === code);
+  });
+}
+
+function buildLangBar() {
+  const bar = document.getElementById("lang-bar");
+  Object.keys(ABOUT_I18N).forEach(code => {
+    const btn = document.createElement("button");
+    btn.className = "lang-btn";
+    btn.dataset.lang = code;
+    btn.textContent = `${LANG_FLAGS[code]} ${LANG_NAMES[code]}`;
+    btn.addEventListener("click", () => applyLang(code));
+    bar.appendChild(btn);
+  });
+}
+
+buildLangBar();
+applyLang(detectLang());
+</script>
+
+</body>
+</html>
