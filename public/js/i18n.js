@@ -135,6 +135,7 @@ window.I18N = {
     nav_scorers: "Top Scorers",
     nav_champion_odds: "Champion Odds",
     nav_schedule: "Full Schedule",
+    nav_watch: "How to Watch",
     recent_title: "Recent & Upcoming",
     recent_desc: "Yesterday · Today · Tomorrow (Los Angeles time)",
     recent_no_matches: "No matches in this window.",
