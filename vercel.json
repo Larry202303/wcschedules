@@ -1,7 +1,7 @@
 {
   "outputDirectory": "public",
   "cleanUrls": false,
-  "trailingSlash": false,
+  "trailingSlash": true,
   "redirects": [
     {
       "source": "/:path*",
@@ -17,8 +17,16 @@
   ],
   "rewrites": [
     {
+      "source": "/teams/:slug/",
+      "destination": "/teams/:slug/index.html"
+    },
+    {
       "source": "/teams/:slug",
       "destination": "/teams/:slug/index.html"
+    },
+    {
+      "source": "/match/:slug/",
+      "destination": "/match/:slug/index.html"
     },
     {
       "source": "/match/:slug",
