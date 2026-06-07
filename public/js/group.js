@@ -404,7 +404,9 @@ async function renderAdvanceOdds() {
       </div>`;
   }).join("");
 
-  const tradeUrl = `https://polymarket.com/event/2026-fifa-world-cup-winner-595?via=${POLYMARKET_REF}`;
+  const tradeUrl = window.polymarketWinnerUrl
+    ? window.polymarketWinnerUrl(STATE.lang, POLYMARKET_REF)
+    : `https://polymarket.com/event/world-cup-winner?via=${POLYMARKET_REF}`;
   const isFallback = champData.source === "fallback_estimate";
 
   cont.innerHTML = `

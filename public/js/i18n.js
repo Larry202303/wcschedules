@@ -2271,3 +2271,18 @@ window.applyTranslations = function (lang) {
   }
   document.dispatchEvent(new CustomEvent("langchange", { detail: { lang } }));
 };
+
+// Polymarket localizes its site with 2-letter URL prefixes (e.g. /zh/, /es/).
+// Map our site languages to a confirmed/likely-supported Polymarket locale;
+// anything not listed falls back to the English (no-prefix) URL to avoid 404s.
+window.PM_WINNER_LOCALES = {
+  "zh-CN": "zh", "zh-TW": "zh", es: "es", pt: "pt", fr: "fr", de: "de",
+  ja: "ja", ko: "ko", ru: "ru", tr: "tr", ar: "ar",
+};
+window.polymarketWinnerUrl = function (lang, ref) {
+  const loc = window.PM_WINNER_LOCALES[lang];
+  const base = loc
+    ? "https://polymarket.com/" + loc + "/event/world-cup-winner"
+    : "https://polymarket.com/event/world-cup-winner";
+  return ref ? base + "?via=" + ref : base;
+};

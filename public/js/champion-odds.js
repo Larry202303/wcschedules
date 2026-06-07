@@ -7,10 +7,14 @@
    ============================================ */
 
 (function () {
-  const POLYMARKET_EVENT_URL =
-    "https://polymarket.com/event/2026-fifa-world-cup-winner-595";
   const GAMMA_FALLBACK =
-    "https://gamma-api.polymarket.com/events?slug=2026-fifa-world-cup-winner-595";
+    "https://gamma-api.polymarket.com/events?slug=world-cup-winner";
+  // Localized "Trade on Polymarket" link based on the current site language.
+  function ctaUrl() {
+    return window.polymarketWinnerUrl
+      ? window.polymarketWinnerUrl(window.__coLang, "wcschedules")
+      : "https://polymarket.com/event/world-cup-winner?via=wcschedules";
+  }
   const STATIC_FALLBACK = "/data/odds_fallback.json";
   const REFRESH_MS = 3 * 60 * 1000; // 3 min
 
@@ -190,7 +194,7 @@
         if (data.source === "fallback_estimate") {
           renderList(markets, teamsData, data.source);
           const cta = document.getElementById("champion-odds-cta");
-          if (cta) cta.href = POLYMARKET_EVENT_URL + "?via=wcschedules";
+          if (cta) cta.href = ctaUrl();
           return;
         }
       }
@@ -200,7 +204,7 @@
 
       // Update CTA href
       const cta = document.getElementById("champion-odds-cta");
-      if (cta) cta.href = POLYMARKET_EVENT_URL + "?via=wcschedules";
+      if (cta) cta.href = ctaUrl();
 
     } catch (err) {
       console.warn("champion-odds fetch failed:", err.message);

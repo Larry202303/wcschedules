@@ -2,7 +2,7 @@
 // Proxies Polymarket Gamma API for the 2026 World Cup Winner event
 // GET /api/champion-odds → { markets: [{team, prob, conditionId}], updated }
 
-const EVENT_SLUG = "2026-fifa-world-cup-winner-595";
+const EVENT_SLUG = "world-cup-winner";
 const GAMMA_URL = `https://gamma-api.polymarket.com/events?slug=${EVENT_SLUG}`;
 const CACHE_TTL = 120; // seconds — Vercel CDN cache
 const FALLBACK = require("../public/data/odds_fallback.json");
