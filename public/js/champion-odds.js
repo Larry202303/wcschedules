@@ -82,36 +82,11 @@
     const root = document.getElementById("champion-odds-body");
     if (!root) return;
 
-    // Split into tiers
-    function getPct(m) {
-      return typeof m.prob_pct === "number" ? m.prob_pct : Math.round(m.prob * 1000) / 10;
-    }
+    // Single flat list of the top 10 teams (already sorted by probability).
+    const top = markets.slice(0, 10);
+    const rows = top.map((m, i) => buildRow(m, i + 1, i)).join("");
 
-    const favs  = markets.filter(m => getPct(m) >= TIER_FAV);
-    const darks = markets.filter(m => getPct(m) >= TIER_DARK && getPct(m) < TIER_FAV);
-    const longs = markets.filter(m => getPct(m) < TIER_DARK);
-
-    function buildTier(label, items, startGlobalRank, medalOffset) {
-      if (!items.length) return "";
-      const rows = items.map((m, i) =>
-        buildRow(m, startGlobalRank + i, medalOffset + i)
-      ).join("");
-      return `
-        <div class="co-tier">
-          <div class="co-tier-label">${label}</div>
-          <ol class="co-list">${rows}</ol>
-        </div>`;
-    }
-
-    const favCount  = favs.length;
-    const darkCount = darks.length;
-
-    const html =
-      buildTier(t("co_tier_fav"),  favs,  1,           0) +
-      buildTier(t("co_tier_dark"), darks, favCount + 1, favCount) +
-      buildTier(t("co_tier_long"), longs, favCount + darkCount + 1, favCount + darkCount);
-
-    root.innerHTML = html;
+    root.innerHTML = `<div class="co-tier"><ol class="co-list">${rows}</ol></div>`;
 
     if (source === "fallback_estimate") {
       root.insertAdjacentHTML("beforeend", `<p class="co-note">Live Polymarket data is temporarily unavailable. Showing pre-tournament estimates.</p>`);
