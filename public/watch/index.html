@@ -169,11 +169,21 @@
     © 2026 wcschedules.com · Not affiliated with FIFA. Broadcaster names are trademarks of their respective owners.
   </footer>
 
-  <!-- Single place to set the affiliate link. Replace the URL below with your real
-       NordVPN affiliate tracking link once your application is approved. -->
+  <!-- Single place to set the NordVPN affiliate link. -->
   <script>
     var NORDVPN_AFF_URL = "https://go.nordvpn.net/aff_c?offer_id=15&aff_id=149889&url_id=902";
-    document.querySelectorAll("[data-nordvpn]").forEach(function (a) { a.href = NORDVPN_AFF_URL; });
+    document.querySelectorAll("[data-nordvpn]").forEach(function (a) {
+      a.href = NORDVPN_AFF_URL;
+      a.addEventListener("click", function () {
+        if (typeof gtag === "function") {
+          gtag("event", "affiliate_click", {
+            affiliate: "nordvpn",
+            location: "watch_page",
+            link_text: (a.textContent || "").trim()
+          });
+        }
+      });
+    });
   </script>
 </body>
 </html>

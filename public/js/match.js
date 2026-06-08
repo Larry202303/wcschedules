@@ -745,3 +745,27 @@ function escapeHtml(s) {
     .replace(/"/g, "&quot;")
     .replace(/'/g, "&#39;");
 }
+
+/* NordVPN affiliate click tracking (match pages).
+   The CTA href is hard-coded in the static HTML so it works without JS;
+   this only fires the GA4 conversion event on click. */
+(function () {
+  function wire() {
+    document.querySelectorAll("[data-nordvpn]").forEach(function (a) {
+      a.addEventListener("click", function () {
+        if (typeof gtag === "function") {
+          gtag("event", "affiliate_click", {
+            affiliate: "nordvpn",
+            location: "match_page",
+            link_text: (a.textContent || "").trim()
+          });
+        }
+      });
+    });
+  }
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", wire);
+  } else {
+    wire();
+  }
+})();
