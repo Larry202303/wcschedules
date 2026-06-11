@@ -188,6 +188,23 @@ function currentTz() {
   return window.resolveTz ? window.resolveTz(STATE.tz) : (Intl.DateTimeFormat().resolvedOptions().timeZone || "UTC");
 }
 
+// YYYY-MM-DD of a UTC instant as seen in the given timezone (for date grouping).
+function dateKeyInTz(date, tz) {
+  const p = new Intl.DateTimeFormat("en-CA", {
+    timeZone: tz, year: "numeric", month: "2-digit", day: "2-digit",
+  }).formatToParts(date);
+  const g = (type) => p.find((x) => x.type === type).value;
+  return `${g("year")}-${g("month")}-${g("day")}`;
+}
+
+// Localized "weekday month day" header from a YYYY-MM-DD key (no extra tz shift).
+function dayHeaderLabel(dateKey) {
+  const d = new Date(dateKey + "T12:00:00Z");
+  return new Intl.DateTimeFormat(localeForIntl(STATE.lang), {
+    timeZone: "UTC", weekday: "long", month: "long", day: "numeric",
+  }).format(d);
+}
+
 function formatUserLocal(date) {
   if (window.formatInTz) {
     return window.formatInTz(date, currentTz(), STATE.lang, { withDate: true, withWeekday: true });
@@ -517,11 +534,12 @@ function renderSchedule() {
     return;
   }
 
-  // Group by date
+  // Group by date — in the user's selected timezone, so the day header
+  // matches the converted kickoff time (e.g. 03:00 GMT+8 belongs to the next day).
+  const tz = currentTz();
   const byDate = {};
   matches.forEach((m) => {
-    const d = formatMatchTime(m);
-    const key = d.toISOString().slice(0, 10);
+    const key = dateKeyInTz(formatMatchTime(m), tz);
     byDate[key] = byDate[key] || [];
     byDate[key].push(m);
   });
@@ -529,12 +547,7 @@ function renderSchedule() {
   c.innerHTML = Object.keys(byDate)
     .sort()
     .map((dateKey) => {
-      const dateObj = new Date(dateKey + "T12:00:00Z");
-      const headLabel = new Intl.DateTimeFormat(localeForIntl(STATE.lang), {
-        weekday: "long",
-        month: "long",
-        day: "numeric",
-      }).format(dateObj);
+      const headLabel = dayHeaderLabel(dateKey);
       return `
       <div class="schedule-day">
         <h3 class="schedule-day-head">${headLabel}</h3>
@@ -685,12 +698,14 @@ function bindEvents() {
       window.setLang(e.target.value);
       renderHeader();
       renderGroups();
+      renderRecent();
       renderSchedule();
     }
     if (e.target.id === "tz-select") {
       STATE.tz = e.target.value;
       if (window.setStoredTz) window.setStoredTz(e.target.value);
       renderHeader();
+      renderRecent();
       renderSchedule();
       renderCountdown();
     }
@@ -795,46 +810,28 @@ function renderRecent() {
     return;
   }
 
-  // Group into Yesterday / Today / Tomorrow bands
-  function dayBand(m) {
-    const ts = formatMatchTime(m).getTime();
-    if (ts < today.getTime()) return "yesterday";
-    if (ts < tmrw.getTime()) return "today";
-    return "tomorrow";
-  }
-
-  const dayLabels = {
-    yesterday: () => {
-      const d = new Date(today.getTime() - 86400000);
-      return new Intl.DateTimeFormat(localeForIntl(STATE.lang), { weekday: "long", month: "short", day: "numeric" }).format(d);
-    },
-    today: () => {
-      return new Intl.DateTimeFormat(localeForIntl(STATE.lang), { weekday: "long", month: "short", day: "numeric" }).format(today);
-    },
-    tomorrow: () => {
-      return new Intl.DateTimeFormat(localeForIntl(STATE.lang), { weekday: "long", month: "short", day: "numeric" }).format(tmrw);
-    },
-  };
-
-  const bands = {};
+  // Group by the user's selected timezone date so each match appears under the
+  // correct local day (the window above stays anchored to LA "now").
+  const tz = currentTz();
+  const todayKey = dateKeyInTz(new Date(), tz);
+  const byDate = {};
   window3.forEach((m) => {
-    const b = dayBand(m);
-    bands[b] = bands[b] || [];
-    bands[b].push(m);
+    const key = dateKeyInTz(formatMatchTime(m), tz);
+    byDate[key] = byDate[key] || [];
+    byDate[key].push(m);
   });
 
-  const ORDER = ["yesterday", "today", "tomorrow"];
-  c.innerHTML = ORDER.filter((b) => bands[b])
-    .map((band) => {
-      const label = dayLabels[band]();
-      const isToday = band === "today";
+  c.innerHTML = Object.keys(byDate)
+    .sort()
+    .map((dateKey) => {
+      const isToday = dateKey === todayKey;
       return `
         <div class="recent-day ${isToday ? "recent-today" : ""}">
           <h3 class="recent-day-head">
-            ${isToday ? "🔴 " : ""}${label}
+            ${isToday ? "🔴 " : ""}${dayHeaderLabel(dateKey)}
           </h3>
           <div class="recent-matches">
-            ${bands[band].map((m) => renderMatchCard(m)).join("")}
+            ${byDate[dateKey].map((m) => renderMatchCard(m)).join("")}
           </div>
         </div>
       `;
