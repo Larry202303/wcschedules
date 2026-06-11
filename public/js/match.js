@@ -138,6 +138,35 @@ async function boot() {
 
   // Fetch live odds (non-blocking, always runs)
   loadOdds();
+
+  startLiveUpdates();
+}
+
+/* Live score: poll /api/scores, update this match's score → re-render hero. */
+async function fetchLiveScore() {
+  try {
+    const r = await fetch("/api/scores");
+    if (!r.ok) return;
+    const data = await r.json();
+    if (!STATE.match || !Array.isArray(data.scores) || !data.scores.length) return;
+    const sc = data.scores.find(
+      (x) => x.home === STATE.match.home_code && x.away === STATE.match.away_code
+    );
+    if (!sc) return;
+    if (STATE.match.home_score !== sc.hs || STATE.match.away_score !== sc.as || STATE.match.status !== sc.status) {
+      STATE.match.home_score = sc.hs;
+      STATE.match.away_score = sc.as;
+      STATE.match.status = sc.status;
+      try { renderHero(); } catch (e) {}
+    }
+  } catch (e) {
+    /* silent */
+  }
+}
+
+function startLiveUpdates() {
+  fetchLiveScore();
+  setInterval(fetchLiveScore, 60000);
 }
 
 function applyTranslationsWrapper() {
@@ -272,11 +301,15 @@ function renderHero() {
   document.getElementById("md-away-code").textContent = away.code;
 
   const scoreEl = document.getElementById("md-score-display");
-  if (isFuture) {
+  const hasScore = m.home_score != null && m.away_score != null;
+  const live = m.status === "IN_PLAY" || m.status === "PAUSED";
+  if (hasScore) {
+    scoreEl.classList.remove("md-score-future");
+    scoreEl.innerHTML = `<span class="md-score">${m.home_score} <span class="md-score-sep">-</span> ${m.away_score}</span>`;
+  } else if (isFuture) {
     scoreEl.innerHTML = `<span class="md-vs">${t("match_vs")}</span>`;
     scoreEl.classList.add("md-score-future");
   } else {
-    // No real score data in v1 — show TBD
     scoreEl.innerHTML = `<span class="md-vs">${t("match_vs")}</span>`;
   }
 
@@ -286,9 +319,14 @@ function renderHero() {
         weekday: "long", year: "numeric", month: "long", day: "numeric",
         hour: "2-digit", minute: "2-digit", hour12: STATE.lang === "en",
       }).format(dt);
-  document.getElementById("md-kickoff").innerHTML = isFuture
-    ? `<span class="md-kick-label">${t("md_kickoff")}</span><br><strong>${kickoffStr}</strong>`
-    : `<span class="md-kick-label">${t("md_finished")}</span>`;
+  const kickEl = document.getElementById("md-kickoff");
+  if (live) {
+    kickEl.innerHTML = `<span class="md-kick-label" style="color:#ef4444">🔴 LIVE</span>`;
+  } else if (hasScore || !isFuture) {
+    kickEl.innerHTML = `<span class="md-kick-label">${t("md_finished")}</span>`;
+  } else {
+    kickEl.innerHTML = `<span class="md-kick-label">${t("md_kickoff")}</span><br><strong>${kickoffStr}</strong>`;
+  }
 
   document.getElementById("md-venue").innerHTML =
     `📍 <strong>${stadiumName(m.stadium)}</strong>, ${cityName(m.city)}`;

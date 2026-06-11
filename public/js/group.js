@@ -71,6 +71,40 @@ async function boot() {
 
   // Load advance odds async (non-blocking)
   renderAdvanceOdds();
+
+  startLiveUpdates();
+}
+
+/* Live updates: merge live scores into DATA.matches → recompute standings + match list. */
+async function fetchLiveData() {
+  try {
+    const r = await fetch("/api/scores");
+    if (!r.ok) return;
+    const data = await r.json();
+    if (!Array.isArray(data.scores) || !data.scores.length) return;
+    let changed = false;
+    data.scores.forEach((sc) => {
+      const m = DATA.matches.find((x) => x.home_code === sc.home && x.away_code === sc.away);
+      if (!m) return;
+      if (m.home_score !== sc.hs || m.away_score !== sc.as || m.status !== sc.status) {
+        m.home_score = sc.hs;
+        m.away_score = sc.as;
+        m.status = sc.status;
+        changed = true;
+      }
+    });
+    if (changed) {
+      renderStandings();
+      renderMatches();
+    }
+  } catch (e) {
+    /* silent */
+  }
+}
+
+function startLiveUpdates() {
+  fetchLiveData();
+  setInterval(fetchLiveData, 60000);
 }
 
 function applyTranslationsWrapper() {
@@ -300,15 +334,20 @@ function renderMatches() {
     const dt = formatMatchTime(m);
     const dateStr = formatUserLocal(dt);
     const venue = `${escapeHtml(cityName(m.city))}`;
+    const hasScore = m.home_score != null && m.away_score != null;
+    const live = m.status === "IN_PLAY" || m.status === "PAUSED";
+    const center = hasScore
+      ? `<span class="gp-match-vs gp-match-score">${m.home_score} - ${m.away_score}</span>`
+      : `<span class="gp-match-vs">${t("match_vs") || "vs"}</span>`;
     return `
       <a class="gp-match-row" href="${matchDetailHref(m)}">
-        <div class="gp-match-time">${escapeHtml(dateStr)}</div>
+        <div class="gp-match-time">${live ? "🔴 LIVE" : escapeHtml(dateStr)}</div>
         <div class="gp-match-teams">
           <span class="gp-match-team gp-match-home">
             <span class="gp-match-flag">${home.flag}</span>
             <span class="gp-match-name">${escapeHtml(teamName(home.code))}</span>
           </span>
-          <span class="gp-match-vs">${t("match_vs") || "vs"}</span>
+          ${center}
           <span class="gp-match-team gp-match-away">
             <span class="gp-match-flag">${away.flag}</span>
             <span class="gp-match-name">${escapeHtml(teamName(away.code))}</span>

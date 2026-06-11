@@ -620,11 +620,17 @@ function renderMatchCard(m) {
   const polyUrl = polymarketUrlFor(m);
   const detailUrl = matchDetailHref(m);
 
+  const hasScore = m.home_score != null && m.away_score != null;
+  const live = m.status === "IN_PLAY" || m.status === "PAUSED";
+  const centerHtml = hasScore
+    ? `<div class="match-vs match-score">${m.home_score} - ${m.away_score}</div>`
+    : `<div class="match-vs">${t("match_vs")}</div>`;
+
   return `
     <article class="match-card ${isMine ? "match-mine" : ""}">
       <a href="${detailUrl}" class="match-card-link" aria-label="${teamName(home.code)} ${t("match_vs")} ${teamName(away.code)}">
         <div class="match-time">
-          <span class="match-clock">${timeStr}</span>
+          <span class="match-clock">${live ? "🔴 LIVE" : timeStr}</span>
           <span class="match-group">${m.group ? `${t("md_group")} ${m.group}` : m.stage}</span>
         </div>
         <div class="match-teams">
@@ -632,7 +638,7 @@ function renderMatchCard(m) {
             <span class="match-flag">${home.flag}</span>
             <span class="match-name">${teamName(home.code)}</span>
           </div>
-          <div class="match-vs">${t("match_vs")}</div>
+          ${centerHtml}
           <div class="match-team">
             <span class="match-flag">${away.flag}</span>
             <span class="match-name">${teamName(away.code)}</span>
