@@ -140,8 +140,12 @@
     const teamsBody = root.querySelector("[data-sc-body=teams]");
     const previewNote = root.querySelector("[data-sc-note]");
 
-    // Try real first
-    const real = computeRealTopScorers(matches);
+    // Try real first — prefer live aggregated data (window.__realScorers) from
+    // /api/scores; otherwise compute from per-match scorer events in matches.
+    const real =
+      (window.__realScorers && (window.__realScorers.players || []).length)
+        ? window.__realScorers
+        : computeRealTopScorers(matches);
     if (real) {
       previewNote.style.display = "none";
       renderRealPlayers(playersBody, real.players, teams);
@@ -181,6 +185,12 @@
   window.initScorers = function (teams, matches) {
     bindTabs("#scorers-section");
     renderScorers("#scorers-section", teams, matches);
+  };
+
+  // Lightweight re-render (no tab re-binding) for live updates.
+  window.refreshScorers = function () {
+    const d = window.__scorersData || {};
+    renderScorers("#scorers-section", d.teams || [], d.matches || []);
   };
 
   // Re-render on language change so tags + team names update

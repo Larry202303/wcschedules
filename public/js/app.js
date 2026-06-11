@@ -99,9 +99,58 @@ async function boot() {
   }
 
   setInterval(renderCountdown, 1000);
+  startLiveUpdates();
 }
 
 document.addEventListener("DOMContentLoaded", boot);
+
+/* ============================================
+   LIVE UPDATES — merge live scores/scorers from /api/scores
+   into DATA.matches, then recompute standings/scorers/recent.
+   Edge-cached server-side, so polling every 60s is free.
+   ============================================ */
+async function fetchLiveData() {
+  try {
+    const r = await fetch("/api/scores");
+    if (!r.ok) return;
+    const data = await r.json();
+    let changed = false;
+
+    if (Array.isArray(data.scores) && data.scores.length) {
+      data.scores.forEach((sc) => {
+        const m = DATA.matches.find(
+          (x) => x.home_code === sc.home && x.away_code === sc.away
+        );
+        if (!m) return;
+        if (m.home_score !== sc.hs || m.away_score !== sc.as || m.status !== sc.status) {
+          m.home_score = sc.hs;
+          m.away_score = sc.as;
+          m.status = sc.status;
+          changed = true;
+        }
+      });
+    }
+
+    if ((data.scorers && data.scorers.length) || (data.teamGoals && data.teamGoals.length)) {
+      window.__realScorers = { players: data.scorers || [], teams: data.teamGoals || [] };
+      changed = true;
+    }
+
+    if (changed) {
+      renderRecent();
+      renderGroups();
+      renderSchedule();
+      if (typeof window.refreshScorers === "function") window.refreshScorers();
+    }
+  } catch (e) {
+    /* silent — keep showing last known / preview data */
+  }
+}
+
+function startLiveUpdates() {
+  fetchLiveData();
+  setInterval(fetchLiveData, 60000); // 60s; cost is bounded by the 60s edge cache
+}
 
 /* ============================================
    LOCALIZED NAME HELPERS
