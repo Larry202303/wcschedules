@@ -91,7 +91,7 @@ function buildRows(cfg) {
     return `<tr><td>${fmt(utc, cfg.tz, cfg.abbr)}</td><td><span data-i18n="md_group">Group</span> ${esc(m.group)}</td>` +
       `<td>${home.flag} <a href="/teams/${slugify(home.name_en)}">${esc(home.name_en)}</a> vs ` +
       `${away.flag} <a href="/teams/${slugify(away.name_en)}">${esc(away.name_en)}</a></td>` +
-      `<td><a href="/match/${matchSlug}">Details</a></td></tr>`;
+      `<td><a href="/match/${matchSlug}" data-tzp="details">Details</a></td></tr>`;
   }).join('');
 }
 
@@ -150,29 +150,29 @@ footer{margin-top:40px;color:#94a3b8;font-size:.9rem;border-top:1px solid rgba(2
   <a href="/#section-groups" data-i18n="nav_groups">Group Stage</a>
   <a href="/#scorers-section" data-i18n="nav_scorers">Top Scorers</a>
   <a href="/#section-schedule" data-i18n="nav_schedule">Full Schedule</a>
-  <a href="/watch/" data-i18n="nav_watch">How to Watch</a>
+  <a href="/watch/" data-tzp="watch">How to Watch</a>
   <span class="spacer"></span>
   <div id="app-header"></div>
 </nav>
 <div class="wrap">
   <section class="hero">
-    <span class="pill">${esc(cfg.pill)}</span>
-    <h1>${esc(title)}</h1>
-    <p class="muted">All kickoff times below are converted to ${esc(cfg.label)}. Use the language menu above to switch the interface, or the <a href="/">interactive homepage schedule</a> to pick any other timezone.</p>
-    <a class="watch" href="/watch/" data-i18n="nav_watch">How to Watch</a>
+    <span class="pill">${esc(cfg.label)}</span>
+    <h1 data-tzp="h1" data-tz="${esc(cfg.label)}">${esc(title)}</h1>
+    <p class="muted" data-tzp="intro" data-tz="${esc(cfg.label)}">All kickoff times below are shown in ${esc(cfg.label)}. Use the language menu above to change the interface language.</p>
+    <a class="watch" href="/watch/" data-tzp="watch">How to Watch</a>
   </section>
   <table>
-    <thead><tr><th>${esc(cfg.label)}</th><th>Stage</th><th>Match</th><th></th></tr></thead>
+    <thead><tr><th>${esc(cfg.label)}</th><th data-tzp="stage">Stage</th><th data-tzp="match">Match</th><th></th></tr></thead>
     <tbody>${rows}</tbody>
   </table>
-  <h2>Why this page exists</h2>
-  <p class="muted">The homepage has an interactive timezone switcher, but this dedicated page gives fans — and search engines — a direct, pre-converted 2026 World Cup schedule in ${esc(cfg.label)}. Every match links to a full preview with lineups, head-to-head history and live odds.</p>
+  <h2 data-tzp="why_title">Why this page exists</h2>
+  <p class="muted" data-tzp="why_body" data-tz="${esc(cfg.label)}">This page shows the full 2026 World Cup group-stage schedule, pre-converted to ${esc(cfg.label)}. Every match links to a detailed preview with lineups and head-to-head history.</p>
   <footer>
     <p data-i18n="footer_text">© 2026 wcschedules.com · Not affiliated with FIFA</p>
   </footer>
 </div>
 <script src="/js/i18n.js?v=20260601a"></script>
-<script src="/js/tz-page.js?v=20260606a"></script>
+<script src="/js/tz-page.js?v=20260611a"></script>
 </body>
 </html>`;
 }
