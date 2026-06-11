@@ -21,23 +21,11 @@
       "destination": "/teams/:slug/index.html"
     },
     {
-      "source": "/teams/:slug",
-      "destination": "/teams/:slug/index.html"
-    },
-    {
       "source": "/match/:slug/",
       "destination": "/match/:slug/index.html"
     },
     {
-      "source": "/match/:slug",
-      "destination": "/match/:slug/index.html"
-    },
-    {
       "source": "/groups/:slug/",
-      "destination": "/groups/:slug/index.html"
-    },
-    {
-      "source": "/groups/:slug",
       "destination": "/groups/:slug/index.html"
     },
     {
@@ -46,10 +34,6 @@
     },
     {
       "source": "/schedule/:lang/",
-      "destination": "/schedule/:lang/index.html"
-    },
-    {
-      "source": "/schedule/:lang",
       "destination": "/schedule/:lang/index.html"
     }
   ],

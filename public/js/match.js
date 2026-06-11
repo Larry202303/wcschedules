@@ -714,26 +714,10 @@ function renderSeoMeta() {
   const slug = `${m.home_code.toLowerCase()}-${m.away_code.toLowerCase()}-${m.date_local}`;
   setAttr("page-canonical", "href", `https://www.wcschedules.com/match/${slug}`);
 
-  // Schema.org SportsEvent
-  const ld = {
-    "@context": "https://schema.org",
-    "@type": "SportsEvent",
-    name: `${home} vs ${away}`,
-    startDate: dt.toISOString(),
-    sport: "Football",
-    eventStatus: dt.getTime() > Date.now() ? "https://schema.org/EventScheduled" : "https://schema.org/EventScheduled",
-    location: {
-      "@type": "Place",
-      name: m.stadium,
-      address: { "@type": "PostalAddress", addressLocality: m.city },
-    },
-    competitor: [
-      { "@type": "SportsTeam", name: teamByCode(m.home_code).name_en },
-      { "@type": "SportsTeam", name: teamByCode(m.away_code).name_en },
-    ],
-    superEvent: { "@type": "SportsEvent", name: "FIFA World Cup 2026" },
-  };
-  setText("ld-event", JSON.stringify(ld));
+  // NOTE: the SportsEvent JSON-LD (#ld-event) is intentionally NOT touched here.
+  // The static HTML already ships a complete, valid SportsEvent (with full
+  // superEvent, offers, image, performer, etc.). Overwriting it client-side
+  // previously stripped required fields and broke rich-result eligibility.
 }
 
 function escapeHtml(s) {
