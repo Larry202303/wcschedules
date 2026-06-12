@@ -1299,7 +1299,68 @@
     ]
   },
   "ECU": {
-    "key_players": []
+    "key_players": [
+      {
+        "appearances": 88,
+        "club": "Internacional",
+        "goals": 46,
+        "is_captain": true,
+        "name": "Enner Valencia",
+        "number": 0,
+        "position": "FW",
+        "birth_year": 1989
+      },
+      {
+        "appearances": 40,
+        "club": "Flamengo",
+        "goals": 7,
+        "is_captain": false,
+        "name": "Gonzalo Plata",
+        "number": 0,
+        "position": "FW",
+        "birth_year": 2000
+      },
+      {
+        "appearances": 45,
+        "club": "Chelsea",
+        "goals": 3,
+        "is_captain": false,
+        "name": "Moisés Caicedo",
+        "number": 0,
+        "position": "MF",
+        "birth_year": 2001
+      },
+      {
+        "appearances": 18,
+        "club": "Chelsea",
+        "goals": 3,
+        "is_captain": false,
+        "name": "Kendry Páez",
+        "number": 0,
+        "position": "MF",
+        "birth_year": 2007
+      },
+      {
+        "appearances": 45,
+        "club": "Milan",
+        "goals": 2,
+        "is_captain": false,
+        "name": "Pervis Estupiñán",
+        "number": 0,
+        "position": "DF",
+        "birth_year": 1998
+      },
+      {
+        "appearances": 35,
+        "club": "Aucas",
+        "goals": 0,
+        "is_captain": false,
+        "name": "Hernán Galíndez",
+        "number": 0,
+        "position": "GK",
+        "birth_year": 1987
+      }
+    ]
   },
   "EGY": {
     "key_players": [
@@ -3197,7 +3258,68 @@
     ]
   },
   "PAN": {
-    "key_players": []
+    "key_players": [
+      {
+        "appearances": 45,
+        "club": "León",
+        "goals": 11,
+        "is_captain": false,
+        "name": "Ismael Díaz",
+        "number": 0,
+        "position": "FW",
+        "birth_year": 1997
+      },
+      {
+        "appearances": 35,
+        "club": "Plaza Amador",
+        "goals": 8,
+        "is_captain": false,
+        "name": "José Fajardo",
+        "number": 0,
+        "position": "FW",
+        "birth_year": 1995
+      },
+      {
+        "appearances": 55,
+        "club": "Houston Dynamo",
+        "goals": 5,
+        "is_captain": false,
+        "name": "Adalberto Carrasquilla",
+        "number": 0,
+        "position": "MF",
+        "birth_year": 1998
+      },
+      {
+        "appearances": 70,
+        "club": "Marseille",
+        "goals": 3,
+        "is_captain": false,
+        "name": "Michael Murillo",
+        "number": 0,
+        "position": "DF",
+        "birth_year": 1996
+      },
+      {
+        "appearances": 130,
+        "club": "San Jose",
+        "goals": 4,
+        "is_captain": true,
+        "name": "Aníbal Godoy",
+        "number": 0,
+        "position": "MF",
+        "birth_year": 1990
+      },
+      {
+        "appearances": 40,
+        "club": "Sporting San Miguelito",
+        "goals": 0,
+        "is_captain": false,
+        "name": "Orlando Mosquera",
+        "number": 0,
+        "position": "GK",
+        "birth_year": 1994
+      }
+    ]
   },
   "PAR": {
     "key_players": [
@@ -4609,7 +4731,68 @@
     "key_players": []
   },
   "URU": {
-    "key_players": []
+    "key_players": [
+      {
+        "appearances": 40,
+        "club": "Al-Hilal",
+        "goals": 14,
+        "is_captain": false,
+        "name": "Darwin Núñez",
+        "number": 0,
+        "position": "FW",
+        "birth_year": 1999
+      },
+      {
+        "appearances": 60,
+        "club": "Real Madrid",
+        "goals": 7,
+        "is_captain": true,
+        "name": "Federico Valverde",
+        "number": 0,
+        "position": "MF",
+        "birth_year": 1998
+      },
+      {
+        "appearances": 25,
+        "club": "Panathinaikos",
+        "goals": 2,
+        "is_captain": false,
+        "name": "Facundo Pellistri",
+        "number": 0,
+        "position": "FW",
+        "birth_year": 2001
+      },
+      {
+        "appearances": 45,
+        "club": "Barcelona",
+        "goals": 3,
+        "is_captain": false,
+        "name": "Ronald Araújo",
+        "number": 0,
+        "position": "DF",
+        "birth_year": 1999
+      },
+      {
+        "appearances": 55,
+        "club": "Tottenham",
+        "goals": 2,
+        "is_captain": false,
+        "name": "Rodrigo Bentancur",
+        "number": 0,
+        "position": "MF",
+        "birth_year": 1997
+      },
+      {
+        "appearances": 30,
+        "club": "Internacional",
+        "goals": 0,
+        "is_captain": false,
+        "name": "Sergio Rochet",
+        "number": 0,
+        "position": "GK",
+        "birth_year": 1993
+      }
+    ]
   },
   "USA": {
     "key_players": [
@@ -4959,5 +5142,453 @@
   },
   "SUR": {
     "key_players": []
+  },
+  "CZE": {
+    "key_players": [
+      {
+        "appearances": 45,
+        "club": "Bayer Leverkusen",
+        "goals": 21,
+        "is_captain": false,
+        "name": "Patrik Schick",
+        "number": 0,
+        "position": "FW",
+        "birth_year": 1996
+      },
+      {
+        "appearances": 82,
+        "club": "West Ham",
+        "goals": 17,
+        "is_captain": true,
+        "name": "Tomáš Souček",
+        "number": 0,
+        "position": "MF",
+        "birth_year": 1995
+      },
+      {
+        "appearances": 38,
+        "club": "Hoffenheim",
+        "goals": 7,
+        "is_captain": false,
+        "name": "Adam Hložek",
+        "number": 0,
+        "position": "FW",
+        "birth_year": 2002
+      },
+      {
+        "appearances": 50,
+        "club": "Fiorentina",
+        "goals": 6,
+        "is_captain": false,
+        "name": "Antonín Barák",
+        "number": 0,
+        "position": "MF",
+        "birth_year": 1994
+      },
+      {
+        "appearances": 55,
+        "club": "West Ham",
+        "goals": 1,
+        "is_captain": false,
+        "name": "Vladimír Coufal",
+        "number": 0,
+        "position": "DF",
+        "birth_year": 1992
+      },
+      {
+        "appearances": 15,
+        "club": "Slavia Prague",
+        "goals": 0,
+        "is_captain": false,
+        "name": "Jindřich Staněk",
+        "number": 0,
+        "position": "GK",
+        "birth_year": 1996
+      }
+    ]
+  },
+  "BIH": {
+    "key_players": [
+      {
+        "appearances": 140,
+        "club": "Fenerbahçe",
+        "goals": 67,
+        "is_captain": true,
+        "name": "Edin Džeko",
+        "number": 0,
+        "position": "FW",
+        "birth_year": 1986
+      },
+      {
+        "appearances": 110,
+        "club": "CSKA Moscow",
+        "goals": 17,
+        "is_captain": false,
+        "name": "Miralem Pjanić",
+        "number": 0,
+        "position": "MF",
+        "birth_year": 1990
+      },
+      {
+        "appearances": 30,
+        "club": "VfB Stuttgart",
+        "goals": 8,
+        "is_captain": false,
+        "name": "Ermedin Demirović",
+        "number": 0,
+        "position": "FW",
+        "birth_year": 1998
+      },
+      {
+        "appearances": 70,
+        "club": "Atalanta",
+        "goals": 2,
+        "is_captain": false,
+        "name": "Sead Kolašinac",
+        "number": 0,
+        "position": "DF",
+        "birth_year": 1993
+      },
+      {
+        "appearances": 20,
+        "club": "Benfica",
+        "goals": 1,
+        "is_captain": false,
+        "name": "Amar Dedić",
+        "number": 0,
+        "position": "DF",
+        "birth_year": 2002
+      },
+      {
+        "appearances": 30,
+        "club": "Konyaspor",
+        "goals": 0,
+        "is_captain": false,
+        "name": "Ibrahim Šehić",
+        "number": 0,
+        "position": "GK",
+        "birth_year": 1988
+      }
+    ]
+  },
+  "TUR": {
+    "key_players": [
+      {
+        "appearances": 90,
+        "club": "Inter",
+        "goals": 19,
+        "is_captain": true,
+        "name": "Hakan Çalhanoğlu",
+        "number": 0,
+        "position": "MF",
+        "birth_year": 1994
+      },
+      {
+        "appearances": 30,
+        "club": "Benfica",
+        "goals": 8,
+        "is_captain": false,
+        "name": "Kerem Aktürkoğlu",
+        "number": 0,
+        "position": "FW",
+        "birth_year": 1998
+      },
+      {
+        "appearances": 25,
+        "club": "Real Madrid",
+        "goals": 6,
+        "is_captain": false,
+        "name": "Arda Güler",
+        "number": 0,
+        "position": "MF",
+        "birth_year": 2005
+      },
+      {
+        "appearances": 20,
+        "club": "Juventus",
+        "goals": 5,
+        "is_captain": false,
+        "name": "Kenan Yıldız",
+        "number": 0,
+        "position": "FW",
+        "birth_year": 2005
+      },
+      {
+        "appearances": 55,
+        "club": "Al-Ahli",
+        "goals": 4,
+        "is_captain": false,
+        "name": "Merih Demiral",
+        "number": 0,
+        "position": "DF",
+        "birth_year": 1998
+      },
+      {
+        "appearances": 40,
+        "club": "Galatasaray",
+        "goals": 0,
+        "is_captain": false,
+        "name": "Uğurcan Çakır",
+        "number": 0,
+        "position": "GK",
+        "birth_year": 1996
+      }
+    ]
+  },
+  "SWE": {
+    "key_players": [
+      {
+        "appearances": 30,
+        "club": "Arsenal",
+        "goals": 18,
+        "is_captain": false,
+        "name": "Viktor Gyökeres",
+        "number": 0,
+        "position": "FW",
+        "birth_year": 1998
+      },
+      {
+        "appearances": 95,
+        "club": "New York Red Bulls",
+        "goals": 17,
+        "is_captain": true,
+        "name": "Emil Forsberg",
+        "number": 0,
+        "position": "MF",
+        "birth_year": 1991
+      },
+      {
+        "appearances": 45,
+        "club": "Liverpool",
+        "goals": 14,
+        "is_captain": false,
+        "name": "Alexander Isak",
+        "number": 0,
+        "position": "FW",
+        "birth_year": 1999
+      },
+      {
+        "appearances": 40,
+        "club": "Tottenham",
+        "goals": 5,
+        "is_captain": false,
+        "name": "Dejan Kulusevski",
+        "number": 0,
+        "position": "MF",
+        "birth_year": 2000
+      },
+      {
+        "appearances": 70,
+        "club": "Aston Villa",
+        "goals": 3,
+        "is_captain": false,
+        "name": "Victor Lindelöf",
+        "number": 0,
+        "position": "DF",
+        "birth_year": 1994
+      },
+      {
+        "appearances": 55,
+        "club": "Aston Villa",
+        "goals": 0,
+        "is_captain": false,
+        "name": "Robin Olsen",
+        "number": 0,
+        "position": "GK",
+        "birth_year": 1990
+      }
+    ]
+  },
+  "IRQ": {
+    "key_players": [
+      {
+        "appearances": 55,
+        "club": "Al-Qadsiah",
+        "goals": 22,
+        "is_captain": false,
+        "name": "Aymen Hussein",
+        "number": 0,
+        "position": "FW",
+        "birth_year": 1996
+      },
+      {
+        "appearances": 40,
+        "club": "Al-Duhail",
+        "goals": 15,
+        "is_captain": false,
+        "name": "Mohanad Ali",
+        "number": 0,
+        "position": "FW",
+        "birth_year": 2000
+      },
+      {
+        "appearances": 25,
+        "club": "Como",
+        "goals": 6,
+        "is_captain": false,
+        "name": "Ali Jasim",
+        "number": 0,
+        "position": "FW",
+        "birth_year": 2003
+      },
+      {
+        "appearances": 15,
+        "club": "Utrecht",
+        "goals": 1,
+        "is_captain": false,
+        "name": "Zidane Iqbal",
+        "number": 0,
+        "position": "MF",
+        "birth_year": 2003
+      },
+      {
+        "appearances": 30,
+        "club": "Al-Quwa Al-Jawiya",
+        "goals": 2,
+        "is_captain": false,
+        "name": "Rebin Sulaka",
+        "number": 0,
+        "position": "DF",
+        "birth_year": 1997
+      },
+      {
+        "appearances": 30,
+        "club": "Al-Shorta",
+        "goals": 0,
+        "is_captain": false,
+        "name": "Jalal Hassan",
+        "number": 0,
+        "position": "GK",
+        "birth_year": 1995
+      }
+    ]
+  },
+  "ALG": {
+    "key_players": [
+      {
+        "appearances": 95,
+        "club": "Al-Ahli",
+        "goals": 30,
+        "is_captain": true,
+        "name": "Riyad Mahrez",
+        "number": 0,
+        "position": "FW",
+        "birth_year": 1991
+      },
+      {
+        "appearances": 20,
+        "club": "Wolfsburg",
+        "goals": 8,
+        "is_captain": false,
+        "name": "Mohamed Amoura",
+        "number": 0,
+        "position": "FW",
+        "birth_year": 2000
+      },
+      {
+        "appearances": 30,
+        "club": "Lyon",
+        "goals": 6,
+        "is_captain": false,
+        "name": "Saïd Benrahma",
+        "number": 0,
+        "position": "FW",
+        "birth_year": 1995
+      },
+      {
+        "appearances": 45,
+        "club": "Milan",
+        "goals": 5,
+        "is_captain": false,
+        "name": "Ismaël Bennacer",
+        "number": 0,
+        "position": "MF",
+        "birth_year": 1997
+      },
+      {
+        "appearances": 15,
+        "club": "Roma",
+        "goals": 2,
+        "is_captain": false,
+        "name": "Houssem Aouar",
+        "number": 0,
+        "position": "MF",
+        "birth_year": 1998
+      },
+      {
+        "appearances": 10,
+        "club": "Angers",
+        "goals": 0,
+        "is_captain": false,
+        "name": "Alexis Mandrea",
+        "number": 0,
+        "position": "GK",
+        "birth_year": 1997
+      }
+    ]
+  },
+  "COD": {
+    "key_players": [
+      {
+        "appearances": 55,
+        "club": "Real Betis",
+        "goals": 21,
+        "is_captain": false,
+        "name": "Cédric Bakambu",
+        "number": 0,
+        "position": "FW",
+        "birth_year": 1991
+      },
+      {
+        "appearances": 25,
+        "club": "Newcastle",
+        "goals": 6,
+        "is_captain": false,
+        "name": "Yoane Wissa",
+        "number": 0,
+        "position": "FW",
+        "birth_year": 1996
+      },
+      {
+        "appearances": 35,
+        "club": "Amiens",
+        "goals": 5,
+        "is_captain": false,
+        "name": "Gaël Kakuta",
+        "number": 0,
+        "position": "MF",
+        "birth_year": 1991
+      },
+      {
+        "appearances": 30,
+        "club": "Spartak Moscow",
+        "goals": 4,
+        "is_captain": false,
+        "name": "Théo Bongonda",
+        "number": 0,
+        "position": "FW",
+        "birth_year": 1995
+      },
+      {
+        "appearances": 60,
+        "club": "Lille",
+        "goals": 4,
+        "is_captain": true,
+        "name": "Chancel Mbemba",
+        "number": 0,
+        "position": "DF",
+        "birth_year": 1994
+      },
+      {
+        "appearances": 15,
+        "club": "Rodez",
+        "goals": 0,
+        "is_captain": false,
+        "name": "Lionel Mpasi",
+        "number": 0,
+        "position": "GK",
+        "birth_year": 1995
+      }
+    ]
   }
 }
