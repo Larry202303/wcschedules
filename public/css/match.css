@@ -292,3 +292,13 @@
 /* RTL */
 html[dir="rtl"] .md-stats { margin-left: 0; margin-right: auto; }
 html[dir="rtl"] .md-back { direction: rtl; }
+
+/* Enlarged match score on the detail hero */
+.md-score-num {
+  font-size: clamp(2.4rem, 7vw, 3.4rem);
+  font-weight: 800;
+  color: #fff;
+  letter-spacing: 1px;
+  line-height: 1;
+}
+.md-score-num .md-score-sep { opacity: 0.5; margin: 0 4px; }

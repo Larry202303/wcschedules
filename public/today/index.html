@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JFNFTFSZCF"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-JFNFTFSZCF');</script>
+<title>World Cup 2026 Matches Today — Kickoff Times in Your Local Time</title>
+<meta name="description" content="Which 2026 FIFA World Cup matches are on today? See today's fixtures with kickoff times automatically converted to your local timezone, plus live scores.">
+<link rel="canonical" href="https://www.wcschedules.com/today/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="World Cup 2026 Matches Today">
+<meta property="og:description" content="Today's 2026 World Cup fixtures in your local time, with live scores.">
+<meta property="og:url" content="https://www.wcschedules.com/today/">
+<meta property="og:image" content="https://www.wcschedules.com/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://www.wcschedules.com/og-image.png">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚽</text></svg>">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8973794917285635" crossorigin="anonymous"></script>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:system-ui,-apple-system,Segoe UI,sans-serif;background:#0b1020;color:#e5e7eb;line-height:1.6}
+a{color:#93c5fd;text-decoration:none}a:hover{text-decoration:underline}
+.nav{position:sticky;top:0;z-index:20;background:#11162a;border-bottom:1px solid rgba(255,255,255,.1);display:flex;align-items:center;gap:18px;padding:12px 20px;flex-wrap:wrap}
+.nav .logo{font-weight:800;color:#fff;font-size:1.05rem}
+.nav a{color:#cbd5e1;font-size:.92rem}.nav a:hover{color:#fff}
+.nav .spacer{flex:1}.nav #app-header{display:flex;gap:8px}
+.lang-select{background:#1d2440;color:#e5e7eb;border:1px solid rgba(255,255,255,.18);border-radius:8px;padding:6px 8px;font-size:.88rem}
+.wrap{max-width:820px;margin:0 auto;padding:28px 20px 60px}
+h1{font-size:clamp(1.8rem,5vw,2.8rem);color:#fff;margin-bottom:6px}
+.sub{color:#94a3b8;margin-bottom:24px}
+.card{display:flex;align-items:center;gap:14px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.1);border-radius:12px;padding:16px;margin-bottom:12px}
+.card .time{min-width:84px;font-weight:800;color:#fff;font-size:1.05rem}
+.card .live{color:#ef4444;font-weight:800}
+.card .teams{flex:1;font-size:1.05rem}
+.card .score{font-weight:800;font-size:1.6rem;color:#fff;margin:0 6px}
+.card .grp{color:#94a3b8;font-size:.82rem}
+.empty{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.1);border-radius:12px;padding:28px;text-align:center;color:#94a3b8}
+footer{margin-top:40px;color:#94a3b8;font-size:.9rem;border-top:1px solid rgba(255,255,255,.1);padding-top:20px}
+</style>
+</head>
+<body>
+<nav class="nav">
+  <a class="logo" href="/">⚽ WC2026</a>
+  <a href="/#section-recent" data-i18n="nav_recent">Recent</a>
+  <a href="/#section-schedule" data-i18n="nav_schedule">Full Schedule</a>
+  <a href="/watch/" data-tzp="watch">How to Watch</a>
+  <span class="spacer"></span>
+  <div id="app-header"></div>
+</nav>
+<div class="wrap">
+  <h1>World Cup 2026 Matches Today</h1>
+  <p class="sub" id="today-sub">Today's fixtures, in your local time.</p>
+  <div id="today-list"><div class="empty">Loading…</div></div>
+  <p style="margin-top:18px"><a href="/">← Full schedule &amp; all timezones</a></p>
+  <footer><p data-i18n="footer_text">© 2026 wcschedules.com · Not affiliated with FIFA</p></footer>
+</div>
+<script src="/js/i18n.js?v=20260601a"></script>
+<script src="/js/tz-page.js?v=20260611a"></script>
+<script>
+(function () {
+  var TZ = Intl.DateTimeFormat().resolvedOptions().timeZone || "UTC";
+  function key(d) { // YYYY-MM-DD in local tz
+    var p = new Intl.DateTimeFormat("en-CA", { timeZone: TZ, year: "numeric", month: "2-digit", day: "2-digit" }).formatToParts(d);
+    var g = function (t) { return p.find(function (x) { return x.type === t; }).value; };
+    return g("year") + "-" + g("month") + "-" + g("day");
+  }
+  function toUtc(dateStr, timeStr, tz) {
+    var a = dateStr.split("-").map(Number), b = timeStr.split(":").map(Number);
+    var guess = Date.UTC(a[0], a[1] - 1, a[2], b[0], b[1]);
+    var f = new Intl.DateTimeFormat("en-US", { timeZone: tz, year: "numeric", month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit", hour12: false });
+    var o = {}; f.formatToParts(new Date(guess)).forEach(function (x) { if (x.type !== "literal") o[x.type] = +x.value; });
+    var wall = Date.UTC(o.year, o.month - 1, o.day, o.hour === 24 ? 0 : o.hour, o.minute);
+    return guess - (wall - guess);
+  }
+  function hhmm(utc) {
+    return new Intl.DateTimeFormat([], { timeZone: TZ, hour: "2-digit", minute: "2-digit" }).format(new Date(utc));
+  }
+  Promise.all([
+    fetch("/data/matches.json").then(function (r) { return r.json(); }),
+    fetch("/data/teams.json").then(function (r) { return r.json(); })
+  ]).then(function (res) {
+    var matches = res[0], teams = res[1];
+    var byCode = {}; teams.forEach(function (t) { byCode[t.code] = t; });
+    var todayKey = key(new Date());
+    var todays = matches
+      .map(function (m) { return { m: m, utc: toUtc(m.date_local, m.time_local, m.timezone) }; })
+      .filter(function (x) { return key(new Date(x.utc)) === todayKey; })
+      .sort(function (a, b) { return a.utc - b.utc; });
+    var list = document.getElementById("today-list");
+    var sub = document.getElementById("today-sub");
+    var dateLabel = new Intl.DateTimeFormat([], { timeZone: TZ, weekday: "long", month: "long", day: "numeric" }).format(new Date());
+    sub.textContent = dateLabel + " — kickoff times in your local time.";
+    if (!todays.length) {
+      list.innerHTML = '<div class="empty">No World Cup matches today. <a href="/">See the full schedule →</a></div>';
+      return;
+    }
+    list.innerHTML = todays.map(function (x) {
+      var m = x.m, h = byCode[m.home_code] || { name_en: m.home_code, flag: "" }, a = byCode[m.away_code] || { name_en: m.away_code, flag: "" };
+      var slug = (m.home_code + "-" + m.away_code + "-" + m.date_local).toLowerCase();
+      var center = (m.home_score != null && m.away_score != null)
+        ? '<span class="score">' + m.home_score + " - " + m.away_score + "</span>"
+        : " vs ";
+      var live = m.status === "IN_PLAY" || m.status === "PAUSED";
+      return '<a class="card" href="/match/' + slug + '/">' +
+        '<span class="time' + (live ? " live" : "") + '">' + (live ? "🔴 LIVE" : hhmm(x.utc)) + '</span>' +
+        '<span class="teams">' + h.flag + " " + h.name_en + center + a.name_en + " " + a.flag +
+        '<br><span class="grp">Group ' + m.group + '</span></span></a>';
+    }).join("");
+  }).catch(function () {
+    document.getElementById("today-list").innerHTML = '<div class="empty"><a href="/">See the full schedule →</a></div>';
+  });
+})();
+</script>
+</body>
+</html>

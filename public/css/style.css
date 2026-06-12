@@ -1786,3 +1786,18 @@ html[dir="rtl"] .gp-match-row:hover .gp-match-arrow { transform: translateX(-3px
 }
 
 .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+
+/* Enlarged live scores (readability) */
+.match-vs.match-score, .match-score {
+  font-size: 28px;
+  font-weight: 800;
+  color: var(--text, #fff);
+  letter-spacing: 0;
+  text-transform: none;
+  line-height: 1.1;
+}
+.gp-match-vs.gp-match-score, .gp-match-score {
+  font-size: 22px;
+  font-weight: 800;
+  color: #fff;
+}

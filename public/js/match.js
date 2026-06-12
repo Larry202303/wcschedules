@@ -305,7 +305,7 @@ function renderHero() {
   const live = m.status === "IN_PLAY" || m.status === "PAUSED";
   if (hasScore) {
     scoreEl.classList.remove("md-score-future");
-    scoreEl.innerHTML = `<span class="md-score">${m.home_score} <span class="md-score-sep">-</span> ${m.away_score}</span>`;
+    scoreEl.innerHTML = `<span class="md-score-num">${m.home_score} <span class="md-score-sep">-</span> ${m.away_score}</span>`;
   } else if (isFuture) {
     scoreEl.innerHTML = `<span class="md-vs">${t("match_vs")}</span>`;
     scoreEl.classList.add("md-score-future");
