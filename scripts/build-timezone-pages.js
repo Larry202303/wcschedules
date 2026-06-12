@@ -28,25 +28,22 @@ const teamByCode = Object.fromEntries(teams.map((t) => [t.code, t]));
 // slug: matches the existing /teams/<slug> directories (verified: 0 mismatches)
 const slugify = (s) => s.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 
-// label = how it appears in the title ("World Cup 2026 Schedule in <label>")
-// `abbr` forces a clean timezone label where this environment's ICU data falls
-// back to "GMT+X". Stable for the whole tournament window (Jun 11 – Jul 19, 2026).
-const PAGES = [
-  // existing — titles preserved exactly
-  { slug: 'china-time', tz: 'Asia/Shanghai', label: 'China Time', pill: 'China Time', abbr: 'GMT+8' },
-  { slug: 'india-time', tz: 'Asia/Kolkata', label: 'India Time', pill: 'India Time', abbr: 'IST' },
-  { slug: 'germany-time', tz: 'Europe/Berlin', label: 'Germany Time', pill: 'Germany Time', abbr: 'CEST' },
-  { slug: 'france-time', tz: 'Europe/Paris', label: 'France Time', pill: 'France Time', abbr: 'CEST' },
-  { slug: 'us-eastern-time', tz: 'America/New_York', label: 'US Eastern Time', pill: 'Eastern Time', abbr: 'EDT' },
-  { slug: 'us-pacific-time', tz: 'America/Los_Angeles', label: 'US Pacific Time', pill: 'Pacific Time', abbr: 'PDT' },
-  { slug: 'italy-time', tz: 'Europe/Rome', label: 'Italy Time', pill: 'Italy Time', abbr: 'CEST' },
-  // new — high-traffic football/English markets
-  { slug: 'uk-time', tz: 'Europe/London', label: 'UK Time', pill: 'UK Time', abbr: 'BST' },
-  { slug: 'australia-time', tz: 'Australia/Sydney', label: 'Australia Time', pill: 'Australia Time', abbr: 'AEST' },
-  { slug: 'brazil-time', tz: 'America/Sao_Paulo', label: 'Brazil Time', pill: 'Brazil Time', abbr: 'BRT' },
-  { slug: 'mexico-time', tz: 'America/Mexico_City', label: 'Mexico Time', pill: 'Mexico Time', abbr: 'CST' },
-  { slug: 'gulf-time', tz: 'Asia/Dubai', label: 'Gulf Time', pill: 'Gulf Time', abbr: 'GST' },
-];
+// Derived from the shared country dataset (top-30 populous + Europe top-15 +
+// Middle East). Multi-timezone countries produce several pages.
+// `abbr` forces a clean timezone label (this environment's ICU sometimes falls
+// back to "GMT+X"). Stable for the tournament window (Jun 11 – Jul 19, 2026).
+const { COUNTRIES } = require('./countries');
+const PAGES = [];
+const _seen = new Set();
+for (const c of COUNTRIES) {
+  for (const [pslug, label, iana, abbr] of c.tz) {
+    if (_seen.has(pslug)) continue;
+    _seen.add(pslug);
+    PAGES.push({ slug: pslug, tz: iana, label, pill: label, abbr });
+  }
+}
+// Legacy generic page kept for already-indexed URL.
+if (!_seen.has('gulf-time')) PAGES.push({ slug: 'gulf-time', tz: 'Asia/Dubai', label: 'Gulf Time', pill: 'Gulf Time', abbr: 'GST' });
 
 // ── time conversion (no external libs) ──────────────────────────────────────
 function wallParts(instant, tz) {

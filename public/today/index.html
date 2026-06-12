@@ -49,10 +49,10 @@ footer{margin-top:40px;color:#94a3b8;font-size:.9rem;border-top:1px solid rgba(2
   <div id="app-header"></div>
 </nav>
 <div class="wrap">
-  <h1>World Cup 2026 Matches Today</h1>
+  <h1 id="today-h1">World Cup 2026 Matches Today</h1>
   <p class="sub" id="today-sub">Today's fixtures, in your local time.</p>
   <div id="today-list"><div class="empty">Loading…</div></div>
-  <p style="margin-top:18px"><a href="/">← Full schedule &amp; all timezones</a></p>
+  <p style="margin-top:18px"><a href="/" id="full-link">← Full schedule &amp; all timezones</a></p>
   <footer><p data-i18n="footer_text">© 2026 wcschedules.com · Not affiliated with FIFA</p></footer>
 </div>
 <script src="/js/i18n.js?v=20260601a"></script>
@@ -60,7 +60,35 @@ footer{margin-top:40px;color:#94a3b8;font-size:.9rem;border-top:1px solid rgba(2
 <script>
 (function () {
   var TZ = Intl.DateTimeFormat().resolvedOptions().timeZone || "UTC";
-  function key(d) { // YYYY-MM-DD in local tz
+  var LANG = (window.detectLang && window.detectLang()) || "en";
+  var tt = function (k) { return window.t ? window.t(k, LANG) : k; };
+
+  // Page-specific strings (the nav + footer translate via i18n.js / tz-page.js).
+  var I = {
+    "en": { h1: "World Cup 2026 Matches Today & Tomorrow", suf: "kickoff times in your local time", today: "Today", tom: "Tomorrow", none: "No World Cup matches today or tomorrow.", full: "Full schedule & all timezones", live: "LIVE" },
+    "zh-CN": { h1: "今明两天的世界杯比赛", suf: "开球时间均为你的本地时间", today: "今天", tom: "明天", none: "今明两天没有世界杯比赛。", full: "完整赛程与所有时区", live: "进行中" },
+    "zh-TW": { h1: "今明兩天的世界盃比賽", suf: "開球時間均為你的本地時間", today: "今天", tom: "明天", none: "今明兩天沒有世界盃比賽。", full: "完整賽程與所有時區", live: "進行中" },
+    "es": { h1: "Partidos del Mundial 2026 hoy y mañana", suf: "horarios en tu hora local", today: "Hoy", tom: "Mañana", none: "No hay partidos del Mundial hoy ni mañana.", full: "Calendario completo y zonas horarias", live: "EN VIVO" },
+    "pt": { h1: "Jogos da Copa do Mundo 2026 hoje e amanhã", suf: "horários no seu fuso local", today: "Hoje", tom: "Amanhã", none: "Sem jogos da Copa hoje ou amanhã.", full: "Calendário completo e fusos", live: "AO VIVO" },
+    "fr": { h1: "Matchs de la Coupe du Monde 2026 aujourd'hui et demain", suf: "horaires dans votre fuseau local", today: "Aujourd'hui", tom: "Demain", none: "Aucun match aujourd'hui ni demain.", full: "Calendrier complet et fuseaux", live: "EN DIRECT" },
+    "de": { h1: "WM-2026-Spiele heute & morgen", suf: "Anstoßzeiten in deiner Ortszeit", today: "Heute", tom: "Morgen", none: "Heute und morgen keine WM-Spiele.", full: "Kompletter Spielplan & Zeitzonen", live: "LIVE" },
+    "ja": { h1: "今日・明日のワールドカップ2026の試合", suf: "キックオフ時刻はあなたの現地時間", today: "今日", tom: "明日", none: "今日・明日のワールドカップの試合はありません。", full: "全日程・全タイムゾーン", live: "ライブ" },
+    "ko": { h1: "오늘과 내일의 2026 월드컵 경기", suf: "킥오프 시간은 현지 시간 기준", today: "오늘", tom: "내일", none: "오늘과 내일은 월드컵 경기가 없습니다.", full: "전체 일정 및 시간대", live: "LIVE" },
+    "ru": { h1: "Матчи ЧМ-2026 сегодня и завтра", suf: "время начала в вашем часовом поясе", today: "Сегодня", tom: "Завтра", none: "Сегодня и завтра матчей ЧМ нет.", full: "Полное расписание и часовые пояса", live: "В ЭФИРЕ" },
+    "ar": { h1: "مباريات كأس العالم 2026 اليوم وغداً", suf: "مواعيد البدء بتوقيتك المحلي", today: "اليوم", tom: "غداً", none: "لا توجد مباريات اليوم أو غداً.", full: "الجدول الكامل وجميع التوقيتات", live: "مباشر" },
+    "id": { h1: "Pertandingan Piala Dunia 2026 hari ini & besok", suf: "waktu kick-off dalam zona waktu Anda", today: "Hari ini", tom: "Besok", none: "Tidak ada pertandingan hari ini atau besok.", full: "Jadwal lengkap & semua zona waktu", live: "LANGSUNG" },
+    "th": { h1: "แมตช์ฟุตบอลโลก 2026 วันนี้และพรุ่งนี้", suf: "เวลาเริ่มแข่งตามเวลาท้องถิ่นของคุณ", today: "วันนี้", tom: "พรุ่งนี้", none: "ไม่มีแมตช์ฟุตบอลโลกวันนี้หรือพรุ่งนี้", full: "ตารางทั้งหมดและทุกเขตเวลา", live: "สด" },
+    "vi": { h1: "Các trận World Cup 2026 hôm nay & ngày mai", suf: "giờ bóng lăn theo múi giờ của bạn", today: "Hôm nay", tom: "Ngày mai", none: "Không có trận World Cup nào hôm nay hoặc ngày mai.", full: "Lịch đầy đủ & mọi múi giờ", live: "TRỰC TIẾP" },
+    "tr": { h1: "Bugün & yarın 2026 Dünya Kupası maçları", suf: "başlama saatleri yerel saatinizle", today: "Bugün", tom: "Yarın", none: "Bugün veya yarın Dünya Kupası maçı yok.", full: "Tam fikstür ve tüm saat dilimleri", live: "CANLI" },
+    "fa": { h1: "بازی‌های امروز و فردای جام جهانی ۲۰۲۶", suf: "ساعت شروع به وقت محلی شما", today: "امروز", tom: "فردا", none: "امروز یا فردا بازی جام جهانی وجود ندارد.", full: "برنامه کامل و همه مناطق زمانی", live: "زنده" }
+  };
+  var T = I[LANG] || I.en;
+
+  document.getElementById("today-h1").textContent = T.h1;
+  var fl = document.getElementById("full-link"); if (fl) fl.textContent = "← " + T.full;
+  try { document.title = T.h1; } catch (e) {}
+
+  function key(d) {
     var p = new Intl.DateTimeFormat("en-CA", { timeZone: TZ, year: "numeric", month: "2-digit", day: "2-digit" }).formatToParts(d);
     var g = function (t) { return p.find(function (x) { return x.type === t; }).value; };
     return g("year") + "-" + g("month") + "-" + g("day");
@@ -73,9 +101,21 @@ footer{margin-top:40px;color:#94a3b8;font-size:.9rem;border-top:1px solid rgba(2
     var wall = Date.UTC(o.year, o.month - 1, o.day, o.hour === 24 ? 0 : o.hour, o.minute);
     return guess - (wall - guess);
   }
-  function hhmm(utc) {
-    return new Intl.DateTimeFormat([], { timeZone: TZ, hour: "2-digit", minute: "2-digit" }).format(new Date(utc));
+  function hhmm(utc) { return new Intl.DateTimeFormat(LANG, { timeZone: TZ, hour: "2-digit", minute: "2-digit" }).format(new Date(utc)); }
+
+  function cardHtml(x, byCode) {
+    var m = x.m, h = byCode[m.home_code] || { name_en: m.home_code, flag: "" }, a = byCode[m.away_code] || { name_en: m.away_code, flag: "" };
+    var slug = (m.home_code + "-" + m.away_code + "-" + m.date_local).toLowerCase();
+    var center = (m.home_score != null && m.away_score != null)
+      ? '<span class="score">' + m.home_score + " - " + m.away_score + "</span>"
+      : " " + tt("match_vs") + " ";
+    var live = m.status === "IN_PLAY" || m.status === "PAUSED";
+    return '<a class="card" href="/match/' + slug + '/">' +
+      '<span class="time' + (live ? " live" : "") + '">' + (live ? "🔴 " + T.live : hhmm(x.utc)) + '</span>' +
+      '<span class="teams">' + h.flag + " " + h.name_en + center + a.name_en + " " + a.flag +
+      '<br><span class="grp">' + tt("md_group") + " " + m.group + '</span></span></a>';
   }
+
   Promise.all([
     fetch("/data/matches.json").then(function (r) { return r.json(); }),
     fetch("/data/teams.json").then(function (r) { return r.json(); })
@@ -83,32 +123,32 @@ footer{margin-top:40px;color:#94a3b8;font-size:.9rem;border-top:1px solid rgba(2
     var matches = res[0], teams = res[1];
     var byCode = {}; teams.forEach(function (t) { byCode[t.code] = t; });
     var todayKey = key(new Date());
-    var todays = matches
+    var tomKey = key(new Date(Date.now() + 86400000));
+    var enriched = matches
       .map(function (m) { return { m: m, utc: toUtc(m.date_local, m.time_local, m.timezone) }; })
-      .filter(function (x) { return key(new Date(x.utc)) === todayKey; })
       .sort(function (a, b) { return a.utc - b.utc; });
+    var todays = enriched.filter(function (x) { return key(new Date(x.utc)) === todayKey; });
+    var toms = enriched.filter(function (x) { return key(new Date(x.utc)) === tomKey; });
+
     var list = document.getElementById("today-list");
     var sub = document.getElementById("today-sub");
-    var dateLabel = new Intl.DateTimeFormat([], { timeZone: TZ, weekday: "long", month: "long", day: "numeric" }).format(new Date());
-    sub.textContent = dateLabel + " — kickoff times in your local time.";
-    if (!todays.length) {
-      list.innerHTML = '<div class="empty">No World Cup matches today. <a href="/">See the full schedule →</a></div>';
+    sub.textContent = T.suf + ".";
+
+    if (!todays.length && !toms.length) {
+      list.innerHTML = '<div class="empty">' + T.none + ' <a href="/">' + T.full + ' →</a></div>';
       return;
     }
-    list.innerHTML = todays.map(function (x) {
-      var m = x.m, h = byCode[m.home_code] || { name_en: m.home_code, flag: "" }, a = byCode[m.away_code] || { name_en: m.away_code, flag: "" };
-      var slug = (m.home_code + "-" + m.away_code + "-" + m.date_local).toLowerCase();
-      var center = (m.home_score != null && m.away_score != null)
-        ? '<span class="score">' + m.home_score + " - " + m.away_score + "</span>"
-        : " vs ";
-      var live = m.status === "IN_PLAY" || m.status === "PAUSED";
-      return '<a class="card" href="/match/' + slug + '/">' +
-        '<span class="time' + (live ? " live" : "") + '">' + (live ? "🔴 LIVE" : hhmm(x.utc)) + '</span>' +
-        '<span class="teams">' + h.flag + " " + h.name_en + center + a.name_en + " " + a.flag +
-        '<br><span class="grp">Group ' + m.group + '</span></span></a>';
-    }).join("");
+    var html = "";
+    function section(label, arr) {
+      if (!arr.length) return "";
+      return '<h2 style="font-size:1.2rem;color:#fff;margin:22px 0 12px">' + label + '</h2>' +
+        arr.map(function (x) { return cardHtml(x, byCode); }).join("");
+    }
+    html += section(T.today, todays);
+    html += section(T.tom, toms);
+    list.innerHTML = html;
   }).catch(function () {
-    document.getElementById("today-list").innerHTML = '<div class="empty"><a href="/">See the full schedule →</a></div>';
+    document.getElementById("today-list").innerHTML = '<div class="empty"><a href="/">' + T.full + ' →</a></div>';
   });
 })();
 </script>
