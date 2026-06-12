@@ -338,7 +338,29 @@ function renderHero() {
 
 /* ============================================
    AI SCORE PREDICTION (pre-generated; auto-hides at kickoff)
+   English uses the curated rationale; other languages get a localized
+   sentence derived from the predicted scoreline (winner + margin),
+   with team names in the user's language.
    ============================================ */
+const AI_I18N = {
+  "en": { title: "AI Score Prediction", disc: "AI prediction — for entertainment only, not betting advice.", draw: "A tight, even game between {home} and {away} that could finish level.", close: "A close contest, but {winner} should just edge {loser}.", comf: "{winner} have the edge and should see off {loser}.", dom: "{winner} look a class above and should beat {loser} comfortably." },
+  "zh-CN": { title: "AI 比分预测", disc: "AI 预测，仅供娱乐，非投注建议。", draw: "{home} 与 {away} 势均力敌，很可能打平。", close: "比赛胶着，但 {winner} 有望小胜 {loser}。", comf: "{winner} 略胜一筹，应能拿下 {loser}。", dom: "{winner} 实力明显占优，有望大胜 {loser}。" },
+  "zh-TW": { title: "AI 比分預測", disc: "AI 預測，僅供娛樂，非投注建議。", draw: "{home} 與 {away} 勢均力敵，很可能打平。", close: "比賽膠著，但 {winner} 有望小勝 {loser}。", comf: "{winner} 略勝一籌，應能拿下 {loser}。", dom: "{winner} 實力明顯占優，有望大勝 {loser}。" },
+  "es": { title: "Predicción de marcador con IA", disc: "Predicción de IA — solo entretenimiento, no es consejo de apuestas.", draw: "Un partido muy parejo entre {home} y {away}; podría acabar en empate.", close: "Un duelo ajustado, pero {winner} debería imponerse por poco a {loser}.", comf: "{winner} parte con ventaja y debería superar a {loser}.", dom: "{winner} se ve muy superior y debería ganar con comodidad a {loser}." },
+  "pt": { title: "Previsão de placar com IA", disc: "Previsão de IA — apenas para entretenimento, não é dica de apostas.", draw: "Um jogo muito equilibrado entre {home} e {away}; pode terminar empatado.", close: "Um duelo apertado, mas {winner} deve levar a melhor sobre {loser}.", comf: "{winner} leva vantagem e deve superar {loser}.", dom: "{winner} parece muito superior e deve vencer {loser} com tranquilidade." },
+  "fr": { title: "Prédiction de score par IA", disc: "Prédiction IA — à titre de divertissement, pas un conseil de pari.", draw: "Un match très serré entre {home} et {away} ; il pourrait finir nul.", close: "Un duel serré, mais {winner} devrait l'emporter de justesse face à {loser}.", comf: "{winner} a l'avantage et devrait se défaire de {loser}.", dom: "{winner} semble d'un autre calibre et devrait largement battre {loser}." },
+  "de": { title: "KI-Ergebnisprognose", disc: "KI-Prognose — nur zur Unterhaltung, keine Wettberatung.", draw: "Ein ausgeglichenes Spiel zwischen {home} und {away} — ein Remis ist möglich.", close: "Ein enges Duell, aber {winner} dürfte {loser} knapp bezwingen.", comf: "{winner} hat die Nase vorn und sollte {loser} schlagen.", dom: "{winner} wirkt eine Klasse besser und sollte {loser} deutlich besiegen." },
+  "ja": { title: "AIスコア予想", disc: "AI予想 — 娯楽目的のみ。賭けの助言ではありません。", draw: "{home} と {away} は互角で、引き分けの可能性があります。", close: "接戦ですが、{winner} が {loser} を僅差で破ると予想します。", comf: "{winner} が一枚上手で、{loser} に勝つと見ます。", dom: "{winner} が格上で、{loser} に快勝すると予想します。" },
+  "ko": { title: "AI 스코어 예측", disc: "AI 예측 — 오락용이며 베팅 조언이 아닙니다.", draw: "{home}와 {away}는 막상막하로, 무승부 가능성이 있습니다.", close: "접전이지만 {winner}가 {loser}를 근소하게 이길 것으로 봅니다.", comf: "{winner}가 한 수 위로, {loser}를 꺾을 것으로 예상합니다.", dom: "{winner}가 확연히 강해 {loser}에 낙승할 것으로 봅니다." },
+  "ru": { title: "ИИ-прогноз счёта", disc: "Прогноз ИИ — только для развлечения, не совет по ставкам.", draw: "Равная игра между {home} и {away} — возможна ничья.", close: "Близкий поединок, но {winner} должен слегка переиграть {loser}.", comf: "{winner} имеет преимущество и должен одолеть {loser}.", dom: "{winner} выглядит классом выше и должен уверенно обыграть {loser}." },
+  "ar": { title: "توقع النتيجة بالذكاء الاصطناعي", disc: "توقع بالذكاء الاصطناعي — للتسلية فقط، وليس نصيحة للمراهنة.", draw: "مباراة متكافئة بين {home} و{away} وقد تنتهي بالتعادل.", close: "مواجهة متقاربة، لكن يُتوقع أن يتغلب {winner} على {loser} بفارق ضئيل.", comf: "يملك {winner} الأفضلية ويُتوقع أن يتجاوز {loser}.", dom: "يبدو {winner} أقوى بكثير ويُتوقع أن يفوز على {loser} بسهولة." },
+  "id": { title: "Prediksi Skor AI", disc: "Prediksi AI — hanya hiburan, bukan saran taruhan.", draw: "Laga seimbang antara {home} dan {away}; bisa berakhir imbang.", close: "Pertandingan ketat, tetapi {winner} diprediksi menang tipis atas {loser}.", comf: "{winner} lebih diunggulkan dan semestinya mengalahkan {loser}.", dom: "{winner} tampak jauh lebih kuat dan diprediksi menang mudah atas {loser}." },
+  "th": { title: "การทำนายสกอร์ด้วย AI", disc: "การทำนายโดย AI — เพื่อความบันเทิงเท่านั้น ไม่ใช่คำแนะนำการเดิมพัน", draw: "เกมสูสีระหว่าง {home} และ {away} อาจจบลงด้วยการเสมอ", close: "เกมสูสี แต่คาดว่า {winner} จะเฉือนชนะ {loser}", comf: "{winner} เหนือกว่าและน่าจะเอาชนะ {loser} ได้", dom: "{winner} เหนือชั้นกว่ามาก และน่าจะชนะ {loser} ได้สบาย" },
+  "vi": { title: "Dự đoán tỉ số bằng AI", disc: "Dự đoán AI — chỉ để giải trí, không phải lời khuyên cá cược.", draw: "Trận đấu cân bằng giữa {home} và {away}; có thể kết thúc hòa.", close: "Một trận đấu sít sao, nhưng {winner} được dự đoán thắng nhẹ {loser}.", comf: "{winner} nhỉnh hơn và sẽ vượt qua {loser}.", dom: "{winner} vượt trội và được dự đoán thắng đậm {loser}." },
+  "tr": { title: "Yapay Zekâ Skor Tahmini", disc: "Yapay zekâ tahmini — yalnızca eğlence amaçlıdır, bahis tavsiyesi değildir.", draw: "{home} ile {away} arasında başa baş bir maç; berabere bitebilir.", close: "Çekişmeli bir maç, ancak {winner} {loser} karşısında az farkla öne geçebilir.", comf: "{winner} avantajlı ve {loser} karşısında kazanması beklenir.", dom: "{winner} açık ara üstün görünüyor ve {loser} karşısında rahat kazanabilir." },
+  "fa": { title: "پیش‌بینی نتیجه با هوش مصنوعی", disc: "پیش‌بینی هوش مصنوعی — فقط برای سرگرمی، توصیه شرط‌بندی نیست.", draw: "بازی نزدیکی میان {home} و {away}؛ ممکن است مساوی تمام شود.", close: "بازی نزدیکی است، اما انتظار می‌رود {winner} با اختلاف کم {loser} را شکست دهد.", comf: "{winner} برتری دارد و باید {loser} را شکست دهد.", dom: "{winner} یک سر و گردن بالاتر است و باید {loser} را به‌راحتی ببرد." }
+};
+
 function renderPrediction() {
   const el = document.getElementById("md-ai-prediction");
   if (!el) return;
@@ -353,21 +375,38 @@ function renderPrediction() {
   const key = `${m.home_code}-${m.away_code}-${m.date_local}`;
   const pred = (DATA.predictions || {})[key];
   if (!pred || !pred.score) { el.style.display = "none"; return; }
-  if (el.dataset.rendered === "1") { el.style.display = "block"; return; }
 
+  const lang = STATE.lang || "en";
+  const dict = AI_I18N[lang] || AI_I18N.en;
   const home = teamByCode(m.home_code), away = teamByCode(m.away_code);
   const parts = String(pred.score).split("-");
-  const hs = (parts[0] || "").trim(), as = (parts[1] || "").trim();
+  const hs = parseInt((parts[0] || "0").trim(), 10) || 0;
+  const as = parseInt((parts[1] || "0").trim(), 10) || 0;
+
+  // English keeps the curated text; other languages get a localized sentence.
+  let text;
+  if (lang === "en") {
+    text = pred.text || "";
+  } else {
+    const homeName = teamName(home.code), awayName = teamName(away.code);
+    const margin = Math.abs(hs - as);
+    const winner = hs > as ? homeName : awayName;
+    const loser = hs > as ? awayName : homeName;
+    const tmpl = margin === 0 ? dict.draw : margin >= 3 ? dict.dom : margin === 2 ? dict.comf : dict.close;
+    text = tmpl.replace(/\{home\}/g, homeName).replace(/\{away\}/g, awayName)
+               .replace(/\{winner\}/g, winner).replace(/\{loser\}/g, loser);
+  }
+
   el.innerHTML = `
     <div class="md-ai-card">
-      <div class="md-ai-head"><span class="md-ai-badge">AI</span> ${t("md_ai_title")}</div>
+      <div class="md-ai-head"><span class="md-ai-badge">AI</span> ${escapeHtml(dict.title)}</div>
       <div class="md-ai-score">
         <span class="md-ai-team">${home.flag} ${teamName(home.code)}</span>
-        <span class="md-ai-nums">${escapeHtml(hs)}<span class="md-ai-sep">–</span>${escapeHtml(as)}</span>
+        <span class="md-ai-nums">${hs}<span class="md-ai-sep">–</span>${as}</span>
         <span class="md-ai-team">${teamName(away.code)} ${away.flag}</span>
       </div>
-      <p class="md-ai-text">${escapeHtml(pred.text || "")}</p>
-      <p class="md-ai-disc">${t("md_ai_disc")}</p>
+      <p class="md-ai-text">${escapeHtml(text)}</p>
+      <p class="md-ai-disc">${escapeHtml(dict.disc)}</p>
     </div>`;
   el.dataset.rendered = "1";
   el.style.display = "block";
