@@ -136,6 +136,8 @@ window.I18N = {
     nav_champion_odds: "Champion Odds",
     nav_schedule: "Full Schedule",
     nav_watch: "How to Watch",
+    md_ai_title: "AI Score Prediction",
+    md_ai_disc: "AI prediction — for entertainment only, not betting advice.",
     recent_title: "Recent & Upcoming",
     recent_desc: "Today · Tomorrow",
     recent_no_matches: "No matches in this window.",

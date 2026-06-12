@@ -302,3 +302,29 @@ html[dir="rtl"] .md-back { direction: rtl; }
   line-height: 1;
 }
 .md-score-num .md-score-sep { opacity: 0.5; margin: 0 4px; }
+
+/* ── AI Score Prediction module ───────────────────────────── */
+.md-ai-card {
+  background: linear-gradient(135deg, rgba(124,58,237,.18), rgba(37,99,235,.12));
+  border: 1px solid rgba(139,92,246,.45);
+  border-radius: 16px;
+  padding: 18px 20px;
+}
+.md-ai-head { display: flex; align-items: center; gap: 8px; font-weight: 700; color: #fff; font-size: 1rem; margin-bottom: 14px; }
+.md-ai-badge {
+  background: linear-gradient(135deg, #8b5cf6, #6366f1);
+  color: #fff; font-size: .72rem; font-weight: 800; letter-spacing: .5px;
+  padding: 3px 8px; border-radius: 6px;
+}
+.md-ai-score {
+  display: flex; align-items: center; justify-content: center; gap: 14px; flex-wrap: wrap;
+  margin: 6px 0 12px;
+}
+.md-ai-team { color: #e5e7eb; font-weight: 600; font-size: 1.02rem; }
+.md-ai-nums {
+  font-size: clamp(2rem, 6vw, 2.8rem); font-weight: 800; color: #fff;
+  letter-spacing: 1px; line-height: 1; white-space: nowrap;
+}
+.md-ai-sep { opacity: .55; margin: 0 8px; }
+.md-ai-text { color: #cbd5e1; line-height: 1.55; margin: 0 0 8px; }
+.md-ai-disc { color: #7c8598; font-size: .8rem; margin: 0; }

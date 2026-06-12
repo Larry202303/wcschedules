@@ -85,7 +85,7 @@ async function boot() {
   if (!target) return showError();
 
   try {
-    const [teams, matches, i18nData, coaches, squads, pmLinks, previews, coachesI18n, clubsI18n, previewsI18n] = await Promise.all([
+    const [teams, matches, i18nData, coaches, squads, pmLinks, previews, coachesI18n, clubsI18n, previewsI18n, predictions] = await Promise.all([
       fetch("/data/teams.json").then((r) => r.json()),
       fetch("/data/matches.json").then((r) => r.json()),
       fetch("/data/i18n_data.json").then((r) => r.json()).catch(() => ({ teams: {}, cities: {}, stadiums: {} })),
@@ -96,6 +96,7 @@ async function boot() {
       fetch("/data/i18n_coaches.json").then((r) => r.json()).catch(() => ({ coaches: {} })),
       fetch("/data/i18n_clubs.json").then((r) => r.json()).catch(() => ({ clubs: {} })),
       fetch("/data/i18n_previews.json").then((r) => r.json()).catch(() => ({ previews: {} })),
+      fetch("/data/predictions.json").then((r) => r.json()).catch(() => ({ predictions: {} })),
     ]);
     DATA.teams = teams;
     DATA.matches = matches;
@@ -107,6 +108,7 @@ async function boot() {
     DATA.coachesI18n = (coachesI18n.coaches) || coachesI18n || {};
     DATA.clubsI18n = (clubsI18n.clubs) || clubsI18n || {};
     DATA.previewsI18n = (previewsI18n && (previewsI18n.previews || previewsI18n)) || {};
+    DATA.predictions = (predictions && (predictions.predictions || predictions)) || {};
   } catch (e) {
     console.error("Data load fail:", e);
     return showError();
@@ -126,6 +128,7 @@ async function boot() {
   safe("header", renderHeader);
   safe("topnav", () => { if (window.initTopNav) initTopNav(); });
   safe("hero", renderHero);
+  safe("prediction", renderPrediction);
   safe("preview", renderPreview);
   safe("coaches", renderCoaches);
   safe("squads", renderSquads);
@@ -162,6 +165,7 @@ async function fetchLiveScore() {
   } catch (e) {
     /* silent */
   }
+  try { renderPrediction(); } catch (e) {} // re-evaluate: auto-hide once kicked off
 }
 
 function startLiveUpdates() {
@@ -330,6 +334,43 @@ function renderHero() {
 
   document.getElementById("md-venue").innerHTML =
     `📍 <strong>${stadiumName(m.stadium)}</strong>, ${cityName(m.city)}`;
+}
+
+/* ============================================
+   AI SCORE PREDICTION (pre-generated; auto-hides at kickoff)
+   ============================================ */
+function renderPrediction() {
+  const el = document.getElementById("md-ai-prediction");
+  if (!el) return;
+  const m = STATE.match;
+  const isFuture = matchTimeUTC(m).getTime() > Date.now();
+  const hasScore = m.home_score != null && m.away_score != null;
+  // Remove once the match has kicked off (or already has a score)
+  if (!isFuture || hasScore || m.status === "IN_PLAY" || m.status === "PAUSED" || m.status === "FINISHED") {
+    el.style.display = "none";
+    return;
+  }
+  const key = `${m.home_code}-${m.away_code}-${m.date_local}`;
+  const pred = (DATA.predictions || {})[key];
+  if (!pred || !pred.score) { el.style.display = "none"; return; }
+  if (el.dataset.rendered === "1") { el.style.display = "block"; return; }
+
+  const home = teamByCode(m.home_code), away = teamByCode(m.away_code);
+  const parts = String(pred.score).split("-");
+  const hs = (parts[0] || "").trim(), as = (parts[1] || "").trim();
+  el.innerHTML = `
+    <div class="md-ai-card">
+      <div class="md-ai-head"><span class="md-ai-badge">AI</span> ${t("md_ai_title")}</div>
+      <div class="md-ai-score">
+        <span class="md-ai-team">${home.flag} ${teamName(home.code)}</span>
+        <span class="md-ai-nums">${escapeHtml(hs)}<span class="md-ai-sep">–</span>${escapeHtml(as)}</span>
+        <span class="md-ai-team">${teamName(away.code)} ${away.flag}</span>
+      </div>
+      <p class="md-ai-text">${escapeHtml(pred.text || "")}</p>
+      <p class="md-ai-disc">${t("md_ai_disc")}</p>
+    </div>`;
+  el.dataset.rendered = "1";
+  el.style.display = "block";
 }
 
 /* ============================================
