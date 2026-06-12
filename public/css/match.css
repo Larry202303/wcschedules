@@ -328,3 +328,10 @@ html[dir="rtl"] .md-back { direction: rtl; }
 .md-ai-sep { opacity: .55; margin: 0 8px; }
 .md-ai-text { color: #cbd5e1; line-height: 1.55; margin: 0 0 8px; }
 .md-ai-disc { color: #7c8598; font-size: .8rem; margin: 0; }
+
+/* AI prediction — detail rows (ranking + key players) */
+.md-ai-facts { display: flex; flex-direction: column; gap: 8px; margin: 6px 0 14px; }
+.md-ai-fact { display: flex; flex-wrap: wrap; gap: 4px 12px; align-items: baseline; font-size: .94rem; padding: 9px 13px; background: rgba(255,255,255,.05); border-radius: 10px; }
+.md-ai-fl { color: #a78bfa; font-weight: 700; min-width: 116px; }
+.md-ai-fv { color: #e5e7eb; }
+.md-ai-vs { color: #7c8598; margin: 0 5px; font-size: .85rem; }

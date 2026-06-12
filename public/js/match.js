@@ -296,13 +296,16 @@ function renderHero() {
   document.getElementById("md-stage").textContent =
     (m.stage || "Group Stage") + (m.group ? ` · ${t("md_group")} ${m.group}` : "");
 
-  document.getElementById("md-home-flag").textContent = home.flag;
-  document.getElementById("md-home-name").innerHTML = `<a href="/teams/${teamSlug(home.code)}" style="color:inherit;text-decoration:none">${teamName(home.code)}</a>`;
-  document.getElementById("md-home-code").textContent = home.code;
+  const homeHref = `/teams/${teamSlug(home.code)}`;
+  const awayHref = `/teams/${teamSlug(away.code)}`;
+  const lk = (href, inner) => `<a href="${href}" style="color:inherit;text-decoration:none">${inner}</a>`;
+  document.getElementById("md-home-flag").innerHTML = lk(homeHref, home.flag);
+  document.getElementById("md-home-name").innerHTML = lk(homeHref, teamName(home.code));
+  document.getElementById("md-home-code").innerHTML = lk(homeHref, home.code);
 
-  document.getElementById("md-away-flag").textContent = away.flag;
-  document.getElementById("md-away-name").innerHTML = `<a href="/teams/${teamSlug(away.code)}" style="color:inherit;text-decoration:none">${teamName(away.code)}</a>`;
-  document.getElementById("md-away-code").textContent = away.code;
+  document.getElementById("md-away-flag").innerHTML = lk(awayHref, away.flag);
+  document.getElementById("md-away-name").innerHTML = lk(awayHref, teamName(away.code));
+  document.getElementById("md-away-code").innerHTML = lk(awayHref, away.code);
 
   const scoreEl = document.getElementById("md-score-display");
   const hasScore = m.home_score != null && m.away_score != null;
@@ -343,23 +346,38 @@ function renderHero() {
    with team names in the user's language.
    ============================================ */
 const AI_I18N = {
-  "en": { title: "AI Score Prediction", disc: "AI prediction — for entertainment only, not betting advice.", draw: "A tight, even game between {home} and {away} that could finish level.", close: "A close contest, but {winner} should just edge {loser}.", comf: "{winner} have the edge and should see off {loser}.", dom: "{winner} look a class above and should beat {loser} comfortably." },
-  "zh-CN": { title: "AI 比分预测", disc: "AI 预测，仅供娱乐，非投注建议。", draw: "{home} 与 {away} 势均力敌，很可能打平。", close: "比赛胶着，但 {winner} 有望小胜 {loser}。", comf: "{winner} 略胜一筹，应能拿下 {loser}。", dom: "{winner} 实力明显占优，有望大胜 {loser}。" },
-  "zh-TW": { title: "AI 比分預測", disc: "AI 預測，僅供娛樂，非投注建議。", draw: "{home} 與 {away} 勢均力敵，很可能打平。", close: "比賽膠著，但 {winner} 有望小勝 {loser}。", comf: "{winner} 略勝一籌，應能拿下 {loser}。", dom: "{winner} 實力明顯占優，有望大勝 {loser}。" },
-  "es": { title: "Predicción de marcador con IA", disc: "Predicción de IA — solo entretenimiento, no es consejo de apuestas.", draw: "Un partido muy parejo entre {home} y {away}; podría acabar en empate.", close: "Un duelo ajustado, pero {winner} debería imponerse por poco a {loser}.", comf: "{winner} parte con ventaja y debería superar a {loser}.", dom: "{winner} se ve muy superior y debería ganar con comodidad a {loser}." },
-  "pt": { title: "Previsão de placar com IA", disc: "Previsão de IA — apenas para entretenimento, não é dica de apostas.", draw: "Um jogo muito equilibrado entre {home} e {away}; pode terminar empatado.", close: "Um duelo apertado, mas {winner} deve levar a melhor sobre {loser}.", comf: "{winner} leva vantagem e deve superar {loser}.", dom: "{winner} parece muito superior e deve vencer {loser} com tranquilidade." },
-  "fr": { title: "Prédiction de score par IA", disc: "Prédiction IA — à titre de divertissement, pas un conseil de pari.", draw: "Un match très serré entre {home} et {away} ; il pourrait finir nul.", close: "Un duel serré, mais {winner} devrait l'emporter de justesse face à {loser}.", comf: "{winner} a l'avantage et devrait se défaire de {loser}.", dom: "{winner} semble d'un autre calibre et devrait largement battre {loser}." },
-  "de": { title: "KI-Ergebnisprognose", disc: "KI-Prognose — nur zur Unterhaltung, keine Wettberatung.", draw: "Ein ausgeglichenes Spiel zwischen {home} und {away} — ein Remis ist möglich.", close: "Ein enges Duell, aber {winner} dürfte {loser} knapp bezwingen.", comf: "{winner} hat die Nase vorn und sollte {loser} schlagen.", dom: "{winner} wirkt eine Klasse besser und sollte {loser} deutlich besiegen." },
-  "ja": { title: "AIスコア予想", disc: "AI予想 — 娯楽目的のみ。賭けの助言ではありません。", draw: "{home} と {away} は互角で、引き分けの可能性があります。", close: "接戦ですが、{winner} が {loser} を僅差で破ると予想します。", comf: "{winner} が一枚上手で、{loser} に勝つと見ます。", dom: "{winner} が格上で、{loser} に快勝すると予想します。" },
-  "ko": { title: "AI 스코어 예측", disc: "AI 예측 — 오락용이며 베팅 조언이 아닙니다.", draw: "{home}와 {away}는 막상막하로, 무승부 가능성이 있습니다.", close: "접전이지만 {winner}가 {loser}를 근소하게 이길 것으로 봅니다.", comf: "{winner}가 한 수 위로, {loser}를 꺾을 것으로 예상합니다.", dom: "{winner}가 확연히 강해 {loser}에 낙승할 것으로 봅니다." },
-  "ru": { title: "ИИ-прогноз счёта", disc: "Прогноз ИИ — только для развлечения, не совет по ставкам.", draw: "Равная игра между {home} и {away} — возможна ничья.", close: "Близкий поединок, но {winner} должен слегка переиграть {loser}.", comf: "{winner} имеет преимущество и должен одолеть {loser}.", dom: "{winner} выглядит классом выше и должен уверенно обыграть {loser}." },
-  "ar": { title: "توقع النتيجة بالذكاء الاصطناعي", disc: "توقع بالذكاء الاصطناعي — للتسلية فقط، وليس نصيحة للمراهنة.", draw: "مباراة متكافئة بين {home} و{away} وقد تنتهي بالتعادل.", close: "مواجهة متقاربة، لكن يُتوقع أن يتغلب {winner} على {loser} بفارق ضئيل.", comf: "يملك {winner} الأفضلية ويُتوقع أن يتجاوز {loser}.", dom: "يبدو {winner} أقوى بكثير ويُتوقع أن يفوز على {loser} بسهولة." },
-  "id": { title: "Prediksi Skor AI", disc: "Prediksi AI — hanya hiburan, bukan saran taruhan.", draw: "Laga seimbang antara {home} dan {away}; bisa berakhir imbang.", close: "Pertandingan ketat, tetapi {winner} diprediksi menang tipis atas {loser}.", comf: "{winner} lebih diunggulkan dan semestinya mengalahkan {loser}.", dom: "{winner} tampak jauh lebih kuat dan diprediksi menang mudah atas {loser}." },
-  "th": { title: "การทำนายสกอร์ด้วย AI", disc: "การทำนายโดย AI — เพื่อความบันเทิงเท่านั้น ไม่ใช่คำแนะนำการเดิมพัน", draw: "เกมสูสีระหว่าง {home} และ {away} อาจจบลงด้วยการเสมอ", close: "เกมสูสี แต่คาดว่า {winner} จะเฉือนชนะ {loser}", comf: "{winner} เหนือกว่าและน่าจะเอาชนะ {loser} ได้", dom: "{winner} เหนือชั้นกว่ามาก และน่าจะชนะ {loser} ได้สบาย" },
-  "vi": { title: "Dự đoán tỉ số bằng AI", disc: "Dự đoán AI — chỉ để giải trí, không phải lời khuyên cá cược.", draw: "Trận đấu cân bằng giữa {home} và {away}; có thể kết thúc hòa.", close: "Một trận đấu sít sao, nhưng {winner} được dự đoán thắng nhẹ {loser}.", comf: "{winner} nhỉnh hơn và sẽ vượt qua {loser}.", dom: "{winner} vượt trội và được dự đoán thắng đậm {loser}." },
-  "tr": { title: "Yapay Zekâ Skor Tahmini", disc: "Yapay zekâ tahmini — yalnızca eğlence amaçlıdır, bahis tavsiyesi değildir.", draw: "{home} ile {away} arasında başa baş bir maç; berabere bitebilir.", close: "Çekişmeli bir maç, ancak {winner} {loser} karşısında az farkla öne geçebilir.", comf: "{winner} avantajlı ve {loser} karşısında kazanması beklenir.", dom: "{winner} açık ara üstün görünüyor ve {loser} karşısında rahat kazanabilir." },
-  "fa": { title: "پیش‌بینی نتیجه با هوش مصنوعی", disc: "پیش‌بینی هوش مصنوعی — فقط برای سرگرمی، توصیه شرط‌بندی نیست.", draw: "بازی نزدیکی میان {home} و {away}؛ ممکن است مساوی تمام شود.", close: "بازی نزدیکی است، اما انتظار می‌رود {winner} با اختلاف کم {loser} را شکست دهد.", comf: "{winner} برتری دارد و باید {loser} را شکست دهد.", dom: "{winner} یک سر و گردن بالاتر است و باید {loser} را به‌راحتی ببرد." }
+  "en": { title: "AI Score Prediction", disc: "AI prediction — for entertainment only, not betting advice.", l_rank: "FIFA Ranking", l_star: "Key players", draw: "Evenly matched on ranking and quality, {home} and {away} look set to share the points.", close: "It's tight, but {winner}'s slight edge in ranking and quality should just see them past {loser}.", comf: "Higher-ranked and stronger overall, {winner} should have enough to see off {loser}.", dom: "With a big gap in the FIFA rankings and a clear quality difference, {winner} should beat {loser} comfortably." },
+  "zh-CN": { title: "AI 比分预测", disc: "AI 预测，仅供娱乐，非投注建议。", l_rank: "FIFA 排名", l_star: "核心球员", draw: "{home} 与 {away} 在排名和实力上不相上下，预计将分享积分。", close: "比赛胶着，但 {winner} 在排名与实力上略占优势，有望小胜 {loser}。", comf: "{winner} 排名更高、整体实力更强，应能拿下 {loser}。", dom: "FIFA 排名差距明显、实力悬殊，{winner} 有望轻松击败 {loser}。" },
+  "zh-TW": { title: "AI 比分預測", disc: "AI 預測，僅供娛樂，非投注建議。", l_rank: "FIFA 排名", l_star: "核心球員", draw: "{home} 與 {away} 在排名和實力上不相上下，預計將分享積分。", close: "比賽膠著，但 {winner} 在排名與實力上略占優勢，有望小勝 {loser}。", comf: "{winner} 排名更高、整體實力更強，應能拿下 {loser}。", dom: "FIFA 排名差距明顯、實力懸殊，{winner} 有望輕鬆擊敗 {loser}。" },
+  "es": { title: "Predicción de marcador con IA", disc: "Predicción de IA — solo entretenimiento, no es consejo de apuestas.", l_rank: "Ranking FIFA", l_star: "Jugadores clave", draw: "Parejos en ranking y calidad, {home} y {away} apuntan a repartirse los puntos.", close: "Está ajustado, pero la ligera ventaja de {winner} en ranking y calidad debería bastar ante {loser}.", comf: "Mejor clasificado y más fuerte, {winner} debería tener lo suficiente para superar a {loser}.", dom: "Con una gran diferencia en el ranking FIFA y de calidad, {winner} debería ganar con comodidad a {loser}." },
+  "pt": { title: "Previsão de placar com IA", disc: "Previsão de IA — apenas para entretenimento, não é dica de apostas.", l_rank: "Ranking FIFA", l_star: "Jogadores-chave", draw: "Equilibrados em ranking e qualidade, {home} e {away} devem dividir os pontos.", close: "Está apertado, mas a leve vantagem de {winner} em ranking e qualidade deve bastar contra {loser}.", comf: "Mais bem classificado e mais forte, {winner} deve ter o suficiente para superar {loser}.", dom: "Com grande diferença no ranking FIFA e de qualidade, {winner} deve vencer {loser} com tranquilidade." },
+  "fr": { title: "Prédiction de score par IA", disc: "Prédiction IA — à titre de divertissement, pas un conseil de pari.", l_rank: "Classement FIFA", l_star: "Joueurs clés", draw: "À égalité au classement et en qualité, {home} et {away} devraient se partager les points.", close: "C'est serré, mais le léger avantage de {winner} au classement et en qualité devrait suffire face à {loser}.", comf: "Mieux classé et plus fort, {winner} devrait avoir de quoi se défaire de {loser}.", dom: "Avec un grand écart au classement FIFA et de qualité, {winner} devrait largement battre {loser}." },
+  "de": { title: "KI-Ergebnisprognose", disc: "KI-Prognose — nur zur Unterhaltung, keine Wettberatung.", l_rank: "FIFA-Rangliste", l_star: "Schlüsselspieler", draw: "In Rangliste und Qualität ebenbürtig, dürften {home} und {away} die Punkte teilen.", close: "Es ist eng, aber {winner}s leichter Vorteil in Rangliste und Qualität sollte gegen {loser} reichen.", comf: "Höher platziert und stärker, sollte {winner} genug haben, um {loser} zu schlagen.", dom: "Mit großem Abstand in der FIFA-Rangliste und klarem Qualitätsunterschied sollte {winner} {loser} deutlich schlagen." },
+  "ja": { title: "AIスコア予想", disc: "AI予想 — 娯楽目的のみ。賭けの助言ではありません。", l_rank: "FIFAランキング", l_star: "キープレーヤー", draw: "ランキングも実力も互角で、{home} と {away} は勝点を分け合いそうです。", close: "接戦ですが、ランキングと実力でやや勝る {winner} が {loser} を振り切ると予想します。", comf: "ランキング上位で総合力に勝る {winner} が {loser} を退けると見ます。", dom: "FIFAランキングの差と実力差は明確で、{winner} が {loser} に快勝すると予想します。" },
+  "ko": { title: "AI 스코어 예측", disc: "AI 예측 — 오락용이며 베팅 조언이 아닙니다.", l_rank: "FIFA 랭킹", l_star: "핵심 선수", draw: "랭킹과 전력이 대등해 {home}와 {away}는 승점을 나눠 가질 전망입니다.", close: "접전이지만 랭킹과 전력에서 약간 앞선 {winner}가 {loser}를 따돌릴 것으로 봅니다.", comf: "랭킹이 높고 전력이 강한 {winner}가 {loser}를 제압할 것으로 예상합니다.", dom: "FIFA 랭킹 차이와 전력 차가 뚜렷해 {winner}가 {loser}에 낙승할 것으로 봅니다." },
+  "ru": { title: "ИИ-прогноз счёта", disc: "Прогноз ИИ — только для развлечения, не совет по ставкам.", l_rank: "Рейтинг ФИФА", l_star: "Ключевые игроки", draw: "Равные по рейтингу и классу, {home} и {away} скорее всего поделят очки.", close: "Игра плотная, но небольшое преимущество {winner} в рейтинге и классе должно помочь обойти {loser}.", comf: "Выше в рейтинге и сильнее в целом, {winner} должен справиться с {loser}.", dom: "При большой разнице в рейтинге ФИФА и классе {winner} должен уверенно обыграть {loser}." },
+  "ar": { title: "توقع النتيجة بالذكاء الاصطناعي", disc: "توقع بالذكاء الاصطناعي — للتسلية فقط، وليس نصيحة للمراهنة.", l_rank: "تصنيف الفيفا", l_star: "اللاعبون الأساسيون", draw: "متعادلان في التصنيف والمستوى، ويُتوقع أن يتقاسم {home} و{away} النقاط.", close: "المباراة متقاربة، لكن أفضلية {winner} الطفيفة في التصنيف والمستوى يُفترض أن تكفي أمام {loser}.", comf: "بتصنيف أعلى ومستوى أقوى، يُفترض أن يتجاوز {winner} منافسه {loser}.", dom: "مع فارق كبير في تصنيف الفيفا والمستوى، يُتوقع أن يفوز {winner} على {loser} بسهولة." },
+  "id": { title: "Prediksi Skor AI", disc: "Prediksi AI — hanya hiburan, bukan saran taruhan.", l_rank: "Peringkat FIFA", l_star: "Pemain kunci", draw: "Seimbang dalam peringkat dan kualitas, {home} dan {away} kemungkinan berbagi poin.", close: "Ketat, tetapi sedikit keunggulan {winner} dalam peringkat dan kualitas mestinya cukup atas {loser}.", comf: "Berperingkat lebih tinggi dan lebih kuat, {winner} mestinya mampu mengatasi {loser}.", dom: "Dengan selisih peringkat FIFA dan kualitas yang besar, {winner} mestinya menang mudah atas {loser}." },
+  "th": { title: "การทำนายสกอร์ด้วย AI", disc: "การทำนายโดย AI — เพื่อความบันเทิงเท่านั้น ไม่ใช่คำแนะนำการเดิมพัน", l_rank: "อันดับฟีฟ่า", l_star: "ผู้เล่นคนสำคัญ", draw: "สูสีทั้งอันดับและคุณภาพ {home} และ {away} น่าจะแบ่งแต้มกัน", close: "เกมสูสี แต่ {winner} ที่เหนือกว่าเล็กน้อยทั้งอันดับและคุณภาพน่าจะเฉือน {loser} ได้", comf: "อันดับสูงกว่าและแข็งแกร่งกว่า {winner} น่าจะเอาชนะ {loser} ได้", dom: "ด้วยอันดับฟีฟ่าและคุณภาพที่ห่างกันมาก {winner} น่าจะชนะ {loser} ได้สบาย" },
+  "vi": { title: "Dự đoán tỉ số bằng AI", disc: "Dự đoán AI — chỉ để giải trí, không phải lời khuyên cá cược.", l_rank: "Xếp hạng FIFA", l_star: "Cầu thủ chủ chốt", draw: "Cân bằng về thứ hạng và chất lượng, {home} và {away} nhiều khả năng chia điểm.", close: "Trận đấu sít sao, nhưng lợi thế nhỏ của {winner} về thứ hạng và chất lượng đủ để vượt qua {loser}.", comf: "Xếp hạng cao hơn và mạnh hơn, {winner} đủ sức hạ {loser}.", dom: "Với khoảng cách lớn về xếp hạng FIFA và chất lượng, {winner} sẽ thắng {loser} một cách thoải mái." },
+  "tr": { title: "Yapay Zekâ Skor Tahmini", disc: "Yapay zekâ tahmini — yalnızca eğlence amaçlıdır, bahis tavsiyesi değildir.", l_rank: "FIFA Sıralaması", l_star: "Kilit oyuncular", draw: "Sıralama ve kalitede başa baş olan {home} ile {away} puanları paylaşabilir.", close: "Maç çekişmeli, ancak {winner}'ın sıralama ve kalitedeki küçük üstünlüğü {loser} karşısında yetmeli.", comf: "Daha üst sırada ve daha güçlü olan {winner}, {loser}'ı geçmeye yetecek güçte.", dom: "FIFA sıralamasındaki ve kalitedeki büyük farkla {winner}, {loser}'ı rahat yenmeli." },
+  "fa": { title: "پیش‌بینی نتیجه با هوش مصنوعی", disc: "پیش‌بینی هوش مصنوعی — فقط برای سرگرمی، توصیه شرط‌بندی نیست.", l_rank: "رتبه‌بندی فیفا", l_star: "بازیکنان کلیدی", draw: "{home} و {away} از نظر رتبه و کیفیت برابرند و احتمالاً امتیاز را تقسیم می‌کنند.", close: "بازی نزدیک است، اما برتری اندک {winner} در رتبه و کیفیت باید برای عبور از {loser} کافی باشد.", comf: "{winner} با رتبه بالاتر و قدرت بیشتر باید از پس {loser} برآید.", dom: "با فاصله زیاد در رتبه‌بندی فیفا و کیفیت، {winner} باید {loser} را به‌راحتی شکست دهد." }
 };
+
+// Pick a team's standout outfield player (most international goals) for comparison.
+function starPlayer(code) {
+  const sq = DATA.squads[code];
+  const list = Array.isArray(sq) ? sq : (sq && (sq.key_players || sq.players)) || [];
+  if (!list.length) return null;
+  const outfield = list.filter((p) => (p.position || "").toUpperCase() !== "GK");
+  const pool = outfield.length ? outfield : list;
+  let best = pool[0];
+  for (const p of pool) {
+    const g = p.goals || 0, bg = best.goals || 0;
+    if (g > bg || (g === bg && (p.appearances || p.apps || 0) > (best.appearances || best.apps || 0))) best = p;
+  }
+  return best;
+}
 
 function renderPrediction() {
   const el = document.getElementById("md-ai-prediction");
@@ -379,16 +397,17 @@ function renderPrediction() {
   const lang = STATE.lang || "en";
   const dict = AI_I18N[lang] || AI_I18N.en;
   const home = teamByCode(m.home_code), away = teamByCode(m.away_code);
+  const homeName = teamName(home.code), awayName = teamName(away.code);
   const parts = String(pred.score).split("-");
   const hs = parseInt((parts[0] || "0").trim(), 10) || 0;
   const as = parseInt((parts[1] || "0").trim(), 10) || 0;
 
-  // English keeps the curated text; other languages get a localized sentence.
+  // English keeps the curated rationale; other languages get a localized one
+  // derived from the scoreline (winner + margin) plus the ranking/quality gap.
   let text;
   if (lang === "en") {
     text = pred.text || "";
   } else {
-    const homeName = teamName(home.code), awayName = teamName(away.code);
     const margin = Math.abs(hs - as);
     const winner = hs > as ? homeName : awayName;
     const loser = hs > as ? awayName : homeName;
@@ -397,14 +416,28 @@ function renderPrediction() {
                .replace(/\{winner\}/g, winner).replace(/\{loser\}/g, loser);
   }
 
+  // Detail rows: FIFA ranking comparison + key-player comparison.
+  const rk = (tm) => (tm.fifa_rank ? `#${tm.fifa_rank}` : "—");
+  const starName = (p) => `${escapeHtml(p.name)}${(p.goals || 0) > 0 ? ` · ${p.goals}⚽` : ""}`;
+  const sH = starPlayer(home.code), sA = starPlayer(away.code);
+  const rankRow = `<div class="md-ai-fact"><span class="md-ai-fl">🏆 ${escapeHtml(dict.l_rank)}</span>` +
+    `<span class="md-ai-fv">${escapeHtml(homeName)} ${rk(home)} · ${escapeHtml(awayName)} ${rk(away)}</span></div>`;
+  // Only show the key-player row when both teams have squad data (avoids "—").
+  const starRow = (sH && sA)
+    ? `<div class="md-ai-fact"><span class="md-ai-fl">⭐ ${escapeHtml(dict.l_star)}</span>` +
+      `<span class="md-ai-fv">${starName(sH)} <span class="md-ai-vs">vs</span> ${starName(sA)}</span></div>`
+    : "";
+  const facts = `<div class="md-ai-facts">${rankRow}${starRow}</div>`;
+
   el.innerHTML = `
     <div class="md-ai-card">
       <div class="md-ai-head"><span class="md-ai-badge">AI</span> ${escapeHtml(dict.title)}</div>
       <div class="md-ai-score">
-        <span class="md-ai-team">${home.flag} ${teamName(home.code)}</span>
+        <span class="md-ai-team">${home.flag} ${escapeHtml(homeName)}</span>
         <span class="md-ai-nums">${hs}<span class="md-ai-sep">–</span>${as}</span>
-        <span class="md-ai-team">${teamName(away.code)} ${away.flag}</span>
+        <span class="md-ai-team">${escapeHtml(awayName)} ${away.flag}</span>
       </div>
+      ${facts}
       <p class="md-ai-text">${escapeHtml(text)}</p>
       <p class="md-ai-disc">${escapeHtml(dict.disc)}</p>
     </div>`;
