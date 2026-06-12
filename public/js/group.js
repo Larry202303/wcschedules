@@ -390,47 +390,36 @@ async function renderAdvanceOdds() {
 
   const POLYMARKET_REF = "wcschedules";
 
-  // Fetch champion odds
-  let champData = null;
+  // Live advancement probabilities (Polymarket "advance to knockout stages").
+  let advData = null;
   try {
-    const r = await fetch("/api/champion-odds");
-    if (r.ok) champData = await r.json();
+    const r = await fetch("/api/advance-odds");
+    if (r.ok) advData = await r.json();
   } catch (_) {}
 
-  // Fallback to static file
-  if (!champData || !champData.markets) {
-    try {
-      const r = await fetch("/data/odds_fallback.json");
-      const fb = await r.json();
-      champData = { markets: fb.champion || [], source: "fallback_estimate" };
-    } catch (_) {}
-  }
-
-  if (!champData || !champData.markets || !champData.markets.length) {
+  if (!advData || !advData.markets || !advData.markets.length) {
     cont.innerHTML = "";
     return;
   }
 
-  // Match group teams to champion odds
+  // Match group teams to their advancement market (real YES probability;
+  // NOT normalized — these are independent per-team odds).
   const teamOdds = groupTeams.map((tm) => {
-    const match = champData.markets.find(
+    const match = advData.markets.find(
       (m) => m.team && m.team.toLowerCase() === tm.name_en.toLowerCase()
     );
-    const prob = match ? (typeof match.prob_pct === "number" ? match.prob_pct : Math.round(match.prob * 1000) / 10) : 0;
+    const prob = match ? (typeof match.prob_pct === "number" ? match.prob_pct : Math.round(match.prob * 1000) / 10) : null;
     return { team: tm, prob };
-  }).filter((x) => x.prob > 0);
+  }).filter((x) => x.prob != null);
 
   if (!teamOdds.length) { cont.innerHTML = ""; return; }
 
-  // Sort by prob desc
   teamOdds.sort((a, b) => b.prob - a.prob);
 
-  // Normalise to relative probability within group (sum = 100%)
-  const total = teamOdds.reduce((s, x) => s + x.prob, 0);
   const rows = teamOdds.map((x) => {
-    const relPct = total > 0 ? Math.round((x.prob / total) * 100) : 0;
-    const barW = Math.max(relPct, 2);
-    const barColor = relPct >= 40 ? "#16a34a" : relPct >= 25 ? "#6366f1" : "#6b7280";
+    const pct = Math.round(x.prob * 10) / 10;
+    const barW = Math.max(pct, 2);
+    const barColor = pct >= 70 ? "#16a34a" : pct >= 40 ? "#6366f1" : "#6b7280";
     const slug = teamSlug(x.team.code);
     return `
       <div class="gpa-row">
@@ -439,14 +428,15 @@ async function renderAdvanceOdds() {
         <div class="gpa-bar-wrap">
           <div class="gpa-bar" style="width:${barW}%;background:${barColor}"></div>
         </div>
-        <span class="gpa-pct">${relPct}%</span>
+        <span class="gpa-pct">${pct}%</span>
       </div>`;
   }).join("");
 
-  const tradeUrl = window.polymarketWinnerUrl
-    ? window.polymarketWinnerUrl(STATE.lang, POLYMARKET_REF)
-    : `https://polymarket.com/event/world-cup-winner?via=${POLYMARKET_REF}`;
-  const isFallback = champData.source === "fallback_estimate";
+  // Per-group Polymarket page (world-cup-group-{a..l}-winner), locale-aware.
+  const groupSlug = `world-cup-group-${STATE.group.toLowerCase()}-winner`;
+  const pmLoc = (window.PM_WINNER_LOCALES || {})[STATE.lang];
+  const tradeUrl = `https://polymarket.com/${pmLoc ? pmLoc + "/" : ""}event/${groupSlug}?via=${POLYMARKET_REF}`;
+  const isFallback = false;
 
   cont.innerHTML = `
     <div class="gpa-card">

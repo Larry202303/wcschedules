@@ -80,7 +80,6 @@ async function boot() {
 
   applyTranslations(STATE.lang);
   renderHeader();
-  renderCountdown();
   renderRecent();
   renderGroups();
   renderSchedule();
@@ -98,7 +97,6 @@ async function boot() {
     window.initChampionOdds(DATA.teams, STATE.lang);
   }
 
-  setInterval(renderCountdown, 1000);
   startLiveUpdates();
 }
 
@@ -807,70 +805,31 @@ function bindEvents() {
 
 /* ============================================
    RECENT MATCHES
-   Shows yesterday / today / tomorrow in LA timezone.
-   "Day boundary" calculated in America/Los_Angeles,
-   but match times displayed in user's chosen timezone.
+   Shows today + tomorrow in the user's SELECTED timezone:
+   both the day window and the grouping follow that timezone.
    ============================================ */
 function renderRecent() {
   const c = document.getElementById("recent-list");
   if (!c) return;
 
-  const LA_TZ = "America/Los_Angeles";
+  const tz = currentTz();
+  const todayKey = dateKeyInTz(new Date(), tz);
+  const tomorrowKey = dateKeyInTz(new Date(Date.now() + 86400000), tz);
 
-  // Get current LA date parts
-  const now = new Date();
-  const laFmt = new Intl.DateTimeFormat("en-CA", {
-    timeZone: LA_TZ,
-    year: "numeric", month: "2-digit", day: "2-digit",
-  });
-  const laParts = laFmt.formatToParts(now);
-  const get = (type) => parseInt(laParts.find((p) => p.type === type).value, 10);
-  const laY = get("year"), laM = get("month"), laD = get("day");
+  const windowMatches = DATA.matches
+    .filter((m) => {
+      const key = dateKeyInTz(formatMatchTime(m), tz);
+      return key === todayKey || key === tomorrowKey;
+    })
+    .sort((a, b) => formatMatchTime(a) - formatMatchTime(b));
 
-  // LA midnight for today, yesterday, tomorrow (as UTC timestamps)
-  function laMidnight(offsetDays) {
-    // Build a date string in LA timezone, then parse as UTC equivalent
-    const d = new Date(Date.UTC(laY, laM - 1, laD + offsetDays));
-    // Get the UTC equivalent of 00:00 LA on that date
-    const laMidFmt = new Intl.DateTimeFormat("en-US", {
-      timeZone: LA_TZ,
-      year: "numeric", month: "2-digit", day: "2-digit",
-      hour: "2-digit", minute: "2-digit", second: "2-digit",
-      hour12: false,
-    });
-    // Iterate: find UTC ms where LA time = 00:00:00 on laY/laM/laD+offsetDays
-    // Simple approach: compute offset at noon that day
-    const noon = new Date(Date.UTC(laY, laM - 1, laD + offsetDays, 12, 0, 0));
-    const noonLa = laMidFmt.formatToParts(noon);
-    const gH = (type) => parseInt(noonLa.find((p) => p.type === type).value, 10);
-    const laHour = gH("hour") === 24 ? 0 : gH("hour");
-    // offset in ms  (how many ms to subtract from UTC to get LA time)
-    const utcHour = 12;
-    const offsetHrs = utcHour - laHour;
-    return new Date(Date.UTC(laY, laM - 1, laD + offsetDays, offsetHrs, 0, 0));
-  }
-
-  const yday = laMidnight(-1);
-  const today = laMidnight(0);
-  const tmrw = laMidnight(1);
-  const tmrwEnd = laMidnight(2);
-
-  const window3 = DATA.matches.filter((m) => {
-    const ts = formatMatchTime(m).getTime();
-    return ts >= yday.getTime() && ts < tmrwEnd.getTime();
-  }).sort((a, b) => formatMatchTime(a) - formatMatchTime(b));
-
-  if (window3.length === 0) {
+  if (windowMatches.length === 0) {
     c.innerHTML = `<div class="recent-empty">${t("recent_no_matches")}</div>`;
     return;
   }
 
-  // Group by the user's selected timezone date so each match appears under the
-  // correct local day (the window above stays anchored to LA "now").
-  const tz = currentTz();
-  const todayKey = dateKeyInTz(new Date(), tz);
   const byDate = {};
-  window3.forEach((m) => {
+  windowMatches.forEach((m) => {
     const key = dateKeyInTz(formatMatchTime(m), tz);
     byDate[key] = byDate[key] || [];
     byDate[key].push(m);
