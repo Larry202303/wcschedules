@@ -844,7 +844,8 @@ function renderSeoMeta() {
     weekday: "long", month: "long", day: "numeric", year: "numeric",
   }).format(dt);
 
-  const title = `${home} ${t("match_vs")} ${away} — ${date} | World Cup 2026`;
+  const groupPart = m.group ? ` — ${t("md_group")} ${m.group}` : "";
+  const title = `${home} ${t("match_vs")} ${away} — FIFA World Cup 2026${groupPart}`;
   const desc = t("md_meta_desc")
     .replace("{home}", home)
     .replace("{away}", away)
