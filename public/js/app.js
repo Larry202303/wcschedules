@@ -189,6 +189,11 @@ function stadiumName(en) {
   return en;
 }
 
+function stageName(stage) {
+  if ((stage || "").toLowerCase() === "round of 32") return t("stage_round32");
+  return stage;
+}
+
 /* ============================================
    MATCH TIME (timezone conversion)
    ============================================ */
@@ -377,6 +382,9 @@ function matchSlug(m) {
 }
 
 function matchDetailHref(m) {
+  if (isKnockoutMatch(m)) {
+    return `/match.html?id=${matchSlug(m)}&lang=${STATE.lang}`;
+  }
   return `/match/${matchSlug(m)}?lang=${STATE.lang}`;
 }
 
@@ -492,53 +500,43 @@ function renderCountdown() {
   }
 }
 
+function isKnockoutMatch(match) {
+  return (match.stage || "").toLowerCase() !== "group";
+}
+
 /* ============================================
-   GROUPS
+   KNOCKOUT SCHEDULE
    ============================================ */
 function renderGroups() {
   const c = document.getElementById("groups-grid");
   if (!c) return;
-  const keys = Object.keys(DATA.groups).sort();
-  c.innerHTML = keys
-    .map((k) => {
-      // Compute standings (preview before kickoff, real after)
-      const standings = window.computeGroupStandings
-        ? window.computeGroupStandings(DATA.teams, DATA.matches, k)
-        : DATA.groups[k].teams.map((code) => ({ code, points: 0, preview: true }));
+  const matches = DATA.matches
+    .filter(isKnockoutMatch)
+    .sort((a, b) => formatMatchTime(a) - formatMatchTime(b));
 
-      const isPreview = standings.length && standings[0].preview;
-      const rows = standings
-        .map((row, idx) => {
-          const team = teamByCode(row.code);
-          const isMine = row.code === STATE.myTeam;
-          const rank = idx + 1;
-          return `
-            <li ${isMine ? 'class="my-team-row"' : ""} data-team="${row.code}">
-              <span class="gc-rank">${rank}</span>
-              <span class="team-flag-sm">${team.flag}</span>
-              <a href="/teams/${teamSlug(row.code)}" class="team-name-sm" style="color:inherit;text-decoration:none">${teamName(row.code)}</a>
-              <span class="gc-pts">${row.points}</span>
-            </li>
-          `;
-        })
-        .join("");
+  if (matches.length === 0) {
+    c.innerHTML = `<div class="schedule-empty">${t("knockout_no_matches")}</div>`;
+    return;
+  }
 
-      return `
-      <div class="group-card group-card-clickable" data-group="${k}" role="button" tabindex="0" aria-label="${t("md_group")} ${k}">
-        <h4>${t("md_group")} ${k} <span class="group-card-chev">›</span></h4>
-        <div class="gc-thead">
-          <span class="gc-thead-rank">#</span>
-          <span class="gc-thead-team">${t("st_team") || "Team"}</span>
-          <span class="gc-thead-pts">${t("st_pts") || "Pts"}</span>
-        </div>
-        <ul>${rows}</ul>
-        <div class="group-card-foot">
-          ${isPreview ? `<span class="gc-preview-tag">${t("st_preview") || "Preview"}</span>` : ""}
-          ${t("group_view_matches") || "View matches →"}
+  const tz = currentTz();
+  const byDate = {};
+  matches.forEach((m) => {
+    const key = dateKeyInTz(formatMatchTime(m), tz);
+    byDate[key] = byDate[key] || [];
+    byDate[key].push(m);
+  });
+
+  c.innerHTML = Object.keys(byDate)
+    .sort()
+    .map((dateKey) => `
+      <div class="schedule-day">
+        <h3 class="schedule-day-head">${dayHeaderLabel(dateKey)}</h3>
+        <div class="schedule-matches">
+          ${byDate[dateKey].map((m) => renderMatchCard(m)).join("")}
         </div>
       </div>
-    `;
-    })
+    `)
     .join("");
 }
 
@@ -629,7 +627,7 @@ function renderMatchCard(m) {
       <a href="${detailUrl}" class="match-card-link" aria-label="${teamName(home.code)} ${t("match_vs")} ${teamName(away.code)}">
         <div class="match-time">
           <span class="match-clock">${live ? "🔴 LIVE" : timeStr}</span>
-          <span class="match-group">${m.group ? `${t("md_group")} ${m.group}` : m.stage}</span>
+          <span class="match-group">${m.group ? `${t("md_group")} ${m.group}` : stageName(m.stage)}</span>
         </div>
         <div class="match-teams">
           <div class="match-team">
@@ -804,24 +802,22 @@ function bindEvents() {
 }
 
 /* ============================================
-   RECENT MATCHES
-   Shows today + tomorrow in the user's SELECTED timezone:
-   both the day window and the grouping follow that timezone.
+   RECENT KNOCKOUT MATCHES
+   Shows the next knockout fixtures in the user's selected timezone.
    ============================================ */
 function renderRecent() {
   const c = document.getElementById("recent-list");
   if (!c) return;
 
   const tz = currentTz();
-  const todayKey = dateKeyInTz(new Date(), tz);
-  const tomorrowKey = dateKeyInTz(new Date(Date.now() + 86400000), tz);
-
-  const windowMatches = DATA.matches
-    .filter((m) => {
-      const key = dateKeyInTz(formatMatchTime(m), tz);
-      return key === todayKey || key === tomorrowKey;
-    })
+  const now = new Date();
+  const recentFloor = new Date(now.getTime() - 3 * 60 * 60 * 1000);
+  let windowMatches = DATA.matches
+    .filter(isKnockoutMatch)
+    .filter((m) => formatMatchTime(m) >= recentFloor)
     .sort((a, b) => formatMatchTime(a) - formatMatchTime(b));
+
+  if (windowMatches.length > 6) windowMatches = windowMatches.slice(0, 6);
 
   if (windowMatches.length === 0) {
     c.innerHTML = `<div class="recent-empty">${t("recent_no_matches")}</div>`;
@@ -838,7 +834,7 @@ function renderRecent() {
   c.innerHTML = Object.keys(byDate)
     .sort()
     .map((dateKey) => {
-      const isToday = dateKey === todayKey;
+      const isToday = dateKey === dateKeyInTz(now, tz);
       return `
         <div class="recent-day ${isToday ? "recent-today" : ""}">
           <h3 class="recent-day-head">
@@ -890,7 +886,6 @@ function initTopNav() {
     { id: "section-groups", nav: "nav_progress" },
     { id: "scorers-section", nav: "nav_scorers" },
     { id: "section-champion-odds", nav: "nav_champion_odds" },
-    { id: "section-schedule", nav: "nav_schedule" },
   ];
 
   const navAnchors = {};
