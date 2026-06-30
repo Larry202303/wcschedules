@@ -232,11 +232,15 @@ function matchTimeUTC(m) {
 function findPolymarketLink(match) {
   const pmHome = PM_CODE_MAP[match.home_code] || match.home_code.toLowerCase();
   const pmAway = PM_CODE_MAP[match.away_code] || match.away_code.toLowerCase();
+  const homeCodes = new Set([match.home_code.toLowerCase(), pmHome]);
+  const awayCodes = new Set([match.away_code.toLowerCase(), pmAway]);
   const [y, mo, d] = match.date_local.split("-").map(Number);
   for (const off of [0, -1, 1]) {
     const dt = new Date(Date.UTC(y, mo - 1, d + off)).toISOString().slice(0, 10);
     const hit = DATA.polymarketLinks.find(
-      (p) => p.home.toLowerCase() === pmHome && p.away.toLowerCase() === pmAway && p.date === dt
+      (p) => homeCodes.has(String(p.home || "").toLowerCase()) &&
+        awayCodes.has(String(p.away || "").toLowerCase()) &&
+        p.date === dt
     );
     if (hit) return hit;
   }

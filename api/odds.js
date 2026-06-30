@@ -100,6 +100,7 @@ module.exports = async (req, res) => {
             token_id: tokenIds[0] || null,
           };
         });
+        outcomes.sort(compareOutcomesForEvent(event.title));
 
         if (wantHistory) {
           const histories = await Promise.all(
@@ -189,6 +190,30 @@ function sendFallback(req, res, slug, conditionId, err) {
     fallback_reason: err ? String(err.message || err) : "live market not found",
     outcomes: fallback.outcomes || [],
   });
+}
+
+function compareOutcomesForEvent(title) {
+  const parts = String(title || "").split(/\s+vs\.?\s+/i);
+  const home = normalizeOutcomeName(parts[0] || "");
+  const away = normalizeOutcomeName(parts[1] || "");
+  return (a, b) => outcomeRank(a.name, home, away) - outcomeRank(b.name, home, away);
+}
+
+function outcomeRank(name, home, away) {
+  const n = normalizeOutcomeName(name);
+  if (home && n.includes(home)) return 0;
+  if (/^draw\b/.test(n) || n === "draw") return 1;
+  if (away && n.includes(away)) return 2;
+  return 3;
+}
+
+function normalizeOutcomeName(value) {
+  return String(value || "")
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, " ")
+    .trim();
 }
 
 function findSlugByCondition(conditionId) {
